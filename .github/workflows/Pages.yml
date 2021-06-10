@@ -1,0 +1,67 @@
+name: Pages
+
+on:
+ push:
+  paths:
+  - '.github/workflows/Pages.yml'
+  - 'frm2pages.sh'
+  - '**.FRM'
+  - '**.frm'
+  - '**.FR0'
+  - '**.fr0'
+  - '**.FR1'
+  - '**.fr1'
+  - '**.FR2'
+  - '**.fr2'
+  - '**.FR3'
+  - '**.fr3'
+  - '**.FR4'
+  - '**.fr4'
+  - '**.FR5'
+  - '**.fr5'
+
+defaults:
+ run:
+  shell: bash
+
+jobs:
+ Prepare:
+  runs-on: ubuntu-latest
+  steps:
+
+  - name: Clone
+    uses: actions/checkout@v2
+    with:
+     token: ${{ secrets.ANTALASKAYA_TOKEN }}
+
+  - name: frm2pages
+    run:  ./frm2pages.sh
+
+  - name: Validation
+    run:  |
+          :
+          if [[ -n "$(git status --short --untracked-files=all docs)" ]]; then
+             git add docs
+             echo "GitHub Pages" > .git/gha.commit
+             echo GHA_PUSH=true >> $GITHUB_ENV
+          fi
+
+  - name: Push
+    if:   env.GHA_PUSH == 'true'
+    run:  |
+          :
+          echo ::group::git commit
+          sed -i '/^#/d' .git/gha.commit
+          git config --global user.name  "${{ secrets.ANTALASKAYA_NAME }}"
+          git config --global user.email "${{ secrets.ANTALASKAYA_EMAIL }}"
+          git commit --file="$GHA_COMMIT" 2>&1
+          rm -f .git/gha.commit
+          echo ::endgroup::
+
+          #echo ::group::git log
+          #git log -p -n 1 2>&1
+          #echo ::endgroup::
+
+          echo ::group::git push
+          git push 2>&1
+          echo ::endgroup::
