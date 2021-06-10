@@ -54,7 +54,7 @@ jobs:
           sed -i '/^#/d' .git/gha.commit
           git config --global user.name  "${{ secrets.ANTALASKAYA_NAME }}"
           git config --global user.email "${{ secrets.ANTALASKAYA_EMAIL }}"
-          git commit --file="$GHA_COMMIT" 2>&1
+          git commit --file=".git/gha.commit" 2>&1
           rm -f .git/gha.commit
           echo ::endgroup::
 
