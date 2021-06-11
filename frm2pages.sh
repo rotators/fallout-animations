@@ -42,7 +42,8 @@ find . -iname "*.frm" | sort | while read frm; do
      echo "::group::${frm//\.\//}"
 
      mkdir -p "docs/$(dirname "$frm")"
-     $frm2png -g anim-packed -o "$(png-name "$frm")" "$frm"
+     $frm2png -g anim -o "$(png-name "$frm")" "$frm"
+     $frm2png -g anim-packed -o "$(png-name "$frm")" "$frm" > /dev/null
 
      echo ::endgroup::
 done
@@ -70,4 +71,3 @@ done
 cd docs
 
 tree -H . -P *.png > index.html
-
