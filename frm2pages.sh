@@ -42,7 +42,7 @@ function process-frm()
          $frm2png -g anim -o "$(png-name "$frm")" "$frm"
          # >/dev/null, so frm info will be displayed only once
          $frm2png -g anim-packed -o "$(png-name "$frm")" "$frm" > /dev/null
-         $frm2png -g legacy -o "$(png-name "$frm" .static)" "$frm" > /dev/null
+         $frm2png -g static -o "$(png-name "$frm" .static)" "$frm" > /dev/null
 
          echo ::endgroup::
     done
@@ -59,7 +59,7 @@ function process-frX()
              mkdir -p "$dir_output/$(dirname "$frm")"
              $frm2png -g anim -o "$(png-name "$frm" _$dir)" "$frm"
              # >/dev/null, so frm info will be displayed only once
-             $frm2png -g legacy -o "$(png-name "$frm" _$dir.static)" "$frm" > /dev/null
+             $frm2png -g static -o "$(png-name "$frm" _$dir.static)" "$frm" > /dev/null
 
              echo ::endgroup::
         done
@@ -78,6 +78,6 @@ rm -fr $dir_output
 process-frm
 process-frX
 
-(cd $dir_output && tree --sort=name -H . -P *.png > index.html)
+(cd $dir_output && LC_COLLATE=C tree --sort=name -H . -P *.png > index.html)
 echo
 du -hd0 $dir_output/
