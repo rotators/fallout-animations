@@ -4,6 +4,7 @@ set -eu
 
 readonly dir_output=docs
 readonly frm2png=tools/frm2png/Build/frm2png
+readonly options=
 
 if [[ ! -f "$frm2png" ]]; then
    echo ::group::frm2png
@@ -39,10 +40,10 @@ function process-frm()
          echo "::group::${frm//\.\//}"
 
          mkdir -p "$dir_output/$(dirname "$frm")"
-         $frm2png -g anim -o "$(png-name "$frm")" "$frm"
+         $frm2png $options -g anim -o "$(png-name "$frm")" "$frm"
          # >/dev/null, so frm info will be displayed only once
-         $frm2png -g anim-packed -o "$(png-name "$frm")" "$frm" > /dev/null
-         $frm2png -g static -o "$(png-name "$frm" .static)" "$frm" > /dev/null
+         $frm2png $options -g anim-packed -o "$(png-name "$frm")" "$frm" > /dev/null
+         $frm2png $options -g static -o "$(png-name "$frm" .static)" "$frm" > /dev/null
 
          echo ::endgroup::
     done
@@ -57,12 +58,15 @@ function process-frX()
              echo "::group::${frm//\.\//}"
 
              mkdir -p "$dir_output/$(dirname "$frm")"
-             $frm2png -g anim -o "$(png-name "$frm" _$dir)" "$frm"
+             $frm2png $options -g anim -o "$(png-name "$frm" _$dir)" "$frm"
              # >/dev/null, so frm info will be displayed only once
-             $frm2png -g static -o "$(png-name "$frm" _$dir.static)" "$frm" > /dev/null
+             $frm2png $options -g static -o "$(png-name "$frm" _$dir.static)" "$frm" > /dev/null
 
              echo ::endgroup::
         done
+
+        # frm2png adds "_<direction>" to filenames when using `anim` generator;
+        # .fr[0-5] always use direction=0, so intended filename must be restored
 
         find $dir_output/ -iname "*_${dir}_0.png" | while read png; do
              png_new="${png//_${dir}_0/_${dir}}"
