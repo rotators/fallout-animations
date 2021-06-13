@@ -34,7 +34,7 @@ jobs:
     with:
      token: ${{ secrets.ANTALASKAYA_TOKEN }}
 
-  - name: frm2pages
+  - name: frm2png
     run:  ./frm2png.sh
 
   - name: frm2json

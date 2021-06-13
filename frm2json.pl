@@ -11,9 +11,8 @@ use Data::Dumper;
 
 $Data::Dumper::Sortkeys = 1;
 
-my %json;
+my( @frm, %json );
 
-my( @frm, @frX );
 sub FindFiles
 {
     my $file = $File::Find::name;
@@ -34,9 +33,11 @@ foreach my $frm ( sort {$a cmp $b} @frm )
     $dir =~ s![/]+$!!;
 
     my $set  = substr( $file, 0, 6 );
-    my $anim = substr( $file, 6, 2 );
+    my $anim = uc(substr( $file, 6, 2 ));
 
-    push( @{ $json{'fallout-animations'}{"$dir"}{uc("$anim")} }, $file );
+    next if( $anim eq 'NA' );
+
+    push( @{ $json{'fallout-animations'}{"$dir"}{"$anim"} }, $file );
 }
 
 #print( Dumper( %json ));

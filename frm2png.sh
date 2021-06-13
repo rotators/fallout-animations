@@ -34,10 +34,30 @@ function png-name()
 
 #
 
+function ignore-frm()
+{
+    frm="$1"
+    frm_base="$(basename "$frm")"
+    frm_anim=${frm_base:6:2}
+    frm_anim=${frm_anim^^}
+
+    if [[ $frm_anim == "NA" ]]; then
+       return 0
+    fi
+
+    return 1
+}
+
+#
+
 function process-frm()
 {
     find . -iname "*.frm" | sort | while read frm; do
          echo "::group::${frm//\.\//}"
+
+         if ignore-frm "$frm"; then
+            continue
+        fi
 
          mkdir -p "$dir_output/$(dirname "$frm")"
          $frm2png $options -g anim -o "$(png-name "$frm")" "$frm"
@@ -56,6 +76,10 @@ function process-frX()
     for dir in $(seq 0 5); do
         find . -iname "*.fr$dir" | sort | while read frm; do
              echo "::group::${frm//\.\//}"
+
+             if ignore-frm "$frm"; then
+                continue
+             fi
 
              mkdir -p "$dir_output/$(dirname "$frm")"
              $frm2png $options -g anim -o "$(png-name "$frm" _$dir)" "$frm"
