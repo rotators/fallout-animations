@@ -37,6 +37,9 @@ jobs:
   - name: frm2pages
     run:  ./frm2pages.sh
 
+  - name: frm2json
+    run:  ./frm2json.pl
+
   - name: Validation
     run:  |
           :
