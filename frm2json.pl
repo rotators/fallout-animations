@@ -3,17 +3,19 @@
 use strict;
 use warnings;
 
+#
+
 use File::Find;
 use File::Spec;
 use JSON;
 
-use Data::Dumper;
+#
 
-$Data::Dumper::Sortkeys = 1;
+my( %json, @frm );
 
-my( @frm, %json );
+#
 
-sub FindFiles
+sub findFrm
 {
     my $file = $File::Find::name;
     my $extension = lc(substr($file, -4));
@@ -22,37 +24,52 @@ sub FindFiles
     push( @frm, $file ) if( $extension =~ /\.fr[0-5]/ )
 }
 
-find({ wanted => \&FindFiles, no_chdir => 1 }, '.');
+#
 
-foreach my $frm ( sort {$a cmp $b} @frm )
+sub json_frm
 {
-    $frm =~ s!^\./!!;
+    my %root;
 
-    my( undef, $dir, $file ) = File::Spec->splitpath( $frm );
-
-    $dir =~ s![/]+$!!;
-
-    my $set  = substr( $file, 0, 6 );
-    my $anim = uc(substr( $file, 6, 2 ));
-
-    next if( $anim eq 'NA' );
-
-    push( @{ $json{'fallout-animations'}{"$dir"}{"$anim"} }, $file );
-}
-
-#print( Dumper( %json ));
-
-foreach my $dir ( keys( %{ $json{'fallout-animations'} }))
-{
-    foreach my $anim ( keys( %{ $json{'fallout-animations'}{$dir} }))
+    foreach my $frm ( sort {$a cmp $b} @frm )
     {
-        if(scalar(@{ $json{'fallout-animations'}{$dir}{$anim} }) == 1)
+        $frm =~ s!^\./!!;
+
+        my( undef, $dir, $file ) = File::Spec->splitpath( $frm );
+
+        $dir =~ s![/]+$!!;
+
+        my $set  = substr( $file, 0, 6 );
+        my $anim = uc(substr( $file, 6, 2 ));
+
+        next if( $anim eq 'NA' );
+
+        # it's easier to store entries initially as arrays...
+
+        push( @{ $root{"$dir"}{"$anim"} }, $file );
+    }
+
+    # ...and change them to string if they contain only one element
+
+    foreach my $dir ( keys( %root ))
+    {
+        foreach my $anim ( keys( %{ $root{$dir} }))
         {
-            my $value = $json{'fallout-animations'}{$dir}{$anim}[0];
-            $json{'fallout-animations'}{$dir}{$anim} = $value;
+            if(scalar(@{ $root{$dir}{$anim} }) == 1)
+            {
+                my $value = $root{$dir}{$anim}[0];
+                $root{$dir}{$anim} = $value;
+            }
         }
     }
+
+    $json{'fallout-animations'} = \%root;
 }
+
+#
+
+find({ wanted => \&findFrm, no_chdir => 1 }, '.');
+
+json_frm();
 
 if( open( my $file, ">", "docs/fallout-animations.json" ))
 {
