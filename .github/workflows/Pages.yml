@@ -35,6 +35,13 @@ jobs:
     with:
      token: ${{ secrets.ANTALASKAYA_TOKEN }}
 
+  - name: Info
+    run:  |
+          echo remote
+          git remote
+          echo get-url
+          git remote get-url origin || true
+
   - name: frm2png
     run:  ./frm2png.sh
 
