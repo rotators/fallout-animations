@@ -56,7 +56,7 @@ sub json_info
         $root{'url'}{'pages'} = sprintf( "https://%s.github.io/%s/", $owner, $name );
     }
 
-    $json{'fallout-animations-extra'}{'INFO'} = \%root
+    $json{'fallout-animations'}{'INFO'} = \%root
         if( scalar(keys( %root )));
 }
 
@@ -140,7 +140,7 @@ sub json_png
         }
     }
 
-    $json{'fallout-animations-extra'}{'png'} = \%root
+    $json{'fallout-animations'}{'png'} = \%root
         if( scalar(keys( %root )));
 }
 
