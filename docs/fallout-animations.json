@@ -1,5 +1,12 @@
 {
    "fallout-animations" : {
+      "INFO" : {
+         "url" : {
+            "pages" : "https://rotators.github.io/fallout-animations/",
+            "repository" : "https://github.com/rotators/fallout-animations/",
+            "repository-raw" : "https://raw.githubusercontent.com/rotators/fallout-animations/master/"
+         }
+      },
       "frm" : {
          "Female_YellowPants_MetalArmor" : {
             "HA" : "NFMETLHA.FRM",
