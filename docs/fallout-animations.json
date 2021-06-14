@@ -1029,7 +1029,6 @@
          "II" : "hatmanii.FRM",
          "IJ" : "hatmanij.FRM",
          "IK" : "hatmanik.FRM",
-         "M." : "hatmanm.FRM",
          "RA" : "hatmanrA.FRM",
          "RB" : "hatmanrB.FRM",
          "RD" : "hatmanrd.FRM",
@@ -1041,6 +1040,7 @@
          "RJ" : "hatmanrj.FRM",
          "RK" : "hatmanrk.FRM",
          "RL" : "hatmanrl.FRM",
+         "RM" : "hatmanrm.FRM",
          "RN" : "hatmanrn.FRM",
          "RO" : "hatmanro.FRM",
          "RP" : "hatmanrp.FRM"
