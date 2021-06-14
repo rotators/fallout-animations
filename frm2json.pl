@@ -11,7 +11,7 @@ use JSON;
 
 #
 
-my( %json, @frm );
+my( %json, @frm, @png );
 
 #
 
@@ -22,6 +22,42 @@ sub findFrm
 
     push( @frm, $file ) if( $extension eq '.frm' );
     push( @frm, $file ) if( $extension =~ /\.fr[0-5]/ )
+}
+
+#
+
+sub findPng
+{
+    my $file = $File::Find::name;
+    my $extension = lc(substr($file, -4));
+
+    push( @png, $file ) if( $extension eq '.png' );
+}
+
+#
+
+sub json_info
+{
+    my %root;
+
+    my $repo = `git remote get-url origin`;
+    chomp($repo);
+
+    if( $repo =~ /^https:\/\/github\.com\/(.+)\/(.+)\.git$/ )
+    {
+        my( $owner, $name, $branch ) = ( $1, $2, `git branch --format "%(refname:short)"` );
+        chomp($branch);
+
+        $repo =~ s!\.git$!/!;
+
+        $root{'url'}{'repository'} = $repo;
+        $root{'url'}{'repository-raw'} = sprintf( "https://raw.githubusercontent.com/%s/%s/%s/", $owner, $name, $branch );
+
+        $root{'url'}{'pages'} = sprintf( "https://%s.github.io/%s/", $owner, $name );
+    }
+
+    $json{'fallout-animations-extra'}{'INFO'} = \%root
+        if( scalar(keys( %root )));
 }
 
 #
@@ -40,6 +76,8 @@ sub json_frm
 
         my $set  = substr( $file, 0, 6 );
         my $anim = uc(substr( $file, 6, 2 ));
+
+        printf( "??? $frm\n" ) if( $anim !~ /^[A-R][A-Z]$/ );
 
         next if( $anim eq 'NA' );
 
@@ -62,14 +100,69 @@ sub json_frm
         }
     }
 
-    $json{'fallout-animations'} = \%root;
+    $json{'fallout-animations'}{'frm'} = \%root
+        if( scalar(keys( %root )));
 }
 
 #
 
-find({ wanted => \&findFrm, no_chdir => 1 }, '.');
+sub json_png
+{
+    my %root;
 
-json_frm();
+    foreach my $png ( sort {$a cmp $b} @png )
+    {
+        $png =~ s!^\./!!;
+
+        my( undef, $dir, $file ) = File::Spec->splitpath( $png );
+
+        $dir =~ s!^docs/!!;
+        $dir =~ s![/]+$!!;
+
+        my $set  = substr( $file, 0, 6 );
+        my $anim = uc(substr( $file, 6, 2 ));
+
+        if( $file =~ /^$set$anim\.png$/ )
+        {
+            $root{"$dir"}{"$anim"}{'anim-packed'} = $file;
+        }
+        elsif( $file =~ /^$set$anim\_([0-5])\.png$/ )
+        {
+            push( @{ $root{"$dir"}{"$anim"}{'anim'} }, $file );
+        }
+        elsif( $file =~ /\.static\.png$/ )
+        {
+            push( @{ $root{"$dir"}{"$anim"}{'static'} }, $file );
+        }
+        else
+        {
+            print( "??? $file\n" );
+        }
+    }
+
+    $json{'fallout-animations-extra'}{'png'} = \%root
+        if( scalar(keys( %root )));
+}
+
+#
+
+sub json_txt
+{
+    my %root;
+
+    $json{'fallout-animations-extra'}{'txt'} = \%root
+        if( scalar(keys( %root )))
+}
+
+#
+
+&find({ wanted => \&findFrm, no_chdir => 1 }, '.');
+&find({ wanted => \&findPng, no_chdir => 1 }, 'docs' );
+
+&json_info();
+&json_frm();
+&json_png();
+&json_txt();
 
 if( open( my $file, ">", "docs/fallout-animations.json" ))
 {
