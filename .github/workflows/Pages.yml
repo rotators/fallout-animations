@@ -4,7 +4,8 @@ on:
  push:
   paths:
   - '.github/workflows/Pages.yml'
-  - 'frm2pages.sh'
+  - 'frm2json.pl'
+  - 'frm2png.sh'
   - '**.FRM'
   - '**.frm'
   - '**.FR0'
