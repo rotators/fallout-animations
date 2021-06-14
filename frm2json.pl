@@ -43,12 +43,14 @@ sub json_info
     my $repo = `git remote get-url origin`;
     chomp($repo);
 
-    if( $repo =~ /^https:\/\/github\.com\/(.+)\/(.+)\.git$/ )
+    $repo =~ s![/]+$!!;
+    $repo =~ s!\.git$!!;
+    $repo .= "/";
+
+    if( $repo =~ m!^https\://github\.com/(.+)/(.+)/$! )
     {
         my( $owner, $name, $branch ) = ( $1, $2, `git branch --format "%(refname:short)"` );
         chomp($branch);
-
-        $repo =~ s!\.git$!/!;
 
         $root{'url'}{'repository'} = $repo;
         $root{'url'}{'repository-raw'} = sprintf( "https://raw.githubusercontent.com/%s/%s/%s/", $owner, $name, $branch );
