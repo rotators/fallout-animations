@@ -60,73 +60,95 @@
             "IJ" : "NFMETLIJ.FRM",
             "IK" : "NFMETLIK.FRM"
          },
-         "Generic_Fo2_WalkFix" : {
-            "AB" : [
-               "MAROBTAB.FRM",
-               "NAVGULAB.FRM",
-               "NFASIAAB.FRM",
-               "NFLYNNAB.FRM",
-               "NFNICEAB.FRM",
-               "NMASIAAB.FRM",
-               "NMBOXXAB.FRM",
-               "NMBRSRAB.FRM",
-               "NMCOPPAB.FRM",
-               "NMFATTAB.FRM",
-               "NMLABBAB.FRM",
-               "NMMEXIAB.FRM",
-               "NMMYRNAB.FRM",
-               "NMNICEAB.FRM",
-               "NMOLDDAB.FRM",
-               "NMRGNGAB.FRM",
-               "nmboncAB.frm",
-               "nmgangAB.frm"
-            ],
-            "DB" : [
-               "NAVGULDB.FRM",
-               "NMFATTDB.FRM",
-               "NMGANGDB.FRM",
-               "NMMEXIDB.FRM",
-               "NMMYRNDB.FRM",
-               "NMRGNGDB.FRM"
-            ],
-            "EB" : "NMBOXXEB.FRM",
-            "HB" : [
-               "NAVGULHB.FRM",
-               "NMCOPPHB.FRM",
-               "NMFATTHB.FRM",
-               "NMGANGHB.FRM",
-               "NMLABBHB.FRM",
-               "NMMEXIHB.FRM",
-               "NMMYRNHB.FRM",
-               "NMNICEHB.FRM",
-               "NMOLDDHB.FRM",
-               "NMRGNGHB.FRM"
-            ],
-            "IB" : [
-               "NAVGULIB.FRM",
-               "NMCOPPIB.FRM",
-               "NMGANGIB.FRM",
-               "NMMEXIIB.FRM",
-               "NMNICEIB.FRM",
-               "NMRGNGIB.FRM"
-            ],
-            "JB" : [
-               "NMBONCJB.FRM",
-               "NMBRSRJB.FRM",
-               "NMCOPPJB.FRM",
-               "NMFATTJB.FRM",
-               "NMGANGJB.FRM",
-               "NMMEXIJB.FRM",
-               "NMOLDDJB.FRM",
-               "NMRGNGJB.FRM"
-            ],
-            "KB" : [
-               "NMCOPPKB.FRM",
-               "NMGANGKB.FRM",
-               "NMRGNGKB.FRM"
-            ],
+         "Generic_Fo2_WalkFix/MAROBT" : {
+            "AB" : "MAROBTAB.FRM",
             "LB" : "MAROBTLB.FRM",
             "MB" : "MAROBTMB.FRM"
+         },
+         "Generic_Fo2_WalkFix/NAVGUL" : {
+            "AB" : "NAVGULAB.FRM",
+            "DB" : "NAVGULDB.FRM",
+            "HB" : "NAVGULHB.FRM",
+            "IB" : "NAVGULIB.FRM"
+         },
+         "Generic_Fo2_WalkFix/NFASIA" : {
+            "AB" : "NFASIAAB.FRM"
+         },
+         "Generic_Fo2_WalkFix/NFLYNN" : {
+            "AB" : "NFLYNNAB.FRM"
+         },
+         "Generic_Fo2_WalkFix/NFNICE" : {
+            "AB" : "NFNICEAB.FRM"
+         },
+         "Generic_Fo2_WalkFix/NMASIA" : {
+            "AB" : "NMASIAAB.FRM"
+         },
+         "Generic_Fo2_WalkFix/NMBONC" : {
+            "AB" : "nmboncAB.frm",
+            "JB" : "NMBONCJB.FRM"
+         },
+         "Generic_Fo2_WalkFix/NMBOXX" : {
+            "AB" : "NMBOXXAB.FRM",
+            "EB" : "NMBOXXEB.FRM"
+         },
+         "Generic_Fo2_WalkFix/NMBRSR" : {
+            "AB" : "NMBRSRAB.FRM",
+            "JB" : "NMBRSRJB.FRM"
+         },
+         "Generic_Fo2_WalkFix/NMCOPP" : {
+            "AB" : "NMCOPPAB.FRM",
+            "HB" : "NMCOPPHB.FRM",
+            "IB" : "NMCOPPIB.FRM",
+            "JB" : "NMCOPPJB.FRM",
+            "KB" : "NMCOPPKB.FRM"
+         },
+         "Generic_Fo2_WalkFix/NMFATT" : {
+            "AB" : "NMFATTAB.FRM",
+            "DB" : "NMFATTDB.FRM",
+            "HB" : "NMFATTHB.FRM",
+            "JB" : "NMFATTJB.FRM"
+         },
+         "Generic_Fo2_WalkFix/NMGANG" : {
+            "AB" : "nmgangAB.frm",
+            "DB" : "NMGANGDB.FRM",
+            "HB" : "NMGANGHB.FRM",
+            "IB" : "NMGANGIB.FRM",
+            "JB" : "NMGANGJB.FRM",
+            "KB" : "NMGANGKB.FRM"
+         },
+         "Generic_Fo2_WalkFix/NMLABB" : {
+            "AB" : "NMLABBAB.FRM",
+            "HB" : "NMLABBHB.FRM"
+         },
+         "Generic_Fo2_WalkFix/NMMEXI" : {
+            "AB" : "NMMEXIAB.FRM",
+            "DB" : "NMMEXIDB.FRM",
+            "HB" : "NMMEXIHB.FRM",
+            "IB" : "NMMEXIIB.FRM",
+            "JB" : "NMMEXIJB.FRM"
+         },
+         "Generic_Fo2_WalkFix/NMMYRN" : {
+            "AB" : "NMMYRNAB.FRM",
+            "DB" : "NMMYRNDB.FRM",
+            "HB" : "NMMYRNHB.FRM"
+         },
+         "Generic_Fo2_WalkFix/NMNICE" : {
+            "AB" : "NMNICEAB.FRM",
+            "HB" : "NMNICEHB.FRM",
+            "IB" : "NMNICEIB.FRM"
+         },
+         "Generic_Fo2_WalkFix/NMOLDD" : {
+            "AB" : "NMOLDDAB.FRM",
+            "HB" : "NMOLDDHB.FRM",
+            "JB" : "NMOLDDJB.FRM"
+         },
+         "Generic_Fo2_WalkFix/NMRGNG" : {
+            "AB" : "NMRGNGAB.FRM",
+            "DB" : "NMRGNGDB.FRM",
+            "HB" : "NMRGNGHB.FRM",
+            "IB" : "NMRGNGIB.FRM",
+            "JB" : "NMRGNGJB.FRM",
+            "KB" : "NMRGNGKB.FRM"
          },
          "Male_BlackDude_CombatArmor" : {
             "AA" : "hmbcmbaa.frm",
@@ -2107,7 +2129,7 @@
                ]
             }
          },
-         "Generic_Fo2_WalkFix" : {
+         "Generic_Fo2_WalkFix/MAROBT" : {
             "AB" : {
                "anim" : [
                   "MAROBTAB_0.png",
@@ -2115,410 +2137,11 @@
                   "MAROBTAB_2.png",
                   "MAROBTAB_3.png",
                   "MAROBTAB_4.png",
-                  "MAROBTAB_5.png",
-                  "NAVGULAB_0.png",
-                  "NAVGULAB_1.png",
-                  "NAVGULAB_2.png",
-                  "NAVGULAB_3.png",
-                  "NAVGULAB_4.png",
-                  "NAVGULAB_5.png",
-                  "NFASIAAB_0.png",
-                  "NFASIAAB_1.png",
-                  "NFASIAAB_2.png",
-                  "NFASIAAB_3.png",
-                  "NFASIAAB_4.png",
-                  "NFASIAAB_5.png",
-                  "NFLYNNAB_0.png",
-                  "NFLYNNAB_1.png",
-                  "NFLYNNAB_2.png",
-                  "NFLYNNAB_3.png",
-                  "NFLYNNAB_4.png",
-                  "NFLYNNAB_5.png",
-                  "NFNICEAB_0.png",
-                  "NFNICEAB_1.png",
-                  "NFNICEAB_2.png",
-                  "NFNICEAB_3.png",
-                  "NFNICEAB_4.png",
-                  "NFNICEAB_5.png",
-                  "NMASIAAB_0.png",
-                  "NMASIAAB_1.png",
-                  "NMASIAAB_2.png",
-                  "NMASIAAB_3.png",
-                  "NMASIAAB_4.png",
-                  "NMASIAAB_5.png",
-                  "NMBONCAB_0.png",
-                  "NMBONCAB_1.png",
-                  "NMBONCAB_2.png",
-                  "NMBONCAB_3.png",
-                  "NMBONCAB_4.png",
-                  "NMBONCAB_5.png",
-                  "NMBOXXAB_0.png",
-                  "NMBOXXAB_1.png",
-                  "NMBOXXAB_2.png",
-                  "NMBOXXAB_3.png",
-                  "NMBOXXAB_4.png",
-                  "NMBOXXAB_5.png",
-                  "NMBRSRAB_0.png",
-                  "NMBRSRAB_1.png",
-                  "NMBRSRAB_2.png",
-                  "NMBRSRAB_3.png",
-                  "NMBRSRAB_4.png",
-                  "NMBRSRAB_5.png",
-                  "NMCOPPAB_0.png",
-                  "NMCOPPAB_1.png",
-                  "NMCOPPAB_2.png",
-                  "NMCOPPAB_3.png",
-                  "NMCOPPAB_4.png",
-                  "NMCOPPAB_5.png",
-                  "NMFATTAB_0.png",
-                  "NMFATTAB_1.png",
-                  "NMFATTAB_2.png",
-                  "NMFATTAB_3.png",
-                  "NMFATTAB_4.png",
-                  "NMFATTAB_5.png",
-                  "NMGANGAB_0.png",
-                  "NMGANGAB_1.png",
-                  "NMGANGAB_2.png",
-                  "NMGANGAB_3.png",
-                  "NMGANGAB_4.png",
-                  "NMGANGAB_5.png",
-                  "NMLABBAB_0.png",
-                  "NMLABBAB_1.png",
-                  "NMLABBAB_2.png",
-                  "NMLABBAB_3.png",
-                  "NMLABBAB_4.png",
-                  "NMLABBAB_5.png",
-                  "NMMEXIAB_0.png",
-                  "NMMEXIAB_1.png",
-                  "NMMEXIAB_2.png",
-                  "NMMEXIAB_3.png",
-                  "NMMEXIAB_4.png",
-                  "NMMEXIAB_5.png",
-                  "NMMYRNAB_0.png",
-                  "NMMYRNAB_1.png",
-                  "NMMYRNAB_2.png",
-                  "NMMYRNAB_3.png",
-                  "NMMYRNAB_4.png",
-                  "NMMYRNAB_5.png",
-                  "NMNICEAB_0.png",
-                  "NMNICEAB_1.png",
-                  "NMNICEAB_2.png",
-                  "NMNICEAB_3.png",
-                  "NMNICEAB_4.png",
-                  "NMNICEAB_5.png",
-                  "NMOLDDAB_0.png",
-                  "NMOLDDAB_1.png",
-                  "NMOLDDAB_2.png",
-                  "NMOLDDAB_3.png",
-                  "NMOLDDAB_4.png",
-                  "NMOLDDAB_5.png",
-                  "NMRGNGAB_0.png",
-                  "NMRGNGAB_1.png",
-                  "NMRGNGAB_2.png",
-                  "NMRGNGAB_3.png",
-                  "NMRGNGAB_4.png",
-                  "NMRGNGAB_5.png"
+                  "MAROBTAB_5.png"
                ],
-               "anim-packed" : "NMRGNGAB.png",
+               "anim-packed" : "MAROBTAB.png",
                "static" : [
-                  "MAROBTAB.static.png",
-                  "NAVGULAB.static.png",
-                  "NFASIAAB.static.png",
-                  "NFLYNNAB.static.png",
-                  "NFNICEAB.static.png",
-                  "NMASIAAB.static.png",
-                  "NMBONCAB.static.png",
-                  "NMBOXXAB.static.png",
-                  "NMBRSRAB.static.png",
-                  "NMCOPPAB.static.png",
-                  "NMFATTAB.static.png",
-                  "NMGANGAB.static.png",
-                  "NMLABBAB.static.png",
-                  "NMMEXIAB.static.png",
-                  "NMMYRNAB.static.png",
-                  "NMNICEAB.static.png",
-                  "NMOLDDAB.static.png",
-                  "NMRGNGAB.static.png"
-               ]
-            },
-            "DB" : {
-               "anim" : [
-                  "NAVGULDB_0.png",
-                  "NAVGULDB_1.png",
-                  "NAVGULDB_2.png",
-                  "NAVGULDB_3.png",
-                  "NAVGULDB_4.png",
-                  "NAVGULDB_5.png",
-                  "NMFATTDB_0.png",
-                  "NMFATTDB_1.png",
-                  "NMFATTDB_2.png",
-                  "NMFATTDB_3.png",
-                  "NMFATTDB_4.png",
-                  "NMFATTDB_5.png",
-                  "NMGANGDB_0.png",
-                  "NMGANGDB_1.png",
-                  "NMGANGDB_2.png",
-                  "NMGANGDB_3.png",
-                  "NMGANGDB_4.png",
-                  "NMGANGDB_5.png",
-                  "NMMEXIDB_0.png",
-                  "NMMEXIDB_1.png",
-                  "NMMEXIDB_2.png",
-                  "NMMEXIDB_3.png",
-                  "NMMEXIDB_4.png",
-                  "NMMEXIDB_5.png",
-                  "NMMYRNDB_0.png",
-                  "NMMYRNDB_1.png",
-                  "NMMYRNDB_2.png",
-                  "NMMYRNDB_3.png",
-                  "NMMYRNDB_4.png",
-                  "NMMYRNDB_5.png",
-                  "NMRGNGDB_0.png",
-                  "NMRGNGDB_1.png",
-                  "NMRGNGDB_2.png",
-                  "NMRGNGDB_3.png",
-                  "NMRGNGDB_4.png",
-                  "NMRGNGDB_5.png"
-               ],
-               "anim-packed" : "NMRGNGDB.png",
-               "static" : [
-                  "NAVGULDB.static.png",
-                  "NMFATTDB.static.png",
-                  "NMGANGDB.static.png",
-                  "NMMEXIDB.static.png",
-                  "NMMYRNDB.static.png",
-                  "NMRGNGDB.static.png"
-               ]
-            },
-            "EB" : {
-               "anim" : [
-                  "NMBOXXEB_0.png",
-                  "NMBOXXEB_1.png",
-                  "NMBOXXEB_2.png",
-                  "NMBOXXEB_3.png",
-                  "NMBOXXEB_4.png",
-                  "NMBOXXEB_5.png"
-               ],
-               "anim-packed" : "NMBOXXEB.png",
-               "static" : [
-                  "NMBOXXEB.static.png"
-               ]
-            },
-            "HB" : {
-               "anim" : [
-                  "NAVGULHB_0.png",
-                  "NAVGULHB_1.png",
-                  "NAVGULHB_2.png",
-                  "NAVGULHB_3.png",
-                  "NAVGULHB_4.png",
-                  "NAVGULHB_5.png",
-                  "NMCOPPHB_0.png",
-                  "NMCOPPHB_1.png",
-                  "NMCOPPHB_2.png",
-                  "NMCOPPHB_3.png",
-                  "NMCOPPHB_4.png",
-                  "NMCOPPHB_5.png",
-                  "NMFATTHB_0.png",
-                  "NMFATTHB_1.png",
-                  "NMFATTHB_2.png",
-                  "NMFATTHB_3.png",
-                  "NMFATTHB_4.png",
-                  "NMFATTHB_5.png",
-                  "NMGANGHB_0.png",
-                  "NMGANGHB_1.png",
-                  "NMGANGHB_2.png",
-                  "NMGANGHB_3.png",
-                  "NMGANGHB_4.png",
-                  "NMGANGHB_5.png",
-                  "NMLABBHB_0.png",
-                  "NMLABBHB_1.png",
-                  "NMLABBHB_2.png",
-                  "NMLABBHB_3.png",
-                  "NMLABBHB_4.png",
-                  "NMLABBHB_5.png",
-                  "NMMEXIHB_0.png",
-                  "NMMEXIHB_1.png",
-                  "NMMEXIHB_2.png",
-                  "NMMEXIHB_3.png",
-                  "NMMEXIHB_4.png",
-                  "NMMEXIHB_5.png",
-                  "NMMYRNHB_0.png",
-                  "NMMYRNHB_1.png",
-                  "NMMYRNHB_2.png",
-                  "NMMYRNHB_3.png",
-                  "NMMYRNHB_4.png",
-                  "NMMYRNHB_5.png",
-                  "NMNICEHB_0.png",
-                  "NMNICEHB_1.png",
-                  "NMNICEHB_2.png",
-                  "NMNICEHB_3.png",
-                  "NMNICEHB_4.png",
-                  "NMNICEHB_5.png",
-                  "NMOLDDHB_0.png",
-                  "NMOLDDHB_1.png",
-                  "NMOLDDHB_2.png",
-                  "NMOLDDHB_3.png",
-                  "NMOLDDHB_4.png",
-                  "NMOLDDHB_5.png",
-                  "NMRGNGHB_0.png",
-                  "NMRGNGHB_1.png",
-                  "NMRGNGHB_2.png",
-                  "NMRGNGHB_3.png",
-                  "NMRGNGHB_4.png",
-                  "NMRGNGHB_5.png"
-               ],
-               "anim-packed" : "NMRGNGHB.png",
-               "static" : [
-                  "NAVGULHB.static.png",
-                  "NMCOPPHB.static.png",
-                  "NMFATTHB.static.png",
-                  "NMGANGHB.static.png",
-                  "NMLABBHB.static.png",
-                  "NMMEXIHB.static.png",
-                  "NMMYRNHB.static.png",
-                  "NMNICEHB.static.png",
-                  "NMOLDDHB.static.png",
-                  "NMRGNGHB.static.png"
-               ]
-            },
-            "IB" : {
-               "anim" : [
-                  "NAVGULIB_0.png",
-                  "NAVGULIB_1.png",
-                  "NAVGULIB_2.png",
-                  "NAVGULIB_3.png",
-                  "NAVGULIB_4.png",
-                  "NAVGULIB_5.png",
-                  "NMCOPPIB_0.png",
-                  "NMCOPPIB_1.png",
-                  "NMCOPPIB_2.png",
-                  "NMCOPPIB_3.png",
-                  "NMCOPPIB_4.png",
-                  "NMCOPPIB_5.png",
-                  "NMGANGIB_0.png",
-                  "NMGANGIB_1.png",
-                  "NMGANGIB_2.png",
-                  "NMGANGIB_3.png",
-                  "NMGANGIB_4.png",
-                  "NMGANGIB_5.png",
-                  "NMMEXIIB_0.png",
-                  "NMMEXIIB_1.png",
-                  "NMMEXIIB_2.png",
-                  "NMMEXIIB_3.png",
-                  "NMMEXIIB_4.png",
-                  "NMMEXIIB_5.png",
-                  "NMNICEIB_0.png",
-                  "NMNICEIB_1.png",
-                  "NMNICEIB_2.png",
-                  "NMNICEIB_3.png",
-                  "NMNICEIB_4.png",
-                  "NMNICEIB_5.png",
-                  "NMRGNGIB_0.png",
-                  "NMRGNGIB_1.png",
-                  "NMRGNGIB_2.png",
-                  "NMRGNGIB_3.png",
-                  "NMRGNGIB_4.png",
-                  "NMRGNGIB_5.png"
-               ],
-               "anim-packed" : "NMRGNGIB.png",
-               "static" : [
-                  "NAVGULIB.static.png",
-                  "NMCOPPIB.static.png",
-                  "NMGANGIB.static.png",
-                  "NMMEXIIB.static.png",
-                  "NMNICEIB.static.png",
-                  "NMRGNGIB.static.png"
-               ]
-            },
-            "JB" : {
-               "anim" : [
-                  "NMBONCJB_0.png",
-                  "NMBONCJB_1.png",
-                  "NMBONCJB_2.png",
-                  "NMBONCJB_3.png",
-                  "NMBONCJB_4.png",
-                  "NMBONCJB_5.png",
-                  "NMBRSRJB_0.png",
-                  "NMBRSRJB_1.png",
-                  "NMBRSRJB_2.png",
-                  "NMBRSRJB_3.png",
-                  "NMBRSRJB_4.png",
-                  "NMBRSRJB_5.png",
-                  "NMCOPPJB_0.png",
-                  "NMCOPPJB_1.png",
-                  "NMCOPPJB_2.png",
-                  "NMCOPPJB_3.png",
-                  "NMCOPPJB_4.png",
-                  "NMCOPPJB_5.png",
-                  "NMFATTJB_0.png",
-                  "NMFATTJB_1.png",
-                  "NMFATTJB_2.png",
-                  "NMFATTJB_3.png",
-                  "NMFATTJB_4.png",
-                  "NMFATTJB_5.png",
-                  "NMGANGJB_0.png",
-                  "NMGANGJB_1.png",
-                  "NMGANGJB_2.png",
-                  "NMGANGJB_3.png",
-                  "NMGANGJB_4.png",
-                  "NMGANGJB_5.png",
-                  "NMMEXIJB_0.png",
-                  "NMMEXIJB_1.png",
-                  "NMMEXIJB_2.png",
-                  "NMMEXIJB_3.png",
-                  "NMMEXIJB_4.png",
-                  "NMMEXIJB_5.png",
-                  "NMOLDDJB_0.png",
-                  "NMOLDDJB_1.png",
-                  "NMOLDDJB_2.png",
-                  "NMOLDDJB_3.png",
-                  "NMOLDDJB_4.png",
-                  "NMOLDDJB_5.png",
-                  "NMRGNGJB_0.png",
-                  "NMRGNGJB_1.png",
-                  "NMRGNGJB_2.png",
-                  "NMRGNGJB_3.png",
-                  "NMRGNGJB_4.png",
-                  "NMRGNGJB_5.png"
-               ],
-               "anim-packed" : "NMRGNGJB.png",
-               "static" : [
-                  "NMBONCJB.static.png",
-                  "NMBRSRJB.static.png",
-                  "NMCOPPJB.static.png",
-                  "NMFATTJB.static.png",
-                  "NMGANGJB.static.png",
-                  "NMMEXIJB.static.png",
-                  "NMOLDDJB.static.png",
-                  "NMRGNGJB.static.png"
-               ]
-            },
-            "KB" : {
-               "anim" : [
-                  "NMCOPPKB_0.png",
-                  "NMCOPPKB_1.png",
-                  "NMCOPPKB_2.png",
-                  "NMCOPPKB_3.png",
-                  "NMCOPPKB_4.png",
-                  "NMCOPPKB_5.png",
-                  "NMGANGKB_0.png",
-                  "NMGANGKB_1.png",
-                  "NMGANGKB_2.png",
-                  "NMGANGKB_3.png",
-                  "NMGANGKB_4.png",
-                  "NMGANGKB_5.png",
-                  "NMRGNGKB_0.png",
-                  "NMRGNGKB_1.png",
-                  "NMRGNGKB_2.png",
-                  "NMRGNGKB_3.png",
-                  "NMRGNGKB_4.png",
-                  "NMRGNGKB_5.png"
-               ],
-               "anim-packed" : "NMRGNGKB.png",
-               "static" : [
-                  "NMCOPPKB.static.png",
-                  "NMGANGKB.static.png",
-                  "NMRGNGKB.static.png"
+                  "MAROBTAB.static.png"
                ]
             },
             "LB" : {
@@ -2547,6 +2170,754 @@
                "anim-packed" : "MAROBTMB.png",
                "static" : [
                   "MAROBTMB.static.png"
+               ]
+            }
+         },
+         "Generic_Fo2_WalkFix/NAVGUL" : {
+            "AB" : {
+               "anim" : [
+                  "NAVGULAB_0.png",
+                  "NAVGULAB_1.png",
+                  "NAVGULAB_2.png",
+                  "NAVGULAB_3.png",
+                  "NAVGULAB_4.png",
+                  "NAVGULAB_5.png"
+               ],
+               "anim-packed" : "NAVGULAB.png",
+               "static" : [
+                  "NAVGULAB.static.png"
+               ]
+            },
+            "DB" : {
+               "anim" : [
+                  "NAVGULDB_0.png",
+                  "NAVGULDB_1.png",
+                  "NAVGULDB_2.png",
+                  "NAVGULDB_3.png",
+                  "NAVGULDB_4.png",
+                  "NAVGULDB_5.png"
+               ],
+               "anim-packed" : "NAVGULDB.png",
+               "static" : [
+                  "NAVGULDB.static.png"
+               ]
+            },
+            "HB" : {
+               "anim" : [
+                  "NAVGULHB_0.png",
+                  "NAVGULHB_1.png",
+                  "NAVGULHB_2.png",
+                  "NAVGULHB_3.png",
+                  "NAVGULHB_4.png",
+                  "NAVGULHB_5.png"
+               ],
+               "anim-packed" : "NAVGULHB.png",
+               "static" : [
+                  "NAVGULHB.static.png"
+               ]
+            },
+            "IB" : {
+               "anim" : [
+                  "NAVGULIB_0.png",
+                  "NAVGULIB_1.png",
+                  "NAVGULIB_2.png",
+                  "NAVGULIB_3.png",
+                  "NAVGULIB_4.png",
+                  "NAVGULIB_5.png"
+               ],
+               "anim-packed" : "NAVGULIB.png",
+               "static" : [
+                  "NAVGULIB.static.png"
+               ]
+            }
+         },
+         "Generic_Fo2_WalkFix/NFASIA" : {
+            "AB" : {
+               "anim" : [
+                  "NFASIAAB_0.png",
+                  "NFASIAAB_1.png",
+                  "NFASIAAB_2.png",
+                  "NFASIAAB_3.png",
+                  "NFASIAAB_4.png",
+                  "NFASIAAB_5.png"
+               ],
+               "anim-packed" : "NFASIAAB.png",
+               "static" : [
+                  "NFASIAAB.static.png"
+               ]
+            }
+         },
+         "Generic_Fo2_WalkFix/NFLYNN" : {
+            "AB" : {
+               "anim" : [
+                  "NFLYNNAB_0.png",
+                  "NFLYNNAB_1.png",
+                  "NFLYNNAB_2.png",
+                  "NFLYNNAB_3.png",
+                  "NFLYNNAB_4.png",
+                  "NFLYNNAB_5.png"
+               ],
+               "anim-packed" : "NFLYNNAB.png",
+               "static" : [
+                  "NFLYNNAB.static.png"
+               ]
+            }
+         },
+         "Generic_Fo2_WalkFix/NFNICE" : {
+            "AB" : {
+               "anim" : [
+                  "NFNICEAB_0.png",
+                  "NFNICEAB_1.png",
+                  "NFNICEAB_2.png",
+                  "NFNICEAB_3.png",
+                  "NFNICEAB_4.png",
+                  "NFNICEAB_5.png"
+               ],
+               "anim-packed" : "NFNICEAB.png",
+               "static" : [
+                  "NFNICEAB.static.png"
+               ]
+            }
+         },
+         "Generic_Fo2_WalkFix/NMASIA" : {
+            "AB" : {
+               "anim" : [
+                  "NMASIAAB_0.png",
+                  "NMASIAAB_1.png",
+                  "NMASIAAB_2.png",
+                  "NMASIAAB_3.png",
+                  "NMASIAAB_4.png",
+                  "NMASIAAB_5.png"
+               ],
+               "anim-packed" : "NMASIAAB.png",
+               "static" : [
+                  "NMASIAAB.static.png"
+               ]
+            }
+         },
+         "Generic_Fo2_WalkFix/NMBONC" : {
+            "AB" : {
+               "anim" : [
+                  "NMBONCAB_0.png",
+                  "NMBONCAB_1.png",
+                  "NMBONCAB_2.png",
+                  "NMBONCAB_3.png",
+                  "NMBONCAB_4.png",
+                  "NMBONCAB_5.png"
+               ],
+               "anim-packed" : "NMBONCAB.png",
+               "static" : [
+                  "NMBONCAB.static.png"
+               ]
+            },
+            "JB" : {
+               "anim" : [
+                  "NMBONCJB_0.png",
+                  "NMBONCJB_1.png",
+                  "NMBONCJB_2.png",
+                  "NMBONCJB_3.png",
+                  "NMBONCJB_4.png",
+                  "NMBONCJB_5.png"
+               ],
+               "anim-packed" : "NMBONCJB.png",
+               "static" : [
+                  "NMBONCJB.static.png"
+               ]
+            }
+         },
+         "Generic_Fo2_WalkFix/NMBOXX" : {
+            "AB" : {
+               "anim" : [
+                  "NMBOXXAB_0.png",
+                  "NMBOXXAB_1.png",
+                  "NMBOXXAB_2.png",
+                  "NMBOXXAB_3.png",
+                  "NMBOXXAB_4.png",
+                  "NMBOXXAB_5.png"
+               ],
+               "anim-packed" : "NMBOXXAB.png",
+               "static" : [
+                  "NMBOXXAB.static.png"
+               ]
+            },
+            "EB" : {
+               "anim" : [
+                  "NMBOXXEB_0.png",
+                  "NMBOXXEB_1.png",
+                  "NMBOXXEB_2.png",
+                  "NMBOXXEB_3.png",
+                  "NMBOXXEB_4.png",
+                  "NMBOXXEB_5.png"
+               ],
+               "anim-packed" : "NMBOXXEB.png",
+               "static" : [
+                  "NMBOXXEB.static.png"
+               ]
+            }
+         },
+         "Generic_Fo2_WalkFix/NMBRSR" : {
+            "AB" : {
+               "anim" : [
+                  "NMBRSRAB_0.png",
+                  "NMBRSRAB_1.png",
+                  "NMBRSRAB_2.png",
+                  "NMBRSRAB_3.png",
+                  "NMBRSRAB_4.png",
+                  "NMBRSRAB_5.png"
+               ],
+               "anim-packed" : "NMBRSRAB.png",
+               "static" : [
+                  "NMBRSRAB.static.png"
+               ]
+            },
+            "JB" : {
+               "anim" : [
+                  "NMBRSRJB_0.png",
+                  "NMBRSRJB_1.png",
+                  "NMBRSRJB_2.png",
+                  "NMBRSRJB_3.png",
+                  "NMBRSRJB_4.png",
+                  "NMBRSRJB_5.png"
+               ],
+               "anim-packed" : "NMBRSRJB.png",
+               "static" : [
+                  "NMBRSRJB.static.png"
+               ]
+            }
+         },
+         "Generic_Fo2_WalkFix/NMCOPP" : {
+            "AB" : {
+               "anim" : [
+                  "NMCOPPAB_0.png",
+                  "NMCOPPAB_1.png",
+                  "NMCOPPAB_2.png",
+                  "NMCOPPAB_3.png",
+                  "NMCOPPAB_4.png",
+                  "NMCOPPAB_5.png"
+               ],
+               "anim-packed" : "NMCOPPAB.png",
+               "static" : [
+                  "NMCOPPAB.static.png"
+               ]
+            },
+            "HB" : {
+               "anim" : [
+                  "NMCOPPHB_0.png",
+                  "NMCOPPHB_1.png",
+                  "NMCOPPHB_2.png",
+                  "NMCOPPHB_3.png",
+                  "NMCOPPHB_4.png",
+                  "NMCOPPHB_5.png"
+               ],
+               "anim-packed" : "NMCOPPHB.png",
+               "static" : [
+                  "NMCOPPHB.static.png"
+               ]
+            },
+            "IB" : {
+               "anim" : [
+                  "NMCOPPIB_0.png",
+                  "NMCOPPIB_1.png",
+                  "NMCOPPIB_2.png",
+                  "NMCOPPIB_3.png",
+                  "NMCOPPIB_4.png",
+                  "NMCOPPIB_5.png"
+               ],
+               "anim-packed" : "NMCOPPIB.png",
+               "static" : [
+                  "NMCOPPIB.static.png"
+               ]
+            },
+            "JB" : {
+               "anim" : [
+                  "NMCOPPJB_0.png",
+                  "NMCOPPJB_1.png",
+                  "NMCOPPJB_2.png",
+                  "NMCOPPJB_3.png",
+                  "NMCOPPJB_4.png",
+                  "NMCOPPJB_5.png"
+               ],
+               "anim-packed" : "NMCOPPJB.png",
+               "static" : [
+                  "NMCOPPJB.static.png"
+               ]
+            },
+            "KB" : {
+               "anim" : [
+                  "NMCOPPKB_0.png",
+                  "NMCOPPKB_1.png",
+                  "NMCOPPKB_2.png",
+                  "NMCOPPKB_3.png",
+                  "NMCOPPKB_4.png",
+                  "NMCOPPKB_5.png"
+               ],
+               "anim-packed" : "NMCOPPKB.png",
+               "static" : [
+                  "NMCOPPKB.static.png"
+               ]
+            }
+         },
+         "Generic_Fo2_WalkFix/NMFATT" : {
+            "AB" : {
+               "anim" : [
+                  "NMFATTAB_0.png",
+                  "NMFATTAB_1.png",
+                  "NMFATTAB_2.png",
+                  "NMFATTAB_3.png",
+                  "NMFATTAB_4.png",
+                  "NMFATTAB_5.png"
+               ],
+               "anim-packed" : "NMFATTAB.png",
+               "static" : [
+                  "NMFATTAB.static.png"
+               ]
+            },
+            "DB" : {
+               "anim" : [
+                  "NMFATTDB_0.png",
+                  "NMFATTDB_1.png",
+                  "NMFATTDB_2.png",
+                  "NMFATTDB_3.png",
+                  "NMFATTDB_4.png",
+                  "NMFATTDB_5.png"
+               ],
+               "anim-packed" : "NMFATTDB.png",
+               "static" : [
+                  "NMFATTDB.static.png"
+               ]
+            },
+            "HB" : {
+               "anim" : [
+                  "NMFATTHB_0.png",
+                  "NMFATTHB_1.png",
+                  "NMFATTHB_2.png",
+                  "NMFATTHB_3.png",
+                  "NMFATTHB_4.png",
+                  "NMFATTHB_5.png"
+               ],
+               "anim-packed" : "NMFATTHB.png",
+               "static" : [
+                  "NMFATTHB.static.png"
+               ]
+            },
+            "JB" : {
+               "anim" : [
+                  "NMFATTJB_0.png",
+                  "NMFATTJB_1.png",
+                  "NMFATTJB_2.png",
+                  "NMFATTJB_3.png",
+                  "NMFATTJB_4.png",
+                  "NMFATTJB_5.png"
+               ],
+               "anim-packed" : "NMFATTJB.png",
+               "static" : [
+                  "NMFATTJB.static.png"
+               ]
+            }
+         },
+         "Generic_Fo2_WalkFix/NMGANG" : {
+            "AB" : {
+               "anim" : [
+                  "NMGANGAB_0.png",
+                  "NMGANGAB_1.png",
+                  "NMGANGAB_2.png",
+                  "NMGANGAB_3.png",
+                  "NMGANGAB_4.png",
+                  "NMGANGAB_5.png"
+               ],
+               "anim-packed" : "NMGANGAB.png",
+               "static" : [
+                  "NMGANGAB.static.png"
+               ]
+            },
+            "DB" : {
+               "anim" : [
+                  "NMGANGDB_0.png",
+                  "NMGANGDB_1.png",
+                  "NMGANGDB_2.png",
+                  "NMGANGDB_3.png",
+                  "NMGANGDB_4.png",
+                  "NMGANGDB_5.png"
+               ],
+               "anim-packed" : "NMGANGDB.png",
+               "static" : [
+                  "NMGANGDB.static.png"
+               ]
+            },
+            "HB" : {
+               "anim" : [
+                  "NMGANGHB_0.png",
+                  "NMGANGHB_1.png",
+                  "NMGANGHB_2.png",
+                  "NMGANGHB_3.png",
+                  "NMGANGHB_4.png",
+                  "NMGANGHB_5.png"
+               ],
+               "anim-packed" : "NMGANGHB.png",
+               "static" : [
+                  "NMGANGHB.static.png"
+               ]
+            },
+            "IB" : {
+               "anim" : [
+                  "NMGANGIB_0.png",
+                  "NMGANGIB_1.png",
+                  "NMGANGIB_2.png",
+                  "NMGANGIB_3.png",
+                  "NMGANGIB_4.png",
+                  "NMGANGIB_5.png"
+               ],
+               "anim-packed" : "NMGANGIB.png",
+               "static" : [
+                  "NMGANGIB.static.png"
+               ]
+            },
+            "JB" : {
+               "anim" : [
+                  "NMGANGJB_0.png",
+                  "NMGANGJB_1.png",
+                  "NMGANGJB_2.png",
+                  "NMGANGJB_3.png",
+                  "NMGANGJB_4.png",
+                  "NMGANGJB_5.png"
+               ],
+               "anim-packed" : "NMGANGJB.png",
+               "static" : [
+                  "NMGANGJB.static.png"
+               ]
+            },
+            "KB" : {
+               "anim" : [
+                  "NMGANGKB_0.png",
+                  "NMGANGKB_1.png",
+                  "NMGANGKB_2.png",
+                  "NMGANGKB_3.png",
+                  "NMGANGKB_4.png",
+                  "NMGANGKB_5.png"
+               ],
+               "anim-packed" : "NMGANGKB.png",
+               "static" : [
+                  "NMGANGKB.static.png"
+               ]
+            }
+         },
+         "Generic_Fo2_WalkFix/NMLABB" : {
+            "AB" : {
+               "anim" : [
+                  "NMLABBAB_0.png",
+                  "NMLABBAB_1.png",
+                  "NMLABBAB_2.png",
+                  "NMLABBAB_3.png",
+                  "NMLABBAB_4.png",
+                  "NMLABBAB_5.png"
+               ],
+               "anim-packed" : "NMLABBAB.png",
+               "static" : [
+                  "NMLABBAB.static.png"
+               ]
+            },
+            "HB" : {
+               "anim" : [
+                  "NMLABBHB_0.png",
+                  "NMLABBHB_1.png",
+                  "NMLABBHB_2.png",
+                  "NMLABBHB_3.png",
+                  "NMLABBHB_4.png",
+                  "NMLABBHB_5.png"
+               ],
+               "anim-packed" : "NMLABBHB.png",
+               "static" : [
+                  "NMLABBHB.static.png"
+               ]
+            }
+         },
+         "Generic_Fo2_WalkFix/NMMEXI" : {
+            "AB" : {
+               "anim" : [
+                  "NMMEXIAB_0.png",
+                  "NMMEXIAB_1.png",
+                  "NMMEXIAB_2.png",
+                  "NMMEXIAB_3.png",
+                  "NMMEXIAB_4.png",
+                  "NMMEXIAB_5.png"
+               ],
+               "anim-packed" : "NMMEXIAB.png",
+               "static" : [
+                  "NMMEXIAB.static.png"
+               ]
+            },
+            "DB" : {
+               "anim" : [
+                  "NMMEXIDB_0.png",
+                  "NMMEXIDB_1.png",
+                  "NMMEXIDB_2.png",
+                  "NMMEXIDB_3.png",
+                  "NMMEXIDB_4.png",
+                  "NMMEXIDB_5.png"
+               ],
+               "anim-packed" : "NMMEXIDB.png",
+               "static" : [
+                  "NMMEXIDB.static.png"
+               ]
+            },
+            "HB" : {
+               "anim" : [
+                  "NMMEXIHB_0.png",
+                  "NMMEXIHB_1.png",
+                  "NMMEXIHB_2.png",
+                  "NMMEXIHB_3.png",
+                  "NMMEXIHB_4.png",
+                  "NMMEXIHB_5.png"
+               ],
+               "anim-packed" : "NMMEXIHB.png",
+               "static" : [
+                  "NMMEXIHB.static.png"
+               ]
+            },
+            "IB" : {
+               "anim" : [
+                  "NMMEXIIB_0.png",
+                  "NMMEXIIB_1.png",
+                  "NMMEXIIB_2.png",
+                  "NMMEXIIB_3.png",
+                  "NMMEXIIB_4.png",
+                  "NMMEXIIB_5.png"
+               ],
+               "anim-packed" : "NMMEXIIB.png",
+               "static" : [
+                  "NMMEXIIB.static.png"
+               ]
+            },
+            "JB" : {
+               "anim" : [
+                  "NMMEXIJB_0.png",
+                  "NMMEXIJB_1.png",
+                  "NMMEXIJB_2.png",
+                  "NMMEXIJB_3.png",
+                  "NMMEXIJB_4.png",
+                  "NMMEXIJB_5.png"
+               ],
+               "anim-packed" : "NMMEXIJB.png",
+               "static" : [
+                  "NMMEXIJB.static.png"
+               ]
+            }
+         },
+         "Generic_Fo2_WalkFix/NMMYRN" : {
+            "AB" : {
+               "anim" : [
+                  "NMMYRNAB_0.png",
+                  "NMMYRNAB_1.png",
+                  "NMMYRNAB_2.png",
+                  "NMMYRNAB_3.png",
+                  "NMMYRNAB_4.png",
+                  "NMMYRNAB_5.png"
+               ],
+               "anim-packed" : "NMMYRNAB.png",
+               "static" : [
+                  "NMMYRNAB.static.png"
+               ]
+            },
+            "DB" : {
+               "anim" : [
+                  "NMMYRNDB_0.png",
+                  "NMMYRNDB_1.png",
+                  "NMMYRNDB_2.png",
+                  "NMMYRNDB_3.png",
+                  "NMMYRNDB_4.png",
+                  "NMMYRNDB_5.png"
+               ],
+               "anim-packed" : "NMMYRNDB.png",
+               "static" : [
+                  "NMMYRNDB.static.png"
+               ]
+            },
+            "HB" : {
+               "anim" : [
+                  "NMMYRNHB_0.png",
+                  "NMMYRNHB_1.png",
+                  "NMMYRNHB_2.png",
+                  "NMMYRNHB_3.png",
+                  "NMMYRNHB_4.png",
+                  "NMMYRNHB_5.png"
+               ],
+               "anim-packed" : "NMMYRNHB.png",
+               "static" : [
+                  "NMMYRNHB.static.png"
+               ]
+            }
+         },
+         "Generic_Fo2_WalkFix/NMNICE" : {
+            "AB" : {
+               "anim" : [
+                  "NMNICEAB_0.png",
+                  "NMNICEAB_1.png",
+                  "NMNICEAB_2.png",
+                  "NMNICEAB_3.png",
+                  "NMNICEAB_4.png",
+                  "NMNICEAB_5.png"
+               ],
+               "anim-packed" : "NMNICEAB.png",
+               "static" : [
+                  "NMNICEAB.static.png"
+               ]
+            },
+            "HB" : {
+               "anim" : [
+                  "NMNICEHB_0.png",
+                  "NMNICEHB_1.png",
+                  "NMNICEHB_2.png",
+                  "NMNICEHB_3.png",
+                  "NMNICEHB_4.png",
+                  "NMNICEHB_5.png"
+               ],
+               "anim-packed" : "NMNICEHB.png",
+               "static" : [
+                  "NMNICEHB.static.png"
+               ]
+            },
+            "IB" : {
+               "anim" : [
+                  "NMNICEIB_0.png",
+                  "NMNICEIB_1.png",
+                  "NMNICEIB_2.png",
+                  "NMNICEIB_3.png",
+                  "NMNICEIB_4.png",
+                  "NMNICEIB_5.png"
+               ],
+               "anim-packed" : "NMNICEIB.png",
+               "static" : [
+                  "NMNICEIB.static.png"
+               ]
+            }
+         },
+         "Generic_Fo2_WalkFix/NMOLDD" : {
+            "AB" : {
+               "anim" : [
+                  "NMOLDDAB_0.png",
+                  "NMOLDDAB_1.png",
+                  "NMOLDDAB_2.png",
+                  "NMOLDDAB_3.png",
+                  "NMOLDDAB_4.png",
+                  "NMOLDDAB_5.png"
+               ],
+               "anim-packed" : "NMOLDDAB.png",
+               "static" : [
+                  "NMOLDDAB.static.png"
+               ]
+            },
+            "HB" : {
+               "anim" : [
+                  "NMOLDDHB_0.png",
+                  "NMOLDDHB_1.png",
+                  "NMOLDDHB_2.png",
+                  "NMOLDDHB_3.png",
+                  "NMOLDDHB_4.png",
+                  "NMOLDDHB_5.png"
+               ],
+               "anim-packed" : "NMOLDDHB.png",
+               "static" : [
+                  "NMOLDDHB.static.png"
+               ]
+            },
+            "JB" : {
+               "anim" : [
+                  "NMOLDDJB_0.png",
+                  "NMOLDDJB_1.png",
+                  "NMOLDDJB_2.png",
+                  "NMOLDDJB_3.png",
+                  "NMOLDDJB_4.png",
+                  "NMOLDDJB_5.png"
+               ],
+               "anim-packed" : "NMOLDDJB.png",
+               "static" : [
+                  "NMOLDDJB.static.png"
+               ]
+            }
+         },
+         "Generic_Fo2_WalkFix/NMRGNG" : {
+            "AB" : {
+               "anim" : [
+                  "NMRGNGAB_0.png",
+                  "NMRGNGAB_1.png",
+                  "NMRGNGAB_2.png",
+                  "NMRGNGAB_3.png",
+                  "NMRGNGAB_4.png",
+                  "NMRGNGAB_5.png"
+               ],
+               "anim-packed" : "NMRGNGAB.png",
+               "static" : [
+                  "NMRGNGAB.static.png"
+               ]
+            },
+            "DB" : {
+               "anim" : [
+                  "NMRGNGDB_0.png",
+                  "NMRGNGDB_1.png",
+                  "NMRGNGDB_2.png",
+                  "NMRGNGDB_3.png",
+                  "NMRGNGDB_4.png",
+                  "NMRGNGDB_5.png"
+               ],
+               "anim-packed" : "NMRGNGDB.png",
+               "static" : [
+                  "NMRGNGDB.static.png"
+               ]
+            },
+            "HB" : {
+               "anim" : [
+                  "NMRGNGHB_0.png",
+                  "NMRGNGHB_1.png",
+                  "NMRGNGHB_2.png",
+                  "NMRGNGHB_3.png",
+                  "NMRGNGHB_4.png",
+                  "NMRGNGHB_5.png"
+               ],
+               "anim-packed" : "NMRGNGHB.png",
+               "static" : [
+                  "NMRGNGHB.static.png"
+               ]
+            },
+            "IB" : {
+               "anim" : [
+                  "NMRGNGIB_0.png",
+                  "NMRGNGIB_1.png",
+                  "NMRGNGIB_2.png",
+                  "NMRGNGIB_3.png",
+                  "NMRGNGIB_4.png",
+                  "NMRGNGIB_5.png"
+               ],
+               "anim-packed" : "NMRGNGIB.png",
+               "static" : [
+                  "NMRGNGIB.static.png"
+               ]
+            },
+            "JB" : {
+               "anim" : [
+                  "NMRGNGJB_0.png",
+                  "NMRGNGJB_1.png",
+                  "NMRGNGJB_2.png",
+                  "NMRGNGJB_3.png",
+                  "NMRGNGJB_4.png",
+                  "NMRGNGJB_5.png"
+               ],
+               "anim-packed" : "NMRGNGJB.png",
+               "static" : [
+                  "NMRGNGJB.static.png"
+               ]
+            },
+            "KB" : {
+               "anim" : [
+                  "NMRGNGKB_0.png",
+                  "NMRGNGKB_1.png",
+                  "NMRGNGKB_2.png",
+                  "NMRGNGKB_3.png",
+                  "NMRGNGKB_4.png",
+                  "NMRGNGKB_5.png"
+               ],
+               "anim-packed" : "NMRGNGKB.png",
+               "static" : [
+                  "NMRGNGKB.static.png"
                ]
             }
          },
