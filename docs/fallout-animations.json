@@ -976,6 +976,55 @@
             "MI" : "HMBJMPMI.FRM",
             "MJ" : "HMBJMPMJ.FRM"
          },
+         "Male_BlackFarmer_GrayShirt" : {
+            "AA" : "NMBGRYAA.FRM",
+            "AB" : "NMBGRYAB.FRM",
+            "AK" : "NMBGRYAK.FRM",
+            "AL" : "NMBGRYAL.FRM",
+            "AN" : "NMBGRYAN.FRM",
+            "AO" : "NMBGRYAO.FRM",
+            "AP" : "NMBGRYAP.FRM",
+            "AQ" : "NMBGRYAQ.FRM",
+            "AS" : "NMBGRYAS.FRM",
+            "AT" : "NMBGRYAT.FRM",
+            "BA" : "NMBGRYBA.FRM",
+            "BB" : "NMBGRYBB.FRM",
+            "BD" : "NMBGRYBD.FRM",
+            "BF" : "NMBGRYBF.FRM",
+            "BG" : "NMBGRYBG.FRM",
+            "BI" : "NMBGRYBI.FRM",
+            "BL" : "NMBGRYBL.FRM",
+            "BM" : "NMBGRYBM.FRM",
+            "BO" : "NMBGRYBO.FRM",
+            "BP" : "NMBGRYBP.FRM",
+            "CH" : "NMBGRYCH.FRM",
+            "CJ" : "NMBGRYCJ.FRM",
+            "DA" : "NMBGRYDA.FRM",
+            "DB" : "NMBGRYDB.FRM",
+            "DC" : "NMBGRYDC.FRM",
+            "DD" : "NMBGRYDD.FRM",
+            "DE" : "NMBGRYDE.FRM",
+            "DF" : "NMBGRYDF.FRM",
+            "DG" : "NMBGRYDG.FRM",
+            "DM" : "NMBGRYDM.FRM",
+            "FA" : "NMBGRYFA.FRM",
+            "FB" : "NMBGRYFB.FRM",
+            "FC" : "NMBGRYFC.FRM",
+            "FD" : "NMBGRYFD.FRM",
+            "FE" : "NMBGRYFE.FRM",
+            "FF" : "NMBGRYFF.FRM",
+            "FG" : "NMBGRYFG.FRM",
+            "RA" : "NMBGRYRA.FRM",
+            "RB" : "NMBGRYRB.FRM",
+            "RD" : "NMBGRYRD.FRM",
+            "RF" : "NMBGRYRF.FRM",
+            "RG" : "NMBGRYRG.FRM",
+            "RI" : "NMBGRYRI.FRM",
+            "RL" : "NMBGRYRL.FRM",
+            "RM" : "NMBGRYRM.FRM",
+            "RO" : "NMBGRYRO.FRM",
+            "RP" : "NMBGRYRP.FRM"
+         },
          "Male_BrownPants_LeatherArmor" : {
             "AS" : "nmlthrAS.FRM",
             "DA" : "nmlthrDA.FRM",
@@ -1000,6 +1049,36 @@
             "FE" : "nmlthrFE.FRM",
             "FF" : "nmlthrFF.FRM",
             "FG" : "nmlthrFG.FRM"
+         },
+         "Male_Loser_GrayShirt" : {
+            "AA" : "NMLGRYAA.FRM",
+            "AB" : "NMLGRYAB.FRM",
+            "AN" : "NMLGRYAN.FRM",
+            "AO" : "NMLGRYAO.FRM",
+            "AP" : "NMLGRYAP.FRM",
+            "AQ" : "NMLGRYAQ.FRM",
+            "BA" : "NMLGRYBA.FRM",
+            "BB" : "NMLGRYBB.FRM",
+            "BD" : "NMLGRYBD.FRM",
+            "BF" : "NMLGRYBF.FRM",
+            "BG" : "NMLGRYBG.FRM",
+            "BI" : "NMLGRYBI.FRM",
+            "BL" : "NMLGRYBL.FRM",
+            "BM" : "NMLGRYBM.FRM",
+            "BO" : "NMLGRYBO.FRM",
+            "BP" : "NMLGRYBP.FRM",
+            "CH" : "NMLGRYCH.FRM",
+            "CJ" : "NMLGRYCJ.FRM",
+            "RA" : "NMLGRYRA.FRM",
+            "RB" : "NMLGRYRB.FRM",
+            "RD" : "NMLGRYRD.FRM",
+            "RF" : "NMLGRYRF.FRM",
+            "RG" : "NMLGRYRG.FRM",
+            "RI" : "NMLGRYRI.FRM",
+            "RL" : "NMLGRYRL.FRM",
+            "RM" : "NMLGRYRM.FRM",
+            "RO" : "NMLGRYRO.FRM",
+            "RP" : "NMLGRYRP.FRM"
          },
          "Male_Sonora_Bandit" : {
             "AA" : "hatmanaa.FRM",
@@ -10431,6 +10510,666 @@
                ]
             }
          },
+         "Male_BlackFarmer_GrayShirt" : {
+            "AA" : {
+               "anim" : [
+                  "NMBGRYAA_0.png",
+                  "NMBGRYAA_1.png",
+                  "NMBGRYAA_2.png",
+                  "NMBGRYAA_3.png",
+                  "NMBGRYAA_4.png",
+                  "NMBGRYAA_5.png"
+               ],
+               "anim-packed" : "NMBGRYAA.png",
+               "static" : [
+                  "NMBGRYAA.static.png"
+               ]
+            },
+            "AB" : {
+               "anim" : [
+                  "NMBGRYAB_0.png",
+                  "NMBGRYAB_1.png",
+                  "NMBGRYAB_2.png",
+                  "NMBGRYAB_3.png",
+                  "NMBGRYAB_4.png",
+                  "NMBGRYAB_5.png"
+               ],
+               "anim-packed" : "NMBGRYAB.png",
+               "static" : [
+                  "NMBGRYAB.static.png"
+               ]
+            },
+            "AK" : {
+               "anim" : [
+                  "NMBGRYAK_0.png",
+                  "NMBGRYAK_1.png",
+                  "NMBGRYAK_2.png",
+                  "NMBGRYAK_3.png",
+                  "NMBGRYAK_4.png",
+                  "NMBGRYAK_5.png"
+               ],
+               "anim-packed" : "NMBGRYAK.png",
+               "static" : [
+                  "NMBGRYAK.static.png"
+               ]
+            },
+            "AL" : {
+               "anim" : [
+                  "NMBGRYAL_0.png",
+                  "NMBGRYAL_1.png",
+                  "NMBGRYAL_2.png",
+                  "NMBGRYAL_3.png",
+                  "NMBGRYAL_4.png",
+                  "NMBGRYAL_5.png"
+               ],
+               "anim-packed" : "NMBGRYAL.png",
+               "static" : [
+                  "NMBGRYAL.static.png"
+               ]
+            },
+            "AN" : {
+               "anim" : [
+                  "NMBGRYAN_0.png",
+                  "NMBGRYAN_1.png",
+                  "NMBGRYAN_2.png",
+                  "NMBGRYAN_3.png",
+                  "NMBGRYAN_4.png",
+                  "NMBGRYAN_5.png"
+               ],
+               "anim-packed" : "NMBGRYAN.png",
+               "static" : [
+                  "NMBGRYAN.static.png"
+               ]
+            },
+            "AO" : {
+               "anim" : [
+                  "NMBGRYAO_0.png",
+                  "NMBGRYAO_1.png",
+                  "NMBGRYAO_2.png",
+                  "NMBGRYAO_3.png",
+                  "NMBGRYAO_4.png",
+                  "NMBGRYAO_5.png"
+               ],
+               "anim-packed" : "NMBGRYAO.png",
+               "static" : [
+                  "NMBGRYAO.static.png"
+               ]
+            },
+            "AP" : {
+               "anim" : [
+                  "NMBGRYAP_0.png",
+                  "NMBGRYAP_1.png",
+                  "NMBGRYAP_2.png",
+                  "NMBGRYAP_3.png",
+                  "NMBGRYAP_4.png",
+                  "NMBGRYAP_5.png"
+               ],
+               "anim-packed" : "NMBGRYAP.png",
+               "static" : [
+                  "NMBGRYAP.static.png"
+               ]
+            },
+            "AQ" : {
+               "anim" : [
+                  "NMBGRYAQ_0.png",
+                  "NMBGRYAQ_1.png",
+                  "NMBGRYAQ_2.png",
+                  "NMBGRYAQ_3.png",
+                  "NMBGRYAQ_4.png",
+                  "NMBGRYAQ_5.png"
+               ],
+               "anim-packed" : "NMBGRYAQ.png",
+               "static" : [
+                  "NMBGRYAQ.static.png"
+               ]
+            },
+            "AS" : {
+               "anim" : [
+                  "NMBGRYAS_0.png",
+                  "NMBGRYAS_1.png",
+                  "NMBGRYAS_2.png",
+                  "NMBGRYAS_3.png",
+                  "NMBGRYAS_4.png",
+                  "NMBGRYAS_5.png"
+               ],
+               "anim-packed" : "NMBGRYAS.png",
+               "static" : [
+                  "NMBGRYAS.static.png"
+               ]
+            },
+            "AT" : {
+               "anim" : [
+                  "NMBGRYAT_0.png",
+                  "NMBGRYAT_1.png",
+                  "NMBGRYAT_2.png",
+                  "NMBGRYAT_3.png",
+                  "NMBGRYAT_4.png",
+                  "NMBGRYAT_5.png"
+               ],
+               "anim-packed" : "NMBGRYAT.png",
+               "static" : [
+                  "NMBGRYAT.static.png"
+               ]
+            },
+            "BA" : {
+               "anim" : [
+                  "NMBGRYBA_0.png",
+                  "NMBGRYBA_1.png",
+                  "NMBGRYBA_2.png",
+                  "NMBGRYBA_3.png",
+                  "NMBGRYBA_4.png",
+                  "NMBGRYBA_5.png"
+               ],
+               "anim-packed" : "NMBGRYBA.png",
+               "static" : [
+                  "NMBGRYBA.static.png"
+               ]
+            },
+            "BB" : {
+               "anim" : [
+                  "NMBGRYBB_0.png",
+                  "NMBGRYBB_1.png",
+                  "NMBGRYBB_2.png",
+                  "NMBGRYBB_3.png",
+                  "NMBGRYBB_4.png",
+                  "NMBGRYBB_5.png"
+               ],
+               "anim-packed" : "NMBGRYBB.png",
+               "static" : [
+                  "NMBGRYBB.static.png"
+               ]
+            },
+            "BD" : {
+               "anim" : [
+                  "NMBGRYBD_0.png",
+                  "NMBGRYBD_1.png",
+                  "NMBGRYBD_2.png",
+                  "NMBGRYBD_3.png",
+                  "NMBGRYBD_4.png",
+                  "NMBGRYBD_5.png"
+               ],
+               "anim-packed" : "NMBGRYBD.png",
+               "static" : [
+                  "NMBGRYBD.static.png"
+               ]
+            },
+            "BF" : {
+               "anim" : [
+                  "NMBGRYBF_0.png",
+                  "NMBGRYBF_1.png",
+                  "NMBGRYBF_2.png",
+                  "NMBGRYBF_3.png",
+                  "NMBGRYBF_4.png",
+                  "NMBGRYBF_5.png"
+               ],
+               "anim-packed" : "NMBGRYBF.png",
+               "static" : [
+                  "NMBGRYBF.static.png"
+               ]
+            },
+            "BG" : {
+               "anim" : [
+                  "NMBGRYBG_0.png",
+                  "NMBGRYBG_1.png",
+                  "NMBGRYBG_2.png",
+                  "NMBGRYBG_3.png",
+                  "NMBGRYBG_4.png",
+                  "NMBGRYBG_5.png"
+               ],
+               "anim-packed" : "NMBGRYBG.png",
+               "static" : [
+                  "NMBGRYBG.static.png"
+               ]
+            },
+            "BI" : {
+               "anim" : [
+                  "NMBGRYBI_0.png",
+                  "NMBGRYBI_1.png",
+                  "NMBGRYBI_2.png",
+                  "NMBGRYBI_3.png",
+                  "NMBGRYBI_4.png",
+                  "NMBGRYBI_5.png"
+               ],
+               "anim-packed" : "NMBGRYBI.png",
+               "static" : [
+                  "NMBGRYBI.static.png"
+               ]
+            },
+            "BL" : {
+               "anim" : [
+                  "NMBGRYBL_0.png",
+                  "NMBGRYBL_1.png",
+                  "NMBGRYBL_2.png",
+                  "NMBGRYBL_3.png",
+                  "NMBGRYBL_4.png",
+                  "NMBGRYBL_5.png"
+               ],
+               "anim-packed" : "NMBGRYBL.png",
+               "static" : [
+                  "NMBGRYBL.static.png"
+               ]
+            },
+            "BM" : {
+               "anim" : [
+                  "NMBGRYBM_0.png",
+                  "NMBGRYBM_1.png",
+                  "NMBGRYBM_2.png",
+                  "NMBGRYBM_3.png",
+                  "NMBGRYBM_4.png",
+                  "NMBGRYBM_5.png"
+               ],
+               "anim-packed" : "NMBGRYBM.png",
+               "static" : [
+                  "NMBGRYBM.static.png"
+               ]
+            },
+            "BO" : {
+               "anim" : [
+                  "NMBGRYBO_0.png",
+                  "NMBGRYBO_1.png",
+                  "NMBGRYBO_2.png",
+                  "NMBGRYBO_3.png",
+                  "NMBGRYBO_4.png",
+                  "NMBGRYBO_5.png"
+               ],
+               "anim-packed" : "NMBGRYBO.png",
+               "static" : [
+                  "NMBGRYBO.static.png"
+               ]
+            },
+            "BP" : {
+               "anim" : [
+                  "NMBGRYBP_0.png",
+                  "NMBGRYBP_1.png",
+                  "NMBGRYBP_2.png",
+                  "NMBGRYBP_3.png",
+                  "NMBGRYBP_4.png",
+                  "NMBGRYBP_5.png"
+               ],
+               "anim-packed" : "NMBGRYBP.png",
+               "static" : [
+                  "NMBGRYBP.static.png"
+               ]
+            },
+            "CH" : {
+               "anim" : [
+                  "NMBGRYCH_0.png",
+                  "NMBGRYCH_1.png",
+                  "NMBGRYCH_2.png",
+                  "NMBGRYCH_3.png",
+                  "NMBGRYCH_4.png",
+                  "NMBGRYCH_5.png"
+               ],
+               "anim-packed" : "NMBGRYCH.png",
+               "static" : [
+                  "NMBGRYCH.static.png"
+               ]
+            },
+            "CJ" : {
+               "anim" : [
+                  "NMBGRYCJ_0.png",
+                  "NMBGRYCJ_1.png",
+                  "NMBGRYCJ_2.png",
+                  "NMBGRYCJ_3.png",
+                  "NMBGRYCJ_4.png",
+                  "NMBGRYCJ_5.png"
+               ],
+               "anim-packed" : "NMBGRYCJ.png",
+               "static" : [
+                  "NMBGRYCJ.static.png"
+               ]
+            },
+            "DA" : {
+               "anim" : [
+                  "NMBGRYDA_0.png",
+                  "NMBGRYDA_1.png",
+                  "NMBGRYDA_2.png",
+                  "NMBGRYDA_3.png",
+                  "NMBGRYDA_4.png",
+                  "NMBGRYDA_5.png"
+               ],
+               "anim-packed" : "NMBGRYDA.png",
+               "static" : [
+                  "NMBGRYDA.static.png"
+               ]
+            },
+            "DB" : {
+               "anim" : [
+                  "NMBGRYDB_0.png",
+                  "NMBGRYDB_1.png",
+                  "NMBGRYDB_2.png",
+                  "NMBGRYDB_3.png",
+                  "NMBGRYDB_4.png",
+                  "NMBGRYDB_5.png"
+               ],
+               "anim-packed" : "NMBGRYDB.png",
+               "static" : [
+                  "NMBGRYDB.static.png"
+               ]
+            },
+            "DC" : {
+               "anim" : [
+                  "NMBGRYDC_0.png",
+                  "NMBGRYDC_1.png",
+                  "NMBGRYDC_2.png",
+                  "NMBGRYDC_3.png",
+                  "NMBGRYDC_4.png",
+                  "NMBGRYDC_5.png"
+               ],
+               "anim-packed" : "NMBGRYDC.png",
+               "static" : [
+                  "NMBGRYDC.static.png"
+               ]
+            },
+            "DD" : {
+               "anim" : [
+                  "NMBGRYDD_0.png",
+                  "NMBGRYDD_1.png",
+                  "NMBGRYDD_2.png",
+                  "NMBGRYDD_3.png",
+                  "NMBGRYDD_4.png",
+                  "NMBGRYDD_5.png"
+               ],
+               "anim-packed" : "NMBGRYDD.png",
+               "static" : [
+                  "NMBGRYDD.static.png"
+               ]
+            },
+            "DE" : {
+               "anim" : [
+                  "NMBGRYDE_0.png",
+                  "NMBGRYDE_1.png",
+                  "NMBGRYDE_2.png",
+                  "NMBGRYDE_3.png",
+                  "NMBGRYDE_4.png",
+                  "NMBGRYDE_5.png"
+               ],
+               "anim-packed" : "NMBGRYDE.png",
+               "static" : [
+                  "NMBGRYDE.static.png"
+               ]
+            },
+            "DF" : {
+               "anim" : [
+                  "NMBGRYDF_0.png",
+                  "NMBGRYDF_1.png",
+                  "NMBGRYDF_2.png",
+                  "NMBGRYDF_3.png",
+                  "NMBGRYDF_4.png",
+                  "NMBGRYDF_5.png"
+               ],
+               "anim-packed" : "NMBGRYDF.png",
+               "static" : [
+                  "NMBGRYDF.static.png"
+               ]
+            },
+            "DG" : {
+               "anim" : [
+                  "NMBGRYDG_0.png",
+                  "NMBGRYDG_1.png",
+                  "NMBGRYDG_2.png",
+                  "NMBGRYDG_3.png",
+                  "NMBGRYDG_4.png",
+                  "NMBGRYDG_5.png"
+               ],
+               "anim-packed" : "NMBGRYDG.png",
+               "static" : [
+                  "NMBGRYDG.static.png"
+               ]
+            },
+            "DM" : {
+               "anim" : [
+                  "NMBGRYDM_0.png",
+                  "NMBGRYDM_1.png",
+                  "NMBGRYDM_2.png",
+                  "NMBGRYDM_3.png",
+                  "NMBGRYDM_4.png",
+                  "NMBGRYDM_5.png"
+               ],
+               "anim-packed" : "NMBGRYDM.png",
+               "static" : [
+                  "NMBGRYDM.static.png"
+               ]
+            },
+            "FA" : {
+               "anim" : [
+                  "NMBGRYFA_0.png",
+                  "NMBGRYFA_1.png",
+                  "NMBGRYFA_2.png",
+                  "NMBGRYFA_3.png",
+                  "NMBGRYFA_4.png",
+                  "NMBGRYFA_5.png"
+               ],
+               "anim-packed" : "NMBGRYFA.png",
+               "static" : [
+                  "NMBGRYFA.static.png"
+               ]
+            },
+            "FB" : {
+               "anim" : [
+                  "NMBGRYFB_0.png",
+                  "NMBGRYFB_1.png",
+                  "NMBGRYFB_2.png",
+                  "NMBGRYFB_3.png",
+                  "NMBGRYFB_4.png",
+                  "NMBGRYFB_5.png"
+               ],
+               "anim-packed" : "NMBGRYFB.png",
+               "static" : [
+                  "NMBGRYFB.static.png"
+               ]
+            },
+            "FC" : {
+               "anim" : [
+                  "NMBGRYFC_0.png",
+                  "NMBGRYFC_1.png",
+                  "NMBGRYFC_2.png",
+                  "NMBGRYFC_3.png",
+                  "NMBGRYFC_4.png",
+                  "NMBGRYFC_5.png"
+               ],
+               "anim-packed" : "NMBGRYFC.png",
+               "static" : [
+                  "NMBGRYFC.static.png"
+               ]
+            },
+            "FD" : {
+               "anim" : [
+                  "NMBGRYFD_0.png",
+                  "NMBGRYFD_1.png",
+                  "NMBGRYFD_2.png",
+                  "NMBGRYFD_3.png",
+                  "NMBGRYFD_4.png",
+                  "NMBGRYFD_5.png"
+               ],
+               "anim-packed" : "NMBGRYFD.png",
+               "static" : [
+                  "NMBGRYFD.static.png"
+               ]
+            },
+            "FE" : {
+               "anim" : [
+                  "NMBGRYFE_0.png",
+                  "NMBGRYFE_1.png",
+                  "NMBGRYFE_2.png",
+                  "NMBGRYFE_3.png",
+                  "NMBGRYFE_4.png",
+                  "NMBGRYFE_5.png"
+               ],
+               "anim-packed" : "NMBGRYFE.png",
+               "static" : [
+                  "NMBGRYFE.static.png"
+               ]
+            },
+            "FF" : {
+               "anim" : [
+                  "NMBGRYFF_0.png",
+                  "NMBGRYFF_1.png",
+                  "NMBGRYFF_2.png",
+                  "NMBGRYFF_3.png",
+                  "NMBGRYFF_4.png",
+                  "NMBGRYFF_5.png"
+               ],
+               "anim-packed" : "NMBGRYFF.png",
+               "static" : [
+                  "NMBGRYFF.static.png"
+               ]
+            },
+            "FG" : {
+               "anim" : [
+                  "NMBGRYFG_0.png",
+                  "NMBGRYFG_1.png",
+                  "NMBGRYFG_2.png",
+                  "NMBGRYFG_3.png",
+                  "NMBGRYFG_4.png",
+                  "NMBGRYFG_5.png"
+               ],
+               "anim-packed" : "NMBGRYFG.png",
+               "static" : [
+                  "NMBGRYFG.static.png"
+               ]
+            },
+            "RA" : {
+               "anim" : [
+                  "NMBGRYRA_0.png",
+                  "NMBGRYRA_1.png",
+                  "NMBGRYRA_2.png",
+                  "NMBGRYRA_3.png",
+                  "NMBGRYRA_4.png",
+                  "NMBGRYRA_5.png"
+               ],
+               "anim-packed" : "NMBGRYRA.png",
+               "static" : [
+                  "NMBGRYRA.static.png"
+               ]
+            },
+            "RB" : {
+               "anim" : [
+                  "NMBGRYRB_0.png",
+                  "NMBGRYRB_1.png",
+                  "NMBGRYRB_2.png",
+                  "NMBGRYRB_3.png",
+                  "NMBGRYRB_4.png",
+                  "NMBGRYRB_5.png"
+               ],
+               "anim-packed" : "NMBGRYRB.png",
+               "static" : [
+                  "NMBGRYRB.static.png"
+               ]
+            },
+            "RD" : {
+               "anim" : [
+                  "NMBGRYRD_0.png",
+                  "NMBGRYRD_1.png",
+                  "NMBGRYRD_2.png",
+                  "NMBGRYRD_3.png",
+                  "NMBGRYRD_4.png",
+                  "NMBGRYRD_5.png"
+               ],
+               "anim-packed" : "NMBGRYRD.png",
+               "static" : [
+                  "NMBGRYRD.static.png"
+               ]
+            },
+            "RF" : {
+               "anim" : [
+                  "NMBGRYRF_0.png",
+                  "NMBGRYRF_1.png",
+                  "NMBGRYRF_2.png",
+                  "NMBGRYRF_3.png",
+                  "NMBGRYRF_4.png",
+                  "NMBGRYRF_5.png"
+               ],
+               "anim-packed" : "NMBGRYRF.png",
+               "static" : [
+                  "NMBGRYRF.static.png"
+               ]
+            },
+            "RG" : {
+               "anim" : [
+                  "NMBGRYRG_0.png",
+                  "NMBGRYRG_1.png",
+                  "NMBGRYRG_2.png",
+                  "NMBGRYRG_3.png",
+                  "NMBGRYRG_4.png",
+                  "NMBGRYRG_5.png"
+               ],
+               "anim-packed" : "NMBGRYRG.png",
+               "static" : [
+                  "NMBGRYRG.static.png"
+               ]
+            },
+            "RI" : {
+               "anim" : [
+                  "NMBGRYRI_0.png",
+                  "NMBGRYRI_1.png",
+                  "NMBGRYRI_2.png",
+                  "NMBGRYRI_3.png",
+                  "NMBGRYRI_4.png",
+                  "NMBGRYRI_5.png"
+               ],
+               "anim-packed" : "NMBGRYRI.png",
+               "static" : [
+                  "NMBGRYRI.static.png"
+               ]
+            },
+            "RL" : {
+               "anim" : [
+                  "NMBGRYRL_0.png",
+                  "NMBGRYRL_1.png",
+                  "NMBGRYRL_2.png",
+                  "NMBGRYRL_3.png",
+                  "NMBGRYRL_4.png",
+                  "NMBGRYRL_5.png"
+               ],
+               "anim-packed" : "NMBGRYRL.png",
+               "static" : [
+                  "NMBGRYRL.static.png"
+               ]
+            },
+            "RM" : {
+               "anim" : [
+                  "NMBGRYRM_0.png",
+                  "NMBGRYRM_1.png",
+                  "NMBGRYRM_2.png",
+                  "NMBGRYRM_3.png",
+                  "NMBGRYRM_4.png",
+                  "NMBGRYRM_5.png"
+               ],
+               "anim-packed" : "NMBGRYRM.png",
+               "static" : [
+                  "NMBGRYRM.static.png"
+               ]
+            },
+            "RO" : {
+               "anim" : [
+                  "NMBGRYRO_0.png",
+                  "NMBGRYRO_1.png",
+                  "NMBGRYRO_2.png",
+                  "NMBGRYRO_3.png",
+                  "NMBGRYRO_4.png",
+                  "NMBGRYRO_5.png"
+               ],
+               "anim-packed" : "NMBGRYRO.png",
+               "static" : [
+                  "NMBGRYRO.static.png"
+               ]
+            },
+            "RP" : {
+               "anim" : [
+                  "NMBGRYRP_0.png",
+                  "NMBGRYRP_1.png",
+                  "NMBGRYRP_2.png",
+                  "NMBGRYRP_3.png",
+                  "NMBGRYRP_4.png",
+                  "NMBGRYRP_5.png"
+               ],
+               "anim-packed" : "NMBGRYRP.png",
+               "static" : [
+                  "NMBGRYRP.static.png"
+               ]
+            }
+         },
          "Male_BrownPants_LeatherArmor" : {
             "AS" : {
                "anim" : [
@@ -10752,6 +11491,400 @@
                "anim-packed" : "NMLTHRFG.png",
                "static" : [
                   "NMLTHRFG.static.png"
+               ]
+            }
+         },
+         "Male_Loser_GrayShirt" : {
+            "AA" : {
+               "anim" : [
+                  "NMLGRYAA_0.png",
+                  "NMLGRYAA_1.png",
+                  "NMLGRYAA_2.png",
+                  "NMLGRYAA_3.png",
+                  "NMLGRYAA_4.png",
+                  "NMLGRYAA_5.png"
+               ],
+               "anim-packed" : "NMLGRYAA.png",
+               "static" : [
+                  "NMLGRYAA.static.png"
+               ]
+            },
+            "AB" : {
+               "anim" : [
+                  "NMLGRYAB_0.png",
+                  "NMLGRYAB_1.png",
+                  "NMLGRYAB_2.png",
+                  "NMLGRYAB_3.png",
+                  "NMLGRYAB_4.png",
+                  "NMLGRYAB_5.png"
+               ],
+               "anim-packed" : "NMLGRYAB.png",
+               "static" : [
+                  "NMLGRYAB.static.png"
+               ]
+            },
+            "AN" : {
+               "anim" : [
+                  "NMLGRYAN_0.png",
+                  "NMLGRYAN_1.png",
+                  "NMLGRYAN_2.png",
+                  "NMLGRYAN_3.png",
+                  "NMLGRYAN_4.png",
+                  "NMLGRYAN_5.png"
+               ],
+               "anim-packed" : "NMLGRYAN.png",
+               "static" : [
+                  "NMLGRYAN.static.png"
+               ]
+            },
+            "AO" : {
+               "anim" : [
+                  "NMLGRYAO_0.png",
+                  "NMLGRYAO_1.png",
+                  "NMLGRYAO_2.png",
+                  "NMLGRYAO_3.png",
+                  "NMLGRYAO_4.png",
+                  "NMLGRYAO_5.png"
+               ],
+               "anim-packed" : "NMLGRYAO.png",
+               "static" : [
+                  "NMLGRYAO.static.png"
+               ]
+            },
+            "AP" : {
+               "anim" : [
+                  "NMLGRYAP_0.png",
+                  "NMLGRYAP_1.png",
+                  "NMLGRYAP_2.png",
+                  "NMLGRYAP_3.png",
+                  "NMLGRYAP_4.png",
+                  "NMLGRYAP_5.png"
+               ],
+               "anim-packed" : "NMLGRYAP.png",
+               "static" : [
+                  "NMLGRYAP.static.png"
+               ]
+            },
+            "AQ" : {
+               "anim" : [
+                  "NMLGRYAQ_0.png",
+                  "NMLGRYAQ_1.png",
+                  "NMLGRYAQ_2.png",
+                  "NMLGRYAQ_3.png",
+                  "NMLGRYAQ_4.png",
+                  "NMLGRYAQ_5.png"
+               ],
+               "anim-packed" : "NMLGRYAQ.png",
+               "static" : [
+                  "NMLGRYAQ.static.png"
+               ]
+            },
+            "BA" : {
+               "anim" : [
+                  "NMLGRYBA_0.png",
+                  "NMLGRYBA_1.png",
+                  "NMLGRYBA_2.png",
+                  "NMLGRYBA_3.png",
+                  "NMLGRYBA_4.png",
+                  "NMLGRYBA_5.png"
+               ],
+               "anim-packed" : "NMLGRYBA.png",
+               "static" : [
+                  "NMLGRYBA.static.png"
+               ]
+            },
+            "BB" : {
+               "anim" : [
+                  "NMLGRYBB_0.png",
+                  "NMLGRYBB_1.png",
+                  "NMLGRYBB_2.png",
+                  "NMLGRYBB_3.png",
+                  "NMLGRYBB_4.png",
+                  "NMLGRYBB_5.png"
+               ],
+               "anim-packed" : "NMLGRYBB.png",
+               "static" : [
+                  "NMLGRYBB.static.png"
+               ]
+            },
+            "BD" : {
+               "anim" : [
+                  "NMLGRYBD_0.png",
+                  "NMLGRYBD_1.png",
+                  "NMLGRYBD_2.png",
+                  "NMLGRYBD_3.png",
+                  "NMLGRYBD_4.png",
+                  "NMLGRYBD_5.png"
+               ],
+               "anim-packed" : "NMLGRYBD.png",
+               "static" : [
+                  "NMLGRYBD.static.png"
+               ]
+            },
+            "BF" : {
+               "anim" : [
+                  "NMLGRYBF_0.png",
+                  "NMLGRYBF_1.png",
+                  "NMLGRYBF_2.png",
+                  "NMLGRYBF_3.png",
+                  "NMLGRYBF_4.png",
+                  "NMLGRYBF_5.png"
+               ],
+               "anim-packed" : "NMLGRYBF.png",
+               "static" : [
+                  "NMLGRYBF.static.png"
+               ]
+            },
+            "BG" : {
+               "anim" : [
+                  "NMLGRYBG_0.png",
+                  "NMLGRYBG_1.png",
+                  "NMLGRYBG_2.png",
+                  "NMLGRYBG_3.png",
+                  "NMLGRYBG_4.png",
+                  "NMLGRYBG_5.png"
+               ],
+               "anim-packed" : "NMLGRYBG.png",
+               "static" : [
+                  "NMLGRYBG.static.png"
+               ]
+            },
+            "BI" : {
+               "anim" : [
+                  "NMLGRYBI_0.png",
+                  "NMLGRYBI_1.png",
+                  "NMLGRYBI_2.png",
+                  "NMLGRYBI_3.png",
+                  "NMLGRYBI_4.png",
+                  "NMLGRYBI_5.png"
+               ],
+               "anim-packed" : "NMLGRYBI.png",
+               "static" : [
+                  "NMLGRYBI.static.png"
+               ]
+            },
+            "BL" : {
+               "anim" : [
+                  "NMLGRYBL_0.png",
+                  "NMLGRYBL_1.png",
+                  "NMLGRYBL_2.png",
+                  "NMLGRYBL_3.png",
+                  "NMLGRYBL_4.png",
+                  "NMLGRYBL_5.png"
+               ],
+               "anim-packed" : "NMLGRYBL.png",
+               "static" : [
+                  "NMLGRYBL.static.png"
+               ]
+            },
+            "BM" : {
+               "anim" : [
+                  "NMLGRYBM_0.png",
+                  "NMLGRYBM_1.png",
+                  "NMLGRYBM_2.png",
+                  "NMLGRYBM_3.png",
+                  "NMLGRYBM_4.png",
+                  "NMLGRYBM_5.png"
+               ],
+               "anim-packed" : "NMLGRYBM.png",
+               "static" : [
+                  "NMLGRYBM.static.png"
+               ]
+            },
+            "BO" : {
+               "anim" : [
+                  "NMLGRYBO_0.png",
+                  "NMLGRYBO_1.png",
+                  "NMLGRYBO_2.png",
+                  "NMLGRYBO_3.png",
+                  "NMLGRYBO_4.png",
+                  "NMLGRYBO_5.png"
+               ],
+               "anim-packed" : "NMLGRYBO.png",
+               "static" : [
+                  "NMLGRYBO.static.png"
+               ]
+            },
+            "BP" : {
+               "anim" : [
+                  "NMLGRYBP_0.png",
+                  "NMLGRYBP_1.png",
+                  "NMLGRYBP_2.png",
+                  "NMLGRYBP_3.png",
+                  "NMLGRYBP_4.png",
+                  "NMLGRYBP_5.png"
+               ],
+               "anim-packed" : "NMLGRYBP.png",
+               "static" : [
+                  "NMLGRYBP.static.png"
+               ]
+            },
+            "CH" : {
+               "anim" : [
+                  "NMLGRYCH_0.png",
+                  "NMLGRYCH_1.png",
+                  "NMLGRYCH_2.png",
+                  "NMLGRYCH_3.png",
+                  "NMLGRYCH_4.png",
+                  "NMLGRYCH_5.png"
+               ],
+               "anim-packed" : "NMLGRYCH.png",
+               "static" : [
+                  "NMLGRYCH.static.png"
+               ]
+            },
+            "CJ" : {
+               "anim" : [
+                  "NMLGRYCJ_0.png",
+                  "NMLGRYCJ_1.png",
+                  "NMLGRYCJ_2.png",
+                  "NMLGRYCJ_3.png",
+                  "NMLGRYCJ_4.png",
+                  "NMLGRYCJ_5.png"
+               ],
+               "anim-packed" : "NMLGRYCJ.png",
+               "static" : [
+                  "NMLGRYCJ.static.png"
+               ]
+            },
+            "RA" : {
+               "anim" : [
+                  "NMLGRYRA_0.png",
+                  "NMLGRYRA_1.png",
+                  "NMLGRYRA_2.png",
+                  "NMLGRYRA_3.png",
+                  "NMLGRYRA_4.png",
+                  "NMLGRYRA_5.png"
+               ],
+               "anim-packed" : "NMLGRYRA.png",
+               "static" : [
+                  "NMLGRYRA.static.png"
+               ]
+            },
+            "RB" : {
+               "anim" : [
+                  "NMLGRYRB_0.png",
+                  "NMLGRYRB_1.png",
+                  "NMLGRYRB_2.png",
+                  "NMLGRYRB_3.png",
+                  "NMLGRYRB_4.png",
+                  "NMLGRYRB_5.png"
+               ],
+               "anim-packed" : "NMLGRYRB.png",
+               "static" : [
+                  "NMLGRYRB.static.png"
+               ]
+            },
+            "RD" : {
+               "anim" : [
+                  "NMLGRYRD_0.png",
+                  "NMLGRYRD_1.png",
+                  "NMLGRYRD_2.png",
+                  "NMLGRYRD_3.png",
+                  "NMLGRYRD_4.png",
+                  "NMLGRYRD_5.png"
+               ],
+               "anim-packed" : "NMLGRYRD.png",
+               "static" : [
+                  "NMLGRYRD.static.png"
+               ]
+            },
+            "RF" : {
+               "anim" : [
+                  "NMLGRYRF_0.png",
+                  "NMLGRYRF_1.png",
+                  "NMLGRYRF_2.png",
+                  "NMLGRYRF_3.png",
+                  "NMLGRYRF_4.png",
+                  "NMLGRYRF_5.png"
+               ],
+               "anim-packed" : "NMLGRYRF.png",
+               "static" : [
+                  "NMLGRYRF.static.png"
+               ]
+            },
+            "RG" : {
+               "anim" : [
+                  "NMLGRYRG_0.png",
+                  "NMLGRYRG_1.png",
+                  "NMLGRYRG_2.png",
+                  "NMLGRYRG_3.png",
+                  "NMLGRYRG_4.png",
+                  "NMLGRYRG_5.png"
+               ],
+               "anim-packed" : "NMLGRYRG.png",
+               "static" : [
+                  "NMLGRYRG.static.png"
+               ]
+            },
+            "RI" : {
+               "anim" : [
+                  "NMLGRYRI_0.png",
+                  "NMLGRYRI_1.png",
+                  "NMLGRYRI_2.png",
+                  "NMLGRYRI_3.png",
+                  "NMLGRYRI_4.png",
+                  "NMLGRYRI_5.png"
+               ],
+               "anim-packed" : "NMLGRYRI.png",
+               "static" : [
+                  "NMLGRYRI.static.png"
+               ]
+            },
+            "RL" : {
+               "anim" : [
+                  "NMLGRYRL_0.png",
+                  "NMLGRYRL_1.png",
+                  "NMLGRYRL_2.png",
+                  "NMLGRYRL_3.png",
+                  "NMLGRYRL_4.png",
+                  "NMLGRYRL_5.png"
+               ],
+               "anim-packed" : "NMLGRYRL.png",
+               "static" : [
+                  "NMLGRYRL.static.png"
+               ]
+            },
+            "RM" : {
+               "anim" : [
+                  "NMLGRYRM_0.png",
+                  "NMLGRYRM_1.png",
+                  "NMLGRYRM_2.png",
+                  "NMLGRYRM_3.png",
+                  "NMLGRYRM_4.png",
+                  "NMLGRYRM_5.png"
+               ],
+               "anim-packed" : "NMLGRYRM.png",
+               "static" : [
+                  "NMLGRYRM.static.png"
+               ]
+            },
+            "RO" : {
+               "anim" : [
+                  "NMLGRYRO_0.png",
+                  "NMLGRYRO_1.png",
+                  "NMLGRYRO_2.png",
+                  "NMLGRYRO_3.png",
+                  "NMLGRYRO_4.png",
+                  "NMLGRYRO_5.png"
+               ],
+               "anim-packed" : "NMLGRYRO.png",
+               "static" : [
+                  "NMLGRYRO.static.png"
+               ]
+            },
+            "RP" : {
+               "anim" : [
+                  "NMLGRYRP_0.png",
+                  "NMLGRYRP_1.png",
+                  "NMLGRYRP_2.png",
+                  "NMLGRYRP_3.png",
+                  "NMLGRYRP_4.png",
+                  "NMLGRYRP_5.png"
+               ],
+               "anim-packed" : "NMLGRYRP.png",
+               "static" : [
+                  "NMLGRYRP.static.png"
                ]
             }
          },
