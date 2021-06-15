@@ -36,9 +36,14 @@ function png-name()
 
 function ignore-frm()
 {
-    frm="$1"
-    frm_base="$(basename "$frm")"
-    frm_anim=${frm_base:6:2}
+    local frm="$1"
+    local frm_base="$(basename "$frm")"
+    local frm_anim=
+    if [[ "${frm_base:0:1}" == "_" ]]; then
+       frm_anim=${frm_base:7:2}
+    else
+       frm_anim=${frm_base:6:2}
+    fi
     frm_anim=${frm_anim^^}
 
     if [[ $frm_anim == "NA" ]]; then

@@ -76,8 +76,11 @@ sub json_frm
 
         $dir =~ s![/]+$!!;
 
-        my $set  = substr( $file, 0, 6 );
-        my $anim = uc(substr( $file, 6, 2 ));
+        my $offset = 0;
+        $offset = 1 if( $file =~ /^_/ );
+
+        my $set = substr( $file, 0 + $offset, 6 );
+        my $anim = uc(substr( $file, 6 + $offset, 2 ));
 
         printf( "??? $frm\n" ) if( $anim !~ /^[A-R][A-Z]$/ );
 
@@ -121,14 +124,17 @@ sub json_png
         $dir =~ s!^docs/!!;
         $dir =~ s![/]+$!!;
 
-        my $set  = substr( $file, 0, 6 );
-        my $anim = uc(substr( $file, 6, 2 ));
+        my $offset = 0;
+        $offset = 1 if( $file =~ /^_/ );
 
-        if( $file =~ /^$set$anim\.png$/ )
+        my $set  = substr( $file, 0 + $offset, 6 );
+        my $anim = uc(substr( $file, 6 + $offset, 2 ));
+
+        if( $file =~ /^[_]?$set$anim\.png$/ )
         {
             $root{"$dir"}{"$anim"}{'anim-packed'} = $file;
         }
-        elsif( $file =~ /^$set$anim\_([0-5])\.png$/ )
+        elsif( $file =~ /^[_]?$set$anim\_([0-5])\.png$/ )
         {
             push( @{ $root{"$dir"}{"$anim"}{'anim'} }, $file );
         }

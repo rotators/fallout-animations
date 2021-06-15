@@ -35,12 +35,8 @@ jobs:
     with:
      token: ${{ secrets.ANTALASKAYA_TOKEN }}
 
-  - name: Info
-    run:  |
-          echo remote
-          git remote
-          echo get-url
-          git remote get-url origin || true
+  - name: Init
+    run:  mkdir -p docs && echo > docs/.nojekyll
 
   - name: frm2png
     run:  ./frm2png.sh
