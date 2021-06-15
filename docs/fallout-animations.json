@@ -8,6 +8,39 @@
          }
       },
       "frm" : {
+         "Female_Tribal_ExtraAnims" : {
+            "BD" : "HFPRIMBD.FRM",
+            "BF" : "HFPRIMBF.FRM",
+            "BG" : "HFPRIMBG.FRM",
+            "BI" : "HFPRIMBI.FRM",
+            "BL" : "HFPRIMBL.FRM",
+            "BM" : "HFPRIMBM.FRM",
+            "BO" : "HFPRIMBO.FRM",
+            "BP" : "HFPRIMBP.FRM",
+            "DA" : "HFPRIMDA.FRM",
+            "DB" : "HFPRIMDB.FRM",
+            "DC" : "HFPRIMDC.FRM",
+            "DD" : "HFPRIMDD.FRM",
+            "DE" : "HFPRIMDE.FRM",
+            "DF" : "HFPRIMDF.FRM",
+            "DG" : "HFPRIMDG.FRM",
+            "DM" : "HFPRIMDM.FRM",
+            "FA" : "HFPRIMFA.FRM",
+            "FB" : "HFPRIMFB.FRM",
+            "FC" : "HFPRIMFC.FRM",
+            "FD" : "HFPRIMFD.FRM",
+            "FE" : "HFPRIMFE.FRM",
+            "FF" : "HFPRIMFF.FRM",
+            "FG" : "HFPRIMFG.FRM",
+            "RD" : "HFPRIMRD.FRM",
+            "RF" : "HFPRIMRF.FRM",
+            "RG" : "HFPRIMRG.FRM",
+            "RI" : "HFPRIMRI.FRM",
+            "RL" : "HFPRIMRL.FRM",
+            "RM" : "HFPRIMRM.FRM",
+            "RO" : "HFPRIMRO.FRM",
+            "RP" : "HFPRIMRP.FRM"
+         },
          "Female_YellowPants_MetalArmor" : {
             "HA" : "NFMETLHA.FRM",
             "HB" : "NFMETLHB.FRM",
@@ -26,6 +59,74 @@
             "II" : "NFMETLII.FRM",
             "IJ" : "NFMETLIJ.FRM",
             "IK" : "NFMETLIK.FRM"
+         },
+         "Generic_Fo2_WalkFix" : {
+            "AB" : [
+               "MAROBTAB.FRM",
+               "NAVGULAB.FRM",
+               "NFASIAAB.FRM",
+               "NFLYNNAB.FRM",
+               "NFNICEAB.FRM",
+               "NMASIAAB.FRM",
+               "NMBOXXAB.FRM",
+               "NMBRSRAB.FRM",
+               "NMCOPPAB.FRM",
+               "NMFATTAB.FRM",
+               "NMLABBAB.FRM",
+               "NMMEXIAB.FRM",
+               "NMMYRNAB.FRM",
+               "NMNICEAB.FRM",
+               "NMOLDDAB.FRM",
+               "NMRGNGAB.FRM",
+               "nmboncAB.frm",
+               "nmgangAB.frm"
+            ],
+            "DB" : [
+               "NAVGULDB.FRM",
+               "NMFATTDB.FRM",
+               "NMGANGDB.FRM",
+               "NMMEXIDB.FRM",
+               "NMMYRNDB.FRM",
+               "NMRGNGDB.FRM"
+            ],
+            "EB" : "NMBOXXEB.FRM",
+            "HB" : [
+               "NAVGULHB.FRM",
+               "NMCOPPHB.FRM",
+               "NMFATTHB.FRM",
+               "NMGANGHB.FRM",
+               "NMLABBHB.FRM",
+               "NMMEXIHB.FRM",
+               "NMMYRNHB.FRM",
+               "NMNICEHB.FRM",
+               "NMOLDDHB.FRM",
+               "NMRGNGHB.FRM"
+            ],
+            "IB" : [
+               "NAVGULIB.FRM",
+               "NMCOPPIB.FRM",
+               "NMGANGIB.FRM",
+               "NMMEXIIB.FRM",
+               "NMNICEIB.FRM",
+               "NMRGNGIB.FRM"
+            ],
+            "JB" : [
+               "NMBONCJB.FRM",
+               "NMBRSRJB.FRM",
+               "NMCOPPJB.FRM",
+               "NMFATTJB.FRM",
+               "NMGANGJB.FRM",
+               "NMMEXIJB.FRM",
+               "NMOLDDJB.FRM",
+               "NMRGNGJB.FRM"
+            ],
+            "KB" : [
+               "NMCOPPKB.FRM",
+               "NMGANGKB.FRM",
+               "NMRGNGKB.FRM"
+            ],
+            "LB" : "MAROBTLB.FRM",
+            "MB" : "MAROBTMB.FRM"
          },
          "Male_BlackDude_CombatArmor" : {
             "AA" : "hmbcmbaa.frm",
@@ -1132,6 +1233,140 @@
             "RO" : "hatmanro.FRM",
             "RP" : "hatmanrp.FRM"
          },
+         "Male_TribalBald_ExtraAnims" : {
+            "RB" : [
+               "_HMWARRBD.FRM",
+               "_HMWARRBF.FRM",
+               "_HMWARRBG.FRM",
+               "_HMWARRBI.FRM",
+               "_HMWARRBL.FRM",
+               "_HMWARRBM.FRM"
+            ],
+            "RD" : [
+               "_HMWARRDA.FRM",
+               "_HMWARRDB.FRM",
+               "_HMWARRDC.FRM",
+               "_HMWARRDD.FRM",
+               "_HMWARRDE.FRM",
+               "_HMWARRDF.FRM",
+               "_HMWARRDG.FRM",
+               "_HMWARRDM.FRM"
+            ],
+            "RF" : [
+               "_HMWARRFA.FRM",
+               "_HMWARRFB.FRM",
+               "_HMWARRFC.FRM",
+               "_HMWARRFD.FRM",
+               "_HMWARRFE.FRM",
+               "_HMWARRFF.FRM",
+               "_HMWARRFG.FRM"
+            ],
+            "RI" : [
+               "_HMWARRIA.FRM",
+               "_HMWARRIB.FRM",
+               "_HMWARRIC.FRM",
+               "_HMWARRID.FRM",
+               "_HMWARRIE.FRM",
+               "_HMWARRIH.FRM",
+               "_HMWARRII.FRM",
+               "_HMWARRIJ.FRM",
+               "_HMWARRIK.FRM"
+            ],
+            "RR" : [
+               "_HMWARRRD.FRM",
+               "_HMWARRRF.FRM",
+               "_HMWARRRG.FRM",
+               "_HMWARRRI.FRM",
+               "_HMWARRRL.FRM",
+               "_HMWARRRM.FRM"
+            ]
+         },
+         "Male_TribalLongHair_ExtraAnims" : {
+            "RB" : [
+               "_HMWARRBD.FRM",
+               "_HMWARRBF.FRM",
+               "_HMWARRBG.FRM",
+               "_HMWARRBI.FRM",
+               "_HMWARRBL.FRM",
+               "_HMWARRBM.FRM"
+            ],
+            "RD" : [
+               "_HMWARRDA.FRM",
+               "_HMWARRDB.FRM",
+               "_HMWARRDC.FRM",
+               "_HMWARRDD.FRM",
+               "_HMWARRDE.FRM",
+               "_HMWARRDF.FRM",
+               "_HMWARRDG.FRM",
+               "_HMWARRDM.FRM"
+            ],
+            "RF" : [
+               "_HMWARRFA.FRM",
+               "_HMWARRFB.FRM",
+               "_HMWARRFC.FRM",
+               "_HMWARRFD.FRM",
+               "_HMWARRFE.FRM",
+               "_HMWARRFF.FRM",
+               "_HMWARRFG.FRM"
+            ],
+            "RI" : [
+               "_HMWARRIA.FRM",
+               "_HMWARRIB.FRM",
+               "_HMWARRIC.FRM",
+               "_HMWARRID.FRM",
+               "_HMWARRIE.FRM",
+               "_HMWARRIH.FRM",
+               "_HMWARRII.FRM",
+               "_HMWARRIJ.FRM",
+               "_HMWARRIK.FRM"
+            ],
+            "RR" : [
+               "_HMWARRRD.FRM",
+               "_HMWARRRF.FRM",
+               "_HMWARRRG.FRM",
+               "_HMWARRRI.FRM",
+               "_HMWARRRL.FRM",
+               "_HMWARRRM.FRM"
+            ]
+         },
+         "Male_TribalNormal_ExtraAnims" : {
+            "BD" : "HMWARRBD.FRM",
+            "BF" : "HMWARRBF.FRM",
+            "BG" : "HMWARRBG.FRM",
+            "BI" : "HMWARRBI.FRM",
+            "BL" : "HMWARRBL.FRM",
+            "BM" : "HMWARRBM.FRM",
+            "DA" : "HMWARRDA.FRM",
+            "DB" : "HMWARRDB.FRM",
+            "DC" : "HMWARRDC.FRM",
+            "DD" : "HMWARRDD.FRM",
+            "DE" : "HMWARRDE.FRM",
+            "DF" : "HMWARRDF.FRM",
+            "DG" : "HMWARRDG.FRM",
+            "DM" : "HMWARRDM.FRM",
+            "FA" : "HMWARRFA.FRM",
+            "FB" : "HMWARRFB.FRM",
+            "FC" : "HMWARRFC.FRM",
+            "FD" : "HMWARRFD.FRM",
+            "FE" : "HMWARRFE.FRM",
+            "FF" : "HMWARRFF.FRM",
+            "FG" : "HMWARRFG.FRM",
+            "IA" : "HMWARRIA.FRM",
+            "IB" : "HMWARRIB.FRM",
+            "IC" : "HMWARRIC.FRM",
+            "ID" : "HMWARRID.FRM",
+            "IE" : "HMWARRIE.FRM",
+            "IH" : "HMWARRIH.FRM",
+            "II" : "HMWARRII.FRM",
+            "IJ" : "HMWARRIJ.FRM",
+            "IK" : "HMWARRIK.FRM",
+            "RD" : "HMWARRRD.FRM",
+            "RF" : "HMWARRRF.FRM",
+            "RG" : "HMWARRRG.FRM",
+            "RI" : "HMWARRRI.FRM",
+            "RL" : "HMWARRRL.FRM",
+            "RM" : "HMWARRRM.FRM"
+         },
          "Monster_Sonora_Centipede" : {
             "AA" : "newcrtaa.FRM",
             "AB" : "newcrtAB.FRM",
@@ -1172,9 +1407,495 @@
             "RN" : "newcrtrn.FRM",
             "RO" : "newcrtro.FRM",
             "RP" : "newcrtrp.FRM"
+         },
+         "Robot_AssaultBot_Blue" : {
+            "AA" : "MAROBBAA.FRM",
+            "AB" : [
+               "MAROBBAB.FRM",
+               "MAROBTAB.FRM"
+            ],
+            "AK" : "MAROBBAK.FRM",
+            "AN" : "MAROBBAN.FRM",
+            "AO" : "MAROBBAO.FRM",
+            "AP" : "MAROBBAP.FRM",
+            "AQ" : "MAROBBAQ.FRM",
+            "BA" : "MAROBBBA.FRM",
+            "BB" : "MAROBBBB.FRM",
+            "BD" : "MAROBBBD.FRM",
+            "BI" : "MAROBBBI.FRM",
+            "BL" : "MAROBBBL.FRM",
+            "BO" : "MAROBBBO.FRM",
+            "BP" : "MAROBBBP.FRM",
+            "CH" : "MAROBBCH.FRM",
+            "CJ" : "MAROBBCJ.FRM",
+            "LA" : "MAROBBLA.FRM",
+            "LB" : [
+               "MAROBBLB.FRM",
+               "MAROBTLB.FRM"
+            ],
+            "LC" : "MAROBBLC.FRM",
+            "LD" : "MAROBBLD.FRM",
+            "LE" : "MAROBBLE.FRM",
+            "LH" : "MAROBBLH.FRM",
+            "LI" : "MAROBBLI.FRM",
+            "LK" : "MAROBBLK.FRM",
+            "MA" : "MAROBBMA.FRM",
+            "MB" : [
+               "MAROBBMB.FRM",
+               "MAROBTMB.FRM"
+            ],
+            "MC" : "MAROBBMC.FRM",
+            "MD" : "MAROBBMD.FRM",
+            "ME" : "MAROBBME.FRM",
+            "MH" : "MAROBBMH.FRM",
+            "MI" : "MAROBBMI.FRM",
+            "MJ" : "MAROBBMJ.FRM",
+            "RA" : "MAROBBRA.FRM",
+            "RB" : "MAROBBRB.FRM",
+            "RD" : "MAROBBRD.FRM",
+            "RI" : "MAROBBRI.FRM",
+            "RL" : "MAROBBRL.FRM",
+            "RO" : "MAROBBRO.FRM",
+            "RP" : "MAROBBRP.FRM"
          }
       },
       "png" : {
+         "Female_Tribal_ExtraAnims" : {
+            "BD" : {
+               "anim" : [
+                  "HFPRIMBD_0.png",
+                  "HFPRIMBD_1.png",
+                  "HFPRIMBD_2.png",
+                  "HFPRIMBD_3.png",
+                  "HFPRIMBD_4.png",
+                  "HFPRIMBD_5.png"
+               ],
+               "anim-packed" : "HFPRIMBD.png",
+               "static" : [
+                  "HFPRIMBD.static.png"
+               ]
+            },
+            "BF" : {
+               "anim" : [
+                  "HFPRIMBF_0.png",
+                  "HFPRIMBF_1.png",
+                  "HFPRIMBF_2.png",
+                  "HFPRIMBF_3.png",
+                  "HFPRIMBF_4.png",
+                  "HFPRIMBF_5.png"
+               ],
+               "anim-packed" : "HFPRIMBF.png",
+               "static" : [
+                  "HFPRIMBF.static.png"
+               ]
+            },
+            "BG" : {
+               "anim" : [
+                  "HFPRIMBG_0.png",
+                  "HFPRIMBG_1.png",
+                  "HFPRIMBG_2.png",
+                  "HFPRIMBG_3.png",
+                  "HFPRIMBG_4.png",
+                  "HFPRIMBG_5.png"
+               ],
+               "anim-packed" : "HFPRIMBG.png",
+               "static" : [
+                  "HFPRIMBG.static.png"
+               ]
+            },
+            "BI" : {
+               "anim" : [
+                  "HFPRIMBI_0.png",
+                  "HFPRIMBI_1.png",
+                  "HFPRIMBI_2.png",
+                  "HFPRIMBI_3.png",
+                  "HFPRIMBI_4.png",
+                  "HFPRIMBI_5.png"
+               ],
+               "anim-packed" : "HFPRIMBI.png",
+               "static" : [
+                  "HFPRIMBI.static.png"
+               ]
+            },
+            "BL" : {
+               "anim" : [
+                  "HFPRIMBL_0.png",
+                  "HFPRIMBL_1.png",
+                  "HFPRIMBL_2.png",
+                  "HFPRIMBL_3.png",
+                  "HFPRIMBL_4.png",
+                  "HFPRIMBL_5.png"
+               ],
+               "anim-packed" : "HFPRIMBL.png",
+               "static" : [
+                  "HFPRIMBL.static.png"
+               ]
+            },
+            "BM" : {
+               "anim" : [
+                  "HFPRIMBM_0.png",
+                  "HFPRIMBM_1.png",
+                  "HFPRIMBM_2.png",
+                  "HFPRIMBM_3.png",
+                  "HFPRIMBM_4.png",
+                  "HFPRIMBM_5.png"
+               ],
+               "anim-packed" : "HFPRIMBM.png",
+               "static" : [
+                  "HFPRIMBM.static.png"
+               ]
+            },
+            "BO" : {
+               "anim" : [
+                  "HFPRIMBO_0.png",
+                  "HFPRIMBO_1.png",
+                  "HFPRIMBO_2.png",
+                  "HFPRIMBO_3.png",
+                  "HFPRIMBO_4.png",
+                  "HFPRIMBO_5.png"
+               ],
+               "anim-packed" : "HFPRIMBO.png",
+               "static" : [
+                  "HFPRIMBO.static.png"
+               ]
+            },
+            "BP" : {
+               "anim" : [
+                  "HFPRIMBP_0.png",
+                  "HFPRIMBP_1.png",
+                  "HFPRIMBP_2.png",
+                  "HFPRIMBP_3.png",
+                  "HFPRIMBP_4.png",
+                  "HFPRIMBP_5.png"
+               ],
+               "anim-packed" : "HFPRIMBP.png",
+               "static" : [
+                  "HFPRIMBP.static.png"
+               ]
+            },
+            "DA" : {
+               "anim" : [
+                  "HFPRIMDA_0.png",
+                  "HFPRIMDA_1.png",
+                  "HFPRIMDA_2.png",
+                  "HFPRIMDA_3.png",
+                  "HFPRIMDA_4.png",
+                  "HFPRIMDA_5.png"
+               ],
+               "anim-packed" : "HFPRIMDA.png",
+               "static" : [
+                  "HFPRIMDA.static.png"
+               ]
+            },
+            "DB" : {
+               "anim" : [
+                  "HFPRIMDB_0.png",
+                  "HFPRIMDB_1.png",
+                  "HFPRIMDB_2.png",
+                  "HFPRIMDB_3.png",
+                  "HFPRIMDB_4.png",
+                  "HFPRIMDB_5.png"
+               ],
+               "anim-packed" : "HFPRIMDB.png",
+               "static" : [
+                  "HFPRIMDB.static.png"
+               ]
+            },
+            "DC" : {
+               "anim" : [
+                  "HFPRIMDC_0.png",
+                  "HFPRIMDC_1.png",
+                  "HFPRIMDC_2.png",
+                  "HFPRIMDC_3.png",
+                  "HFPRIMDC_4.png",
+                  "HFPRIMDC_5.png"
+               ],
+               "anim-packed" : "HFPRIMDC.png",
+               "static" : [
+                  "HFPRIMDC.static.png"
+               ]
+            },
+            "DD" : {
+               "anim" : [
+                  "HFPRIMDD_0.png",
+                  "HFPRIMDD_1.png",
+                  "HFPRIMDD_2.png",
+                  "HFPRIMDD_3.png",
+                  "HFPRIMDD_4.png",
+                  "HFPRIMDD_5.png"
+               ],
+               "anim-packed" : "HFPRIMDD.png",
+               "static" : [
+                  "HFPRIMDD.static.png"
+               ]
+            },
+            "DE" : {
+               "anim" : [
+                  "HFPRIMDE_0.png",
+                  "HFPRIMDE_1.png",
+                  "HFPRIMDE_2.png",
+                  "HFPRIMDE_3.png",
+                  "HFPRIMDE_4.png",
+                  "HFPRIMDE_5.png"
+               ],
+               "anim-packed" : "HFPRIMDE.png",
+               "static" : [
+                  "HFPRIMDE.static.png"
+               ]
+            },
+            "DF" : {
+               "anim" : [
+                  "HFPRIMDF_0.png",
+                  "HFPRIMDF_1.png",
+                  "HFPRIMDF_2.png",
+                  "HFPRIMDF_3.png",
+                  "HFPRIMDF_4.png",
+                  "HFPRIMDF_5.png"
+               ],
+               "anim-packed" : "HFPRIMDF.png",
+               "static" : [
+                  "HFPRIMDF.static.png"
+               ]
+            },
+            "DG" : {
+               "anim" : [
+                  "HFPRIMDG_0.png",
+                  "HFPRIMDG_1.png",
+                  "HFPRIMDG_2.png",
+                  "HFPRIMDG_3.png",
+                  "HFPRIMDG_4.png",
+                  "HFPRIMDG_5.png"
+               ],
+               "anim-packed" : "HFPRIMDG.png",
+               "static" : [
+                  "HFPRIMDG.static.png"
+               ]
+            },
+            "DM" : {
+               "anim" : [
+                  "HFPRIMDM_0.png",
+                  "HFPRIMDM_1.png",
+                  "HFPRIMDM_2.png",
+                  "HFPRIMDM_3.png",
+                  "HFPRIMDM_4.png",
+                  "HFPRIMDM_5.png"
+               ],
+               "anim-packed" : "HFPRIMDM.png",
+               "static" : [
+                  "HFPRIMDM.static.png"
+               ]
+            },
+            "FA" : {
+               "anim" : [
+                  "HFPRIMFA_0.png",
+                  "HFPRIMFA_1.png",
+                  "HFPRIMFA_2.png",
+                  "HFPRIMFA_3.png",
+                  "HFPRIMFA_4.png",
+                  "HFPRIMFA_5.png"
+               ],
+               "anim-packed" : "HFPRIMFA.png",
+               "static" : [
+                  "HFPRIMFA.static.png"
+               ]
+            },
+            "FB" : {
+               "anim" : [
+                  "HFPRIMFB_0.png",
+                  "HFPRIMFB_1.png",
+                  "HFPRIMFB_2.png",
+                  "HFPRIMFB_3.png",
+                  "HFPRIMFB_4.png",
+                  "HFPRIMFB_5.png"
+               ],
+               "anim-packed" : "HFPRIMFB.png",
+               "static" : [
+                  "HFPRIMFB.static.png"
+               ]
+            },
+            "FC" : {
+               "anim" : [
+                  "HFPRIMFC_0.png",
+                  "HFPRIMFC_1.png",
+                  "HFPRIMFC_2.png",
+                  "HFPRIMFC_3.png",
+                  "HFPRIMFC_4.png",
+                  "HFPRIMFC_5.png"
+               ],
+               "anim-packed" : "HFPRIMFC.png",
+               "static" : [
+                  "HFPRIMFC.static.png"
+               ]
+            },
+            "FD" : {
+               "anim" : [
+                  "HFPRIMFD_0.png",
+                  "HFPRIMFD_1.png",
+                  "HFPRIMFD_2.png",
+                  "HFPRIMFD_3.png",
+                  "HFPRIMFD_4.png",
+                  "HFPRIMFD_5.png"
+               ],
+               "anim-packed" : "HFPRIMFD.png",
+               "static" : [
+                  "HFPRIMFD.static.png"
+               ]
+            },
+            "FE" : {
+               "anim" : [
+                  "HFPRIMFE_0.png",
+                  "HFPRIMFE_1.png",
+                  "HFPRIMFE_2.png",
+                  "HFPRIMFE_3.png",
+                  "HFPRIMFE_4.png",
+                  "HFPRIMFE_5.png"
+               ],
+               "anim-packed" : "HFPRIMFE.png",
+               "static" : [
+                  "HFPRIMFE.static.png"
+               ]
+            },
+            "FF" : {
+               "anim" : [
+                  "HFPRIMFF_0.png",
+                  "HFPRIMFF_1.png",
+                  "HFPRIMFF_2.png",
+                  "HFPRIMFF_3.png",
+                  "HFPRIMFF_4.png",
+                  "HFPRIMFF_5.png"
+               ],
+               "anim-packed" : "HFPRIMFF.png",
+               "static" : [
+                  "HFPRIMFF.static.png"
+               ]
+            },
+            "FG" : {
+               "anim" : [
+                  "HFPRIMFG_0.png",
+                  "HFPRIMFG_1.png",
+                  "HFPRIMFG_2.png",
+                  "HFPRIMFG_3.png",
+                  "HFPRIMFG_4.png",
+                  "HFPRIMFG_5.png"
+               ],
+               "anim-packed" : "HFPRIMFG.png",
+               "static" : [
+                  "HFPRIMFG.static.png"
+               ]
+            },
+            "RD" : {
+               "anim" : [
+                  "HFPRIMRD_0.png",
+                  "HFPRIMRD_1.png",
+                  "HFPRIMRD_2.png",
+                  "HFPRIMRD_3.png",
+                  "HFPRIMRD_4.png",
+                  "HFPRIMRD_5.png"
+               ],
+               "anim-packed" : "HFPRIMRD.png",
+               "static" : [
+                  "HFPRIMRD.static.png"
+               ]
+            },
+            "RF" : {
+               "anim" : [
+                  "HFPRIMRF_0.png",
+                  "HFPRIMRF_1.png",
+                  "HFPRIMRF_2.png",
+                  "HFPRIMRF_3.png",
+                  "HFPRIMRF_4.png",
+                  "HFPRIMRF_5.png"
+               ],
+               "anim-packed" : "HFPRIMRF.png",
+               "static" : [
+                  "HFPRIMRF.static.png"
+               ]
+            },
+            "RG" : {
+               "anim" : [
+                  "HFPRIMRG_0.png",
+                  "HFPRIMRG_1.png",
+                  "HFPRIMRG_2.png",
+                  "HFPRIMRG_3.png",
+                  "HFPRIMRG_4.png",
+                  "HFPRIMRG_5.png"
+               ],
+               "anim-packed" : "HFPRIMRG.png",
+               "static" : [
+                  "HFPRIMRG.static.png"
+               ]
+            },
+            "RI" : {
+               "anim" : [
+                  "HFPRIMRI_0.png",
+                  "HFPRIMRI_1.png",
+                  "HFPRIMRI_2.png",
+                  "HFPRIMRI_3.png",
+                  "HFPRIMRI_4.png",
+                  "HFPRIMRI_5.png"
+               ],
+               "anim-packed" : "HFPRIMRI.png",
+               "static" : [
+                  "HFPRIMRI.static.png"
+               ]
+            },
+            "RL" : {
+               "anim" : [
+                  "HFPRIMRL_0.png",
+                  "HFPRIMRL_1.png",
+                  "HFPRIMRL_2.png",
+                  "HFPRIMRL_3.png",
+                  "HFPRIMRL_4.png",
+                  "HFPRIMRL_5.png"
+               ],
+               "anim-packed" : "HFPRIMRL.png",
+               "static" : [
+                  "HFPRIMRL.static.png"
+               ]
+            },
+            "RM" : {
+               "anim" : [
+                  "HFPRIMRM_0.png",
+                  "HFPRIMRM_1.png",
+                  "HFPRIMRM_2.png",
+                  "HFPRIMRM_3.png",
+                  "HFPRIMRM_4.png",
+                  "HFPRIMRM_5.png"
+               ],
+               "anim-packed" : "HFPRIMRM.png",
+               "static" : [
+                  "HFPRIMRM.static.png"
+               ]
+            },
+            "RO" : {
+               "anim" : [
+                  "HFPRIMRO_0.png",
+                  "HFPRIMRO_1.png",
+                  "HFPRIMRO_2.png",
+                  "HFPRIMRO_3.png",
+                  "HFPRIMRO_4.png",
+                  "HFPRIMRO_5.png"
+               ],
+               "anim-packed" : "HFPRIMRO.png",
+               "static" : [
+                  "HFPRIMRO.static.png"
+               ]
+            },
+            "RP" : {
+               "anim" : [
+                  "HFPRIMRP_0.png",
+                  "HFPRIMRP_1.png",
+                  "HFPRIMRP_2.png",
+                  "HFPRIMRP_3.png",
+                  "HFPRIMRP_4.png",
+                  "HFPRIMRP_5.png"
+               ],
+               "anim-packed" : "HFPRIMRP.png",
+               "static" : [
+                  "HFPRIMRP.static.png"
+               ]
+            }
+         },
          "Female_YellowPants_MetalArmor" : {
             "HA" : {
                "anim" : [
@@ -1412,6 +2133,449 @@
                "anim-packed" : "NFMETLIK.png",
                "static" : [
                   "NFMETLIK.static.png"
+               ]
+            }
+         },
+         "Generic_Fo2_WalkFix" : {
+            "AB" : {
+               "anim" : [
+                  "MAROBTAB_0.png",
+                  "MAROBTAB_1.png",
+                  "MAROBTAB_2.png",
+                  "MAROBTAB_3.png",
+                  "MAROBTAB_4.png",
+                  "MAROBTAB_5.png",
+                  "NAVGULAB_0.png",
+                  "NAVGULAB_1.png",
+                  "NAVGULAB_2.png",
+                  "NAVGULAB_3.png",
+                  "NAVGULAB_4.png",
+                  "NAVGULAB_5.png",
+                  "NFASIAAB_0.png",
+                  "NFASIAAB_1.png",
+                  "NFASIAAB_2.png",
+                  "NFASIAAB_3.png",
+                  "NFASIAAB_4.png",
+                  "NFASIAAB_5.png",
+                  "NFLYNNAB_0.png",
+                  "NFLYNNAB_1.png",
+                  "NFLYNNAB_2.png",
+                  "NFLYNNAB_3.png",
+                  "NFLYNNAB_4.png",
+                  "NFLYNNAB_5.png",
+                  "NFNICEAB_0.png",
+                  "NFNICEAB_1.png",
+                  "NFNICEAB_2.png",
+                  "NFNICEAB_3.png",
+                  "NFNICEAB_4.png",
+                  "NFNICEAB_5.png",
+                  "NMASIAAB_0.png",
+                  "NMASIAAB_1.png",
+                  "NMASIAAB_2.png",
+                  "NMASIAAB_3.png",
+                  "NMASIAAB_4.png",
+                  "NMASIAAB_5.png",
+                  "NMBONCAB_0.png",
+                  "NMBONCAB_1.png",
+                  "NMBONCAB_2.png",
+                  "NMBONCAB_3.png",
+                  "NMBONCAB_4.png",
+                  "NMBONCAB_5.png",
+                  "NMBOXXAB_0.png",
+                  "NMBOXXAB_1.png",
+                  "NMBOXXAB_2.png",
+                  "NMBOXXAB_3.png",
+                  "NMBOXXAB_4.png",
+                  "NMBOXXAB_5.png",
+                  "NMBRSRAB_0.png",
+                  "NMBRSRAB_1.png",
+                  "NMBRSRAB_2.png",
+                  "NMBRSRAB_3.png",
+                  "NMBRSRAB_4.png",
+                  "NMBRSRAB_5.png",
+                  "NMCOPPAB_0.png",
+                  "NMCOPPAB_1.png",
+                  "NMCOPPAB_2.png",
+                  "NMCOPPAB_3.png",
+                  "NMCOPPAB_4.png",
+                  "NMCOPPAB_5.png",
+                  "NMFATTAB_0.png",
+                  "NMFATTAB_1.png",
+                  "NMFATTAB_2.png",
+                  "NMFATTAB_3.png",
+                  "NMFATTAB_4.png",
+                  "NMFATTAB_5.png",
+                  "NMGANGAB_0.png",
+                  "NMGANGAB_1.png",
+                  "NMGANGAB_2.png",
+                  "NMGANGAB_3.png",
+                  "NMGANGAB_4.png",
+                  "NMGANGAB_5.png",
+                  "NMLABBAB_0.png",
+                  "NMLABBAB_1.png",
+                  "NMLABBAB_2.png",
+                  "NMLABBAB_3.png",
+                  "NMLABBAB_4.png",
+                  "NMLABBAB_5.png",
+                  "NMMEXIAB_0.png",
+                  "NMMEXIAB_1.png",
+                  "NMMEXIAB_2.png",
+                  "NMMEXIAB_3.png",
+                  "NMMEXIAB_4.png",
+                  "NMMEXIAB_5.png",
+                  "NMMYRNAB_0.png",
+                  "NMMYRNAB_1.png",
+                  "NMMYRNAB_2.png",
+                  "NMMYRNAB_3.png",
+                  "NMMYRNAB_4.png",
+                  "NMMYRNAB_5.png",
+                  "NMNICEAB_0.png",
+                  "NMNICEAB_1.png",
+                  "NMNICEAB_2.png",
+                  "NMNICEAB_3.png",
+                  "NMNICEAB_4.png",
+                  "NMNICEAB_5.png",
+                  "NMOLDDAB_0.png",
+                  "NMOLDDAB_1.png",
+                  "NMOLDDAB_2.png",
+                  "NMOLDDAB_3.png",
+                  "NMOLDDAB_4.png",
+                  "NMOLDDAB_5.png",
+                  "NMRGNGAB_0.png",
+                  "NMRGNGAB_1.png",
+                  "NMRGNGAB_2.png",
+                  "NMRGNGAB_3.png",
+                  "NMRGNGAB_4.png",
+                  "NMRGNGAB_5.png"
+               ],
+               "anim-packed" : "NMRGNGAB.png",
+               "static" : [
+                  "MAROBTAB.static.png",
+                  "NAVGULAB.static.png",
+                  "NFASIAAB.static.png",
+                  "NFLYNNAB.static.png",
+                  "NFNICEAB.static.png",
+                  "NMASIAAB.static.png",
+                  "NMBONCAB.static.png",
+                  "NMBOXXAB.static.png",
+                  "NMBRSRAB.static.png",
+                  "NMCOPPAB.static.png",
+                  "NMFATTAB.static.png",
+                  "NMGANGAB.static.png",
+                  "NMLABBAB.static.png",
+                  "NMMEXIAB.static.png",
+                  "NMMYRNAB.static.png",
+                  "NMNICEAB.static.png",
+                  "NMOLDDAB.static.png",
+                  "NMRGNGAB.static.png"
+               ]
+            },
+            "DB" : {
+               "anim" : [
+                  "NAVGULDB_0.png",
+                  "NAVGULDB_1.png",
+                  "NAVGULDB_2.png",
+                  "NAVGULDB_3.png",
+                  "NAVGULDB_4.png",
+                  "NAVGULDB_5.png",
+                  "NMFATTDB_0.png",
+                  "NMFATTDB_1.png",
+                  "NMFATTDB_2.png",
+                  "NMFATTDB_3.png",
+                  "NMFATTDB_4.png",
+                  "NMFATTDB_5.png",
+                  "NMGANGDB_0.png",
+                  "NMGANGDB_1.png",
+                  "NMGANGDB_2.png",
+                  "NMGANGDB_3.png",
+                  "NMGANGDB_4.png",
+                  "NMGANGDB_5.png",
+                  "NMMEXIDB_0.png",
+                  "NMMEXIDB_1.png",
+                  "NMMEXIDB_2.png",
+                  "NMMEXIDB_3.png",
+                  "NMMEXIDB_4.png",
+                  "NMMEXIDB_5.png",
+                  "NMMYRNDB_0.png",
+                  "NMMYRNDB_1.png",
+                  "NMMYRNDB_2.png",
+                  "NMMYRNDB_3.png",
+                  "NMMYRNDB_4.png",
+                  "NMMYRNDB_5.png",
+                  "NMRGNGDB_0.png",
+                  "NMRGNGDB_1.png",
+                  "NMRGNGDB_2.png",
+                  "NMRGNGDB_3.png",
+                  "NMRGNGDB_4.png",
+                  "NMRGNGDB_5.png"
+               ],
+               "anim-packed" : "NMRGNGDB.png",
+               "static" : [
+                  "NAVGULDB.static.png",
+                  "NMFATTDB.static.png",
+                  "NMGANGDB.static.png",
+                  "NMMEXIDB.static.png",
+                  "NMMYRNDB.static.png",
+                  "NMRGNGDB.static.png"
+               ]
+            },
+            "EB" : {
+               "anim" : [
+                  "NMBOXXEB_0.png",
+                  "NMBOXXEB_1.png",
+                  "NMBOXXEB_2.png",
+                  "NMBOXXEB_3.png",
+                  "NMBOXXEB_4.png",
+                  "NMBOXXEB_5.png"
+               ],
+               "anim-packed" : "NMBOXXEB.png",
+               "static" : [
+                  "NMBOXXEB.static.png"
+               ]
+            },
+            "HB" : {
+               "anim" : [
+                  "NAVGULHB_0.png",
+                  "NAVGULHB_1.png",
+                  "NAVGULHB_2.png",
+                  "NAVGULHB_3.png",
+                  "NAVGULHB_4.png",
+                  "NAVGULHB_5.png",
+                  "NMCOPPHB_0.png",
+                  "NMCOPPHB_1.png",
+                  "NMCOPPHB_2.png",
+                  "NMCOPPHB_3.png",
+                  "NMCOPPHB_4.png",
+                  "NMCOPPHB_5.png",
+                  "NMFATTHB_0.png",
+                  "NMFATTHB_1.png",
+                  "NMFATTHB_2.png",
+                  "NMFATTHB_3.png",
+                  "NMFATTHB_4.png",
+                  "NMFATTHB_5.png",
+                  "NMGANGHB_0.png",
+                  "NMGANGHB_1.png",
+                  "NMGANGHB_2.png",
+                  "NMGANGHB_3.png",
+                  "NMGANGHB_4.png",
+                  "NMGANGHB_5.png",
+                  "NMLABBHB_0.png",
+                  "NMLABBHB_1.png",
+                  "NMLABBHB_2.png",
+                  "NMLABBHB_3.png",
+                  "NMLABBHB_4.png",
+                  "NMLABBHB_5.png",
+                  "NMMEXIHB_0.png",
+                  "NMMEXIHB_1.png",
+                  "NMMEXIHB_2.png",
+                  "NMMEXIHB_3.png",
+                  "NMMEXIHB_4.png",
+                  "NMMEXIHB_5.png",
+                  "NMMYRNHB_0.png",
+                  "NMMYRNHB_1.png",
+                  "NMMYRNHB_2.png",
+                  "NMMYRNHB_3.png",
+                  "NMMYRNHB_4.png",
+                  "NMMYRNHB_5.png",
+                  "NMNICEHB_0.png",
+                  "NMNICEHB_1.png",
+                  "NMNICEHB_2.png",
+                  "NMNICEHB_3.png",
+                  "NMNICEHB_4.png",
+                  "NMNICEHB_5.png",
+                  "NMOLDDHB_0.png",
+                  "NMOLDDHB_1.png",
+                  "NMOLDDHB_2.png",
+                  "NMOLDDHB_3.png",
+                  "NMOLDDHB_4.png",
+                  "NMOLDDHB_5.png",
+                  "NMRGNGHB_0.png",
+                  "NMRGNGHB_1.png",
+                  "NMRGNGHB_2.png",
+                  "NMRGNGHB_3.png",
+                  "NMRGNGHB_4.png",
+                  "NMRGNGHB_5.png"
+               ],
+               "anim-packed" : "NMRGNGHB.png",
+               "static" : [
+                  "NAVGULHB.static.png",
+                  "NMCOPPHB.static.png",
+                  "NMFATTHB.static.png",
+                  "NMGANGHB.static.png",
+                  "NMLABBHB.static.png",
+                  "NMMEXIHB.static.png",
+                  "NMMYRNHB.static.png",
+                  "NMNICEHB.static.png",
+                  "NMOLDDHB.static.png",
+                  "NMRGNGHB.static.png"
+               ]
+            },
+            "IB" : {
+               "anim" : [
+                  "NAVGULIB_0.png",
+                  "NAVGULIB_1.png",
+                  "NAVGULIB_2.png",
+                  "NAVGULIB_3.png",
+                  "NAVGULIB_4.png",
+                  "NAVGULIB_5.png",
+                  "NMCOPPIB_0.png",
+                  "NMCOPPIB_1.png",
+                  "NMCOPPIB_2.png",
+                  "NMCOPPIB_3.png",
+                  "NMCOPPIB_4.png",
+                  "NMCOPPIB_5.png",
+                  "NMGANGIB_0.png",
+                  "NMGANGIB_1.png",
+                  "NMGANGIB_2.png",
+                  "NMGANGIB_3.png",
+                  "NMGANGIB_4.png",
+                  "NMGANGIB_5.png",
+                  "NMMEXIIB_0.png",
+                  "NMMEXIIB_1.png",
+                  "NMMEXIIB_2.png",
+                  "NMMEXIIB_3.png",
+                  "NMMEXIIB_4.png",
+                  "NMMEXIIB_5.png",
+                  "NMNICEIB_0.png",
+                  "NMNICEIB_1.png",
+                  "NMNICEIB_2.png",
+                  "NMNICEIB_3.png",
+                  "NMNICEIB_4.png",
+                  "NMNICEIB_5.png",
+                  "NMRGNGIB_0.png",
+                  "NMRGNGIB_1.png",
+                  "NMRGNGIB_2.png",
+                  "NMRGNGIB_3.png",
+                  "NMRGNGIB_4.png",
+                  "NMRGNGIB_5.png"
+               ],
+               "anim-packed" : "NMRGNGIB.png",
+               "static" : [
+                  "NAVGULIB.static.png",
+                  "NMCOPPIB.static.png",
+                  "NMGANGIB.static.png",
+                  "NMMEXIIB.static.png",
+                  "NMNICEIB.static.png",
+                  "NMRGNGIB.static.png"
+               ]
+            },
+            "JB" : {
+               "anim" : [
+                  "NMBONCJB_0.png",
+                  "NMBONCJB_1.png",
+                  "NMBONCJB_2.png",
+                  "NMBONCJB_3.png",
+                  "NMBONCJB_4.png",
+                  "NMBONCJB_5.png",
+                  "NMBRSRJB_0.png",
+                  "NMBRSRJB_1.png",
+                  "NMBRSRJB_2.png",
+                  "NMBRSRJB_3.png",
+                  "NMBRSRJB_4.png",
+                  "NMBRSRJB_5.png",
+                  "NMCOPPJB_0.png",
+                  "NMCOPPJB_1.png",
+                  "NMCOPPJB_2.png",
+                  "NMCOPPJB_3.png",
+                  "NMCOPPJB_4.png",
+                  "NMCOPPJB_5.png",
+                  "NMFATTJB_0.png",
+                  "NMFATTJB_1.png",
+                  "NMFATTJB_2.png",
+                  "NMFATTJB_3.png",
+                  "NMFATTJB_4.png",
+                  "NMFATTJB_5.png",
+                  "NMGANGJB_0.png",
+                  "NMGANGJB_1.png",
+                  "NMGANGJB_2.png",
+                  "NMGANGJB_3.png",
+                  "NMGANGJB_4.png",
+                  "NMGANGJB_5.png",
+                  "NMMEXIJB_0.png",
+                  "NMMEXIJB_1.png",
+                  "NMMEXIJB_2.png",
+                  "NMMEXIJB_3.png",
+                  "NMMEXIJB_4.png",
+                  "NMMEXIJB_5.png",
+                  "NMOLDDJB_0.png",
+                  "NMOLDDJB_1.png",
+                  "NMOLDDJB_2.png",
+                  "NMOLDDJB_3.png",
+                  "NMOLDDJB_4.png",
+                  "NMOLDDJB_5.png",
+                  "NMRGNGJB_0.png",
+                  "NMRGNGJB_1.png",
+                  "NMRGNGJB_2.png",
+                  "NMRGNGJB_3.png",
+                  "NMRGNGJB_4.png",
+                  "NMRGNGJB_5.png"
+               ],
+               "anim-packed" : "NMRGNGJB.png",
+               "static" : [
+                  "NMBONCJB.static.png",
+                  "NMBRSRJB.static.png",
+                  "NMCOPPJB.static.png",
+                  "NMFATTJB.static.png",
+                  "NMGANGJB.static.png",
+                  "NMMEXIJB.static.png",
+                  "NMOLDDJB.static.png",
+                  "NMRGNGJB.static.png"
+               ]
+            },
+            "KB" : {
+               "anim" : [
+                  "NMCOPPKB_0.png",
+                  "NMCOPPKB_1.png",
+                  "NMCOPPKB_2.png",
+                  "NMCOPPKB_3.png",
+                  "NMCOPPKB_4.png",
+                  "NMCOPPKB_5.png",
+                  "NMGANGKB_0.png",
+                  "NMGANGKB_1.png",
+                  "NMGANGKB_2.png",
+                  "NMGANGKB_3.png",
+                  "NMGANGKB_4.png",
+                  "NMGANGKB_5.png",
+                  "NMRGNGKB_0.png",
+                  "NMRGNGKB_1.png",
+                  "NMRGNGKB_2.png",
+                  "NMRGNGKB_3.png",
+                  "NMRGNGKB_4.png",
+                  "NMRGNGKB_5.png"
+               ],
+               "anim-packed" : "NMRGNGKB.png",
+               "static" : [
+                  "NMCOPPKB.static.png",
+                  "NMGANGKB.static.png",
+                  "NMRGNGKB.static.png"
+               ]
+            },
+            "LB" : {
+               "anim" : [
+                  "MAROBTLB_0.png",
+                  "MAROBTLB_1.png",
+                  "MAROBTLB_2.png",
+                  "MAROBTLB_3.png",
+                  "MAROBTLB_4.png",
+                  "MAROBTLB_5.png"
+               ],
+               "anim-packed" : "MAROBTLB.png",
+               "static" : [
+                  "MAROBTLB.static.png"
+               ]
+            },
+            "MB" : {
+               "anim" : [
+                  "MAROBTMB_0.png",
+                  "MAROBTMB_1.png",
+                  "MAROBTMB_2.png",
+                  "MAROBTMB_3.png",
+                  "MAROBTMB_4.png",
+                  "MAROBTMB_5.png"
+               ],
+               "anim-packed" : "MAROBTMB.png",
+               "static" : [
+                  "MAROBTMB.static.png"
                ]
             }
          },
@@ -12590,6 +13754,628 @@
                ]
             }
          },
+         "Male_TribalBald_ExtraAnims" : {
+            "RB" : {
+               "static" : [
+                  "_HMWARRBD.static.png",
+                  "_HMWARRBF.static.png",
+                  "_HMWARRBG.static.png",
+                  "_HMWARRBI.static.png",
+                  "_HMWARRBL.static.png",
+                  "_HMWARRBM.static.png"
+               ]
+            },
+            "RD" : {
+               "static" : [
+                  "_HMWARRDA.static.png",
+                  "_HMWARRDB.static.png",
+                  "_HMWARRDC.static.png",
+                  "_HMWARRDD.static.png",
+                  "_HMWARRDE.static.png",
+                  "_HMWARRDF.static.png",
+                  "_HMWARRDG.static.png",
+                  "_HMWARRDM.static.png"
+               ]
+            },
+            "RF" : {
+               "static" : [
+                  "_HMWARRFA.static.png",
+                  "_HMWARRFB.static.png",
+                  "_HMWARRFC.static.png",
+                  "_HMWARRFD.static.png",
+                  "_HMWARRFE.static.png",
+                  "_HMWARRFF.static.png",
+                  "_HMWARRFG.static.png"
+               ]
+            },
+            "RI" : {
+               "static" : [
+                  "_HMWARRIA.static.png",
+                  "_HMWARRIB.static.png",
+                  "_HMWARRIC.static.png",
+                  "_HMWARRID.static.png",
+                  "_HMWARRIE.static.png",
+                  "_HMWARRIH.static.png",
+                  "_HMWARRII.static.png",
+                  "_HMWARRIJ.static.png",
+                  "_HMWARRIK.static.png"
+               ]
+            },
+            "RR" : {
+               "static" : [
+                  "_HMWARRRD.static.png",
+                  "_HMWARRRF.static.png",
+                  "_HMWARRRG.static.png",
+                  "_HMWARRRI.static.png",
+                  "_HMWARRRL.static.png",
+                  "_HMWARRRM.static.png"
+               ]
+            }
+         },
+         "Male_TribalLongHair_ExtraAnims" : {
+            "RB" : {
+               "static" : [
+                  "_HMWARRBD.static.png",
+                  "_HMWARRBF.static.png",
+                  "_HMWARRBG.static.png",
+                  "_HMWARRBI.static.png",
+                  "_HMWARRBL.static.png",
+                  "_HMWARRBM.static.png"
+               ]
+            },
+            "RD" : {
+               "static" : [
+                  "_HMWARRDA.static.png",
+                  "_HMWARRDB.static.png",
+                  "_HMWARRDC.static.png",
+                  "_HMWARRDD.static.png",
+                  "_HMWARRDE.static.png",
+                  "_HMWARRDF.static.png",
+                  "_HMWARRDG.static.png",
+                  "_HMWARRDM.static.png"
+               ]
+            },
+            "RF" : {
+               "static" : [
+                  "_HMWARRFA.static.png",
+                  "_HMWARRFB.static.png",
+                  "_HMWARRFC.static.png",
+                  "_HMWARRFD.static.png",
+                  "_HMWARRFE.static.png",
+                  "_HMWARRFF.static.png",
+                  "_HMWARRFG.static.png"
+               ]
+            },
+            "RI" : {
+               "static" : [
+                  "_HMWARRIA.static.png",
+                  "_HMWARRIB.static.png",
+                  "_HMWARRIC.static.png",
+                  "_HMWARRID.static.png",
+                  "_HMWARRIE.static.png",
+                  "_HMWARRIH.static.png",
+                  "_HMWARRII.static.png",
+                  "_HMWARRIJ.static.png",
+                  "_HMWARRIK.static.png"
+               ]
+            },
+            "RR" : {
+               "static" : [
+                  "_HMWARRRD.static.png",
+                  "_HMWARRRF.static.png",
+                  "_HMWARRRG.static.png",
+                  "_HMWARRRI.static.png",
+                  "_HMWARRRL.static.png",
+                  "_HMWARRRM.static.png"
+               ]
+            }
+         },
+         "Male_TribalNormal_ExtraAnims" : {
+            "BD" : {
+               "anim" : [
+                  "HMWARRBD_0.png",
+                  "HMWARRBD_1.png",
+                  "HMWARRBD_2.png",
+                  "HMWARRBD_3.png",
+                  "HMWARRBD_4.png",
+                  "HMWARRBD_5.png"
+               ],
+               "anim-packed" : "HMWARRBD.png",
+               "static" : [
+                  "HMWARRBD.static.png"
+               ]
+            },
+            "BF" : {
+               "anim" : [
+                  "HMWARRBF_0.png",
+                  "HMWARRBF_1.png",
+                  "HMWARRBF_2.png",
+                  "HMWARRBF_3.png",
+                  "HMWARRBF_4.png",
+                  "HMWARRBF_5.png"
+               ],
+               "anim-packed" : "HMWARRBF.png",
+               "static" : [
+                  "HMWARRBF.static.png"
+               ]
+            },
+            "BG" : {
+               "anim" : [
+                  "HMWARRBG_0.png",
+                  "HMWARRBG_1.png",
+                  "HMWARRBG_2.png",
+                  "HMWARRBG_3.png",
+                  "HMWARRBG_4.png",
+                  "HMWARRBG_5.png"
+               ],
+               "anim-packed" : "HMWARRBG.png",
+               "static" : [
+                  "HMWARRBG.static.png"
+               ]
+            },
+            "BI" : {
+               "anim" : [
+                  "HMWARRBI_0.png",
+                  "HMWARRBI_1.png",
+                  "HMWARRBI_2.png",
+                  "HMWARRBI_3.png",
+                  "HMWARRBI_4.png",
+                  "HMWARRBI_5.png"
+               ],
+               "anim-packed" : "HMWARRBI.png",
+               "static" : [
+                  "HMWARRBI.static.png"
+               ]
+            },
+            "BL" : {
+               "anim" : [
+                  "HMWARRBL_0.png",
+                  "HMWARRBL_1.png",
+                  "HMWARRBL_2.png",
+                  "HMWARRBL_3.png",
+                  "HMWARRBL_4.png",
+                  "HMWARRBL_5.png"
+               ],
+               "anim-packed" : "HMWARRBL.png",
+               "static" : [
+                  "HMWARRBL.static.png"
+               ]
+            },
+            "BM" : {
+               "anim" : [
+                  "HMWARRBM_0.png",
+                  "HMWARRBM_1.png",
+                  "HMWARRBM_2.png",
+                  "HMWARRBM_3.png",
+                  "HMWARRBM_4.png",
+                  "HMWARRBM_5.png"
+               ],
+               "anim-packed" : "HMWARRBM.png",
+               "static" : [
+                  "HMWARRBM.static.png"
+               ]
+            },
+            "DA" : {
+               "anim" : [
+                  "HMWARRDA_0.png",
+                  "HMWARRDA_1.png",
+                  "HMWARRDA_2.png",
+                  "HMWARRDA_3.png",
+                  "HMWARRDA_4.png",
+                  "HMWARRDA_5.png"
+               ],
+               "anim-packed" : "HMWARRDA.png",
+               "static" : [
+                  "HMWARRDA.static.png"
+               ]
+            },
+            "DB" : {
+               "anim" : [
+                  "HMWARRDB_0.png",
+                  "HMWARRDB_1.png",
+                  "HMWARRDB_2.png",
+                  "HMWARRDB_3.png",
+                  "HMWARRDB_4.png",
+                  "HMWARRDB_5.png"
+               ],
+               "anim-packed" : "HMWARRDB.png",
+               "static" : [
+                  "HMWARRDB.static.png"
+               ]
+            },
+            "DC" : {
+               "anim" : [
+                  "HMWARRDC_0.png",
+                  "HMWARRDC_1.png",
+                  "HMWARRDC_2.png",
+                  "HMWARRDC_3.png",
+                  "HMWARRDC_4.png",
+                  "HMWARRDC_5.png"
+               ],
+               "anim-packed" : "HMWARRDC.png",
+               "static" : [
+                  "HMWARRDC.static.png"
+               ]
+            },
+            "DD" : {
+               "anim" : [
+                  "HMWARRDD_0.png",
+                  "HMWARRDD_1.png",
+                  "HMWARRDD_2.png",
+                  "HMWARRDD_3.png",
+                  "HMWARRDD_4.png",
+                  "HMWARRDD_5.png"
+               ],
+               "anim-packed" : "HMWARRDD.png",
+               "static" : [
+                  "HMWARRDD.static.png"
+               ]
+            },
+            "DE" : {
+               "anim" : [
+                  "HMWARRDE_0.png",
+                  "HMWARRDE_1.png",
+                  "HMWARRDE_2.png",
+                  "HMWARRDE_3.png",
+                  "HMWARRDE_4.png",
+                  "HMWARRDE_5.png"
+               ],
+               "anim-packed" : "HMWARRDE.png",
+               "static" : [
+                  "HMWARRDE.static.png"
+               ]
+            },
+            "DF" : {
+               "anim" : [
+                  "HMWARRDF_0.png",
+                  "HMWARRDF_1.png",
+                  "HMWARRDF_2.png",
+                  "HMWARRDF_3.png",
+                  "HMWARRDF_4.png",
+                  "HMWARRDF_5.png"
+               ],
+               "anim-packed" : "HMWARRDF.png",
+               "static" : [
+                  "HMWARRDF.static.png"
+               ]
+            },
+            "DG" : {
+               "anim" : [
+                  "HMWARRDG_0.png",
+                  "HMWARRDG_1.png",
+                  "HMWARRDG_2.png",
+                  "HMWARRDG_3.png",
+                  "HMWARRDG_4.png",
+                  "HMWARRDG_5.png"
+               ],
+               "anim-packed" : "HMWARRDG.png",
+               "static" : [
+                  "HMWARRDG.static.png"
+               ]
+            },
+            "DM" : {
+               "anim" : [
+                  "HMWARRDM_0.png",
+                  "HMWARRDM_1.png",
+                  "HMWARRDM_2.png",
+                  "HMWARRDM_3.png",
+                  "HMWARRDM_4.png",
+                  "HMWARRDM_5.png"
+               ],
+               "anim-packed" : "HMWARRDM.png",
+               "static" : [
+                  "HMWARRDM.static.png"
+               ]
+            },
+            "FA" : {
+               "anim" : [
+                  "HMWARRFA_0.png",
+                  "HMWARRFA_1.png",
+                  "HMWARRFA_2.png",
+                  "HMWARRFA_3.png",
+                  "HMWARRFA_4.png",
+                  "HMWARRFA_5.png"
+               ],
+               "anim-packed" : "HMWARRFA.png",
+               "static" : [
+                  "HMWARRFA.static.png"
+               ]
+            },
+            "FB" : {
+               "anim" : [
+                  "HMWARRFB_0.png",
+                  "HMWARRFB_1.png",
+                  "HMWARRFB_2.png",
+                  "HMWARRFB_3.png",
+                  "HMWARRFB_4.png",
+                  "HMWARRFB_5.png"
+               ],
+               "anim-packed" : "HMWARRFB.png",
+               "static" : [
+                  "HMWARRFB.static.png"
+               ]
+            },
+            "FC" : {
+               "anim" : [
+                  "HMWARRFC_0.png",
+                  "HMWARRFC_1.png",
+                  "HMWARRFC_2.png",
+                  "HMWARRFC_3.png",
+                  "HMWARRFC_4.png",
+                  "HMWARRFC_5.png"
+               ],
+               "anim-packed" : "HMWARRFC.png",
+               "static" : [
+                  "HMWARRFC.static.png"
+               ]
+            },
+            "FD" : {
+               "anim" : [
+                  "HMWARRFD_0.png",
+                  "HMWARRFD_1.png",
+                  "HMWARRFD_2.png",
+                  "HMWARRFD_3.png",
+                  "HMWARRFD_4.png",
+                  "HMWARRFD_5.png"
+               ],
+               "anim-packed" : "HMWARRFD.png",
+               "static" : [
+                  "HMWARRFD.static.png"
+               ]
+            },
+            "FE" : {
+               "anim" : [
+                  "HMWARRFE_0.png",
+                  "HMWARRFE_1.png",
+                  "HMWARRFE_2.png",
+                  "HMWARRFE_3.png",
+                  "HMWARRFE_4.png",
+                  "HMWARRFE_5.png"
+               ],
+               "anim-packed" : "HMWARRFE.png",
+               "static" : [
+                  "HMWARRFE.static.png"
+               ]
+            },
+            "FF" : {
+               "anim" : [
+                  "HMWARRFF_0.png",
+                  "HMWARRFF_1.png",
+                  "HMWARRFF_2.png",
+                  "HMWARRFF_3.png",
+                  "HMWARRFF_4.png",
+                  "HMWARRFF_5.png"
+               ],
+               "anim-packed" : "HMWARRFF.png",
+               "static" : [
+                  "HMWARRFF.static.png"
+               ]
+            },
+            "FG" : {
+               "anim" : [
+                  "HMWARRFG_0.png",
+                  "HMWARRFG_1.png",
+                  "HMWARRFG_2.png",
+                  "HMWARRFG_3.png",
+                  "HMWARRFG_4.png",
+                  "HMWARRFG_5.png"
+               ],
+               "anim-packed" : "HMWARRFG.png",
+               "static" : [
+                  "HMWARRFG.static.png"
+               ]
+            },
+            "IA" : {
+               "anim" : [
+                  "HMWARRIA_0.png",
+                  "HMWARRIA_1.png",
+                  "HMWARRIA_2.png",
+                  "HMWARRIA_3.png",
+                  "HMWARRIA_4.png",
+                  "HMWARRIA_5.png"
+               ],
+               "anim-packed" : "HMWARRIA.png",
+               "static" : [
+                  "HMWARRIA.static.png"
+               ]
+            },
+            "IB" : {
+               "anim" : [
+                  "HMWARRIB_0.png",
+                  "HMWARRIB_1.png",
+                  "HMWARRIB_2.png",
+                  "HMWARRIB_3.png",
+                  "HMWARRIB_4.png",
+                  "HMWARRIB_5.png"
+               ],
+               "anim-packed" : "HMWARRIB.png",
+               "static" : [
+                  "HMWARRIB.static.png"
+               ]
+            },
+            "IC" : {
+               "anim" : [
+                  "HMWARRIC_0.png",
+                  "HMWARRIC_1.png",
+                  "HMWARRIC_2.png",
+                  "HMWARRIC_3.png",
+                  "HMWARRIC_4.png",
+                  "HMWARRIC_5.png"
+               ],
+               "anim-packed" : "HMWARRIC.png",
+               "static" : [
+                  "HMWARRIC.static.png"
+               ]
+            },
+            "ID" : {
+               "anim" : [
+                  "HMWARRID_0.png",
+                  "HMWARRID_1.png",
+                  "HMWARRID_2.png",
+                  "HMWARRID_3.png",
+                  "HMWARRID_4.png",
+                  "HMWARRID_5.png"
+               ],
+               "anim-packed" : "HMWARRID.png",
+               "static" : [
+                  "HMWARRID.static.png"
+               ]
+            },
+            "IE" : {
+               "anim" : [
+                  "HMWARRIE_0.png",
+                  "HMWARRIE_1.png",
+                  "HMWARRIE_2.png",
+                  "HMWARRIE_3.png",
+                  "HMWARRIE_4.png",
+                  "HMWARRIE_5.png"
+               ],
+               "anim-packed" : "HMWARRIE.png",
+               "static" : [
+                  "HMWARRIE.static.png"
+               ]
+            },
+            "IH" : {
+               "anim" : [
+                  "HMWARRIH_0.png",
+                  "HMWARRIH_1.png",
+                  "HMWARRIH_2.png",
+                  "HMWARRIH_3.png",
+                  "HMWARRIH_4.png",
+                  "HMWARRIH_5.png"
+               ],
+               "anim-packed" : "HMWARRIH.png",
+               "static" : [
+                  "HMWARRIH.static.png"
+               ]
+            },
+            "II" : {
+               "anim" : [
+                  "HMWARRII_0.png",
+                  "HMWARRII_1.png",
+                  "HMWARRII_2.png",
+                  "HMWARRII_3.png",
+                  "HMWARRII_4.png",
+                  "HMWARRII_5.png"
+               ],
+               "anim-packed" : "HMWARRII.png",
+               "static" : [
+                  "HMWARRII.static.png"
+               ]
+            },
+            "IJ" : {
+               "anim" : [
+                  "HMWARRIJ_0.png",
+                  "HMWARRIJ_1.png",
+                  "HMWARRIJ_2.png",
+                  "HMWARRIJ_3.png",
+                  "HMWARRIJ_4.png",
+                  "HMWARRIJ_5.png"
+               ],
+               "anim-packed" : "HMWARRIJ.png",
+               "static" : [
+                  "HMWARRIJ.static.png"
+               ]
+            },
+            "IK" : {
+               "anim" : [
+                  "HMWARRIK_0.png",
+                  "HMWARRIK_1.png",
+                  "HMWARRIK_2.png",
+                  "HMWARRIK_3.png",
+                  "HMWARRIK_4.png",
+                  "HMWARRIK_5.png"
+               ],
+               "anim-packed" : "HMWARRIK.png",
+               "static" : [
+                  "HMWARRIK.static.png"
+               ]
+            },
+            "RD" : {
+               "anim" : [
+                  "HMWARRRD_0.png",
+                  "HMWARRRD_1.png",
+                  "HMWARRRD_2.png",
+                  "HMWARRRD_3.png",
+                  "HMWARRRD_4.png",
+                  "HMWARRRD_5.png"
+               ],
+               "anim-packed" : "HMWARRRD.png",
+               "static" : [
+                  "HMWARRRD.static.png"
+               ]
+            },
+            "RF" : {
+               "anim" : [
+                  "HMWARRRF_0.png",
+                  "HMWARRRF_1.png",
+                  "HMWARRRF_2.png",
+                  "HMWARRRF_3.png",
+                  "HMWARRRF_4.png",
+                  "HMWARRRF_5.png"
+               ],
+               "anim-packed" : "HMWARRRF.png",
+               "static" : [
+                  "HMWARRRF.static.png"
+               ]
+            },
+            "RG" : {
+               "anim" : [
+                  "HMWARRRG_0.png",
+                  "HMWARRRG_1.png",
+                  "HMWARRRG_2.png",
+                  "HMWARRRG_3.png",
+                  "HMWARRRG_4.png",
+                  "HMWARRRG_5.png"
+               ],
+               "anim-packed" : "HMWARRRG.png",
+               "static" : [
+                  "HMWARRRG.static.png"
+               ]
+            },
+            "RI" : {
+               "anim" : [
+                  "HMWARRRI_0.png",
+                  "HMWARRRI_1.png",
+                  "HMWARRRI_2.png",
+                  "HMWARRRI_3.png",
+                  "HMWARRRI_4.png",
+                  "HMWARRRI_5.png"
+               ],
+               "anim-packed" : "HMWARRRI.png",
+               "static" : [
+                  "HMWARRRI.static.png"
+               ]
+            },
+            "RL" : {
+               "anim" : [
+                  "HMWARRRL_0.png",
+                  "HMWARRRL_1.png",
+                  "HMWARRRL_2.png",
+                  "HMWARRRL_3.png",
+                  "HMWARRRL_4.png",
+                  "HMWARRRL_5.png"
+               ],
+               "anim-packed" : "HMWARRRL.png",
+               "static" : [
+                  "HMWARRRL.static.png"
+               ]
+            },
+            "RM" : {
+               "anim" : [
+                  "HMWARRRM_0.png",
+                  "HMWARRRM_1.png",
+                  "HMWARRRM_2.png",
+                  "HMWARRRM_3.png",
+                  "HMWARRRM_4.png",
+                  "HMWARRRM_5.png"
+               ],
+               "anim-packed" : "HMWARRRM.png",
+               "static" : [
+                  "HMWARRRM.static.png"
+               ]
+            }
+         },
          "Monster_Sonora_Centipede" : {
             "AA" : {
                "anim" : [
@@ -13135,6 +14921,575 @@
                "anim-packed" : "NEWCRTRP.png",
                "static" : [
                   "NEWCRTRP.static.png"
+               ]
+            }
+         },
+         "Robot_AssaultBot_Blue" : {
+            "AA" : {
+               "anim" : [
+                  "MAROBBAA_0.png",
+                  "MAROBBAA_1.png",
+                  "MAROBBAA_2.png",
+                  "MAROBBAA_3.png",
+                  "MAROBBAA_4.png",
+                  "MAROBBAA_5.png"
+               ],
+               "anim-packed" : "MAROBBAA.png",
+               "static" : [
+                  "MAROBBAA.static.png"
+               ]
+            },
+            "AB" : {
+               "anim" : [
+                  "MAROBBAB_0.png",
+                  "MAROBBAB_1.png",
+                  "MAROBBAB_2.png",
+                  "MAROBBAB_3.png",
+                  "MAROBBAB_4.png",
+                  "MAROBBAB_5.png",
+                  "MAROBTAB_0.png",
+                  "MAROBTAB_1.png",
+                  "MAROBTAB_2.png",
+                  "MAROBTAB_3.png",
+                  "MAROBTAB_4.png",
+                  "MAROBTAB_5.png"
+               ],
+               "anim-packed" : "MAROBTAB.png",
+               "static" : [
+                  "MAROBBAB.static.png",
+                  "MAROBTAB.static.png"
+               ]
+            },
+            "AK" : {
+               "anim" : [
+                  "MAROBBAK_0.png",
+                  "MAROBBAK_1.png",
+                  "MAROBBAK_2.png",
+                  "MAROBBAK_3.png",
+                  "MAROBBAK_4.png",
+                  "MAROBBAK_5.png"
+               ],
+               "anim-packed" : "MAROBBAK.png",
+               "static" : [
+                  "MAROBBAK.static.png"
+               ]
+            },
+            "AN" : {
+               "anim" : [
+                  "MAROBBAN_0.png",
+                  "MAROBBAN_1.png",
+                  "MAROBBAN_2.png",
+                  "MAROBBAN_3.png",
+                  "MAROBBAN_4.png",
+                  "MAROBBAN_5.png"
+               ],
+               "anim-packed" : "MAROBBAN.png",
+               "static" : [
+                  "MAROBBAN.static.png"
+               ]
+            },
+            "AO" : {
+               "anim" : [
+                  "MAROBBAO_0.png",
+                  "MAROBBAO_1.png",
+                  "MAROBBAO_2.png",
+                  "MAROBBAO_3.png",
+                  "MAROBBAO_4.png",
+                  "MAROBBAO_5.png"
+               ],
+               "anim-packed" : "MAROBBAO.png",
+               "static" : [
+                  "MAROBBAO.static.png"
+               ]
+            },
+            "AP" : {
+               "anim" : [
+                  "MAROBBAP_0.png",
+                  "MAROBBAP_1.png",
+                  "MAROBBAP_2.png",
+                  "MAROBBAP_3.png",
+                  "MAROBBAP_4.png",
+                  "MAROBBAP_5.png"
+               ],
+               "anim-packed" : "MAROBBAP.png",
+               "static" : [
+                  "MAROBBAP.static.png"
+               ]
+            },
+            "AQ" : {
+               "anim" : [
+                  "MAROBBAQ_0.png",
+                  "MAROBBAQ_1.png",
+                  "MAROBBAQ_2.png",
+                  "MAROBBAQ_3.png",
+                  "MAROBBAQ_4.png",
+                  "MAROBBAQ_5.png"
+               ],
+               "anim-packed" : "MAROBBAQ.png",
+               "static" : [
+                  "MAROBBAQ.static.png"
+               ]
+            },
+            "BA" : {
+               "anim" : [
+                  "MAROBBBA_0.png",
+                  "MAROBBBA_1.png",
+                  "MAROBBBA_2.png",
+                  "MAROBBBA_3.png",
+                  "MAROBBBA_4.png",
+                  "MAROBBBA_5.png"
+               ],
+               "anim-packed" : "MAROBBBA.png",
+               "static" : [
+                  "MAROBBBA.static.png"
+               ]
+            },
+            "BB" : {
+               "anim" : [
+                  "MAROBBBB_0.png",
+                  "MAROBBBB_1.png",
+                  "MAROBBBB_2.png",
+                  "MAROBBBB_3.png",
+                  "MAROBBBB_4.png",
+                  "MAROBBBB_5.png"
+               ],
+               "anim-packed" : "MAROBBBB.png",
+               "static" : [
+                  "MAROBBBB.static.png"
+               ]
+            },
+            "BD" : {
+               "anim" : [
+                  "MAROBBBD_0.png",
+                  "MAROBBBD_1.png",
+                  "MAROBBBD_2.png",
+                  "MAROBBBD_3.png",
+                  "MAROBBBD_4.png",
+                  "MAROBBBD_5.png"
+               ],
+               "anim-packed" : "MAROBBBD.png",
+               "static" : [
+                  "MAROBBBD.static.png"
+               ]
+            },
+            "BI" : {
+               "anim" : [
+                  "MAROBBBI_0.png",
+                  "MAROBBBI_1.png",
+                  "MAROBBBI_2.png",
+                  "MAROBBBI_3.png",
+                  "MAROBBBI_4.png",
+                  "MAROBBBI_5.png"
+               ],
+               "anim-packed" : "MAROBBBI.png",
+               "static" : [
+                  "MAROBBBI.static.png"
+               ]
+            },
+            "BL" : {
+               "anim" : [
+                  "MAROBBBL_0.png",
+                  "MAROBBBL_1.png",
+                  "MAROBBBL_2.png",
+                  "MAROBBBL_3.png",
+                  "MAROBBBL_4.png",
+                  "MAROBBBL_5.png"
+               ],
+               "anim-packed" : "MAROBBBL.png",
+               "static" : [
+                  "MAROBBBL.static.png"
+               ]
+            },
+            "BO" : {
+               "anim" : [
+                  "MAROBBBO_0.png",
+                  "MAROBBBO_1.png",
+                  "MAROBBBO_2.png",
+                  "MAROBBBO_3.png",
+                  "MAROBBBO_4.png",
+                  "MAROBBBO_5.png"
+               ],
+               "anim-packed" : "MAROBBBO.png",
+               "static" : [
+                  "MAROBBBO.static.png"
+               ]
+            },
+            "BP" : {
+               "anim" : [
+                  "MAROBBBP_0.png",
+                  "MAROBBBP_1.png",
+                  "MAROBBBP_2.png",
+                  "MAROBBBP_3.png",
+                  "MAROBBBP_4.png",
+                  "MAROBBBP_5.png"
+               ],
+               "anim-packed" : "MAROBBBP.png",
+               "static" : [
+                  "MAROBBBP.static.png"
+               ]
+            },
+            "CH" : {
+               "anim" : [
+                  "MAROBBCH_0.png",
+                  "MAROBBCH_1.png",
+                  "MAROBBCH_2.png",
+                  "MAROBBCH_3.png",
+                  "MAROBBCH_4.png",
+                  "MAROBBCH_5.png"
+               ],
+               "anim-packed" : "MAROBBCH.png",
+               "static" : [
+                  "MAROBBCH.static.png"
+               ]
+            },
+            "CJ" : {
+               "anim" : [
+                  "MAROBBCJ_0.png",
+                  "MAROBBCJ_1.png",
+                  "MAROBBCJ_2.png",
+                  "MAROBBCJ_3.png",
+                  "MAROBBCJ_4.png",
+                  "MAROBBCJ_5.png"
+               ],
+               "anim-packed" : "MAROBBCJ.png",
+               "static" : [
+                  "MAROBBCJ.static.png"
+               ]
+            },
+            "LA" : {
+               "anim" : [
+                  "MAROBBLA_0.png",
+                  "MAROBBLA_1.png",
+                  "MAROBBLA_2.png",
+                  "MAROBBLA_3.png",
+                  "MAROBBLA_4.png",
+                  "MAROBBLA_5.png"
+               ],
+               "anim-packed" : "MAROBBLA.png",
+               "static" : [
+                  "MAROBBLA.static.png"
+               ]
+            },
+            "LB" : {
+               "anim" : [
+                  "MAROBBLB_0.png",
+                  "MAROBBLB_1.png",
+                  "MAROBBLB_2.png",
+                  "MAROBBLB_3.png",
+                  "MAROBBLB_4.png",
+                  "MAROBBLB_5.png",
+                  "MAROBTLB_0.png",
+                  "MAROBTLB_1.png",
+                  "MAROBTLB_2.png",
+                  "MAROBTLB_3.png",
+                  "MAROBTLB_4.png",
+                  "MAROBTLB_5.png"
+               ],
+               "anim-packed" : "MAROBTLB.png",
+               "static" : [
+                  "MAROBBLB.static.png",
+                  "MAROBTLB.static.png"
+               ]
+            },
+            "LC" : {
+               "anim" : [
+                  "MAROBBLC_0.png",
+                  "MAROBBLC_1.png",
+                  "MAROBBLC_2.png",
+                  "MAROBBLC_3.png",
+                  "MAROBBLC_4.png",
+                  "MAROBBLC_5.png"
+               ],
+               "anim-packed" : "MAROBBLC.png",
+               "static" : [
+                  "MAROBBLC.static.png"
+               ]
+            },
+            "LD" : {
+               "anim" : [
+                  "MAROBBLD_0.png",
+                  "MAROBBLD_1.png",
+                  "MAROBBLD_2.png",
+                  "MAROBBLD_3.png",
+                  "MAROBBLD_4.png",
+                  "MAROBBLD_5.png"
+               ],
+               "anim-packed" : "MAROBBLD.png",
+               "static" : [
+                  "MAROBBLD.static.png"
+               ]
+            },
+            "LE" : {
+               "anim" : [
+                  "MAROBBLE_0.png",
+                  "MAROBBLE_1.png",
+                  "MAROBBLE_2.png",
+                  "MAROBBLE_3.png",
+                  "MAROBBLE_4.png",
+                  "MAROBBLE_5.png"
+               ],
+               "anim-packed" : "MAROBBLE.png",
+               "static" : [
+                  "MAROBBLE.static.png"
+               ]
+            },
+            "LH" : {
+               "anim" : [
+                  "MAROBBLH_0.png",
+                  "MAROBBLH_1.png",
+                  "MAROBBLH_2.png",
+                  "MAROBBLH_3.png",
+                  "MAROBBLH_4.png",
+                  "MAROBBLH_5.png"
+               ],
+               "anim-packed" : "MAROBBLH.png",
+               "static" : [
+                  "MAROBBLH.static.png"
+               ]
+            },
+            "LI" : {
+               "anim" : [
+                  "MAROBBLI_0.png",
+                  "MAROBBLI_1.png",
+                  "MAROBBLI_2.png",
+                  "MAROBBLI_3.png",
+                  "MAROBBLI_4.png",
+                  "MAROBBLI_5.png"
+               ],
+               "anim-packed" : "MAROBBLI.png",
+               "static" : [
+                  "MAROBBLI.static.png"
+               ]
+            },
+            "LK" : {
+               "anim" : [
+                  "MAROBBLK_0.png",
+                  "MAROBBLK_1.png",
+                  "MAROBBLK_2.png",
+                  "MAROBBLK_3.png",
+                  "MAROBBLK_4.png",
+                  "MAROBBLK_5.png"
+               ],
+               "anim-packed" : "MAROBBLK.png",
+               "static" : [
+                  "MAROBBLK.static.png"
+               ]
+            },
+            "MA" : {
+               "anim" : [
+                  "MAROBBMA_0.png",
+                  "MAROBBMA_1.png",
+                  "MAROBBMA_2.png",
+                  "MAROBBMA_3.png",
+                  "MAROBBMA_4.png",
+                  "MAROBBMA_5.png"
+               ],
+               "anim-packed" : "MAROBBMA.png",
+               "static" : [
+                  "MAROBBMA.static.png"
+               ]
+            },
+            "MB" : {
+               "anim" : [
+                  "MAROBBMB_0.png",
+                  "MAROBBMB_1.png",
+                  "MAROBBMB_2.png",
+                  "MAROBBMB_3.png",
+                  "MAROBBMB_4.png",
+                  "MAROBBMB_5.png",
+                  "MAROBTMB_0.png",
+                  "MAROBTMB_1.png",
+                  "MAROBTMB_2.png",
+                  "MAROBTMB_3.png",
+                  "MAROBTMB_4.png",
+                  "MAROBTMB_5.png"
+               ],
+               "anim-packed" : "MAROBTMB.png",
+               "static" : [
+                  "MAROBBMB.static.png",
+                  "MAROBTMB.static.png"
+               ]
+            },
+            "MC" : {
+               "anim" : [
+                  "MAROBBMC_0.png",
+                  "MAROBBMC_1.png",
+                  "MAROBBMC_2.png",
+                  "MAROBBMC_3.png",
+                  "MAROBBMC_4.png",
+                  "MAROBBMC_5.png"
+               ],
+               "anim-packed" : "MAROBBMC.png",
+               "static" : [
+                  "MAROBBMC.static.png"
+               ]
+            },
+            "MD" : {
+               "anim" : [
+                  "MAROBBMD_0.png",
+                  "MAROBBMD_1.png",
+                  "MAROBBMD_2.png",
+                  "MAROBBMD_3.png",
+                  "MAROBBMD_4.png",
+                  "MAROBBMD_5.png"
+               ],
+               "anim-packed" : "MAROBBMD.png",
+               "static" : [
+                  "MAROBBMD.static.png"
+               ]
+            },
+            "ME" : {
+               "anim" : [
+                  "MAROBBME_0.png",
+                  "MAROBBME_1.png",
+                  "MAROBBME_2.png",
+                  "MAROBBME_3.png",
+                  "MAROBBME_4.png",
+                  "MAROBBME_5.png"
+               ],
+               "anim-packed" : "MAROBBME.png",
+               "static" : [
+                  "MAROBBME.static.png"
+               ]
+            },
+            "MH" : {
+               "anim" : [
+                  "MAROBBMH_0.png",
+                  "MAROBBMH_1.png",
+                  "MAROBBMH_2.png",
+                  "MAROBBMH_3.png",
+                  "MAROBBMH_4.png",
+                  "MAROBBMH_5.png"
+               ],
+               "anim-packed" : "MAROBBMH.png",
+               "static" : [
+                  "MAROBBMH.static.png"
+               ]
+            },
+            "MI" : {
+               "anim" : [
+                  "MAROBBMI_0.png",
+                  "MAROBBMI_1.png",
+                  "MAROBBMI_2.png",
+                  "MAROBBMI_3.png",
+                  "MAROBBMI_4.png",
+                  "MAROBBMI_5.png"
+               ],
+               "anim-packed" : "MAROBBMI.png",
+               "static" : [
+                  "MAROBBMI.static.png"
+               ]
+            },
+            "MJ" : {
+               "anim" : [
+                  "MAROBBMJ_0.png",
+                  "MAROBBMJ_1.png",
+                  "MAROBBMJ_2.png",
+                  "MAROBBMJ_3.png",
+                  "MAROBBMJ_4.png",
+                  "MAROBBMJ_5.png"
+               ],
+               "anim-packed" : "MAROBBMJ.png",
+               "static" : [
+                  "MAROBBMJ.static.png"
+               ]
+            },
+            "RA" : {
+               "anim" : [
+                  "MAROBBRA_0.png",
+                  "MAROBBRA_1.png",
+                  "MAROBBRA_2.png",
+                  "MAROBBRA_3.png",
+                  "MAROBBRA_4.png",
+                  "MAROBBRA_5.png"
+               ],
+               "anim-packed" : "MAROBBRA.png",
+               "static" : [
+                  "MAROBBRA.static.png"
+               ]
+            },
+            "RB" : {
+               "anim" : [
+                  "MAROBBRB_0.png",
+                  "MAROBBRB_1.png",
+                  "MAROBBRB_2.png",
+                  "MAROBBRB_3.png",
+                  "MAROBBRB_4.png",
+                  "MAROBBRB_5.png"
+               ],
+               "anim-packed" : "MAROBBRB.png",
+               "static" : [
+                  "MAROBBRB.static.png"
+               ]
+            },
+            "RD" : {
+               "anim" : [
+                  "MAROBBRD_0.png",
+                  "MAROBBRD_1.png",
+                  "MAROBBRD_2.png",
+                  "MAROBBRD_3.png",
+                  "MAROBBRD_4.png",
+                  "MAROBBRD_5.png"
+               ],
+               "anim-packed" : "MAROBBRD.png",
+               "static" : [
+                  "MAROBBRD.static.png"
+               ]
+            },
+            "RI" : {
+               "anim" : [
+                  "MAROBBRI_0.png",
+                  "MAROBBRI_1.png",
+                  "MAROBBRI_2.png",
+                  "MAROBBRI_3.png",
+                  "MAROBBRI_4.png",
+                  "MAROBBRI_5.png"
+               ],
+               "anim-packed" : "MAROBBRI.png",
+               "static" : [
+                  "MAROBBRI.static.png"
+               ]
+            },
+            "RL" : {
+               "anim" : [
+                  "MAROBBRL_0.png",
+                  "MAROBBRL_1.png",
+                  "MAROBBRL_2.png",
+                  "MAROBBRL_3.png",
+                  "MAROBBRL_4.png",
+                  "MAROBBRL_5.png"
+               ],
+               "anim-packed" : "MAROBBRL.png",
+               "static" : [
+                  "MAROBBRL.static.png"
+               ]
+            },
+            "RO" : {
+               "anim" : [
+                  "MAROBBRO_0.png",
+                  "MAROBBRO_1.png",
+                  "MAROBBRO_2.png",
+                  "MAROBBRO_3.png",
+                  "MAROBBRO_4.png",
+                  "MAROBBRO_5.png"
+               ],
+               "anim-packed" : "MAROBBRO.png",
+               "static" : [
+                  "MAROBBRO.static.png"
+               ]
+            },
+            "RP" : {
+               "anim" : [
+                  "MAROBBRP_0.png",
+                  "MAROBBRP_1.png",
+                  "MAROBBRP_2.png",
+                  "MAROBBRP_3.png",
+                  "MAROBBRP_4.png",
+                  "MAROBBRP_5.png"
+               ],
+               "anim-packed" : "MAROBBRP.png",
+               "static" : [
+                  "MAROBBRP.static.png"
                ]
             }
          }
