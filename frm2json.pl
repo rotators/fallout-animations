@@ -11,11 +11,23 @@ use JSON;
 
 #
 
-my( %json, @frm, @png );
+my( %options, %json, @frm, @png );
 
 #
 
-sub findFrm
+sub parse_options
+{
+    $options{base64} = 0;
+
+    foreach my $option ( @ARGV )
+    {
+        $options{base64} = 1 if ( $option eq '--base64' );
+    }
+}
+
+#
+
+sub find_frm
 {
     my $file = $File::Find::name;
     my $extension = lc(substr($file, -4));
@@ -26,7 +38,7 @@ sub findFrm
 
 #
 
-sub findPng
+sub find_png
 {
     my $file = $File::Find::name;
     my $extension = lc(substr($file, -4));
@@ -56,7 +68,11 @@ sub json_info
         $root{'url'}{'repository-raw'} = sprintf( "https://raw.githubusercontent.com/%s/%s/%s/", $owner, $name, $branch );
 
         $root{'url'}{'pages'} = sprintf( "https://%s.github.io/%s/", $owner, $name );
+
     }
+
+    # viewer doesnt follow new specs... yet?
+    # $root{'url'}{'specification'} = "https://fodev.net/pastebin/?u=fallout-animations-specification";
 
     $json{'fallout-animations'}{'INFO'} = \%root
         if( scalar(keys( %root )));
@@ -88,19 +104,38 @@ sub json_frm
 
         # it's easier to store entries initially as arrays...
 
-        push( @{ $root{"$dir"}{"$anim"} }, $file );
+        if( $options{base64} == 1 )
+        {
+            my $base64 = `base64 --wrap 0 $frm`;
+            push( @{ $root{"$dir"}{"$anim"} },
+            {
+                data => "$base64",
+                name => "$file"
+            });
+        }
+        else
+        {
+            push( @{ $root{"$dir"}{"$anim"} }, $file );
+        }
     }
 
     # ...and change them to string if they contain only one element
 
     foreach my $dir ( keys( %root ))
     {
-        foreach my $anim ( keys( %{ $root{$dir} }))
+        foreach my $anim ( keys( %{ $root{"$dir"} }))
         {
-            if(scalar(@{ $root{$dir}{$anim} }) == 1)
+            my $size = scalar(@{ $root{"$dir"}{"$anim"} });
+
+            if( $size == 1)
             {
-                my $value = $root{$dir}{$anim}[0];
-                $root{$dir}{$anim} = $value;
+                my $data = $root{"$dir"}{"$anim"}[0];
+
+                $root{"$dir"}{"$anim"} = $data;
+            }
+            elsif( $size == 7 )
+            {
+               pop( @{ $root{"$dir"}{"$anim"} } );
             }
         }
     }
@@ -164,8 +199,10 @@ sub json_txt
 
 #
 
-&find({ wanted => \&findFrm, no_chdir => 1 }, '.');
-&find({ wanted => \&findPng, no_chdir => 1 }, 'docs' );
+&parse_options();
+
+&find({ wanted => \&find_frm, no_chdir => 1 }, '.');
+&find({ wanted => \&find_png, no_chdir => 1 }, 'docs' );
 
 &json_info();
 &json_frm();
