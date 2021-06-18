@@ -71,7 +71,7 @@ sub json_info
 
     }
 
-    # viewer doesnt follow new specs... yet?
+    # viewer doesn't follow new specs... yet?
     # $root{'url'}{'specification'} = "https://fodev.net/pastebin/?u=fallout-animations-specification";
 
     $json{'fallout-animations'}{'INFO'} = \%root
@@ -193,8 +193,147 @@ sub json_txt
 {
     my %root;
 
-    $json{'fallout-animations-extra'}{'txt'} = \%root
-        if( scalar(keys( %root )))
+    $root{"AA"} = "Unarmed - Stand";
+    $root{"AB"} = "Unarmed - Walk";
+    $root{"AE"} = "Climb ladder";
+    $root{"AG"} = "Up stairs right";
+    $root{"AH"} = "Up stairs left";
+    $root{"AI"} = "Down stairs right";
+    $root{"AJ"} = "Down stairs left";
+    $root{"AK"} = "Magic hands ground";
+    $root{"AL"} = "Magic hands middle";
+    $root{"AN"} = "Unarmed - Doge";
+    $root{"AO"} = "Hit from front";
+    $root{"AP"} = "Hit from back";
+    $root{"AQ"} = "Throw punch";
+    $root{"AR"} = "Kick leg";
+    $root{"AS"} = "Throwing";
+    $root{"AT"} = "Running";
+    $root{"BA"} = "Fall back";
+    $root{"BB"} = "Fall front";
+    $root{"BC"} = "Bad landing";
+    $root{"BD"} = "Big hole";
+    $root{"BE"} = "Charred body";
+    $root{"BF"} = "Chunks of flesh";
+    $root{"BG"} = "Dancing autofire";
+    $root{"BH"} = "Electrify";
+    $root{"BI"} = "Sliced in half";
+    $root{"BJ"} = "Burned to nothing";
+    $root{"BK"} = "Electrified to nothing";
+    $root{"BL"} = "Exploded to nothing";
+    $root{"BM"} = "Melted to nothing";
+    $root{"BN"} = "Fire dance";
+    $root{"BO"} = "Fall back blood";
+    $root{"BP"} = "Fall front blood";
+    $root{"CH"} = "Prone to standing";
+    $root{"CJ"} = "Back to standing";
+    $root{"DA"} = "Knife - Stand";
+    $root{"DB"} = "Knife - Walk";
+    $root{"DC"} = "Knife - Draw";
+    $root{"DD"} = "Knife - Holster";
+    $root{"DE"} = "Knife - Dodge ";
+    $root{"DF"} = "Knife - Thrust";
+    $root{"DG"} = "Knife - Swing";
+    $root{"DM"} = "Knife - Throw";
+    $root{"EA"} = "Club - Stand";
+    $root{"EB"} = "Club - Walk";
+    $root{"EC"} = "Club - Draw";
+    $root{"ED"} = "Club - Holster";
+    $root{"EE"} = "Club - Dodge";
+    $root{"EF"} = "Club - Thrust";
+    $root{"EG"} = "Club - Swing";
+    $root{"FA"} = "Hammer - Stand";
+    $root{"FB"} = "Hammer - Walk";
+    $root{"FC"} = "Hammer - Draw";
+    $root{"FD"} = "Hammer - Holster";
+    $root{"FE"} = "Hammer - Dodge";
+    $root{"FF"} = "Hammer - Thrust";
+    $root{"FG"} = "Hammer - Swing";
+    $root{"GA"} = "Spear - Stand";
+    $root{"GB"} = "Spear - Walk";
+    $root{"GC"} = "Spear - Draw";
+    $root{"GD"} = "Spear - Holster";
+    $root{"GE"} = "Spear - Dodge";
+    $root{"GF"} = "Spear - Thrust";
+    $root{"GM"} = "Spear - Throwing";
+    $root{"HA"} = "Pistol - Stand";
+    $root{"HB"} = "Pistol - Walk";
+    $root{"HC"} = "Pistol - Draw";
+    $root{"HD"} = "Pistol - Holster";
+    $root{"HE"} = "Pistol - Dodge";
+    $root{"HH"} = "Pistol - Weapon Up";
+    $root{"HI"} = "Pistol - Weapon Down";
+    $root{"HJ"} = "Pistol - Fire single";
+    $root{"HK"} = "Pistol - Fire burst";
+    $root{"HL"} = "Pistol - Fire continuous";
+    $root{"IA"} = "SMG - Stand";
+    $root{"IB"} = "SMG - Walk";
+    $root{"IC"} = "SMG - Draw";
+    $root{"ID"} = "SMG - Holster";
+    $root{"IE"} = "SMG - Dodge";
+    $root{"IH"} = "SMG - Weapon Up";
+    $root{"II"} = "SMG - Weapon Down";
+    $root{"IJ"} = "SMG - Fire single";
+    $root{"IK"} = "SMG - Fire burst";
+    $root{"IL"} = "SMG - Fire continuous";
+    $root{"JA"} = "Rifle - Stand";
+    $root{"JB"} = "Rifle - Walk";
+    $root{"JC"} = "Rifle - Draw";
+    $root{"JD"} = "Rifle - Holster";
+    $root{"JE"} = "Rifle - Dodge";
+    $root{"JH"} = "Rifle - Weapon Up";
+    $root{"JI"} = "Rifle - Weapon Down";
+    $root{"JJ"} = "Rifle - Fire single";
+    $root{"JK"} = "Rifle - Fire burst";
+    $root{"JL"} = "Rifle - Fire continuous";
+    $root{"KA"} = "Big Gun - Stand";
+    $root{"KB"} = "Big Gun - Walk";
+    $root{"KC"} = "Big Gun - Draw";
+    $root{"KD"} = "Big Gun - Holster";
+    $root{"KE"} = "Big Gun - Dodge";
+    $root{"KH"} = "Big Gun - Weapon Up";
+    $root{"KI"} = "Big Gun - Weapon Down";
+    $root{"KJ"} = "Big Gun - Fire single";
+    $root{"KK"} = "Big Gun - Fire burst";
+    $root{"KL"} = "Big Gun - Fire continuous";
+    $root{"LA"} = "Minigun - Stand";
+    $root{"LB"} = "Minigun - Walk";
+    $root{"LC"} = "Minigun - Draw";
+    $root{"LD"} = "Minigun - Holster";
+    $root{"LE"} = "Minigun - Dodge";
+    $root{"LH"} = "Minigun - Weapon Up";
+    $root{"LI"} = "Minigun - Weapon Down";
+    $root{"LJ"} = "Minigun - Fire single";
+    $root{"LK"} = "Minigun - Fire burst";
+    $root{"LL"} = "Minigun - Fire continuous";
+    $root{"MA"} = "Rocket Launcher - Stand";
+    $root{"MB"} = "Rocket Launcher - Walk";
+    $root{"MC"} = "Rocket Launcher - Draw";
+    $root{"MD"} = "Rocket Launcher - Holster";
+    $root{"ME"} = "Rocket Launcher - Dodge";
+    $root{"MH"} = "Rocket Launcher - Weapon Up";
+    $root{"MI"} = "Rocket Launcher - Weapon Down";
+    $root{"MJ"} = "Rocket Launcher - Fire single";
+    $root{"MK"} = "Rocket Launcher - Fire burst";
+    $root{"ML"} = "Rocket Launcher - Fire continuous";
+    $root{"RA"} = "Fall back (single frame)";
+    $root{"RB"} = "Fall front (single frame)";
+    $root{"RC"} = "Bad landing (single frame)";
+    $root{"RD"} = "Big hole (single frame)";
+    $root{"RE"} = "Charred body (single frame)";
+    $root{"RF"} = "Chunks of flesh (single frame)";
+    $root{"RG"} = "Dancing autofire (single frame)";
+    $root{"RH"} = "Electrify (single frame)";
+    $root{"RI"} = "Siled in half (single frame)";
+    $root{"RJ"} = "Burned to nothing (single frame)";
+    $root{"RK"} = "Electrified to nothing (single frame)";
+    $root{"RL"} = "Exploded to nothing (single frame)";
+    $root{"RM"} = "Melted to nothing (single frame)";
+    $root{"RO"} = "Fall back blood (single frame)";
+    $root{"RP"} = "Fall front blood (single frame)";
+    $root{"RN"} = "Called shot pic";
+
+    $json{'fallout-animations'}{'txt'} = \%root;
 }
 
 #
