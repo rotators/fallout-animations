@@ -44,8 +44,8 @@ jobs:
   - name: Validation
     run:  |
           :
-          echo > docs/.nojekyll
-          
+          touch docs/.nojekyll
+          #
           if [[ -n "$(git status --short --untracked-files=all docs)" ]]; then
              git add docs
              echo "GitHub Pages" > .git/gha.commit

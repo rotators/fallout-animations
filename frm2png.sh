@@ -37,6 +37,7 @@ function png-name()
 function ignore-frm()
 {
     local frm="$1"
+    local frm_dir="$(dirname "$frm")"
     local frm_base="$(basename "$frm")"
     local frm_anim=
     if [[ "${frm_base:0:1}" == "_" ]]; then
@@ -45,6 +46,11 @@ function ignore-frm()
        frm_anim=${frm_base:6:2}
     fi
     frm_anim=${frm_anim^^}
+
+    if [[ "$frm_dir" =~ ^_IGNORE_/ ]]; then
+       echo "SKIPPED"
+       return 0
+    fi
 
     if [[ $frm_anim == "NA" ]]; then
        return 0
@@ -58,11 +64,13 @@ function ignore-frm()
 function process-frm()
 {
     find . -iname "*.frm" | sort | while read frm; do
-         echo "::group::${frm//\.\//}"
+         frm="${frm//\.\//}"
 
          if ignore-frm "$frm"; then
             continue
         fi
+
+         echo "::group::$frm"
 
          mkdir -p "$dir_output/$(dirname "$frm")"
          $frm2png $options -g anim -o "$(png-name "$frm")" "$frm"
@@ -80,11 +88,13 @@ function process-frX()
 {
     for dir in $(seq 0 5); do
         find . -iname "*.fr$dir" | sort | while read frm; do
-             echo "::group::${frm//\.\//}"
+             frm="${frm//\.\//}"
 
              if ignore-frm "$frm"; then
                 continue
              fi
+
+             echo "::group::$frm"
 
              mkdir -p "$dir_output/$(dirname "$frm")"
              $frm2png $options -g anim -o "$(png-name "$frm" _$dir)" "$frm"

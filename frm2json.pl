@@ -17,11 +17,11 @@ my( %options, %json, @frm, @png );
 
 sub parse_options
 {
-    $options{base64} = 0;
+    $options{'base64'} = 0;
 
     foreach my $option ( @ARGV )
     {
-        $options{base64} = 1 if ( $option eq '--base64' );
+        $options{'base64'} = 1 if ( $option eq '--base64' );
     }
 }
 
@@ -31,6 +31,10 @@ sub find_frm
 {
     my $file = $File::Find::name;
     my $extension = lc(substr($file, -4));
+
+    $file =~ s!^./!!;
+
+    return if( $file =~ /^_IGNORE_\// );
 
     push( @frm, $file ) if( $extension eq '.frm' );
     push( @frm, $file ) if( $extension =~ /\.fr[0-5]/ )
@@ -42,6 +46,8 @@ sub find_png
 {
     my $file = $File::Find::name;
     my $extension = lc(substr($file, -4));
+
+    $png =~ s!^\./!!;
 
     push( @png, $file ) if( $extension eq '.png' );
 }
@@ -86,8 +92,6 @@ sub json_frm
 
     foreach my $frm ( sort {$a cmp $b} @frm )
     {
-        $frm =~ s!^\./!!;
-
         my( undef, $dir, $file ) = File::Spec->splitpath( $frm );
 
         $dir =~ s![/]+$!!;
@@ -104,7 +108,7 @@ sub json_frm
 
         # it's easier to store entries initially as arrays...
 
-        if( $options{base64} == 1 )
+        if( $options{'base64'} == 1 )
         {
             my $base64 = `base64 --wrap 0 $frm`;
             push( @{ $root{"$dir"}{"$anim"} },
@@ -152,8 +156,6 @@ sub json_png
 
     foreach my $png ( sort {$a cmp $b} @png )
     {
-        $png =~ s!^\./!!;
-
         my( undef, $dir, $file ) = File::Spec->splitpath( $png );
 
         $dir =~ s!^docs/!!;
@@ -209,6 +211,7 @@ sub json_txt
     $root{"AR"} = "Kick leg";
     $root{"AS"} = "Throwing";
     $root{"AT"} = "Running";
+
     $root{"BA"} = "Fall back";
     $root{"BB"} = "Fall front";
     $root{"BC"} = "Bad landing";
@@ -225,8 +228,10 @@ sub json_txt
     $root{"BN"} = "Fire dance";
     $root{"BO"} = "Fall back blood";
     $root{"BP"} = "Fall front blood";
+
     $root{"CH"} = "Prone to standing";
     $root{"CJ"} = "Back to standing";
+
     $root{"DA"} = "Knife - Stand";
     $root{"DB"} = "Knife - Walk";
     $root{"DC"} = "Knife - Draw";
@@ -235,6 +240,7 @@ sub json_txt
     $root{"DF"} = "Knife - Thrust";
     $root{"DG"} = "Knife - Swing";
     $root{"DM"} = "Knife - Throw";
+
     $root{"EA"} = "Club - Stand";
     $root{"EB"} = "Club - Walk";
     $root{"EC"} = "Club - Draw";
@@ -242,6 +248,7 @@ sub json_txt
     $root{"EE"} = "Club - Dodge";
     $root{"EF"} = "Club - Thrust";
     $root{"EG"} = "Club - Swing";
+
     $root{"FA"} = "Hammer - Stand";
     $root{"FB"} = "Hammer - Walk";
     $root{"FC"} = "Hammer - Draw";
@@ -249,6 +256,7 @@ sub json_txt
     $root{"FE"} = "Hammer - Dodge";
     $root{"FF"} = "Hammer - Thrust";
     $root{"FG"} = "Hammer - Swing";
+
     $root{"GA"} = "Spear - Stand";
     $root{"GB"} = "Spear - Walk";
     $root{"GC"} = "Spear - Draw";
@@ -256,6 +264,7 @@ sub json_txt
     $root{"GE"} = "Spear - Dodge";
     $root{"GF"} = "Spear - Thrust";
     $root{"GM"} = "Spear - Throwing";
+
     $root{"HA"} = "Pistol - Stand";
     $root{"HB"} = "Pistol - Walk";
     $root{"HC"} = "Pistol - Draw";
@@ -266,6 +275,7 @@ sub json_txt
     $root{"HJ"} = "Pistol - Fire single";
     $root{"HK"} = "Pistol - Fire burst";
     $root{"HL"} = "Pistol - Fire continuous";
+
     $root{"IA"} = "SMG - Stand";
     $root{"IB"} = "SMG - Walk";
     $root{"IC"} = "SMG - Draw";
@@ -276,6 +286,7 @@ sub json_txt
     $root{"IJ"} = "SMG - Fire single";
     $root{"IK"} = "SMG - Fire burst";
     $root{"IL"} = "SMG - Fire continuous";
+
     $root{"JA"} = "Rifle - Stand";
     $root{"JB"} = "Rifle - Walk";
     $root{"JC"} = "Rifle - Draw";
@@ -286,6 +297,7 @@ sub json_txt
     $root{"JJ"} = "Rifle - Fire single";
     $root{"JK"} = "Rifle - Fire burst";
     $root{"JL"} = "Rifle - Fire continuous";
+
     $root{"KA"} = "Big Gun - Stand";
     $root{"KB"} = "Big Gun - Walk";
     $root{"KC"} = "Big Gun - Draw";
@@ -296,6 +308,7 @@ sub json_txt
     $root{"KJ"} = "Big Gun - Fire single";
     $root{"KK"} = "Big Gun - Fire burst";
     $root{"KL"} = "Big Gun - Fire continuous";
+
     $root{"LA"} = "Minigun - Stand";
     $root{"LB"} = "Minigun - Walk";
     $root{"LC"} = "Minigun - Draw";
@@ -306,6 +319,7 @@ sub json_txt
     $root{"LJ"} = "Minigun - Fire single";
     $root{"LK"} = "Minigun - Fire burst";
     $root{"LL"} = "Minigun - Fire continuous";
+
     $root{"MA"} = "Rocket Launcher - Stand";
     $root{"MB"} = "Rocket Launcher - Walk";
     $root{"MC"} = "Rocket Launcher - Draw";
@@ -316,6 +330,7 @@ sub json_txt
     $root{"MJ"} = "Rocket Launcher - Fire single";
     $root{"MK"} = "Rocket Launcher - Fire burst";
     $root{"ML"} = "Rocket Launcher - Fire continuous";
+
     $root{"RA"} = "Fall back (single frame)";
     $root{"RB"} = "Fall front (single frame)";
     $root{"RC"} = "Bad landing (single frame)";
@@ -329,9 +344,9 @@ sub json_txt
     $root{"RK"} = "Electrified to nothing (single frame)";
     $root{"RL"} = "Exploded to nothing (single frame)";
     $root{"RM"} = "Melted to nothing (single frame)";
+    $root{"RN"} = "Called shot pic";
     $root{"RO"} = "Fall back blood (single frame)";
     $root{"RP"} = "Fall front blood (single frame)";
-    $root{"RN"} = "Called shot pic";
 
     $json{'fallout-animations'}{'txt'} = \%root;
 }
