@@ -47,7 +47,7 @@ sub find_png
     my $file = $File::Find::name;
     my $extension = lc(substr($file, -4));
 
-    $png =~ s!^\./!!;
+    $file =~ s!^\./!!;
 
     push( @png, $file ) if( $extension eq '.png' );
 }
