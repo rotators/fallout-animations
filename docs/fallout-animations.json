@@ -8,6 +8,9 @@
          }
       },
       "frm" : {
+         "Androgyn_BlackDude_Robe" : {
+            "AA" : "HABRBEAA.FRM"
+         },
          "Female_Tribal_ExtraAnims" : {
             "BD" : "HFPRIMBD.FRM",
             "BF" : "HFPRIMBF.FRM",
@@ -1433,6 +1436,22 @@
          }
       },
       "png" : {
+         "Androgyn_BlackDude_Robe" : {
+            "AA" : {
+               "anim" : [
+                  "HABRBEAA_0.png",
+                  "HABRBEAA_1.png",
+                  "HABRBEAA_2.png",
+                  "HABRBEAA_3.png",
+                  "HABRBEAA_4.png",
+                  "HABRBEAA_5.png"
+               ],
+               "anim-packed" : "HABRBEAA.png",
+               "static" : [
+                  "HABRBEAA.static.png"
+               ]
+            }
+         },
          "Female_Tribal_ExtraAnims" : {
             "BD" : {
                "anim" : [
