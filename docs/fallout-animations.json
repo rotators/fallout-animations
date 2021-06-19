@@ -9,7 +9,118 @@
       },
       "frm" : {
          "Androgyn_BlackDude_Robe" : {
-            "AA" : "HABRBEAA.FRM"
+            "AA" : "HABRBEAA.FRM",
+            "AB" : "HABRBEAB.FRM",
+            "AE" : "HABRBEAE.FRM",
+            "AK" : "HABRBEAK.FRM",
+            "AL" : "HABRBEAL.FRM",
+            "AN" : "HABRBEAN.FRM",
+            "AO" : "HABRBEAO.FRM",
+            "AP" : "HABRBEAP.FRM",
+            "AQ" : "HABRBEAQ.FRM",
+            "AR" : "HABRBEAR.FRM",
+            "AS" : "HABRBEAS.FRM",
+            "AT" : "HABRBEAT.FRM",
+            "BA" : [
+               "HABRBEBA.FR0",
+               "HABRBEBA.FR1",
+               "HABRBEBA.FR2",
+               "HABRBEBA.FR3",
+               "HABRBEBA.FR4",
+               "HABRBEBA.FR5"
+            ],
+            "BB" : [
+               "HABRBEBB.FR0",
+               "HABRBEBB.FR1",
+               "HABRBEBB.FR2",
+               "HABRBEBB.FR3",
+               "HABRBEBB.FR4",
+               "HABRBEBB.FR5"
+            ],
+            "BD" : [
+               "HABRBEBD.FR0",
+               "HABRBEBD.FR1",
+               "HABRBEBD.FR2",
+               "HABRBEBD.FR3",
+               "HABRBEBD.FR4",
+               "HABRBEBD.FR5"
+            ],
+            "BF" : [
+               "HABRBEBF.FR0",
+               "HABRBEBF.FR1",
+               "HABRBEBF.FR2",
+               "HABRBEBF.FR3",
+               "HABRBEBF.FR4",
+               "HABRBEBF.FR5"
+            ],
+            "BG" : [
+               "HABRBEBG.FR0",
+               "HABRBEBG.FR1",
+               "HABRBEBG.FR2",
+               "HABRBEBG.FR3",
+               "HABRBEBG.FR4",
+               "HABRBEBG.FR5"
+            ],
+            "BI" : [
+               "HABRBEBI.FR0",
+               "HABRBEBI.FR1",
+               "HABRBEBI.FR2",
+               "HABRBEBI.FR3",
+               "HABRBEBI.FR4",
+               "HABRBEBI.FR5"
+            ],
+            "BL" : [
+               "HABRBEBL.FR0",
+               "HABRBEBL.FR1",
+               "HABRBEBL.FR2",
+               "HABRBEBL.FR3",
+               "HABRBEBL.FR4",
+               "HABRBEBL.FR5"
+            ],
+            "BM" : [
+               "HABRBEBM.FR0",
+               "HABRBEBM.FR1",
+               "HABRBEBM.FR2",
+               "HABRBEBM.FR3",
+               "HABRBEBM.FR4",
+               "HABRBEBM.FR5"
+            ],
+            "BO" : [
+               "HABRBEBO.FR0",
+               "HABRBEBO.FR1",
+               "HABRBEBO.FR2",
+               "HABRBEBO.FR3",
+               "HABRBEBO.FR4",
+               "HABRBEBO.FR5"
+            ],
+            "BP" : [
+               "HABRBEBP.FR0",
+               "HABRBEBP.FR1",
+               "HABRBEBP.FR2",
+               "HABRBEBP.FR3",
+               "HABRBEBP.FR4",
+               "HABRBEBP.FR5"
+            ],
+            "CH" : "HABRBECH.FRM",
+            "CJ" : "HABRBECJ.FRM",
+            "DA" : "HABRBEDA.FRM",
+            "DB" : "HABRBEDB.FRM",
+            "DC" : "HABRBEDC.FRM",
+            "DD" : "HABRBEDD.FRM",
+            "DE" : "HABRBEDE.FRM",
+            "DF" : "HABRBEDF.FRM",
+            "DG" : "HABRBEDG.FRM",
+            "DM" : "HABRBEDM.FRM",
+            "EA" : "HABRBEEA.FRM",
+            "EB" : "HABRBEEB.FRM",
+            "EC" : "HABRBEEC.FRM",
+            "ED" : "HABRBEED.FRM",
+            "EE" : "HABRBEEE.FRM",
+            "EF" : "HABRBEEF.FRM",
+            "EG" : "HABRBEEG.FRM",
+            "FA" : "HABRBEFA.FRM",
+            "FB" : "HABRBEFB.FRM",
+            "FC" : "HABRBEFC.FRM"
          },
          "Female_Tribal_ExtraAnims" : {
             "BD" : "HFPRIMBD.FRM",
@@ -1449,6 +1560,620 @@
                "anim-packed" : "HABRBEAA.png",
                "static" : [
                   "HABRBEAA.static.png"
+               ]
+            },
+            "AB" : {
+               "anim" : [
+                  "HABRBEAB_0.png",
+                  "HABRBEAB_1.png",
+                  "HABRBEAB_2.png",
+                  "HABRBEAB_3.png",
+                  "HABRBEAB_4.png",
+                  "HABRBEAB_5.png"
+               ],
+               "anim-packed" : "HABRBEAB.png",
+               "static" : [
+                  "HABRBEAB.static.png"
+               ]
+            },
+            "AE" : {
+               "anim" : [
+                  "HABRBEAE_0.png",
+                  "HABRBEAE_1.png",
+                  "HABRBEAE_2.png",
+                  "HABRBEAE_3.png",
+                  "HABRBEAE_4.png",
+                  "HABRBEAE_5.png"
+               ],
+               "anim-packed" : "HABRBEAE.png",
+               "static" : [
+                  "HABRBEAE.static.png"
+               ]
+            },
+            "AK" : {
+               "anim" : [
+                  "HABRBEAK_0.png",
+                  "HABRBEAK_1.png",
+                  "HABRBEAK_2.png",
+                  "HABRBEAK_3.png",
+                  "HABRBEAK_4.png",
+                  "HABRBEAK_5.png"
+               ],
+               "anim-packed" : "HABRBEAK.png",
+               "static" : [
+                  "HABRBEAK.static.png"
+               ]
+            },
+            "AL" : {
+               "anim" : [
+                  "HABRBEAL_0.png",
+                  "HABRBEAL_1.png",
+                  "HABRBEAL_2.png",
+                  "HABRBEAL_3.png",
+                  "HABRBEAL_4.png",
+                  "HABRBEAL_5.png"
+               ],
+               "anim-packed" : "HABRBEAL.png",
+               "static" : [
+                  "HABRBEAL.static.png"
+               ]
+            },
+            "AN" : {
+               "anim" : [
+                  "HABRBEAN_0.png",
+                  "HABRBEAN_1.png",
+                  "HABRBEAN_2.png",
+                  "HABRBEAN_3.png",
+                  "HABRBEAN_4.png",
+                  "HABRBEAN_5.png"
+               ],
+               "anim-packed" : "HABRBEAN.png",
+               "static" : [
+                  "HABRBEAN.static.png"
+               ]
+            },
+            "AO" : {
+               "anim" : [
+                  "HABRBEAO_0.png",
+                  "HABRBEAO_1.png",
+                  "HABRBEAO_2.png",
+                  "HABRBEAO_3.png",
+                  "HABRBEAO_4.png",
+                  "HABRBEAO_5.png"
+               ],
+               "anim-packed" : "HABRBEAO.png",
+               "static" : [
+                  "HABRBEAO.static.png"
+               ]
+            },
+            "AP" : {
+               "anim" : [
+                  "HABRBEAP_0.png",
+                  "HABRBEAP_1.png",
+                  "HABRBEAP_2.png",
+                  "HABRBEAP_3.png",
+                  "HABRBEAP_4.png",
+                  "HABRBEAP_5.png"
+               ],
+               "anim-packed" : "HABRBEAP.png",
+               "static" : [
+                  "HABRBEAP.static.png"
+               ]
+            },
+            "AQ" : {
+               "anim" : [
+                  "HABRBEAQ_0.png",
+                  "HABRBEAQ_1.png",
+                  "HABRBEAQ_2.png",
+                  "HABRBEAQ_3.png",
+                  "HABRBEAQ_4.png",
+                  "HABRBEAQ_5.png"
+               ],
+               "anim-packed" : "HABRBEAQ.png",
+               "static" : [
+                  "HABRBEAQ.static.png"
+               ]
+            },
+            "AR" : {
+               "anim" : [
+                  "HABRBEAR_0.png",
+                  "HABRBEAR_1.png",
+                  "HABRBEAR_2.png",
+                  "HABRBEAR_3.png",
+                  "HABRBEAR_4.png",
+                  "HABRBEAR_5.png"
+               ],
+               "anim-packed" : "HABRBEAR.png",
+               "static" : [
+                  "HABRBEAR.static.png"
+               ]
+            },
+            "AS" : {
+               "anim" : [
+                  "HABRBEAS_0.png",
+                  "HABRBEAS_1.png",
+                  "HABRBEAS_2.png",
+                  "HABRBEAS_3.png",
+                  "HABRBEAS_4.png",
+                  "HABRBEAS_5.png"
+               ],
+               "anim-packed" : "HABRBEAS.png",
+               "static" : [
+                  "HABRBEAS.static.png"
+               ]
+            },
+            "AT" : {
+               "anim" : [
+                  "HABRBEAT_0.png",
+                  "HABRBEAT_1.png",
+                  "HABRBEAT_2.png",
+                  "HABRBEAT_3.png",
+                  "HABRBEAT_4.png",
+                  "HABRBEAT_5.png"
+               ],
+               "anim-packed" : "HABRBEAT.png",
+               "static" : [
+                  "HABRBEAT.static.png"
+               ]
+            },
+            "BA" : {
+               "anim" : [
+                  "HABRBEBA_0.png",
+                  "HABRBEBA_1.png",
+                  "HABRBEBA_2.png",
+                  "HABRBEBA_3.png",
+                  "HABRBEBA_4.png",
+                  "HABRBEBA_5.png"
+               ],
+               "static" : [
+                  "HABRBEBA_0.static.png",
+                  "HABRBEBA_1.static.png",
+                  "HABRBEBA_2.static.png",
+                  "HABRBEBA_3.static.png",
+                  "HABRBEBA_4.static.png",
+                  "HABRBEBA_5.static.png"
+               ]
+            },
+            "BB" : {
+               "anim" : [
+                  "HABRBEBB_0.png",
+                  "HABRBEBB_1.png",
+                  "HABRBEBB_2.png",
+                  "HABRBEBB_3.png",
+                  "HABRBEBB_4.png",
+                  "HABRBEBB_5.png"
+               ],
+               "static" : [
+                  "HABRBEBB_0.static.png",
+                  "HABRBEBB_1.static.png",
+                  "HABRBEBB_2.static.png",
+                  "HABRBEBB_3.static.png",
+                  "HABRBEBB_4.static.png",
+                  "HABRBEBB_5.static.png"
+               ]
+            },
+            "BD" : {
+               "anim" : [
+                  "HABRBEBD_0.png",
+                  "HABRBEBD_1.png",
+                  "HABRBEBD_2.png",
+                  "HABRBEBD_3.png",
+                  "HABRBEBD_4.png",
+                  "HABRBEBD_5.png"
+               ],
+               "static" : [
+                  "HABRBEBD_0.static.png",
+                  "HABRBEBD_1.static.png",
+                  "HABRBEBD_2.static.png",
+                  "HABRBEBD_3.static.png",
+                  "HABRBEBD_4.static.png",
+                  "HABRBEBD_5.static.png"
+               ]
+            },
+            "BF" : {
+               "anim" : [
+                  "HABRBEBF_0.png",
+                  "HABRBEBF_1.png",
+                  "HABRBEBF_2.png",
+                  "HABRBEBF_3.png",
+                  "HABRBEBF_4.png",
+                  "HABRBEBF_5.png"
+               ],
+               "static" : [
+                  "HABRBEBF_0.static.png",
+                  "HABRBEBF_1.static.png",
+                  "HABRBEBF_2.static.png",
+                  "HABRBEBF_3.static.png",
+                  "HABRBEBF_4.static.png",
+                  "HABRBEBF_5.static.png"
+               ]
+            },
+            "BG" : {
+               "anim" : [
+                  "HABRBEBG_0.png",
+                  "HABRBEBG_1.png",
+                  "HABRBEBG_2.png",
+                  "HABRBEBG_3.png",
+                  "HABRBEBG_4.png",
+                  "HABRBEBG_5.png"
+               ],
+               "static" : [
+                  "HABRBEBG_0.static.png",
+                  "HABRBEBG_1.static.png",
+                  "HABRBEBG_2.static.png",
+                  "HABRBEBG_3.static.png",
+                  "HABRBEBG_4.static.png",
+                  "HABRBEBG_5.static.png"
+               ]
+            },
+            "BI" : {
+               "anim" : [
+                  "HABRBEBI_0.png",
+                  "HABRBEBI_1.png",
+                  "HABRBEBI_2.png",
+                  "HABRBEBI_3.png",
+                  "HABRBEBI_4.png",
+                  "HABRBEBI_5.png"
+               ],
+               "static" : [
+                  "HABRBEBI_0.static.png",
+                  "HABRBEBI_1.static.png",
+                  "HABRBEBI_2.static.png",
+                  "HABRBEBI_3.static.png",
+                  "HABRBEBI_4.static.png",
+                  "HABRBEBI_5.static.png"
+               ]
+            },
+            "BL" : {
+               "anim" : [
+                  "HABRBEBL_0.png",
+                  "HABRBEBL_1.png",
+                  "HABRBEBL_2.png",
+                  "HABRBEBL_3.png",
+                  "HABRBEBL_4.png",
+                  "HABRBEBL_5.png"
+               ],
+               "static" : [
+                  "HABRBEBL_0.static.png",
+                  "HABRBEBL_1.static.png",
+                  "HABRBEBL_2.static.png",
+                  "HABRBEBL_3.static.png",
+                  "HABRBEBL_4.static.png",
+                  "HABRBEBL_5.static.png"
+               ]
+            },
+            "BM" : {
+               "anim" : [
+                  "HABRBEBM_0.png",
+                  "HABRBEBM_1.png",
+                  "HABRBEBM_2.png",
+                  "HABRBEBM_3.png",
+                  "HABRBEBM_4.png",
+                  "HABRBEBM_5.png"
+               ],
+               "static" : [
+                  "HABRBEBM_0.static.png",
+                  "HABRBEBM_1.static.png",
+                  "HABRBEBM_2.static.png",
+                  "HABRBEBM_3.static.png",
+                  "HABRBEBM_4.static.png",
+                  "HABRBEBM_5.static.png"
+               ]
+            },
+            "BO" : {
+               "anim" : [
+                  "HABRBEBO_0.png",
+                  "HABRBEBO_1.png",
+                  "HABRBEBO_2.png",
+                  "HABRBEBO_3.png",
+                  "HABRBEBO_4.png",
+                  "HABRBEBO_5.png"
+               ],
+               "static" : [
+                  "HABRBEBO_0.static.png",
+                  "HABRBEBO_1.static.png",
+                  "HABRBEBO_2.static.png",
+                  "HABRBEBO_3.static.png",
+                  "HABRBEBO_4.static.png",
+                  "HABRBEBO_5.static.png"
+               ]
+            },
+            "BP" : {
+               "anim" : [
+                  "HABRBEBP_0.png",
+                  "HABRBEBP_1.png",
+                  "HABRBEBP_2.png",
+                  "HABRBEBP_3.png",
+                  "HABRBEBP_4.png",
+                  "HABRBEBP_5.png"
+               ],
+               "static" : [
+                  "HABRBEBP_0.static.png",
+                  "HABRBEBP_1.static.png",
+                  "HABRBEBP_2.static.png",
+                  "HABRBEBP_3.static.png",
+                  "HABRBEBP_4.static.png",
+                  "HABRBEBP_5.static.png"
+               ]
+            },
+            "CH" : {
+               "anim" : [
+                  "HABRBECH_0.png",
+                  "HABRBECH_1.png",
+                  "HABRBECH_2.png",
+                  "HABRBECH_3.png",
+                  "HABRBECH_4.png",
+                  "HABRBECH_5.png"
+               ],
+               "anim-packed" : "HABRBECH.png",
+               "static" : [
+                  "HABRBECH.static.png"
+               ]
+            },
+            "CJ" : {
+               "anim" : [
+                  "HABRBECJ_0.png",
+                  "HABRBECJ_1.png",
+                  "HABRBECJ_2.png",
+                  "HABRBECJ_3.png",
+                  "HABRBECJ_4.png",
+                  "HABRBECJ_5.png"
+               ],
+               "anim-packed" : "HABRBECJ.png",
+               "static" : [
+                  "HABRBECJ.static.png"
+               ]
+            },
+            "DA" : {
+               "anim" : [
+                  "HABRBEDA_0.png",
+                  "HABRBEDA_1.png",
+                  "HABRBEDA_2.png",
+                  "HABRBEDA_3.png",
+                  "HABRBEDA_4.png",
+                  "HABRBEDA_5.png"
+               ],
+               "anim-packed" : "HABRBEDA.png",
+               "static" : [
+                  "HABRBEDA.static.png"
+               ]
+            },
+            "DB" : {
+               "anim" : [
+                  "HABRBEDB_0.png",
+                  "HABRBEDB_1.png",
+                  "HABRBEDB_2.png",
+                  "HABRBEDB_3.png",
+                  "HABRBEDB_4.png",
+                  "HABRBEDB_5.png"
+               ],
+               "anim-packed" : "HABRBEDB.png",
+               "static" : [
+                  "HABRBEDB.static.png"
+               ]
+            },
+            "DC" : {
+               "anim" : [
+                  "HABRBEDC_0.png",
+                  "HABRBEDC_1.png",
+                  "HABRBEDC_2.png",
+                  "HABRBEDC_3.png",
+                  "HABRBEDC_4.png",
+                  "HABRBEDC_5.png"
+               ],
+               "anim-packed" : "HABRBEDC.png",
+               "static" : [
+                  "HABRBEDC.static.png"
+               ]
+            },
+            "DD" : {
+               "anim" : [
+                  "HABRBEDD_0.png",
+                  "HABRBEDD_1.png",
+                  "HABRBEDD_2.png",
+                  "HABRBEDD_3.png",
+                  "HABRBEDD_4.png",
+                  "HABRBEDD_5.png"
+               ],
+               "anim-packed" : "HABRBEDD.png",
+               "static" : [
+                  "HABRBEDD.static.png"
+               ]
+            },
+            "DE" : {
+               "anim" : [
+                  "HABRBEDE_0.png",
+                  "HABRBEDE_1.png",
+                  "HABRBEDE_2.png",
+                  "HABRBEDE_3.png",
+                  "HABRBEDE_4.png",
+                  "HABRBEDE_5.png"
+               ],
+               "anim-packed" : "HABRBEDE.png",
+               "static" : [
+                  "HABRBEDE.static.png"
+               ]
+            },
+            "DF" : {
+               "anim" : [
+                  "HABRBEDF_0.png",
+                  "HABRBEDF_1.png",
+                  "HABRBEDF_2.png",
+                  "HABRBEDF_3.png",
+                  "HABRBEDF_4.png",
+                  "HABRBEDF_5.png"
+               ],
+               "anim-packed" : "HABRBEDF.png",
+               "static" : [
+                  "HABRBEDF.static.png"
+               ]
+            },
+            "DG" : {
+               "anim" : [
+                  "HABRBEDG_0.png",
+                  "HABRBEDG_1.png",
+                  "HABRBEDG_2.png",
+                  "HABRBEDG_3.png",
+                  "HABRBEDG_4.png",
+                  "HABRBEDG_5.png"
+               ],
+               "anim-packed" : "HABRBEDG.png",
+               "static" : [
+                  "HABRBEDG.static.png"
+               ]
+            },
+            "DM" : {
+               "anim" : [
+                  "HABRBEDM_0.png",
+                  "HABRBEDM_1.png",
+                  "HABRBEDM_2.png",
+                  "HABRBEDM_3.png",
+                  "HABRBEDM_4.png",
+                  "HABRBEDM_5.png"
+               ],
+               "anim-packed" : "HABRBEDM.png",
+               "static" : [
+                  "HABRBEDM.static.png"
+               ]
+            },
+            "EA" : {
+               "anim" : [
+                  "HABRBEEA_0.png",
+                  "HABRBEEA_1.png",
+                  "HABRBEEA_2.png",
+                  "HABRBEEA_3.png",
+                  "HABRBEEA_4.png",
+                  "HABRBEEA_5.png"
+               ],
+               "anim-packed" : "HABRBEEA.png",
+               "static" : [
+                  "HABRBEEA.static.png"
+               ]
+            },
+            "EB" : {
+               "anim" : [
+                  "HABRBEEB_0.png",
+                  "HABRBEEB_1.png",
+                  "HABRBEEB_2.png",
+                  "HABRBEEB_3.png",
+                  "HABRBEEB_4.png",
+                  "HABRBEEB_5.png"
+               ],
+               "anim-packed" : "HABRBEEB.png",
+               "static" : [
+                  "HABRBEEB.static.png"
+               ]
+            },
+            "EC" : {
+               "anim" : [
+                  "HABRBEEC_0.png",
+                  "HABRBEEC_1.png",
+                  "HABRBEEC_2.png",
+                  "HABRBEEC_3.png",
+                  "HABRBEEC_4.png",
+                  "HABRBEEC_5.png"
+               ],
+               "anim-packed" : "HABRBEEC.png",
+               "static" : [
+                  "HABRBEEC.static.png"
+               ]
+            },
+            "ED" : {
+               "anim" : [
+                  "HABRBEED_0.png",
+                  "HABRBEED_1.png",
+                  "HABRBEED_2.png",
+                  "HABRBEED_3.png",
+                  "HABRBEED_4.png",
+                  "HABRBEED_5.png"
+               ],
+               "anim-packed" : "HABRBEED.png",
+               "static" : [
+                  "HABRBEED.static.png"
+               ]
+            },
+            "EE" : {
+               "anim" : [
+                  "HABRBEEE_0.png",
+                  "HABRBEEE_1.png",
+                  "HABRBEEE_2.png",
+                  "HABRBEEE_3.png",
+                  "HABRBEEE_4.png",
+                  "HABRBEEE_5.png"
+               ],
+               "anim-packed" : "HABRBEEE.png",
+               "static" : [
+                  "HABRBEEE.static.png"
+               ]
+            },
+            "EF" : {
+               "anim" : [
+                  "HABRBEEF_0.png",
+                  "HABRBEEF_1.png",
+                  "HABRBEEF_2.png",
+                  "HABRBEEF_3.png",
+                  "HABRBEEF_4.png",
+                  "HABRBEEF_5.png"
+               ],
+               "anim-packed" : "HABRBEEF.png",
+               "static" : [
+                  "HABRBEEF.static.png"
+               ]
+            },
+            "EG" : {
+               "anim" : [
+                  "HABRBEEG_0.png",
+                  "HABRBEEG_1.png",
+                  "HABRBEEG_2.png",
+                  "HABRBEEG_3.png",
+                  "HABRBEEG_4.png",
+                  "HABRBEEG_5.png"
+               ],
+               "anim-packed" : "HABRBEEG.png",
+               "static" : [
+                  "HABRBEEG.static.png"
+               ]
+            },
+            "FA" : {
+               "anim" : [
+                  "HABRBEFA_0.png",
+                  "HABRBEFA_1.png",
+                  "HABRBEFA_2.png",
+                  "HABRBEFA_3.png",
+                  "HABRBEFA_4.png",
+                  "HABRBEFA_5.png"
+               ],
+               "anim-packed" : "HABRBEFA.png",
+               "static" : [
+                  "HABRBEFA.static.png"
+               ]
+            },
+            "FB" : {
+               "anim" : [
+                  "HABRBEFB_0.png",
+                  "HABRBEFB_1.png",
+                  "HABRBEFB_2.png",
+                  "HABRBEFB_3.png",
+                  "HABRBEFB_4.png",
+                  "HABRBEFB_5.png"
+               ],
+               "anim-packed" : "HABRBEFB.png",
+               "static" : [
+                  "HABRBEFB.static.png"
+               ]
+            },
+            "FC" : {
+               "anim" : [
+                  "HABRBEFC_0.png",
+                  "HABRBEFC_1.png",
+                  "HABRBEFC_2.png",
+                  "HABRBEFC_3.png",
+                  "HABRBEFC_4.png",
+                  "HABRBEFC_5.png"
+               ],
+               "anim-packed" : "HABRBEFC.png",
+               "static" : [
+                  "HABRBEFC.static.png"
                ]
             }
          },
