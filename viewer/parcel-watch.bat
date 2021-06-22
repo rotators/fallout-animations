@@ -1,0 +1,1 @@
+parcel watch --no-hmr src/index.ts

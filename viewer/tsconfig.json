@@ -1,0 +1,19 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "emitBOM": true,
+    "noEmit": true,
+    "noEmitOnError": true,
+    "removeComments": true,
+    "sourceMap": false,
+    "target": "es5",
+    "lib": ["dom", "es2015"],
+    "module": "es6",
+    "moduleResolution": "node",
+    "jsx": "react"
+  },
+  "exclude": [
+      "bin",
+      "node_modules"
+  ]
+}

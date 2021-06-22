@@ -1,0 +1,1 @@
+parcel build src/index.ts
