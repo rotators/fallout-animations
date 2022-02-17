@@ -1265,7 +1265,16 @@
             "FD" : "nmlthrFD.FRM",
             "FE" : "nmlthrFE.FRM",
             "FF" : "nmlthrFF.FRM",
-            "FG" : "nmlthrFG.FRM"
+            "FG" : "nmlthrFG.FRM",
+            "IA" : "NMLTHRIA.FRM",
+            "IB" : "NMLTHRIB.FRM",
+            "IC" : "NMLTHRIC.FRM",
+            "ID" : "NMLTHRID.FRM",
+            "IE" : "NMLTHRIE.FRM",
+            "IH" : "NMLTHRIH.FRM",
+            "II" : "NMLTHRII.FRM",
+            "IJ" : "NMLTHRIJ.FRM",
+            "IK" : "NMLTHRIK.FRM"
          },
          "Male_Loser_GrayShirt" : {
             "AA" : "NMLGRYAA.FRM",
@@ -13721,6 +13730,132 @@
                "anim-packed" : "NMLTHRFG.png",
                "static" : [
                   "NMLTHRFG.static.png"
+               ]
+            },
+            "IA" : {
+               "anim" : [
+                  "NMLTHRIA_0.png",
+                  "NMLTHRIA_1.png",
+                  "NMLTHRIA_2.png",
+                  "NMLTHRIA_3.png",
+                  "NMLTHRIA_4.png",
+                  "NMLTHRIA_5.png"
+               ],
+               "anim-packed" : "NMLTHRIA.png",
+               "static" : [
+                  "NMLTHRIA.static.png"
+               ]
+            },
+            "IB" : {
+               "anim" : [
+                  "NMLTHRIB_0.png",
+                  "NMLTHRIB_1.png",
+                  "NMLTHRIB_2.png",
+                  "NMLTHRIB_3.png",
+                  "NMLTHRIB_4.png",
+                  "NMLTHRIB_5.png"
+               ],
+               "anim-packed" : "NMLTHRIB.png",
+               "static" : [
+                  "NMLTHRIB.static.png"
+               ]
+            },
+            "IC" : {
+               "anim" : [
+                  "NMLTHRIC_0.png",
+                  "NMLTHRIC_1.png",
+                  "NMLTHRIC_2.png",
+                  "NMLTHRIC_3.png",
+                  "NMLTHRIC_4.png",
+                  "NMLTHRIC_5.png"
+               ],
+               "anim-packed" : "NMLTHRIC.png",
+               "static" : [
+                  "NMLTHRIC.static.png"
+               ]
+            },
+            "ID" : {
+               "anim" : [
+                  "NMLTHRID_0.png",
+                  "NMLTHRID_1.png",
+                  "NMLTHRID_2.png",
+                  "NMLTHRID_3.png",
+                  "NMLTHRID_4.png",
+                  "NMLTHRID_5.png"
+               ],
+               "anim-packed" : "NMLTHRID.png",
+               "static" : [
+                  "NMLTHRID.static.png"
+               ]
+            },
+            "IE" : {
+               "anim" : [
+                  "NMLTHRIE_0.png",
+                  "NMLTHRIE_1.png",
+                  "NMLTHRIE_2.png",
+                  "NMLTHRIE_3.png",
+                  "NMLTHRIE_4.png",
+                  "NMLTHRIE_5.png"
+               ],
+               "anim-packed" : "NMLTHRIE.png",
+               "static" : [
+                  "NMLTHRIE.static.png"
+               ]
+            },
+            "IH" : {
+               "anim" : [
+                  "NMLTHRIH_0.png",
+                  "NMLTHRIH_1.png",
+                  "NMLTHRIH_2.png",
+                  "NMLTHRIH_3.png",
+                  "NMLTHRIH_4.png",
+                  "NMLTHRIH_5.png"
+               ],
+               "anim-packed" : "NMLTHRIH.png",
+               "static" : [
+                  "NMLTHRIH.static.png"
+               ]
+            },
+            "II" : {
+               "anim" : [
+                  "NMLTHRII_0.png",
+                  "NMLTHRII_1.png",
+                  "NMLTHRII_2.png",
+                  "NMLTHRII_3.png",
+                  "NMLTHRII_4.png",
+                  "NMLTHRII_5.png"
+               ],
+               "anim-packed" : "NMLTHRII.png",
+               "static" : [
+                  "NMLTHRII.static.png"
+               ]
+            },
+            "IJ" : {
+               "anim" : [
+                  "NMLTHRIJ_0.png",
+                  "NMLTHRIJ_1.png",
+                  "NMLTHRIJ_2.png",
+                  "NMLTHRIJ_3.png",
+                  "NMLTHRIJ_4.png",
+                  "NMLTHRIJ_5.png"
+               ],
+               "anim-packed" : "NMLTHRIJ.png",
+               "static" : [
+                  "NMLTHRIJ.static.png"
+               ]
+            },
+            "IK" : {
+               "anim" : [
+                  "NMLTHRIK_0.png",
+                  "NMLTHRIK_1.png",
+                  "NMLTHRIK_2.png",
+                  "NMLTHRIK_3.png",
+                  "NMLTHRIK_4.png",
+                  "NMLTHRIK_5.png"
+               ],
+               "anim-packed" : "NMLTHRIK.png",
+               "static" : [
+                  "NMLTHRIK.static.png"
                ]
             }
          },
