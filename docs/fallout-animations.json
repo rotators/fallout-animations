@@ -149,6 +149,40 @@
             "II" : "HABRBEII.FRM",
             "IJ" : "HABRBEIJ.FRM",
             "IK" : "HABRBEIK.FRM",
+            "JA" : "HABRBEJA.FRM",
+            "JB" : "HABRBEJB.FRM",
+            "JC" : "HABRBEJC.FRM",
+            "JD" : "HABRBEJD.FRM",
+            "JE" : "HABRBEJE.FRM",
+            "JH" : "HABRBEJH.FRM",
+            "JI" : "HABRBEJI.FRM",
+            "JJ" : "HABRBEJJ.FRM",
+            "JK" : "HABRBEJK.FRM",
+            "KA" : "HABRBEKA.FRM",
+            "KB" : "HABRBEKB.FRM",
+            "KC" : "HABRBEKC.FRM",
+            "KD" : "HABRBEKD.FRM",
+            "KE" : "HABRBEKE.FRM",
+            "KH" : "HABRBEKH.FRM",
+            "KI" : "HABRBEKI.FRM",
+            "KJ" : "HABRBEKJ.FRM",
+            "KK" : "HABRBEKK.FRM",
+            "KL" : "HABRBEKL.FRM",
+            "LA" : "HABRBELA.FRM",
+            "LB" : "HABRBELB.FRM",
+            "LC" : "HABRBELC.FRM",
+            "LD" : "HABRBELD.FRM",
+            "LE" : "HABRBELE.FRM",
+            "LH" : "HABRBELH.FRM",
+            "LI" : "HABRBELI.FRM",
+            "LK" : "HABRBELK.FRM",
+            "MA" : "HABRBEMA.FRM",
+            "MB" : "HABRBEMB.FRM",
+            "MC" : "HABRBEMC.FRM",
+            "MD" : "HABRBEMD.FRM",
+            "ME" : "HABRBEME.FRM",
+            "MH" : "HABRBEMH.FRM",
+            "MI" : "HABRBEMI.FRM",
             "MJ" : "HABRBEMJ.FRM",
             "RA" : "HABRBERA.FRM",
             "RB" : "HABRBERB.FRM",
@@ -2614,6 +2648,482 @@
                "anim-packed" : "HABRBEIK.png",
                "static" : [
                   "HABRBEIK.static.png"
+               ]
+            },
+            "JA" : {
+               "anim" : [
+                  "HABRBEJA_0.png",
+                  "HABRBEJA_1.png",
+                  "HABRBEJA_2.png",
+                  "HABRBEJA_3.png",
+                  "HABRBEJA_4.png",
+                  "HABRBEJA_5.png"
+               ],
+               "anim-packed" : "HABRBEJA.png",
+               "static" : [
+                  "HABRBEJA.static.png"
+               ]
+            },
+            "JB" : {
+               "anim" : [
+                  "HABRBEJB_0.png",
+                  "HABRBEJB_1.png",
+                  "HABRBEJB_2.png",
+                  "HABRBEJB_3.png",
+                  "HABRBEJB_4.png",
+                  "HABRBEJB_5.png"
+               ],
+               "anim-packed" : "HABRBEJB.png",
+               "static" : [
+                  "HABRBEJB.static.png"
+               ]
+            },
+            "JC" : {
+               "anim" : [
+                  "HABRBEJC_0.png",
+                  "HABRBEJC_1.png",
+                  "HABRBEJC_2.png",
+                  "HABRBEJC_3.png",
+                  "HABRBEJC_4.png",
+                  "HABRBEJC_5.png"
+               ],
+               "anim-packed" : "HABRBEJC.png",
+               "static" : [
+                  "HABRBEJC.static.png"
+               ]
+            },
+            "JD" : {
+               "anim" : [
+                  "HABRBEJD_0.png",
+                  "HABRBEJD_1.png",
+                  "HABRBEJD_2.png",
+                  "HABRBEJD_3.png",
+                  "HABRBEJD_4.png",
+                  "HABRBEJD_5.png"
+               ],
+               "anim-packed" : "HABRBEJD.png",
+               "static" : [
+                  "HABRBEJD.static.png"
+               ]
+            },
+            "JE" : {
+               "anim" : [
+                  "HABRBEJE_0.png",
+                  "HABRBEJE_1.png",
+                  "HABRBEJE_2.png",
+                  "HABRBEJE_3.png",
+                  "HABRBEJE_4.png",
+                  "HABRBEJE_5.png"
+               ],
+               "anim-packed" : "HABRBEJE.png",
+               "static" : [
+                  "HABRBEJE.static.png"
+               ]
+            },
+            "JH" : {
+               "anim" : [
+                  "HABRBEJH_0.png",
+                  "HABRBEJH_1.png",
+                  "HABRBEJH_2.png",
+                  "HABRBEJH_3.png",
+                  "HABRBEJH_4.png",
+                  "HABRBEJH_5.png"
+               ],
+               "anim-packed" : "HABRBEJH.png",
+               "static" : [
+                  "HABRBEJH.static.png"
+               ]
+            },
+            "JI" : {
+               "anim" : [
+                  "HABRBEJI_0.png",
+                  "HABRBEJI_1.png",
+                  "HABRBEJI_2.png",
+                  "HABRBEJI_3.png",
+                  "HABRBEJI_4.png",
+                  "HABRBEJI_5.png"
+               ],
+               "anim-packed" : "HABRBEJI.png",
+               "static" : [
+                  "HABRBEJI.static.png"
+               ]
+            },
+            "JJ" : {
+               "anim" : [
+                  "HABRBEJJ_0.png",
+                  "HABRBEJJ_1.png",
+                  "HABRBEJJ_2.png",
+                  "HABRBEJJ_3.png",
+                  "HABRBEJJ_4.png",
+                  "HABRBEJJ_5.png"
+               ],
+               "anim-packed" : "HABRBEJJ.png",
+               "static" : [
+                  "HABRBEJJ.static.png"
+               ]
+            },
+            "JK" : {
+               "anim" : [
+                  "HABRBEJK_0.png",
+                  "HABRBEJK_1.png",
+                  "HABRBEJK_2.png",
+                  "HABRBEJK_3.png",
+                  "HABRBEJK_4.png",
+                  "HABRBEJK_5.png"
+               ],
+               "anim-packed" : "HABRBEJK.png",
+               "static" : [
+                  "HABRBEJK.static.png"
+               ]
+            },
+            "KA" : {
+               "anim" : [
+                  "HABRBEKA_0.png",
+                  "HABRBEKA_1.png",
+                  "HABRBEKA_2.png",
+                  "HABRBEKA_3.png",
+                  "HABRBEKA_4.png",
+                  "HABRBEKA_5.png"
+               ],
+               "anim-packed" : "HABRBEKA.png",
+               "static" : [
+                  "HABRBEKA.static.png"
+               ]
+            },
+            "KB" : {
+               "anim" : [
+                  "HABRBEKB_0.png",
+                  "HABRBEKB_1.png",
+                  "HABRBEKB_2.png",
+                  "HABRBEKB_3.png",
+                  "HABRBEKB_4.png",
+                  "HABRBEKB_5.png"
+               ],
+               "anim-packed" : "HABRBEKB.png",
+               "static" : [
+                  "HABRBEKB.static.png"
+               ]
+            },
+            "KC" : {
+               "anim" : [
+                  "HABRBEKC_0.png",
+                  "HABRBEKC_1.png",
+                  "HABRBEKC_2.png",
+                  "HABRBEKC_3.png",
+                  "HABRBEKC_4.png",
+                  "HABRBEKC_5.png"
+               ],
+               "anim-packed" : "HABRBEKC.png",
+               "static" : [
+                  "HABRBEKC.static.png"
+               ]
+            },
+            "KD" : {
+               "anim" : [
+                  "HABRBEKD_0.png",
+                  "HABRBEKD_1.png",
+                  "HABRBEKD_2.png",
+                  "HABRBEKD_3.png",
+                  "HABRBEKD_4.png",
+                  "HABRBEKD_5.png"
+               ],
+               "anim-packed" : "HABRBEKD.png",
+               "static" : [
+                  "HABRBEKD.static.png"
+               ]
+            },
+            "KE" : {
+               "anim" : [
+                  "HABRBEKE_0.png",
+                  "HABRBEKE_1.png",
+                  "HABRBEKE_2.png",
+                  "HABRBEKE_3.png",
+                  "HABRBEKE_4.png",
+                  "HABRBEKE_5.png"
+               ],
+               "anim-packed" : "HABRBEKE.png",
+               "static" : [
+                  "HABRBEKE.static.png"
+               ]
+            },
+            "KH" : {
+               "anim" : [
+                  "HABRBEKH_0.png",
+                  "HABRBEKH_1.png",
+                  "HABRBEKH_2.png",
+                  "HABRBEKH_3.png",
+                  "HABRBEKH_4.png",
+                  "HABRBEKH_5.png"
+               ],
+               "anim-packed" : "HABRBEKH.png",
+               "static" : [
+                  "HABRBEKH.static.png"
+               ]
+            },
+            "KI" : {
+               "anim" : [
+                  "HABRBEKI_0.png",
+                  "HABRBEKI_1.png",
+                  "HABRBEKI_2.png",
+                  "HABRBEKI_3.png",
+                  "HABRBEKI_4.png",
+                  "HABRBEKI_5.png"
+               ],
+               "anim-packed" : "HABRBEKI.png",
+               "static" : [
+                  "HABRBEKI.static.png"
+               ]
+            },
+            "KJ" : {
+               "anim" : [
+                  "HABRBEKJ_0.png",
+                  "HABRBEKJ_1.png",
+                  "HABRBEKJ_2.png",
+                  "HABRBEKJ_3.png",
+                  "HABRBEKJ_4.png",
+                  "HABRBEKJ_5.png"
+               ],
+               "anim-packed" : "HABRBEKJ.png",
+               "static" : [
+                  "HABRBEKJ.static.png"
+               ]
+            },
+            "KK" : {
+               "anim" : [
+                  "HABRBEKK_0.png",
+                  "HABRBEKK_1.png",
+                  "HABRBEKK_2.png",
+                  "HABRBEKK_3.png",
+                  "HABRBEKK_4.png",
+                  "HABRBEKK_5.png"
+               ],
+               "anim-packed" : "HABRBEKK.png",
+               "static" : [
+                  "HABRBEKK.static.png"
+               ]
+            },
+            "KL" : {
+               "anim" : [
+                  "HABRBEKL_0.png",
+                  "HABRBEKL_1.png",
+                  "HABRBEKL_2.png",
+                  "HABRBEKL_3.png",
+                  "HABRBEKL_4.png",
+                  "HABRBEKL_5.png"
+               ],
+               "anim-packed" : "HABRBEKL.png",
+               "static" : [
+                  "HABRBEKL.static.png"
+               ]
+            },
+            "LA" : {
+               "anim" : [
+                  "HABRBELA_0.png",
+                  "HABRBELA_1.png",
+                  "HABRBELA_2.png",
+                  "HABRBELA_3.png",
+                  "HABRBELA_4.png",
+                  "HABRBELA_5.png"
+               ],
+               "anim-packed" : "HABRBELA.png",
+               "static" : [
+                  "HABRBELA.static.png"
+               ]
+            },
+            "LB" : {
+               "anim" : [
+                  "HABRBELB_0.png",
+                  "HABRBELB_1.png",
+                  "HABRBELB_2.png",
+                  "HABRBELB_3.png",
+                  "HABRBELB_4.png",
+                  "HABRBELB_5.png"
+               ],
+               "anim-packed" : "HABRBELB.png",
+               "static" : [
+                  "HABRBELB.static.png"
+               ]
+            },
+            "LC" : {
+               "anim" : [
+                  "HABRBELC_0.png",
+                  "HABRBELC_1.png",
+                  "HABRBELC_2.png",
+                  "HABRBELC_3.png",
+                  "HABRBELC_4.png",
+                  "HABRBELC_5.png"
+               ],
+               "anim-packed" : "HABRBELC.png",
+               "static" : [
+                  "HABRBELC.static.png"
+               ]
+            },
+            "LD" : {
+               "anim" : [
+                  "HABRBELD_0.png",
+                  "HABRBELD_1.png",
+                  "HABRBELD_2.png",
+                  "HABRBELD_3.png",
+                  "HABRBELD_4.png",
+                  "HABRBELD_5.png"
+               ],
+               "anim-packed" : "HABRBELD.png",
+               "static" : [
+                  "HABRBELD.static.png"
+               ]
+            },
+            "LE" : {
+               "anim" : [
+                  "HABRBELE_0.png",
+                  "HABRBELE_1.png",
+                  "HABRBELE_2.png",
+                  "HABRBELE_3.png",
+                  "HABRBELE_4.png",
+                  "HABRBELE_5.png"
+               ],
+               "anim-packed" : "HABRBELE.png",
+               "static" : [
+                  "HABRBELE.static.png"
+               ]
+            },
+            "LH" : {
+               "anim" : [
+                  "HABRBELH_0.png",
+                  "HABRBELH_1.png",
+                  "HABRBELH_2.png",
+                  "HABRBELH_3.png",
+                  "HABRBELH_4.png",
+                  "HABRBELH_5.png"
+               ],
+               "anim-packed" : "HABRBELH.png",
+               "static" : [
+                  "HABRBELH.static.png"
+               ]
+            },
+            "LI" : {
+               "anim" : [
+                  "HABRBELI_0.png",
+                  "HABRBELI_1.png",
+                  "HABRBELI_2.png",
+                  "HABRBELI_3.png",
+                  "HABRBELI_4.png",
+                  "HABRBELI_5.png"
+               ],
+               "anim-packed" : "HABRBELI.png",
+               "static" : [
+                  "HABRBELI.static.png"
+               ]
+            },
+            "LK" : {
+               "anim" : [
+                  "HABRBELK_0.png",
+                  "HABRBELK_1.png",
+                  "HABRBELK_2.png",
+                  "HABRBELK_3.png",
+                  "HABRBELK_4.png",
+                  "HABRBELK_5.png"
+               ],
+               "anim-packed" : "HABRBELK.png",
+               "static" : [
+                  "HABRBELK.static.png"
+               ]
+            },
+            "MA" : {
+               "anim" : [
+                  "HABRBEMA_0.png",
+                  "HABRBEMA_1.png",
+                  "HABRBEMA_2.png",
+                  "HABRBEMA_3.png",
+                  "HABRBEMA_4.png",
+                  "HABRBEMA_5.png"
+               ],
+               "anim-packed" : "HABRBEMA.png",
+               "static" : [
+                  "HABRBEMA.static.png"
+               ]
+            },
+            "MB" : {
+               "anim" : [
+                  "HABRBEMB_0.png",
+                  "HABRBEMB_1.png",
+                  "HABRBEMB_2.png",
+                  "HABRBEMB_3.png",
+                  "HABRBEMB_4.png",
+                  "HABRBEMB_5.png"
+               ],
+               "anim-packed" : "HABRBEMB.png",
+               "static" : [
+                  "HABRBEMB.static.png"
+               ]
+            },
+            "MC" : {
+               "anim" : [
+                  "HABRBEMC_0.png",
+                  "HABRBEMC_1.png",
+                  "HABRBEMC_2.png",
+                  "HABRBEMC_3.png",
+                  "HABRBEMC_4.png",
+                  "HABRBEMC_5.png"
+               ],
+               "anim-packed" : "HABRBEMC.png",
+               "static" : [
+                  "HABRBEMC.static.png"
+               ]
+            },
+            "MD" : {
+               "anim" : [
+                  "HABRBEMD_0.png",
+                  "HABRBEMD_1.png",
+                  "HABRBEMD_2.png",
+                  "HABRBEMD_3.png",
+                  "HABRBEMD_4.png",
+                  "HABRBEMD_5.png"
+               ],
+               "anim-packed" : "HABRBEMD.png",
+               "static" : [
+                  "HABRBEMD.static.png"
+               ]
+            },
+            "ME" : {
+               "anim" : [
+                  "HABRBEME_0.png",
+                  "HABRBEME_1.png",
+                  "HABRBEME_2.png",
+                  "HABRBEME_3.png",
+                  "HABRBEME_4.png",
+                  "HABRBEME_5.png"
+               ],
+               "anim-packed" : "HABRBEME.png",
+               "static" : [
+                  "HABRBEME.static.png"
+               ]
+            },
+            "MH" : {
+               "anim" : [
+                  "HABRBEMH_0.png",
+                  "HABRBEMH_1.png",
+                  "HABRBEMH_2.png",
+                  "HABRBEMH_3.png",
+                  "HABRBEMH_4.png",
+                  "HABRBEMH_5.png"
+               ],
+               "anim-packed" : "HABRBEMH.png",
+               "static" : [
+                  "HABRBEMH.static.png"
+               ]
+            },
+            "MI" : {
+               "anim" : [
+                  "HABRBEMI_0.png",
+                  "HABRBEMI_1.png",
+                  "HABRBEMI_2.png",
+                  "HABRBEMI_3.png",
+                  "HABRBEMI_4.png",
+                  "HABRBEMI_5.png"
+               ],
+               "anim-packed" : "HABRBEMI.png",
+               "static" : [
+                  "HABRBEMI.static.png"
                ]
             },
             "MJ" : {
