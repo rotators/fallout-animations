@@ -1626,6 +1626,108 @@
             "RL" : "MAROBBRL.FRM",
             "RO" : "MAROBBRO.FRM",
             "RP" : "MAROBBRP.FRM"
+         },
+         "RocketLauncherFix_CombatArmor/black dude" : {
+            "MA" : [
+               "_HMCMBLMA.FRM",
+               "_HMCMBTMA.FRM"
+            ],
+            "MB" : [
+               "_HMCMBLMB.FRM",
+               "_HMCMBTMB.FRM"
+            ],
+            "MC" : [
+               "_HMCMBLMC.FRM",
+               "_HMCMBTMC.FRM"
+            ],
+            "MD" : [
+               "_HMCMBLMD.FRM",
+               "_HMCMBTMD.FRM"
+            ],
+            "ME" : [
+               "_HMCMBLME.FRM",
+               "_HMCMBTME.FRM"
+            ],
+            "MH" : [
+               "_HMCMBLMH.FRM",
+               "_HMCMBTMH.FRM"
+            ],
+            "MI" : [
+               "_HMCMBLMI.FRM",
+               "_HMCMBTMI.FRM"
+            ],
+            "MJ" : [
+               "_HMCMBLMJ.FRM",
+               "_HMCMBTMJ.FRM"
+            ]
+         },
+         "RocketLauncherFix_CombatArmor/default dude" : {
+            "MA" : [
+               "HMCMBLMA.FRM",
+               "HMCMBTMA.FRM"
+            ],
+            "MB" : [
+               "HMCMBLMB.FRM",
+               "HMCMBTMB.FRM"
+            ],
+            "MC" : [
+               "HMCMBLMC.FRM",
+               "HMCMBTMC.FRM"
+            ],
+            "MD" : [
+               "HMCMBLMD.FRM",
+               "HMCMBTMD.FRM"
+            ],
+            "ME" : [
+               "HMCMBLME.FRM",
+               "HMCMBTME.FRM"
+            ],
+            "MH" : [
+               "HMCMBLMH.FRM",
+               "HMCMBTMH.FRM"
+            ],
+            "MI" : [
+               "HMCMBLMI.FRM",
+               "HMCMBTMI.FRM"
+            ],
+            "MJ" : [
+               "HMCMBLMJ.FRM",
+               "HMCMBTMJ.FRM"
+            ]
+         },
+         "RocketLauncherFix_CombatArmor/female" : {
+            "MA" : [
+               "HFCMBLMA.FRM",
+               "HFCMBTMA.FRM"
+            ],
+            "MB" : [
+               "HFCMBLMB.FRM",
+               "HFCMBTMB.FRM"
+            ],
+            "MC" : [
+               "HFCMBLMC.FRM",
+               "HFCMBTMC.FRM"
+            ],
+            "MD" : [
+               "HFCMBLMD.FRM",
+               "HFCMBTMD.FRM"
+            ],
+            "ME" : [
+               "HFCMBLME.FRM",
+               "HFCMBTME.FRM"
+            ],
+            "MH" : [
+               "HFCMBLMH.FRM",
+               "HFCMBTMH.FRM"
+            ],
+            "MI" : [
+               "HFCMBLMI.FRM",
+               "HFCMBTMI.FRM"
+            ],
+            "MJ" : [
+               "HFCMBLMJ.FRM",
+               "HFCMBTMJ.FRM"
+            ]
          }
       },
       "png" : {
@@ -18661,6 +18763,516 @@
                "anim-packed" : "MAROBBRP.png",
                "static" : [
                   "MAROBBRP.static.png"
+               ]
+            }
+         },
+         "RocketLauncherFix_CombatArmor/black dude" : {
+            "MA" : {
+               "anim" : [
+                  "_HMCMBLMA_0.png",
+                  "_HMCMBLMA_1.png",
+                  "_HMCMBLMA_2.png",
+                  "_HMCMBLMA_3.png",
+                  "_HMCMBLMA_4.png",
+                  "_HMCMBLMA_5.png",
+                  "_HMCMBTMA_0.png",
+                  "_HMCMBTMA_1.png",
+                  "_HMCMBTMA_2.png",
+                  "_HMCMBTMA_3.png",
+                  "_HMCMBTMA_4.png",
+                  "_HMCMBTMA_5.png"
+               ],
+               "anim-packed" : "_HMCMBTMA.png",
+               "static" : [
+                  "_HMCMBLMA.static.png",
+                  "_HMCMBTMA.static.png"
+               ]
+            },
+            "MB" : {
+               "anim" : [
+                  "_HMCMBLMB_0.png",
+                  "_HMCMBLMB_1.png",
+                  "_HMCMBLMB_2.png",
+                  "_HMCMBLMB_3.png",
+                  "_HMCMBLMB_4.png",
+                  "_HMCMBLMB_5.png",
+                  "_HMCMBTMB_0.png",
+                  "_HMCMBTMB_1.png",
+                  "_HMCMBTMB_2.png",
+                  "_HMCMBTMB_3.png",
+                  "_HMCMBTMB_4.png",
+                  "_HMCMBTMB_5.png"
+               ],
+               "anim-packed" : "_HMCMBTMB.png",
+               "static" : [
+                  "_HMCMBLMB.static.png",
+                  "_HMCMBTMB.static.png"
+               ]
+            },
+            "MC" : {
+               "anim" : [
+                  "_HMCMBLMC_0.png",
+                  "_HMCMBLMC_1.png",
+                  "_HMCMBLMC_2.png",
+                  "_HMCMBLMC_3.png",
+                  "_HMCMBLMC_4.png",
+                  "_HMCMBLMC_5.png",
+                  "_HMCMBTMC_0.png",
+                  "_HMCMBTMC_1.png",
+                  "_HMCMBTMC_2.png",
+                  "_HMCMBTMC_3.png",
+                  "_HMCMBTMC_4.png",
+                  "_HMCMBTMC_5.png"
+               ],
+               "anim-packed" : "_HMCMBTMC.png",
+               "static" : [
+                  "_HMCMBLMC.static.png",
+                  "_HMCMBTMC.static.png"
+               ]
+            },
+            "MD" : {
+               "anim" : [
+                  "_HMCMBLMD_0.png",
+                  "_HMCMBLMD_1.png",
+                  "_HMCMBLMD_2.png",
+                  "_HMCMBLMD_3.png",
+                  "_HMCMBLMD_4.png",
+                  "_HMCMBLMD_5.png",
+                  "_HMCMBTMD_0.png",
+                  "_HMCMBTMD_1.png",
+                  "_HMCMBTMD_2.png",
+                  "_HMCMBTMD_3.png",
+                  "_HMCMBTMD_4.png",
+                  "_HMCMBTMD_5.png"
+               ],
+               "anim-packed" : "_HMCMBTMD.png",
+               "static" : [
+                  "_HMCMBLMD.static.png",
+                  "_HMCMBTMD.static.png"
+               ]
+            },
+            "ME" : {
+               "anim" : [
+                  "_HMCMBLME_0.png",
+                  "_HMCMBLME_1.png",
+                  "_HMCMBLME_2.png",
+                  "_HMCMBLME_3.png",
+                  "_HMCMBLME_4.png",
+                  "_HMCMBLME_5.png",
+                  "_HMCMBTME_0.png",
+                  "_HMCMBTME_1.png",
+                  "_HMCMBTME_2.png",
+                  "_HMCMBTME_3.png",
+                  "_HMCMBTME_4.png",
+                  "_HMCMBTME_5.png"
+               ],
+               "anim-packed" : "_HMCMBTME.png",
+               "static" : [
+                  "_HMCMBLME.static.png",
+                  "_HMCMBTME.static.png"
+               ]
+            },
+            "MH" : {
+               "anim" : [
+                  "_HMCMBLMH_0.png",
+                  "_HMCMBLMH_1.png",
+                  "_HMCMBLMH_2.png",
+                  "_HMCMBLMH_3.png",
+                  "_HMCMBLMH_4.png",
+                  "_HMCMBLMH_5.png",
+                  "_HMCMBTMH_0.png",
+                  "_HMCMBTMH_1.png",
+                  "_HMCMBTMH_2.png",
+                  "_HMCMBTMH_3.png",
+                  "_HMCMBTMH_4.png",
+                  "_HMCMBTMH_5.png"
+               ],
+               "anim-packed" : "_HMCMBTMH.png",
+               "static" : [
+                  "_HMCMBLMH.static.png",
+                  "_HMCMBTMH.static.png"
+               ]
+            },
+            "MI" : {
+               "anim" : [
+                  "_HMCMBLMI_0.png",
+                  "_HMCMBLMI_1.png",
+                  "_HMCMBLMI_2.png",
+                  "_HMCMBLMI_3.png",
+                  "_HMCMBLMI_4.png",
+                  "_HMCMBLMI_5.png",
+                  "_HMCMBTMI_0.png",
+                  "_HMCMBTMI_1.png",
+                  "_HMCMBTMI_2.png",
+                  "_HMCMBTMI_3.png",
+                  "_HMCMBTMI_4.png",
+                  "_HMCMBTMI_5.png"
+               ],
+               "anim-packed" : "_HMCMBTMI.png",
+               "static" : [
+                  "_HMCMBLMI.static.png",
+                  "_HMCMBTMI.static.png"
+               ]
+            },
+            "MJ" : {
+               "anim" : [
+                  "_HMCMBLMJ_0.png",
+                  "_HMCMBLMJ_1.png",
+                  "_HMCMBLMJ_2.png",
+                  "_HMCMBLMJ_3.png",
+                  "_HMCMBLMJ_4.png",
+                  "_HMCMBLMJ_5.png",
+                  "_HMCMBTMJ_0.png",
+                  "_HMCMBTMJ_1.png",
+                  "_HMCMBTMJ_2.png",
+                  "_HMCMBTMJ_3.png",
+                  "_HMCMBTMJ_4.png",
+                  "_HMCMBTMJ_5.png"
+               ],
+               "anim-packed" : "_HMCMBTMJ.png",
+               "static" : [
+                  "_HMCMBLMJ.static.png",
+                  "_HMCMBTMJ.static.png"
+               ]
+            }
+         },
+         "RocketLauncherFix_CombatArmor/default dude" : {
+            "MA" : {
+               "anim" : [
+                  "HMCMBLMA_0.png",
+                  "HMCMBLMA_1.png",
+                  "HMCMBLMA_2.png",
+                  "HMCMBLMA_3.png",
+                  "HMCMBLMA_4.png",
+                  "HMCMBLMA_5.png",
+                  "HMCMBTMA_0.png",
+                  "HMCMBTMA_1.png",
+                  "HMCMBTMA_2.png",
+                  "HMCMBTMA_3.png",
+                  "HMCMBTMA_4.png",
+                  "HMCMBTMA_5.png"
+               ],
+               "anim-packed" : "HMCMBTMA.png",
+               "static" : [
+                  "HMCMBLMA.static.png",
+                  "HMCMBTMA.static.png"
+               ]
+            },
+            "MB" : {
+               "anim" : [
+                  "HMCMBLMB_0.png",
+                  "HMCMBLMB_1.png",
+                  "HMCMBLMB_2.png",
+                  "HMCMBLMB_3.png",
+                  "HMCMBLMB_4.png",
+                  "HMCMBLMB_5.png",
+                  "HMCMBTMB_0.png",
+                  "HMCMBTMB_1.png",
+                  "HMCMBTMB_2.png",
+                  "HMCMBTMB_3.png",
+                  "HMCMBTMB_4.png",
+                  "HMCMBTMB_5.png"
+               ],
+               "anim-packed" : "HMCMBTMB.png",
+               "static" : [
+                  "HMCMBLMB.static.png",
+                  "HMCMBTMB.static.png"
+               ]
+            },
+            "MC" : {
+               "anim" : [
+                  "HMCMBLMC_0.png",
+                  "HMCMBLMC_1.png",
+                  "HMCMBLMC_2.png",
+                  "HMCMBLMC_3.png",
+                  "HMCMBLMC_4.png",
+                  "HMCMBLMC_5.png",
+                  "HMCMBTMC_0.png",
+                  "HMCMBTMC_1.png",
+                  "HMCMBTMC_2.png",
+                  "HMCMBTMC_3.png",
+                  "HMCMBTMC_4.png",
+                  "HMCMBTMC_5.png"
+               ],
+               "anim-packed" : "HMCMBTMC.png",
+               "static" : [
+                  "HMCMBLMC.static.png",
+                  "HMCMBTMC.static.png"
+               ]
+            },
+            "MD" : {
+               "anim" : [
+                  "HMCMBLMD_0.png",
+                  "HMCMBLMD_1.png",
+                  "HMCMBLMD_2.png",
+                  "HMCMBLMD_3.png",
+                  "HMCMBLMD_4.png",
+                  "HMCMBLMD_5.png",
+                  "HMCMBTMD_0.png",
+                  "HMCMBTMD_1.png",
+                  "HMCMBTMD_2.png",
+                  "HMCMBTMD_3.png",
+                  "HMCMBTMD_4.png",
+                  "HMCMBTMD_5.png"
+               ],
+               "anim-packed" : "HMCMBTMD.png",
+               "static" : [
+                  "HMCMBLMD.static.png",
+                  "HMCMBTMD.static.png"
+               ]
+            },
+            "ME" : {
+               "anim" : [
+                  "HMCMBLME_0.png",
+                  "HMCMBLME_1.png",
+                  "HMCMBLME_2.png",
+                  "HMCMBLME_3.png",
+                  "HMCMBLME_4.png",
+                  "HMCMBLME_5.png",
+                  "HMCMBTME_0.png",
+                  "HMCMBTME_1.png",
+                  "HMCMBTME_2.png",
+                  "HMCMBTME_3.png",
+                  "HMCMBTME_4.png",
+                  "HMCMBTME_5.png"
+               ],
+               "anim-packed" : "HMCMBTME.png",
+               "static" : [
+                  "HMCMBLME.static.png",
+                  "HMCMBTME.static.png"
+               ]
+            },
+            "MH" : {
+               "anim" : [
+                  "HMCMBLMH_0.png",
+                  "HMCMBLMH_1.png",
+                  "HMCMBLMH_2.png",
+                  "HMCMBLMH_3.png",
+                  "HMCMBLMH_4.png",
+                  "HMCMBLMH_5.png",
+                  "HMCMBTMH_0.png",
+                  "HMCMBTMH_1.png",
+                  "HMCMBTMH_2.png",
+                  "HMCMBTMH_3.png",
+                  "HMCMBTMH_4.png",
+                  "HMCMBTMH_5.png"
+               ],
+               "anim-packed" : "HMCMBTMH.png",
+               "static" : [
+                  "HMCMBLMH.static.png",
+                  "HMCMBTMH.static.png"
+               ]
+            },
+            "MI" : {
+               "anim" : [
+                  "HMCMBLMI_0.png",
+                  "HMCMBLMI_1.png",
+                  "HMCMBLMI_2.png",
+                  "HMCMBLMI_3.png",
+                  "HMCMBLMI_4.png",
+                  "HMCMBLMI_5.png",
+                  "HMCMBTMI_0.png",
+                  "HMCMBTMI_1.png",
+                  "HMCMBTMI_2.png",
+                  "HMCMBTMI_3.png",
+                  "HMCMBTMI_4.png",
+                  "HMCMBTMI_5.png"
+               ],
+               "anim-packed" : "HMCMBTMI.png",
+               "static" : [
+                  "HMCMBLMI.static.png",
+                  "HMCMBTMI.static.png"
+               ]
+            },
+            "MJ" : {
+               "anim" : [
+                  "HMCMBLMJ_0.png",
+                  "HMCMBLMJ_1.png",
+                  "HMCMBLMJ_2.png",
+                  "HMCMBLMJ_3.png",
+                  "HMCMBLMJ_4.png",
+                  "HMCMBLMJ_5.png",
+                  "HMCMBTMJ_0.png",
+                  "HMCMBTMJ_1.png",
+                  "HMCMBTMJ_2.png",
+                  "HMCMBTMJ_3.png",
+                  "HMCMBTMJ_4.png",
+                  "HMCMBTMJ_5.png"
+               ],
+               "anim-packed" : "HMCMBTMJ.png",
+               "static" : [
+                  "HMCMBLMJ.static.png",
+                  "HMCMBTMJ.static.png"
+               ]
+            }
+         },
+         "RocketLauncherFix_CombatArmor/female" : {
+            "MA" : {
+               "anim" : [
+                  "HFCMBLMA_0.png",
+                  "HFCMBLMA_1.png",
+                  "HFCMBLMA_2.png",
+                  "HFCMBLMA_3.png",
+                  "HFCMBLMA_4.png",
+                  "HFCMBLMA_5.png",
+                  "HFCMBTMA_0.png",
+                  "HFCMBTMA_1.png",
+                  "HFCMBTMA_2.png",
+                  "HFCMBTMA_3.png",
+                  "HFCMBTMA_4.png",
+                  "HFCMBTMA_5.png"
+               ],
+               "anim-packed" : "HFCMBTMA.png",
+               "static" : [
+                  "HFCMBLMA.static.png",
+                  "HFCMBTMA.static.png"
+               ]
+            },
+            "MB" : {
+               "anim" : [
+                  "HFCMBLMB_0.png",
+                  "HFCMBLMB_1.png",
+                  "HFCMBLMB_2.png",
+                  "HFCMBLMB_3.png",
+                  "HFCMBLMB_4.png",
+                  "HFCMBLMB_5.png",
+                  "HFCMBTMB_0.png",
+                  "HFCMBTMB_1.png",
+                  "HFCMBTMB_2.png",
+                  "HFCMBTMB_3.png",
+                  "HFCMBTMB_4.png",
+                  "HFCMBTMB_5.png"
+               ],
+               "anim-packed" : "HFCMBTMB.png",
+               "static" : [
+                  "HFCMBLMB.static.png",
+                  "HFCMBTMB.static.png"
+               ]
+            },
+            "MC" : {
+               "anim" : [
+                  "HFCMBLMC_0.png",
+                  "HFCMBLMC_1.png",
+                  "HFCMBLMC_2.png",
+                  "HFCMBLMC_3.png",
+                  "HFCMBLMC_4.png",
+                  "HFCMBLMC_5.png",
+                  "HFCMBTMC_0.png",
+                  "HFCMBTMC_1.png",
+                  "HFCMBTMC_2.png",
+                  "HFCMBTMC_3.png",
+                  "HFCMBTMC_4.png",
+                  "HFCMBTMC_5.png"
+               ],
+               "anim-packed" : "HFCMBTMC.png",
+               "static" : [
+                  "HFCMBLMC.static.png",
+                  "HFCMBTMC.static.png"
+               ]
+            },
+            "MD" : {
+               "anim" : [
+                  "HFCMBLMD_0.png",
+                  "HFCMBLMD_1.png",
+                  "HFCMBLMD_2.png",
+                  "HFCMBLMD_3.png",
+                  "HFCMBLMD_4.png",
+                  "HFCMBLMD_5.png",
+                  "HFCMBTMD_0.png",
+                  "HFCMBTMD_1.png",
+                  "HFCMBTMD_2.png",
+                  "HFCMBTMD_3.png",
+                  "HFCMBTMD_4.png",
+                  "HFCMBTMD_5.png"
+               ],
+               "anim-packed" : "HFCMBTMD.png",
+               "static" : [
+                  "HFCMBLMD.static.png",
+                  "HFCMBTMD.static.png"
+               ]
+            },
+            "ME" : {
+               "anim" : [
+                  "HFCMBLME_0.png",
+                  "HFCMBLME_1.png",
+                  "HFCMBLME_2.png",
+                  "HFCMBLME_3.png",
+                  "HFCMBLME_4.png",
+                  "HFCMBLME_5.png",
+                  "HFCMBTME_0.png",
+                  "HFCMBTME_1.png",
+                  "HFCMBTME_2.png",
+                  "HFCMBTME_3.png",
+                  "HFCMBTME_4.png",
+                  "HFCMBTME_5.png"
+               ],
+               "anim-packed" : "HFCMBTME.png",
+               "static" : [
+                  "HFCMBLME.static.png",
+                  "HFCMBTME.static.png"
+               ]
+            },
+            "MH" : {
+               "anim" : [
+                  "HFCMBLMH_0.png",
+                  "HFCMBLMH_1.png",
+                  "HFCMBLMH_2.png",
+                  "HFCMBLMH_3.png",
+                  "HFCMBLMH_4.png",
+                  "HFCMBLMH_5.png",
+                  "HFCMBTMH_0.png",
+                  "HFCMBTMH_1.png",
+                  "HFCMBTMH_2.png",
+                  "HFCMBTMH_3.png",
+                  "HFCMBTMH_4.png",
+                  "HFCMBTMH_5.png"
+               ],
+               "anim-packed" : "HFCMBTMH.png",
+               "static" : [
+                  "HFCMBLMH.static.png",
+                  "HFCMBTMH.static.png"
+               ]
+            },
+            "MI" : {
+               "anim" : [
+                  "HFCMBLMI_0.png",
+                  "HFCMBLMI_1.png",
+                  "HFCMBLMI_2.png",
+                  "HFCMBLMI_3.png",
+                  "HFCMBLMI_4.png",
+                  "HFCMBLMI_5.png",
+                  "HFCMBTMI_0.png",
+                  "HFCMBTMI_1.png",
+                  "HFCMBTMI_2.png",
+                  "HFCMBTMI_3.png",
+                  "HFCMBTMI_4.png",
+                  "HFCMBTMI_5.png"
+               ],
+               "anim-packed" : "HFCMBTMI.png",
+               "static" : [
+                  "HFCMBLMI.static.png",
+                  "HFCMBTMI.static.png"
+               ]
+            },
+            "MJ" : {
+               "anim" : [
+                  "HFCMBLMJ_0.png",
+                  "HFCMBLMJ_1.png",
+                  "HFCMBLMJ_2.png",
+                  "HFCMBLMJ_3.png",
+                  "HFCMBLMJ_4.png",
+                  "HFCMBLMJ_5.png",
+                  "HFCMBTMJ_0.png",
+                  "HFCMBTMJ_1.png",
+                  "HFCMBTMJ_2.png",
+                  "HFCMBTMJ_3.png",
+                  "HFCMBTMJ_4.png",
+                  "HFCMBTMJ_5.png"
+               ],
+               "anim-packed" : "HFCMBTMJ.png",
+               "static" : [
+                  "HFCMBLMJ.static.png",
+                  "HFCMBTMJ.static.png"
                ]
             }
          }
