@@ -1627,7 +1627,7 @@
             "RO" : "MAROBBRO.FRM",
             "RP" : "MAROBBRP.FRM"
          },
-         "RocketLauncherFix_CombatArmor/black dude" : {
+         "RocketLauncherFix_CombatArmor/black_dude" : {
             "MA" : [
                "_HMCMBLMA.FRM",
                "_HMCMBTMA.FRM"
@@ -1661,7 +1661,7 @@
                "_HMCMBTMJ.FRM"
             ]
          },
-         "RocketLauncherFix_CombatArmor/default dude" : {
+         "RocketLauncherFix_CombatArmor/default_dude" : {
             "MA" : [
                "HMCMBLMA.FRM",
                "HMCMBTMA.FRM"
@@ -18766,7 +18766,7 @@
                ]
             }
          },
-         "RocketLauncherFix_CombatArmor/black dude" : {
+         "RocketLauncherFix_CombatArmor/black_dude" : {
             "MA" : {
                "anim" : [
                   "_HMCMBLMA_0.png",
@@ -18936,7 +18936,7 @@
                ]
             }
          },
-         "RocketLauncherFix_CombatArmor/default dude" : {
+         "RocketLauncherFix_CombatArmor/default_dude" : {
             "MA" : {
                "anim" : [
                   "HMCMBLMA_0.png",
