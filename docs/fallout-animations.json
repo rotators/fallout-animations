@@ -337,16 +337,7 @@
             "JB" : "NMRGNGJB.FRM",
             "KB" : "NMRGNGKB.FRM"
          },
-         "Male_BlackDude_Bald_VSuit" : {
-            "AA" : "_hmjmpsaa.frm",
-            "AB" : "_hmjmpsab.frm",
-            "AE" : "_hmjmpsae.frm",
-            "AK" : "_hmjmpsak.frm",
-            "AL" : "_hmjmpsal.frm",
-            "AN" : "_hmjmpsan.frm",
-            "AT" : "_hmjmpsat.frm"
-         },
-         "Male_BlackDude_CombatArmor" : {
+         "Male_BlackDude/Male_BlackDude_CombatArmor" : {
             "AA" : "hmbcmbaa.frm",
             "AB" : "hmbcmbab.frm",
             "AE" : "hmbcmbae.frm",
@@ -533,7 +524,7 @@
             "RO" : "hmbcmbro.frm",
             "RP" : "hmbcmbrp.frm"
          },
-         "Male_BlackDude_CombatArmorBlack" : {
+         "Male_BlackDude/Male_BlackDude_CombatArmorBlack" : {
             "AA" : "HMBCMBAA.FRM",
             "AB" : "HMBCMBAB.frm",
             "AE" : "HMBCMBAE.FRM",
@@ -720,7 +711,7 @@
             "RO" : "HMBCMBRO.FRM",
             "RP" : "HMBCMBRP.FRM"
          },
-         "Male_BlackDude_LeatherArmor" : {
+         "Male_BlackDude/Male_BlackDude_LeatherArmor" : {
             "AA" : "HMBLTRAA.FRM",
             "AB" : "HMBLTRAB.FRM",
             "AE" : "HMBLTRAE.FRM",
@@ -908,7 +899,7 @@
             "RO" : "HMBLTRRO.FRM",
             "RP" : "HMBLTRRP.FRM"
          },
-         "Male_BlackDude_LeatherJacket" : {
+         "Male_BlackDude/Male_BlackDude_LeatherJacket" : {
             "AA" : "HMBMAXAA.FRM",
             "AB" : "HMBMAXAB.FRM",
             "AE" : "HMBMAXAE.FRM",
@@ -1095,10 +1086,7 @@
             "RO" : "HMBMAXRO.FRM",
             "RP" : "HMBMAXRP.FRM"
          },
-         "Male_BlackDude_Longhair_VSuit" : {
-            "AA" : "_hmjmpsaa.frm"
-         },
-         "Male_BlackDude_MetalArmor" : {
+         "Male_BlackDude/Male_BlackDude_MetalArmor" : {
             "AL" : "HMBMETAL.FRM",
             "AT" : "HMBMETAT.FRM",
             "EA" : "HMBMETEA.FRM",
@@ -1160,7 +1148,7 @@
             "MI" : "HMBMETMI.FRM",
             "MJ" : "HMBMETMJ.FRM"
          },
-         "Male_BlackDude_Tribal" : {
+         "Male_BlackDude/Male_BlackDude_Tribal" : {
             "AA" : "HMBWARAA.FRM",
             "AB" : "HMBWARAB.FRM",
             "AE" : "HMBWARAE.FRM",
@@ -1191,7 +1179,7 @@
             "RO" : "HMBWARRO.FRM",
             "RP" : "HMBWARRP.FRM"
          },
-         "Male_BlackDude_VSuit" : {
+         "Male_BlackDude/Male_BlackDude_VSuit" : {
             "AA" : "HMBJMPAA_dude.FRM",
             "AE" : "HMBJMPAE.FRM",
             "AS" : "HMBJMPAS.FRM",
@@ -1277,6 +1265,18 @@
             "MH" : "HMBJMPMH.FRM",
             "MI" : "HMBJMPMI.FRM",
             "MJ" : "HMBJMPMJ.FRM"
+         },
+         "Male_BlackDude_Bald/Male_BlackDude_Bald_VSuit" : {
+            "AA" : "_hmjmpsaa.frm",
+            "AB" : "_hmjmpsab.frm",
+            "AE" : "_hmjmpsae.frm",
+            "AK" : "_hmjmpsak.frm",
+            "AL" : "_hmjmpsal.frm",
+            "AN" : "_hmjmpsan.frm",
+            "AT" : "_hmjmpsat.frm"
+         },
+         "Male_BlackDude_Longhair/Male_BlackDude_Longhair_VSuit" : {
+            "AA" : "_hmjmpsaa.frm"
          },
          "Male_BlackFarmer_GrayShirt" : {
             "AA" : "NMBGRYAA.FRM",
@@ -4863,107 +4863,7 @@
                ]
             }
          },
-         "Male_BlackDude_Bald_VSuit" : {
-            "AA" : {
-               "anim" : [
-                  "_HMJMPSAA_0.png",
-                  "_HMJMPSAA_1.png",
-                  "_HMJMPSAA_2.png",
-                  "_HMJMPSAA_3.png",
-                  "_HMJMPSAA_4.png",
-                  "_HMJMPSAA_5.png"
-               ],
-               "anim-packed" : "_HMJMPSAA.png",
-               "static" : [
-                  "_HMJMPSAA.static.png"
-               ]
-            },
-            "AB" : {
-               "anim" : [
-                  "_HMJMPSAB_0.png",
-                  "_HMJMPSAB_1.png",
-                  "_HMJMPSAB_2.png",
-                  "_HMJMPSAB_3.png",
-                  "_HMJMPSAB_4.png",
-                  "_HMJMPSAB_5.png"
-               ],
-               "anim-packed" : "_HMJMPSAB.png",
-               "static" : [
-                  "_HMJMPSAB.static.png"
-               ]
-            },
-            "AE" : {
-               "anim" : [
-                  "_HMJMPSAE_0.png",
-                  "_HMJMPSAE_1.png",
-                  "_HMJMPSAE_2.png",
-                  "_HMJMPSAE_3.png",
-                  "_HMJMPSAE_4.png",
-                  "_HMJMPSAE_5.png"
-               ],
-               "anim-packed" : "_HMJMPSAE.png",
-               "static" : [
-                  "_HMJMPSAE.static.png"
-               ]
-            },
-            "AK" : {
-               "anim" : [
-                  "_HMJMPSAK_0.png",
-                  "_HMJMPSAK_1.png",
-                  "_HMJMPSAK_2.png",
-                  "_HMJMPSAK_3.png",
-                  "_HMJMPSAK_4.png",
-                  "_HMJMPSAK_5.png"
-               ],
-               "anim-packed" : "_HMJMPSAK.png",
-               "static" : [
-                  "_HMJMPSAK.static.png"
-               ]
-            },
-            "AL" : {
-               "anim" : [
-                  "_HMJMPSAL_0.png",
-                  "_HMJMPSAL_1.png",
-                  "_HMJMPSAL_2.png",
-                  "_HMJMPSAL_3.png",
-                  "_HMJMPSAL_4.png",
-                  "_HMJMPSAL_5.png"
-               ],
-               "anim-packed" : "_HMJMPSAL.png",
-               "static" : [
-                  "_HMJMPSAL.static.png"
-               ]
-            },
-            "AN" : {
-               "anim" : [
-                  "_HMJMPSAN_0.png",
-                  "_HMJMPSAN_1.png",
-                  "_HMJMPSAN_2.png",
-                  "_HMJMPSAN_3.png",
-                  "_HMJMPSAN_4.png",
-                  "_HMJMPSAN_5.png"
-               ],
-               "anim-packed" : "_HMJMPSAN.png",
-               "static" : [
-                  "_HMJMPSAN.static.png"
-               ]
-            },
-            "AT" : {
-               "anim" : [
-                  "_HMJMPSAT_0.png",
-                  "_HMJMPSAT_1.png",
-                  "_HMJMPSAT_2.png",
-                  "_HMJMPSAT_3.png",
-                  "_HMJMPSAT_4.png",
-                  "_HMJMPSAT_5.png"
-               ],
-               "anim-packed" : "_HMJMPSAT.png",
-               "static" : [
-                  "_HMJMPSAT.static.png"
-               ]
-            }
-         },
-         "Male_BlackDude_CombatArmor" : {
+         "Male_BlackDude/Male_BlackDude_CombatArmor" : {
             "AA" : {
                "anim" : [
                   "HMBCMBAA_0.png",
@@ -6635,7 +6535,7 @@
                ]
             }
          },
-         "Male_BlackDude_CombatArmorBlack" : {
+         "Male_BlackDude/Male_BlackDude_CombatArmorBlack" : {
             "AA" : {
                "anim" : [
                   "HMBCMBAA_0.png",
@@ -8307,7 +8207,7 @@
                ]
             }
          },
-         "Male_BlackDude_LeatherArmor" : {
+         "Male_BlackDude/Male_BlackDude_LeatherArmor" : {
             "AA" : {
                "anim" : [
                   "HMBLTRAA_0.png",
@@ -9973,7 +9873,7 @@
                ]
             }
          },
-         "Male_BlackDude_LeatherJacket" : {
+         "Male_BlackDude/Male_BlackDude_LeatherJacket" : {
             "AA" : {
                "anim" : [
                   "HMBMAXAA_0.png",
@@ -11625,23 +11525,7 @@
                ]
             }
          },
-         "Male_BlackDude_Longhair_VSuit" : {
-            "AA" : {
-               "anim" : [
-                  "_HMJMPSAA_0.png",
-                  "_HMJMPSAA_1.png",
-                  "_HMJMPSAA_2.png",
-                  "_HMJMPSAA_3.png",
-                  "_HMJMPSAA_4.png",
-                  "_HMJMPSAA_5.png"
-               ],
-               "anim-packed" : "_HMJMPSAA.png",
-               "static" : [
-                  "_HMJMPSAA.static.png"
-               ]
-            }
-         },
-         "Male_BlackDude_MetalArmor" : {
+         "Male_BlackDude/Male_BlackDude_MetalArmor" : {
             "AL" : {
                "anim" : [
                   "HMBMETAL_0.png",
@@ -12483,7 +12367,7 @@
                ]
             }
          },
-         "Male_BlackDude_Tribal" : {
+         "Male_BlackDude/Male_BlackDude_Tribal" : {
             "AA" : {
                "anim" : [
                   "HMBWARAA_0.png",
@@ -12891,7 +12775,7 @@
                ]
             }
          },
-         "Male_BlackDude_VSuit" : {
+         "Male_BlackDude/Male_BlackDude_VSuit" : {
             "AA" : {
                "static" : [
                   "HMBJMPAA_DUDE.static.png"
@@ -14071,6 +13955,122 @@
                "anim-packed" : "HMBJMPMJ.png",
                "static" : [
                   "HMBJMPMJ.static.png"
+               ]
+            }
+         },
+         "Male_BlackDude_Bald/Male_BlackDude_Bald_VSuit" : {
+            "AA" : {
+               "anim" : [
+                  "_HMJMPSAA_0.png",
+                  "_HMJMPSAA_1.png",
+                  "_HMJMPSAA_2.png",
+                  "_HMJMPSAA_3.png",
+                  "_HMJMPSAA_4.png",
+                  "_HMJMPSAA_5.png"
+               ],
+               "anim-packed" : "_HMJMPSAA.png",
+               "static" : [
+                  "_HMJMPSAA.static.png"
+               ]
+            },
+            "AB" : {
+               "anim" : [
+                  "_HMJMPSAB_0.png",
+                  "_HMJMPSAB_1.png",
+                  "_HMJMPSAB_2.png",
+                  "_HMJMPSAB_3.png",
+                  "_HMJMPSAB_4.png",
+                  "_HMJMPSAB_5.png"
+               ],
+               "anim-packed" : "_HMJMPSAB.png",
+               "static" : [
+                  "_HMJMPSAB.static.png"
+               ]
+            },
+            "AE" : {
+               "anim" : [
+                  "_HMJMPSAE_0.png",
+                  "_HMJMPSAE_1.png",
+                  "_HMJMPSAE_2.png",
+                  "_HMJMPSAE_3.png",
+                  "_HMJMPSAE_4.png",
+                  "_HMJMPSAE_5.png"
+               ],
+               "anim-packed" : "_HMJMPSAE.png",
+               "static" : [
+                  "_HMJMPSAE.static.png"
+               ]
+            },
+            "AK" : {
+               "anim" : [
+                  "_HMJMPSAK_0.png",
+                  "_HMJMPSAK_1.png",
+                  "_HMJMPSAK_2.png",
+                  "_HMJMPSAK_3.png",
+                  "_HMJMPSAK_4.png",
+                  "_HMJMPSAK_5.png"
+               ],
+               "anim-packed" : "_HMJMPSAK.png",
+               "static" : [
+                  "_HMJMPSAK.static.png"
+               ]
+            },
+            "AL" : {
+               "anim" : [
+                  "_HMJMPSAL_0.png",
+                  "_HMJMPSAL_1.png",
+                  "_HMJMPSAL_2.png",
+                  "_HMJMPSAL_3.png",
+                  "_HMJMPSAL_4.png",
+                  "_HMJMPSAL_5.png"
+               ],
+               "anim-packed" : "_HMJMPSAL.png",
+               "static" : [
+                  "_HMJMPSAL.static.png"
+               ]
+            },
+            "AN" : {
+               "anim" : [
+                  "_HMJMPSAN_0.png",
+                  "_HMJMPSAN_1.png",
+                  "_HMJMPSAN_2.png",
+                  "_HMJMPSAN_3.png",
+                  "_HMJMPSAN_4.png",
+                  "_HMJMPSAN_5.png"
+               ],
+               "anim-packed" : "_HMJMPSAN.png",
+               "static" : [
+                  "_HMJMPSAN.static.png"
+               ]
+            },
+            "AT" : {
+               "anim" : [
+                  "_HMJMPSAT_0.png",
+                  "_HMJMPSAT_1.png",
+                  "_HMJMPSAT_2.png",
+                  "_HMJMPSAT_3.png",
+                  "_HMJMPSAT_4.png",
+                  "_HMJMPSAT_5.png"
+               ],
+               "anim-packed" : "_HMJMPSAT.png",
+               "static" : [
+                  "_HMJMPSAT.static.png"
+               ]
+            }
+         },
+         "Male_BlackDude_Longhair/Male_BlackDude_Longhair_VSuit" : {
+            "AA" : {
+               "anim" : [
+                  "_HMJMPSAA_0.png",
+                  "_HMJMPSAA_1.png",
+                  "_HMJMPSAA_2.png",
+                  "_HMJMPSAA_3.png",
+                  "_HMJMPSAA_4.png",
+                  "_HMJMPSAA_5.png"
+               ],
+               "anim-packed" : "_HMJMPSAA.png",
+               "static" : [
+                  "_HMJMPSAA.static.png"
                ]
             }
          },
