@@ -1275,6 +1275,102 @@
             "AN" : "_hmjmpsan.frm",
             "AT" : "_hmjmpsat.frm"
          },
+         "Male_BlackDude_BrownPants" : {
+            "AA" : "HMMET2AA.FRM",
+            "AB" : "HMMET2AB.FRM",
+            "AE" : "HMMET2AE.FRM",
+            "AK" : "HMMET2AK.FRM",
+            "AL" : "HMMET2AL.FRM",
+            "AN" : "HMMET2AN.FRM",
+            "AO" : "HMMET2AO.FRM",
+            "AP" : "HMMET2AP.FRM",
+            "AQ" : "HMMET2AQ.FRM",
+            "AR" : "HMMET2AR.FRM",
+            "AS" : "HMMET2AS.FRM",
+            "AT" : "HMMET2AT.FRM",
+            "BA" : [
+               "HMMET2BA.FR0",
+               "HMMET2BA.FR1",
+               "HMMET2BA.FR2",
+               "HMMET2BA.FR3",
+               "HMMET2BA.FR4",
+               "HMMET2BA.FR5"
+            ],
+            "BB" : [
+               "HMMET2BB.FR0",
+               "HMMET2BB.FR1",
+               "HMMET2BB.FR2",
+               "HMMET2BB.FR3",
+               "HMMET2BB.FR4",
+               "HMMET2BB.FR5"
+            ],
+            "BD" : [
+               "HMMET2BD.FR0",
+               "HMMET2BD.FR1",
+               "HMMET2BD.FR2",
+               "HMMET2BD.FR3",
+               "HMMET2BD.FR4",
+               "HMMET2BD.FR5"
+            ],
+            "BF" : [
+               "HMMET2BF.FR0",
+               "HMMET2BF.FR1",
+               "HMMET2BF.FR2",
+               "HMMET2BF.FR3",
+               "HMMET2BF.FR4",
+               "HMMET2BF.FR5"
+            ],
+            "BG" : [
+               "HMMET2BG.FR0",
+               "HMMET2BG.FR1",
+               "HMMET2BG.FR2",
+               "HMMET2BG.FR3",
+               "HMMET2BG.FR4",
+               "HMMET2BG.FR5"
+            ],
+            "BI" : [
+               "HMMET2BI.FR0",
+               "HMMET2BI.FR1",
+               "HMMET2BI.FR2",
+               "HMMET2BI.FR3",
+               "HMMET2BI.FR4",
+               "HMMET2BI.FR5"
+            ],
+            "BL" : [
+               "HMMET2BL.FR0",
+               "HMMET2BL.FR1",
+               "HMMET2BL.FR2",
+               "HMMET2BL.FR3",
+               "HMMET2BL.FR4",
+               "HMMET2BL.FR5"
+            ],
+            "BM" : [
+               "HMMET2BM.FR0",
+               "HMMET2BM.FR1",
+               "HMMET2BM.FR2",
+               "HMMET2BM.FR3",
+               "HMMET2BM.FR4",
+               "HMMET2BM.FR5"
+            ],
+            "BO" : [
+               "HMMET2BO.FR0",
+               "HMMET2BO.FR1",
+               "HMMET2BO.FR2",
+               "HMMET2BO.FR3",
+               "HMMET2BO.FR4",
+               "HMMET2BO.FR5"
+            ],
+            "BP" : [
+               "HMMET2BP.FR0",
+               "HMMET2BP.FR1",
+               "HMMET2BP.FR2",
+               "HMMET2BP.FR3",
+               "HMMET2BP.FR4",
+               "HMMET2BP.FR5"
+            ],
+            "CH" : "HMMET2CH.FRM",
+            "CJ" : "HMMET2CJ.FRM"
+         },
          "Male_BlackDude_Longhair/Male_BlackDude_Longhair_VSuit" : {
             "AA" : "_hmjmpsaa.frm"
          },
@@ -14055,6 +14151,384 @@
                "anim-packed" : "_HMJMPSAT.png",
                "static" : [
                   "_HMJMPSAT.static.png"
+               ]
+            }
+         },
+         "Male_BlackDude_BrownPants" : {
+            "AA" : {
+               "anim" : [
+                  "HMMET2AA_0.png",
+                  "HMMET2AA_1.png",
+                  "HMMET2AA_2.png",
+                  "HMMET2AA_3.png",
+                  "HMMET2AA_4.png",
+                  "HMMET2AA_5.png"
+               ],
+               "anim-packed" : "HMMET2AA.png",
+               "static" : [
+                  "HMMET2AA.static.png"
+               ]
+            },
+            "AB" : {
+               "anim" : [
+                  "HMMET2AB_0.png",
+                  "HMMET2AB_1.png",
+                  "HMMET2AB_2.png",
+                  "HMMET2AB_3.png",
+                  "HMMET2AB_4.png",
+                  "HMMET2AB_5.png"
+               ],
+               "anim-packed" : "HMMET2AB.png",
+               "static" : [
+                  "HMMET2AB.static.png"
+               ]
+            },
+            "AE" : {
+               "anim" : [
+                  "HMMET2AE_0.png",
+                  "HMMET2AE_1.png",
+                  "HMMET2AE_2.png",
+                  "HMMET2AE_3.png",
+                  "HMMET2AE_4.png",
+                  "HMMET2AE_5.png"
+               ],
+               "anim-packed" : "HMMET2AE.png",
+               "static" : [
+                  "HMMET2AE.static.png"
+               ]
+            },
+            "AK" : {
+               "anim" : [
+                  "HMMET2AK_0.png",
+                  "HMMET2AK_1.png",
+                  "HMMET2AK_2.png",
+                  "HMMET2AK_3.png",
+                  "HMMET2AK_4.png",
+                  "HMMET2AK_5.png"
+               ],
+               "anim-packed" : "HMMET2AK.png",
+               "static" : [
+                  "HMMET2AK.static.png"
+               ]
+            },
+            "AL" : {
+               "anim" : [
+                  "HMMET2AL_0.png",
+                  "HMMET2AL_1.png",
+                  "HMMET2AL_2.png",
+                  "HMMET2AL_3.png",
+                  "HMMET2AL_4.png",
+                  "HMMET2AL_5.png"
+               ],
+               "anim-packed" : "HMMET2AL.png",
+               "static" : [
+                  "HMMET2AL.static.png"
+               ]
+            },
+            "AN" : {
+               "anim" : [
+                  "HMMET2AN_0.png",
+                  "HMMET2AN_1.png",
+                  "HMMET2AN_2.png",
+                  "HMMET2AN_3.png",
+                  "HMMET2AN_4.png",
+                  "HMMET2AN_5.png"
+               ],
+               "anim-packed" : "HMMET2AN.png",
+               "static" : [
+                  "HMMET2AN.static.png"
+               ]
+            },
+            "AO" : {
+               "anim" : [
+                  "HMMET2AO_0.png",
+                  "HMMET2AO_1.png",
+                  "HMMET2AO_2.png",
+                  "HMMET2AO_3.png",
+                  "HMMET2AO_4.png",
+                  "HMMET2AO_5.png"
+               ],
+               "anim-packed" : "HMMET2AO.png",
+               "static" : [
+                  "HMMET2AO.static.png"
+               ]
+            },
+            "AP" : {
+               "anim" : [
+                  "HMMET2AP_0.png",
+                  "HMMET2AP_1.png",
+                  "HMMET2AP_2.png",
+                  "HMMET2AP_3.png",
+                  "HMMET2AP_4.png",
+                  "HMMET2AP_5.png"
+               ],
+               "anim-packed" : "HMMET2AP.png",
+               "static" : [
+                  "HMMET2AP.static.png"
+               ]
+            },
+            "AQ" : {
+               "anim" : [
+                  "HMMET2AQ_0.png",
+                  "HMMET2AQ_1.png",
+                  "HMMET2AQ_2.png",
+                  "HMMET2AQ_3.png",
+                  "HMMET2AQ_4.png",
+                  "HMMET2AQ_5.png"
+               ],
+               "anim-packed" : "HMMET2AQ.png",
+               "static" : [
+                  "HMMET2AQ.static.png"
+               ]
+            },
+            "AR" : {
+               "anim" : [
+                  "HMMET2AR_0.png",
+                  "HMMET2AR_1.png",
+                  "HMMET2AR_2.png",
+                  "HMMET2AR_3.png",
+                  "HMMET2AR_4.png",
+                  "HMMET2AR_5.png"
+               ],
+               "anim-packed" : "HMMET2AR.png",
+               "static" : [
+                  "HMMET2AR.static.png"
+               ]
+            },
+            "AS" : {
+               "anim" : [
+                  "HMMET2AS_0.png",
+                  "HMMET2AS_1.png",
+                  "HMMET2AS_2.png",
+                  "HMMET2AS_3.png",
+                  "HMMET2AS_4.png",
+                  "HMMET2AS_5.png"
+               ],
+               "anim-packed" : "HMMET2AS.png",
+               "static" : [
+                  "HMMET2AS.static.png"
+               ]
+            },
+            "AT" : {
+               "anim" : [
+                  "HMMET2AT_0.png",
+                  "HMMET2AT_1.png",
+                  "HMMET2AT_2.png",
+                  "HMMET2AT_3.png",
+                  "HMMET2AT_4.png",
+                  "HMMET2AT_5.png"
+               ],
+               "anim-packed" : "HMMET2AT.png",
+               "static" : [
+                  "HMMET2AT.static.png"
+               ]
+            },
+            "BA" : {
+               "anim" : [
+                  "HMMET2BA_0.png",
+                  "HMMET2BA_1.png",
+                  "HMMET2BA_2.png",
+                  "HMMET2BA_3.png",
+                  "HMMET2BA_4.png",
+                  "HMMET2BA_5.png"
+               ],
+               "static" : [
+                  "HMMET2BA_0.static.png",
+                  "HMMET2BA_1.static.png",
+                  "HMMET2BA_2.static.png",
+                  "HMMET2BA_3.static.png",
+                  "HMMET2BA_4.static.png",
+                  "HMMET2BA_5.static.png"
+               ]
+            },
+            "BB" : {
+               "anim" : [
+                  "HMMET2BB_0.png",
+                  "HMMET2BB_1.png",
+                  "HMMET2BB_2.png",
+                  "HMMET2BB_3.png",
+                  "HMMET2BB_4.png",
+                  "HMMET2BB_5.png"
+               ],
+               "static" : [
+                  "HMMET2BB_0.static.png",
+                  "HMMET2BB_1.static.png",
+                  "HMMET2BB_2.static.png",
+                  "HMMET2BB_3.static.png",
+                  "HMMET2BB_4.static.png",
+                  "HMMET2BB_5.static.png"
+               ]
+            },
+            "BD" : {
+               "anim" : [
+                  "HMMET2BD_0.png",
+                  "HMMET2BD_1.png",
+                  "HMMET2BD_2.png",
+                  "HMMET2BD_3.png",
+                  "HMMET2BD_4.png",
+                  "HMMET2BD_5.png"
+               ],
+               "static" : [
+                  "HMMET2BD_0.static.png",
+                  "HMMET2BD_1.static.png",
+                  "HMMET2BD_2.static.png",
+                  "HMMET2BD_3.static.png",
+                  "HMMET2BD_4.static.png",
+                  "HMMET2BD_5.static.png"
+               ]
+            },
+            "BF" : {
+               "anim" : [
+                  "HMMET2BF_0.png",
+                  "HMMET2BF_1.png",
+                  "HMMET2BF_2.png",
+                  "HMMET2BF_3.png",
+                  "HMMET2BF_4.png",
+                  "HMMET2BF_5.png"
+               ],
+               "static" : [
+                  "HMMET2BF_0.static.png",
+                  "HMMET2BF_1.static.png",
+                  "HMMET2BF_2.static.png",
+                  "HMMET2BF_3.static.png",
+                  "HMMET2BF_4.static.png",
+                  "HMMET2BF_5.static.png"
+               ]
+            },
+            "BG" : {
+               "anim" : [
+                  "HMMET2BG_0.png",
+                  "HMMET2BG_1.png",
+                  "HMMET2BG_2.png",
+                  "HMMET2BG_3.png",
+                  "HMMET2BG_4.png",
+                  "HMMET2BG_5.png"
+               ],
+               "static" : [
+                  "HMMET2BG_0.static.png",
+                  "HMMET2BG_1.static.png",
+                  "HMMET2BG_2.static.png",
+                  "HMMET2BG_3.static.png",
+                  "HMMET2BG_4.static.png",
+                  "HMMET2BG_5.static.png"
+               ]
+            },
+            "BI" : {
+               "anim" : [
+                  "HMMET2BI_0.png",
+                  "HMMET2BI_1.png",
+                  "HMMET2BI_2.png",
+                  "HMMET2BI_3.png",
+                  "HMMET2BI_4.png",
+                  "HMMET2BI_5.png"
+               ],
+               "static" : [
+                  "HMMET2BI_0.static.png",
+                  "HMMET2BI_1.static.png",
+                  "HMMET2BI_2.static.png",
+                  "HMMET2BI_3.static.png",
+                  "HMMET2BI_4.static.png",
+                  "HMMET2BI_5.static.png"
+               ]
+            },
+            "BL" : {
+               "anim" : [
+                  "HMMET2BL_0.png",
+                  "HMMET2BL_1.png",
+                  "HMMET2BL_2.png",
+                  "HMMET2BL_3.png",
+                  "HMMET2BL_4.png",
+                  "HMMET2BL_5.png"
+               ],
+               "static" : [
+                  "HMMET2BL_0.static.png",
+                  "HMMET2BL_1.static.png",
+                  "HMMET2BL_2.static.png",
+                  "HMMET2BL_3.static.png",
+                  "HMMET2BL_4.static.png",
+                  "HMMET2BL_5.static.png"
+               ]
+            },
+            "BM" : {
+               "anim" : [
+                  "HMMET2BM_0.png",
+                  "HMMET2BM_1.png",
+                  "HMMET2BM_2.png",
+                  "HMMET2BM_3.png",
+                  "HMMET2BM_4.png",
+                  "HMMET2BM_5.png"
+               ],
+               "static" : [
+                  "HMMET2BM_0.static.png",
+                  "HMMET2BM_1.static.png",
+                  "HMMET2BM_2.static.png",
+                  "HMMET2BM_3.static.png",
+                  "HMMET2BM_4.static.png",
+                  "HMMET2BM_5.static.png"
+               ]
+            },
+            "BO" : {
+               "anim" : [
+                  "HMMET2BO_0.png",
+                  "HMMET2BO_1.png",
+                  "HMMET2BO_2.png",
+                  "HMMET2BO_3.png",
+                  "HMMET2BO_4.png",
+                  "HMMET2BO_5.png"
+               ],
+               "static" : [
+                  "HMMET2BO_0.static.png",
+                  "HMMET2BO_1.static.png",
+                  "HMMET2BO_2.static.png",
+                  "HMMET2BO_3.static.png",
+                  "HMMET2BO_4.static.png",
+                  "HMMET2BO_5.static.png"
+               ]
+            },
+            "BP" : {
+               "anim" : [
+                  "HMMET2BP_0.png",
+                  "HMMET2BP_1.png",
+                  "HMMET2BP_2.png",
+                  "HMMET2BP_3.png",
+                  "HMMET2BP_4.png",
+                  "HMMET2BP_5.png"
+               ],
+               "static" : [
+                  "HMMET2BP_0.static.png",
+                  "HMMET2BP_1.static.png",
+                  "HMMET2BP_2.static.png",
+                  "HMMET2BP_3.static.png",
+                  "HMMET2BP_4.static.png",
+                  "HMMET2BP_5.static.png"
+               ]
+            },
+            "CH" : {
+               "anim" : [
+                  "HMMET2CH_0.png",
+                  "HMMET2CH_1.png",
+                  "HMMET2CH_2.png",
+                  "HMMET2CH_3.png",
+                  "HMMET2CH_4.png",
+                  "HMMET2CH_5.png"
+               ],
+               "anim-packed" : "HMMET2CH.png",
+               "static" : [
+                  "HMMET2CH.static.png"
+               ]
+            },
+            "CJ" : {
+               "anim" : [
+                  "HMMET2CJ_0.png",
+                  "HMMET2CJ_1.png",
+                  "HMMET2CJ_2.png",
+                  "HMMET2CJ_3.png",
+                  "HMMET2CJ_4.png",
+                  "HMMET2CJ_5.png"
+               ],
+               "anim-packed" : "HMMET2CJ.png",
+               "static" : [
+                  "HMMET2CJ.static.png"
                ]
             }
          },
