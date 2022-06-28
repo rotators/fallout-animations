@@ -1570,6 +1570,14 @@
             ],
             "CH" : "nmmetlch.frm",
             "CJ" : "nmmetlcj.frm",
+            "DA" : "nmmetlda.frm",
+            "DB" : "nmmetldb.frm",
+            "DC" : "nmmetldc.frm",
+            "DD" : "nmmetldd.frm",
+            "DE" : "nmmetlde.frm",
+            "DF" : "nmmetldf.frm",
+            "DG" : "nmmetldg.frm",
+            "DM" : "nmmetldm.frm",
             "GA" : "nmmetlga.frm",
             "GB" : "nmmetlgb.frm",
             "GC" : "nmmetlgc.frm",
@@ -16442,6 +16450,118 @@
                "anim-packed" : "NMMETLCJ.png",
                "static" : [
                   "NMMETLCJ.static.png"
+               ]
+            },
+            "DA" : {
+               "anim" : [
+                  "NMMETLDA_0.png",
+                  "NMMETLDA_1.png",
+                  "NMMETLDA_2.png",
+                  "NMMETLDA_3.png",
+                  "NMMETLDA_4.png",
+                  "NMMETLDA_5.png"
+               ],
+               "anim-packed" : "NMMETLDA.png",
+               "static" : [
+                  "NMMETLDA.static.png"
+               ]
+            },
+            "DB" : {
+               "anim" : [
+                  "NMMETLDB_0.png",
+                  "NMMETLDB_1.png",
+                  "NMMETLDB_2.png",
+                  "NMMETLDB_3.png",
+                  "NMMETLDB_4.png",
+                  "NMMETLDB_5.png"
+               ],
+               "anim-packed" : "NMMETLDB.png",
+               "static" : [
+                  "NMMETLDB.static.png"
+               ]
+            },
+            "DC" : {
+               "anim" : [
+                  "NMMETLDC_0.png",
+                  "NMMETLDC_1.png",
+                  "NMMETLDC_2.png",
+                  "NMMETLDC_3.png",
+                  "NMMETLDC_4.png",
+                  "NMMETLDC_5.png"
+               ],
+               "anim-packed" : "NMMETLDC.png",
+               "static" : [
+                  "NMMETLDC.static.png"
+               ]
+            },
+            "DD" : {
+               "anim" : [
+                  "NMMETLDD_0.png",
+                  "NMMETLDD_1.png",
+                  "NMMETLDD_2.png",
+                  "NMMETLDD_3.png",
+                  "NMMETLDD_4.png",
+                  "NMMETLDD_5.png"
+               ],
+               "anim-packed" : "NMMETLDD.png",
+               "static" : [
+                  "NMMETLDD.static.png"
+               ]
+            },
+            "DE" : {
+               "anim" : [
+                  "NMMETLDE_0.png",
+                  "NMMETLDE_1.png",
+                  "NMMETLDE_2.png",
+                  "NMMETLDE_3.png",
+                  "NMMETLDE_4.png",
+                  "NMMETLDE_5.png"
+               ],
+               "anim-packed" : "NMMETLDE.png",
+               "static" : [
+                  "NMMETLDE.static.png"
+               ]
+            },
+            "DF" : {
+               "anim" : [
+                  "NMMETLDF_0.png",
+                  "NMMETLDF_1.png",
+                  "NMMETLDF_2.png",
+                  "NMMETLDF_3.png",
+                  "NMMETLDF_4.png",
+                  "NMMETLDF_5.png"
+               ],
+               "anim-packed" : "NMMETLDF.png",
+               "static" : [
+                  "NMMETLDF.static.png"
+               ]
+            },
+            "DG" : {
+               "anim" : [
+                  "NMMETLDG_0.png",
+                  "NMMETLDG_1.png",
+                  "NMMETLDG_2.png",
+                  "NMMETLDG_3.png",
+                  "NMMETLDG_4.png",
+                  "NMMETLDG_5.png"
+               ],
+               "anim-packed" : "NMMETLDG.png",
+               "static" : [
+                  "NMMETLDG.static.png"
+               ]
+            },
+            "DM" : {
+               "anim" : [
+                  "NMMETLDM_0.png",
+                  "NMMETLDM_1.png",
+                  "NMMETLDM_2.png",
+                  "NMMETLDM_3.png",
+                  "NMMETLDM_4.png",
+                  "NMMETLDM_5.png"
+               ],
+               "anim-packed" : "NMMETLDM.png",
+               "static" : [
+                  "NMMETLDM.static.png"
                ]
             },
             "GA" : {
