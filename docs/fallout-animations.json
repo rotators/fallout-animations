@@ -1611,6 +1611,14 @@
             "JI" : "nmmetlji.frm",
             "JJ" : "nmmetljj.frm",
             "JK" : "nmmetljk.frm",
+            "MA" : "nmmetlma.frm",
+            "MB" : "nmmetlmb.frm",
+            "MC" : "nmmetlmc.frm",
+            "MD" : "nmmetlmd.frm",
+            "ME" : "nmmetlme.frm",
+            "MH" : "nmmetlmh.frm",
+            "MI" : "nmmetlmi.frm",
+            "MJ" : "nmmetlmj.frm",
             "RA" : "nmmetlra.frm",
             "RB" : "nmmetlrb.frm",
             "RD" : "nmmetlrd.frm",
@@ -17024,6 +17032,118 @@
                "anim-packed" : "NMMETLJK.png",
                "static" : [
                   "NMMETLJK.static.png"
+               ]
+            },
+            "MA" : {
+               "anim" : [
+                  "NMMETLMA_0.png",
+                  "NMMETLMA_1.png",
+                  "NMMETLMA_2.png",
+                  "NMMETLMA_3.png",
+                  "NMMETLMA_4.png",
+                  "NMMETLMA_5.png"
+               ],
+               "anim-packed" : "NMMETLMA.png",
+               "static" : [
+                  "NMMETLMA.static.png"
+               ]
+            },
+            "MB" : {
+               "anim" : [
+                  "NMMETLMB_0.png",
+                  "NMMETLMB_1.png",
+                  "NMMETLMB_2.png",
+                  "NMMETLMB_3.png",
+                  "NMMETLMB_4.png",
+                  "NMMETLMB_5.png"
+               ],
+               "anim-packed" : "NMMETLMB.png",
+               "static" : [
+                  "NMMETLMB.static.png"
+               ]
+            },
+            "MC" : {
+               "anim" : [
+                  "NMMETLMC_0.png",
+                  "NMMETLMC_1.png",
+                  "NMMETLMC_2.png",
+                  "NMMETLMC_3.png",
+                  "NMMETLMC_4.png",
+                  "NMMETLMC_5.png"
+               ],
+               "anim-packed" : "NMMETLMC.png",
+               "static" : [
+                  "NMMETLMC.static.png"
+               ]
+            },
+            "MD" : {
+               "anim" : [
+                  "NMMETLMD_0.png",
+                  "NMMETLMD_1.png",
+                  "NMMETLMD_2.png",
+                  "NMMETLMD_3.png",
+                  "NMMETLMD_4.png",
+                  "NMMETLMD_5.png"
+               ],
+               "anim-packed" : "NMMETLMD.png",
+               "static" : [
+                  "NMMETLMD.static.png"
+               ]
+            },
+            "ME" : {
+               "anim" : [
+                  "NMMETLME_0.png",
+                  "NMMETLME_1.png",
+                  "NMMETLME_2.png",
+                  "NMMETLME_3.png",
+                  "NMMETLME_4.png",
+                  "NMMETLME_5.png"
+               ],
+               "anim-packed" : "NMMETLME.png",
+               "static" : [
+                  "NMMETLME.static.png"
+               ]
+            },
+            "MH" : {
+               "anim" : [
+                  "NMMETLMH_0.png",
+                  "NMMETLMH_1.png",
+                  "NMMETLMH_2.png",
+                  "NMMETLMH_3.png",
+                  "NMMETLMH_4.png",
+                  "NMMETLMH_5.png"
+               ],
+               "anim-packed" : "NMMETLMH.png",
+               "static" : [
+                  "NMMETLMH.static.png"
+               ]
+            },
+            "MI" : {
+               "anim" : [
+                  "NMMETLMI_0.png",
+                  "NMMETLMI_1.png",
+                  "NMMETLMI_2.png",
+                  "NMMETLMI_3.png",
+                  "NMMETLMI_4.png",
+                  "NMMETLMI_5.png"
+               ],
+               "anim-packed" : "NMMETLMI.png",
+               "static" : [
+                  "NMMETLMI.static.png"
+               ]
+            },
+            "MJ" : {
+               "anim" : [
+                  "NMMETLMJ_0.png",
+                  "NMMETLMJ_1.png",
+                  "NMMETLMJ_2.png",
+                  "NMMETLMJ_3.png",
+                  "NMMETLMJ_4.png",
+                  "NMMETLMJ_5.png"
+               ],
+               "anim-packed" : "NMMETLMJ.png",
+               "static" : [
+                  "NMMETLMJ.static.png"
                ]
             },
             "RA" : {
