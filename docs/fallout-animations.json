@@ -337,6 +337,124 @@
             "JB" : "NMRGNGJB.FRM",
             "KB" : "NMRGNGKB.FRM"
          },
+         "Male_Bald_CombatArmor" : {
+            "AA" : "hmglcmAA.FRM",
+            "AB" : "hmglcmAB.FRM",
+            "AK" : "hmglcmAK.FRM",
+            "AL" : "hmglcmAL.FRM",
+            "AN" : "hmglcmAN.FRM",
+            "AO" : "hmglcmAO.FRM",
+            "AP" : "hmglcmAP.FRM",
+            "AQ" : "hmglcmAQ.FRM",
+            "AR" : "hmglcmAR.FRM",
+            "AT" : "hmglcmAT.FRM",
+            "BA" : [
+               "hmglcmBA.FR0",
+               "hmglcmBA.FR1",
+               "hmglcmBA.FR2",
+               "hmglcmBA.FR3",
+               "hmglcmBA.FR4",
+               "hmglcmBA.FR5"
+            ],
+            "BB" : [
+               "hmglcmBB.FR0",
+               "hmglcmBB.FR1",
+               "hmglcmBB.FR2",
+               "hmglcmBB.FR3",
+               "hmglcmBB.FR4",
+               "hmglcmBB.FR5"
+            ],
+            "BD" : [
+               "hmglcmBD.FR0",
+               "hmglcmBD.FR1",
+               "hmglcmBD.FR2",
+               "hmglcmBD.FR3",
+               "hmglcmBD.FR4",
+               "hmglcmBD.FR5"
+            ],
+            "BF" : [
+               "hmglcmBF.FR0",
+               "hmglcmBF.FR1",
+               "hmglcmBF.FR2",
+               "hmglcmBF.FR3",
+               "hmglcmBF.FR4",
+               "hmglcmBF.FR5"
+            ],
+            "BG" : [
+               "hmglcmBG.FR0",
+               "hmglcmBG.FR1",
+               "hmglcmBG.FR2",
+               "hmglcmBG.FR3",
+               "hmglcmBG.FR4",
+               "hmglcmBG.FR5"
+            ],
+            "BI" : [
+               "hmglcmBI.FR0",
+               "hmglcmBI.FR1",
+               "hmglcmBI.FR2",
+               "hmglcmBI.FR3",
+               "hmglcmBI.FR4",
+               "hmglcmBI.FR5"
+            ],
+            "BL" : [
+               "hmglcmBL.FR0",
+               "hmglcmBL.FR1",
+               "hmglcmBL.FR2",
+               "hmglcmBL.FR3",
+               "hmglcmBL.FR4",
+               "hmglcmBL.FR5"
+            ],
+            "BM" : [
+               "hmglcmBM.FR0",
+               "hmglcmBM.FR1",
+               "hmglcmBM.FR2",
+               "hmglcmBM.FR3",
+               "hmglcmBM.FR4",
+               "hmglcmBM.FR5"
+            ],
+            "BO" : [
+               "hmglcmBO.FR0",
+               "hmglcmBO.FR1",
+               "hmglcmBO.FR2",
+               "hmglcmBO.FR3",
+               "hmglcmBO.FR4",
+               "hmglcmBO.FR5"
+            ],
+            "BP" : [
+               "hmglcmBP.FR0",
+               "hmglcmBP.FR1",
+               "hmglcmBP.FR2",
+               "hmglcmBP.FR3",
+               "hmglcmBP.FR4",
+               "hmglcmBP.FR5"
+            ],
+            "CH" : "hmglcmCH.FRM",
+            "CJ" : "hmglcmcj.FRM",
+            "HA" : "hmglcmha.FRM",
+            "HB" : "hmglcmhb.FRM",
+            "HC" : "hmglcmhc.FRM",
+            "HD" : "hmglcmhd.FRM",
+            "HE" : "hmglcmhe.FRM",
+            "HH" : "hmglcmHH.FRM",
+            "HI" : "hmglcmHI.FRM",
+            "HJ" : "hmglcmhj.FRM",
+            "JA" : "hmglcmJA.FRM",
+            "JB" : "hmglcmJB.FRM",
+            "JC" : "hmglcmJC.FRM",
+            "JD" : "hmglcmJD.FRM",
+            "JE" : "hmglcmJE.FRM",
+            "JH" : "hmglcmJH.FRM",
+            "JI" : "hmglcmJI.FRM",
+            "JJ" : "hmglcmJJ.FRM",
+            "JK" : "hmglcmJK.FRM",
+            "RD" : "hmglcmRD.FRM",
+            "RF" : "hmglcmRF.FRM",
+            "RG" : "hmglcmRG.FRM",
+            "RI" : "hmglcmRI.FRM",
+            "RL" : "hmglcmRL.FRM",
+            "RM" : "hmglcmRM.FRM",
+            "RP" : "hmglcmrp.FRM"
+         },
          "Male_BlackDude/Male_BlackDude_CombatArmor" : {
             "AA" : "hmbcmbaa.frm",
             "AB" : "hmbcmbab.frm",
@@ -5161,6 +5279,692 @@
                "anim-packed" : "NMRGNGKB.png",
                "static" : [
                   "NMRGNGKB.static.png"
+               ]
+            }
+         },
+         "Male_Bald_CombatArmor" : {
+            "AA" : {
+               "anim" : [
+                  "HMGLCMAA_0.png",
+                  "HMGLCMAA_1.png",
+                  "HMGLCMAA_2.png",
+                  "HMGLCMAA_3.png",
+                  "HMGLCMAA_4.png",
+                  "HMGLCMAA_5.png"
+               ],
+               "anim-packed" : "HMGLCMAA.png",
+               "static" : [
+                  "HMGLCMAA.static.png"
+               ]
+            },
+            "AB" : {
+               "anim" : [
+                  "HMGLCMAB_0.png",
+                  "HMGLCMAB_1.png",
+                  "HMGLCMAB_2.png",
+                  "HMGLCMAB_3.png",
+                  "HMGLCMAB_4.png",
+                  "HMGLCMAB_5.png"
+               ],
+               "anim-packed" : "HMGLCMAB.png",
+               "static" : [
+                  "HMGLCMAB.static.png"
+               ]
+            },
+            "AK" : {
+               "anim" : [
+                  "HMGLCMAK_0.png",
+                  "HMGLCMAK_1.png",
+                  "HMGLCMAK_2.png",
+                  "HMGLCMAK_3.png",
+                  "HMGLCMAK_4.png",
+                  "HMGLCMAK_5.png"
+               ],
+               "anim-packed" : "HMGLCMAK.png",
+               "static" : [
+                  "HMGLCMAK.static.png"
+               ]
+            },
+            "AL" : {
+               "anim" : [
+                  "HMGLCMAL_0.png",
+                  "HMGLCMAL_1.png",
+                  "HMGLCMAL_2.png",
+                  "HMGLCMAL_3.png",
+                  "HMGLCMAL_4.png",
+                  "HMGLCMAL_5.png"
+               ],
+               "anim-packed" : "HMGLCMAL.png",
+               "static" : [
+                  "HMGLCMAL.static.png"
+               ]
+            },
+            "AN" : {
+               "anim" : [
+                  "HMGLCMAN_0.png",
+                  "HMGLCMAN_1.png",
+                  "HMGLCMAN_2.png",
+                  "HMGLCMAN_3.png",
+                  "HMGLCMAN_4.png",
+                  "HMGLCMAN_5.png"
+               ],
+               "anim-packed" : "HMGLCMAN.png",
+               "static" : [
+                  "HMGLCMAN.static.png"
+               ]
+            },
+            "AO" : {
+               "anim" : [
+                  "HMGLCMAO_0.png",
+                  "HMGLCMAO_1.png",
+                  "HMGLCMAO_2.png",
+                  "HMGLCMAO_3.png",
+                  "HMGLCMAO_4.png",
+                  "HMGLCMAO_5.png"
+               ],
+               "anim-packed" : "HMGLCMAO.png",
+               "static" : [
+                  "HMGLCMAO.static.png"
+               ]
+            },
+            "AP" : {
+               "anim" : [
+                  "HMGLCMAP_0.png",
+                  "HMGLCMAP_1.png",
+                  "HMGLCMAP_2.png",
+                  "HMGLCMAP_3.png",
+                  "HMGLCMAP_4.png",
+                  "HMGLCMAP_5.png"
+               ],
+               "anim-packed" : "HMGLCMAP.png",
+               "static" : [
+                  "HMGLCMAP.static.png"
+               ]
+            },
+            "AQ" : {
+               "anim" : [
+                  "HMGLCMAQ_0.png",
+                  "HMGLCMAQ_1.png",
+                  "HMGLCMAQ_2.png",
+                  "HMGLCMAQ_3.png",
+                  "HMGLCMAQ_4.png",
+                  "HMGLCMAQ_5.png"
+               ],
+               "anim-packed" : "HMGLCMAQ.png",
+               "static" : [
+                  "HMGLCMAQ.static.png"
+               ]
+            },
+            "AR" : {
+               "anim" : [
+                  "HMGLCMAR_0.png",
+                  "HMGLCMAR_1.png",
+                  "HMGLCMAR_2.png",
+                  "HMGLCMAR_3.png",
+                  "HMGLCMAR_4.png",
+                  "HMGLCMAR_5.png"
+               ],
+               "anim-packed" : "HMGLCMAR.png",
+               "static" : [
+                  "HMGLCMAR.static.png"
+               ]
+            },
+            "AT" : {
+               "anim" : [
+                  "HMGLCMAT_0.png",
+                  "HMGLCMAT_1.png",
+                  "HMGLCMAT_2.png",
+                  "HMGLCMAT_3.png",
+                  "HMGLCMAT_4.png",
+                  "HMGLCMAT_5.png"
+               ],
+               "anim-packed" : "HMGLCMAT.png",
+               "static" : [
+                  "HMGLCMAT.static.png"
+               ]
+            },
+            "BA" : {
+               "anim" : [
+                  "HMGLCMBA_0.png",
+                  "HMGLCMBA_1.png",
+                  "HMGLCMBA_2.png",
+                  "HMGLCMBA_3.png",
+                  "HMGLCMBA_4.png",
+                  "HMGLCMBA_5.png"
+               ],
+               "static" : [
+                  "HMGLCMBA_0.static.png",
+                  "HMGLCMBA_1.static.png",
+                  "HMGLCMBA_2.static.png",
+                  "HMGLCMBA_3.static.png",
+                  "HMGLCMBA_4.static.png",
+                  "HMGLCMBA_5.static.png"
+               ]
+            },
+            "BB" : {
+               "anim" : [
+                  "HMGLCMBB_0.png",
+                  "HMGLCMBB_1.png",
+                  "HMGLCMBB_2.png",
+                  "HMGLCMBB_3.png",
+                  "HMGLCMBB_4.png",
+                  "HMGLCMBB_5.png"
+               ],
+               "static" : [
+                  "HMGLCMBB_0.static.png",
+                  "HMGLCMBB_1.static.png",
+                  "HMGLCMBB_2.static.png",
+                  "HMGLCMBB_3.static.png",
+                  "HMGLCMBB_4.static.png",
+                  "HMGLCMBB_5.static.png"
+               ]
+            },
+            "BD" : {
+               "anim" : [
+                  "HMGLCMBD_0.png",
+                  "HMGLCMBD_1.png",
+                  "HMGLCMBD_2.png",
+                  "HMGLCMBD_3.png",
+                  "HMGLCMBD_4.png",
+                  "HMGLCMBD_5.png"
+               ],
+               "static" : [
+                  "HMGLCMBD_0.static.png",
+                  "HMGLCMBD_1.static.png",
+                  "HMGLCMBD_2.static.png",
+                  "HMGLCMBD_3.static.png",
+                  "HMGLCMBD_4.static.png",
+                  "HMGLCMBD_5.static.png"
+               ]
+            },
+            "BF" : {
+               "anim" : [
+                  "HMGLCMBF_0.png",
+                  "HMGLCMBF_1.png",
+                  "HMGLCMBF_2.png",
+                  "HMGLCMBF_3.png",
+                  "HMGLCMBF_4.png",
+                  "HMGLCMBF_5.png"
+               ],
+               "static" : [
+                  "HMGLCMBF_0.static.png",
+                  "HMGLCMBF_1.static.png",
+                  "HMGLCMBF_2.static.png",
+                  "HMGLCMBF_3.static.png",
+                  "HMGLCMBF_4.static.png",
+                  "HMGLCMBF_5.static.png"
+               ]
+            },
+            "BG" : {
+               "anim" : [
+                  "HMGLCMBG_0.png",
+                  "HMGLCMBG_1.png",
+                  "HMGLCMBG_2.png",
+                  "HMGLCMBG_3.png",
+                  "HMGLCMBG_4.png",
+                  "HMGLCMBG_5.png"
+               ],
+               "static" : [
+                  "HMGLCMBG_0.static.png",
+                  "HMGLCMBG_1.static.png",
+                  "HMGLCMBG_2.static.png",
+                  "HMGLCMBG_3.static.png",
+                  "HMGLCMBG_4.static.png",
+                  "HMGLCMBG_5.static.png"
+               ]
+            },
+            "BI" : {
+               "anim" : [
+                  "HMGLCMBI_0.png",
+                  "HMGLCMBI_1.png",
+                  "HMGLCMBI_2.png",
+                  "HMGLCMBI_3.png",
+                  "HMGLCMBI_4.png",
+                  "HMGLCMBI_5.png"
+               ],
+               "static" : [
+                  "HMGLCMBI_0.static.png",
+                  "HMGLCMBI_1.static.png",
+                  "HMGLCMBI_2.static.png",
+                  "HMGLCMBI_3.static.png",
+                  "HMGLCMBI_4.static.png",
+                  "HMGLCMBI_5.static.png"
+               ]
+            },
+            "BL" : {
+               "anim" : [
+                  "HMGLCMBL_0.png",
+                  "HMGLCMBL_1.png",
+                  "HMGLCMBL_2.png",
+                  "HMGLCMBL_3.png",
+                  "HMGLCMBL_4.png",
+                  "HMGLCMBL_5.png"
+               ],
+               "static" : [
+                  "HMGLCMBL_0.static.png",
+                  "HMGLCMBL_1.static.png",
+                  "HMGLCMBL_2.static.png",
+                  "HMGLCMBL_3.static.png",
+                  "HMGLCMBL_4.static.png",
+                  "HMGLCMBL_5.static.png"
+               ]
+            },
+            "BM" : {
+               "anim" : [
+                  "HMGLCMBM_0.png",
+                  "HMGLCMBM_1.png",
+                  "HMGLCMBM_2.png",
+                  "HMGLCMBM_3.png",
+                  "HMGLCMBM_4.png",
+                  "HMGLCMBM_5.png"
+               ],
+               "static" : [
+                  "HMGLCMBM_0.static.png",
+                  "HMGLCMBM_1.static.png",
+                  "HMGLCMBM_2.static.png",
+                  "HMGLCMBM_3.static.png",
+                  "HMGLCMBM_4.static.png",
+                  "HMGLCMBM_5.static.png"
+               ]
+            },
+            "BO" : {
+               "anim" : [
+                  "HMGLCMBO_0.png",
+                  "HMGLCMBO_1.png",
+                  "HMGLCMBO_2.png",
+                  "HMGLCMBO_3.png",
+                  "HMGLCMBO_4.png",
+                  "HMGLCMBO_5.png"
+               ],
+               "static" : [
+                  "HMGLCMBO_0.static.png",
+                  "HMGLCMBO_1.static.png",
+                  "HMGLCMBO_2.static.png",
+                  "HMGLCMBO_3.static.png",
+                  "HMGLCMBO_4.static.png",
+                  "HMGLCMBO_5.static.png"
+               ]
+            },
+            "BP" : {
+               "anim" : [
+                  "HMGLCMBP_0.png",
+                  "HMGLCMBP_1.png",
+                  "HMGLCMBP_2.png",
+                  "HMGLCMBP_3.png",
+                  "HMGLCMBP_4.png",
+                  "HMGLCMBP_5.png"
+               ],
+               "static" : [
+                  "HMGLCMBP_0.static.png",
+                  "HMGLCMBP_1.static.png",
+                  "HMGLCMBP_2.static.png",
+                  "HMGLCMBP_3.static.png",
+                  "HMGLCMBP_4.static.png",
+                  "HMGLCMBP_5.static.png"
+               ]
+            },
+            "CH" : {
+               "anim" : [
+                  "HMGLCMCH_0.png",
+                  "HMGLCMCH_1.png",
+                  "HMGLCMCH_2.png",
+                  "HMGLCMCH_3.png",
+                  "HMGLCMCH_4.png",
+                  "HMGLCMCH_5.png"
+               ],
+               "anim-packed" : "HMGLCMCH.png",
+               "static" : [
+                  "HMGLCMCH.static.png"
+               ]
+            },
+            "CJ" : {
+               "anim" : [
+                  "HMGLCMCJ_0.png",
+                  "HMGLCMCJ_1.png",
+                  "HMGLCMCJ_2.png",
+                  "HMGLCMCJ_3.png",
+                  "HMGLCMCJ_4.png",
+                  "HMGLCMCJ_5.png"
+               ],
+               "anim-packed" : "HMGLCMCJ.png",
+               "static" : [
+                  "HMGLCMCJ.static.png"
+               ]
+            },
+            "HA" : {
+               "anim" : [
+                  "HMGLCMHA_0.png",
+                  "HMGLCMHA_1.png",
+                  "HMGLCMHA_2.png",
+                  "HMGLCMHA_3.png",
+                  "HMGLCMHA_4.png",
+                  "HMGLCMHA_5.png"
+               ],
+               "anim-packed" : "HMGLCMHA.png",
+               "static" : [
+                  "HMGLCMHA.static.png"
+               ]
+            },
+            "HB" : {
+               "anim" : [
+                  "HMGLCMHB_0.png",
+                  "HMGLCMHB_1.png",
+                  "HMGLCMHB_2.png",
+                  "HMGLCMHB_3.png",
+                  "HMGLCMHB_4.png",
+                  "HMGLCMHB_5.png"
+               ],
+               "anim-packed" : "HMGLCMHB.png",
+               "static" : [
+                  "HMGLCMHB.static.png"
+               ]
+            },
+            "HC" : {
+               "anim" : [
+                  "HMGLCMHC_0.png",
+                  "HMGLCMHC_1.png",
+                  "HMGLCMHC_2.png",
+                  "HMGLCMHC_3.png",
+                  "HMGLCMHC_4.png",
+                  "HMGLCMHC_5.png"
+               ],
+               "anim-packed" : "HMGLCMHC.png",
+               "static" : [
+                  "HMGLCMHC.static.png"
+               ]
+            },
+            "HD" : {
+               "anim" : [
+                  "HMGLCMHD_0.png",
+                  "HMGLCMHD_1.png",
+                  "HMGLCMHD_2.png",
+                  "HMGLCMHD_3.png",
+                  "HMGLCMHD_4.png",
+                  "HMGLCMHD_5.png"
+               ],
+               "anim-packed" : "HMGLCMHD.png",
+               "static" : [
+                  "HMGLCMHD.static.png"
+               ]
+            },
+            "HE" : {
+               "anim" : [
+                  "HMGLCMHE_0.png",
+                  "HMGLCMHE_1.png",
+                  "HMGLCMHE_2.png",
+                  "HMGLCMHE_3.png",
+                  "HMGLCMHE_4.png",
+                  "HMGLCMHE_5.png"
+               ],
+               "anim-packed" : "HMGLCMHE.png",
+               "static" : [
+                  "HMGLCMHE.static.png"
+               ]
+            },
+            "HH" : {
+               "anim" : [
+                  "HMGLCMHH_0.png",
+                  "HMGLCMHH_1.png",
+                  "HMGLCMHH_2.png",
+                  "HMGLCMHH_3.png",
+                  "HMGLCMHH_4.png",
+                  "HMGLCMHH_5.png"
+               ],
+               "anim-packed" : "HMGLCMHH.png",
+               "static" : [
+                  "HMGLCMHH.static.png"
+               ]
+            },
+            "HI" : {
+               "anim" : [
+                  "HMGLCMHI_0.png",
+                  "HMGLCMHI_1.png",
+                  "HMGLCMHI_2.png",
+                  "HMGLCMHI_3.png",
+                  "HMGLCMHI_4.png",
+                  "HMGLCMHI_5.png"
+               ],
+               "anim-packed" : "HMGLCMHI.png",
+               "static" : [
+                  "HMGLCMHI.static.png"
+               ]
+            },
+            "HJ" : {
+               "anim" : [
+                  "HMGLCMHJ_0.png",
+                  "HMGLCMHJ_1.png",
+                  "HMGLCMHJ_2.png",
+                  "HMGLCMHJ_3.png",
+                  "HMGLCMHJ_4.png",
+                  "HMGLCMHJ_5.png"
+               ],
+               "anim-packed" : "HMGLCMHJ.png",
+               "static" : [
+                  "HMGLCMHJ.static.png"
+               ]
+            },
+            "JA" : {
+               "anim" : [
+                  "HMGLCMJA_0.png",
+                  "HMGLCMJA_1.png",
+                  "HMGLCMJA_2.png",
+                  "HMGLCMJA_3.png",
+                  "HMGLCMJA_4.png",
+                  "HMGLCMJA_5.png"
+               ],
+               "anim-packed" : "HMGLCMJA.png",
+               "static" : [
+                  "HMGLCMJA.static.png"
+               ]
+            },
+            "JB" : {
+               "anim" : [
+                  "HMGLCMJB_0.png",
+                  "HMGLCMJB_1.png",
+                  "HMGLCMJB_2.png",
+                  "HMGLCMJB_3.png",
+                  "HMGLCMJB_4.png",
+                  "HMGLCMJB_5.png"
+               ],
+               "anim-packed" : "HMGLCMJB.png",
+               "static" : [
+                  "HMGLCMJB.static.png"
+               ]
+            },
+            "JC" : {
+               "anim" : [
+                  "HMGLCMJC_0.png",
+                  "HMGLCMJC_1.png",
+                  "HMGLCMJC_2.png",
+                  "HMGLCMJC_3.png",
+                  "HMGLCMJC_4.png",
+                  "HMGLCMJC_5.png"
+               ],
+               "anim-packed" : "HMGLCMJC.png",
+               "static" : [
+                  "HMGLCMJC.static.png"
+               ]
+            },
+            "JD" : {
+               "anim" : [
+                  "HMGLCMJD_0.png",
+                  "HMGLCMJD_1.png",
+                  "HMGLCMJD_2.png",
+                  "HMGLCMJD_3.png",
+                  "HMGLCMJD_4.png",
+                  "HMGLCMJD_5.png"
+               ],
+               "anim-packed" : "HMGLCMJD.png",
+               "static" : [
+                  "HMGLCMJD.static.png"
+               ]
+            },
+            "JE" : {
+               "anim" : [
+                  "HMGLCMJE_0.png",
+                  "HMGLCMJE_1.png",
+                  "HMGLCMJE_2.png",
+                  "HMGLCMJE_3.png",
+                  "HMGLCMJE_4.png",
+                  "HMGLCMJE_5.png"
+               ],
+               "anim-packed" : "HMGLCMJE.png",
+               "static" : [
+                  "HMGLCMJE.static.png"
+               ]
+            },
+            "JH" : {
+               "anim" : [
+                  "HMGLCMJH_0.png",
+                  "HMGLCMJH_1.png",
+                  "HMGLCMJH_2.png",
+                  "HMGLCMJH_3.png",
+                  "HMGLCMJH_4.png",
+                  "HMGLCMJH_5.png"
+               ],
+               "anim-packed" : "HMGLCMJH.png",
+               "static" : [
+                  "HMGLCMJH.static.png"
+               ]
+            },
+            "JI" : {
+               "anim" : [
+                  "HMGLCMJI_0.png",
+                  "HMGLCMJI_1.png",
+                  "HMGLCMJI_2.png",
+                  "HMGLCMJI_3.png",
+                  "HMGLCMJI_4.png",
+                  "HMGLCMJI_5.png"
+               ],
+               "anim-packed" : "HMGLCMJI.png",
+               "static" : [
+                  "HMGLCMJI.static.png"
+               ]
+            },
+            "JJ" : {
+               "anim" : [
+                  "HMGLCMJJ_0.png",
+                  "HMGLCMJJ_1.png",
+                  "HMGLCMJJ_2.png",
+                  "HMGLCMJJ_3.png",
+                  "HMGLCMJJ_4.png",
+                  "HMGLCMJJ_5.png"
+               ],
+               "anim-packed" : "HMGLCMJJ.png",
+               "static" : [
+                  "HMGLCMJJ.static.png"
+               ]
+            },
+            "JK" : {
+               "anim" : [
+                  "HMGLCMJK_0.png",
+                  "HMGLCMJK_1.png",
+                  "HMGLCMJK_2.png",
+                  "HMGLCMJK_3.png",
+                  "HMGLCMJK_4.png",
+                  "HMGLCMJK_5.png"
+               ],
+               "anim-packed" : "HMGLCMJK.png",
+               "static" : [
+                  "HMGLCMJK.static.png"
+               ]
+            },
+            "RD" : {
+               "anim" : [
+                  "HMGLCMRD_0.png",
+                  "HMGLCMRD_1.png",
+                  "HMGLCMRD_2.png",
+                  "HMGLCMRD_3.png",
+                  "HMGLCMRD_4.png",
+                  "HMGLCMRD_5.png"
+               ],
+               "anim-packed" : "HMGLCMRD.png",
+               "static" : [
+                  "HMGLCMRD.static.png"
+               ]
+            },
+            "RF" : {
+               "anim" : [
+                  "HMGLCMRF_0.png",
+                  "HMGLCMRF_1.png",
+                  "HMGLCMRF_2.png",
+                  "HMGLCMRF_3.png",
+                  "HMGLCMRF_4.png",
+                  "HMGLCMRF_5.png"
+               ],
+               "anim-packed" : "HMGLCMRF.png",
+               "static" : [
+                  "HMGLCMRF.static.png"
+               ]
+            },
+            "RG" : {
+               "anim" : [
+                  "HMGLCMRG_0.png",
+                  "HMGLCMRG_1.png",
+                  "HMGLCMRG_2.png",
+                  "HMGLCMRG_3.png",
+                  "HMGLCMRG_4.png",
+                  "HMGLCMRG_5.png"
+               ],
+               "anim-packed" : "HMGLCMRG.png",
+               "static" : [
+                  "HMGLCMRG.static.png"
+               ]
+            },
+            "RI" : {
+               "anim" : [
+                  "HMGLCMRI_0.png",
+                  "HMGLCMRI_1.png",
+                  "HMGLCMRI_2.png",
+                  "HMGLCMRI_3.png",
+                  "HMGLCMRI_4.png",
+                  "HMGLCMRI_5.png"
+               ],
+               "anim-packed" : "HMGLCMRI.png",
+               "static" : [
+                  "HMGLCMRI.static.png"
+               ]
+            },
+            "RL" : {
+               "anim" : [
+                  "HMGLCMRL_0.png",
+                  "HMGLCMRL_1.png",
+                  "HMGLCMRL_2.png",
+                  "HMGLCMRL_3.png",
+                  "HMGLCMRL_4.png",
+                  "HMGLCMRL_5.png"
+               ],
+               "anim-packed" : "HMGLCMRL.png",
+               "static" : [
+                  "HMGLCMRL.static.png"
+               ]
+            },
+            "RM" : {
+               "anim" : [
+                  "HMGLCMRM_0.png",
+                  "HMGLCMRM_1.png",
+                  "HMGLCMRM_2.png",
+                  "HMGLCMRM_3.png",
+                  "HMGLCMRM_4.png",
+                  "HMGLCMRM_5.png"
+               ],
+               "anim-packed" : "HMGLCMRM.png",
+               "static" : [
+                  "HMGLCMRM.static.png"
+               ]
+            },
+            "RP" : {
+               "anim" : [
+                  "HMGLCMRP_0.png",
+                  "HMGLCMRP_1.png",
+                  "HMGLCMRP_2.png",
+                  "HMGLCMRP_3.png",
+                  "HMGLCMRP_4.png",
+                  "HMGLCMRP_5.png"
+               ],
+               "anim-packed" : "HMGLCMRP.png",
+               "static" : [
+                  "HMGLCMRP.static.png"
                ]
             }
          },
