@@ -438,6 +438,7 @@
             "HH" : "hmglcmHH.FRM",
             "HI" : "hmglcmHI.FRM",
             "HJ" : "hmglcmhj.FRM",
+            "IC" : "hmglcmIC.FRM",
             "JA" : "hmglcmJA.FRM",
             "JB" : "hmglcmJB.FRM",
             "JC" : "hmglcmJC.FRM",
@@ -5741,6 +5742,20 @@
                "anim-packed" : "HMGLCMHJ.png",
                "static" : [
                   "HMGLCMHJ.static.png"
+               ]
+            },
+            "IC" : {
+               "anim" : [
+                  "HMGLCMIC_0.png",
+                  "HMGLCMIC_1.png",
+                  "HMGLCMIC_2.png",
+                  "HMGLCMIC_3.png",
+                  "HMGLCMIC_4.png",
+                  "HMGLCMIC_5.png"
+               ],
+               "anim-packed" : "HMGLCMIC.png",
+               "static" : [
+                  "HMGLCMIC.static.png"
                ]
             },
             "JA" : {
