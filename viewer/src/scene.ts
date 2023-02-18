@@ -23,7 +23,7 @@ export interface critterInfo {
 
 // Scene + interactions
 export class World {
-    selectedObject: FRMObject;
+    selectedObject: FRMObject | null;
     objectRenderer: ObjectRenderer;
     vm: VM;
 
@@ -54,7 +54,7 @@ export class World {
             this.eventUpdateCritters();
         };
         FRMObject.onFRMCanvasDoubleClicked = (id) => {
-            if(this.selectedObject.id == id) {
+            if(this.selectedObject?.id == id) {
                 return;
             }
             let objs = this.objectRenderer.objects.filter(x => x.id == id);
@@ -87,30 +87,32 @@ export class World {
         if(GVars.test.get(0) == 1) {
             this.setEnvironment('intersection');
             let obj = this.objectRenderer.createObject('Male_BlackDude_CombatArmor');
-            obj.setPosition(276, 233);
-            obj.setFrameRate(10);
-            obj.critter.walk(2, 3);
-            obj.critter.delay(500);
-            obj.critter.fire(2);
-            obj.critter.delay(3500);
-            obj.critter.walk(0, 3);
-            obj.critter.delay(500);
-            obj.critter.walk(5, 3);
-            obj.critter.doAnimation('BL', 5, 5, true);
-    
+            if(obj != null) {
+                obj.setPosition(276, 233);
+                obj.setFrameRate(10);
+                obj.critter?.walk(2, 3);
+                obj.critter?.delay(500);
+                obj.critter?.fire(2);
+                obj.critter?.delay(3500);
+                obj.critter?.walk(0, 3);
+                obj.critter?.delay(500);
+                obj.critter?.walk(5, 3);
+                obj.critter?.doAnimation('BL', 5, 5, true);
+            }
             let yp = this.objectRenderer.createObject('Female_YellowPants_MetalArmor');
-            
-            yp.setAnimation('HA', 5, () => {
-                yp.setPosition(488, 437);
-                yp.critter.currentAnimation.stop();
-                yp.critter.currentAnimation.renderFrame(0);
-            });
-    
-            yp.critter.delay(3800);
-            yp.critter.doAnimation('HE', 5, 50, false);
-            yp.critter.delay(4000);
-            yp.critter.walk(5, 7);
-            yp.critter.fire(0);
+            if (yp != null) {
+                yp.setAnimation('HA', 5, () => {
+                    yp?.setPosition(488, 437);
+                    yp?.critter?.currentAnimation.stop();
+                    yp?.critter?.currentAnimation.renderFrame(0);
+                });
+        
+                yp.critter?.delay(3800);
+                yp.critter?.doAnimation('HE', 5, 50, false);
+                yp.critter?.delay(4000);
+                yp.critter?.walk(5, 7);
+                yp.critter?.fire(0);
+            }
         }
         if(GVars.test.get(0) == 2) {
             this.objectRenderer.clearObjects();
@@ -141,7 +143,7 @@ export class World {
     }
 
     critterStateChanged() {
-        let cr = this.selectedObject.critter;
+        let cr = this.selectedObject?.critter;
         let obj = this.selectedObject;
         GVars.anim.set(cr.currentCode);
         GVars.dir.set(obj.dir);
@@ -170,7 +172,7 @@ export class World {
         this.critterStateChanged();
     }
 
-    unselect(obj: FRMObject) {
+    unselect(obj: FRMObject | null) {
         if(obj == null) {
             return;
         }
@@ -188,8 +190,8 @@ export class World {
         let obj = this.objectRenderer.createObject(critterInfo.critterName, critterInfo.fps);
         if(obj != null) {
             obj.setAnimation(critterInfo.animationCode, critterInfo.dir, () => {
-                obj.setPosition(critterInfo.posX, critterInfo.posY);
-                obj.setDirection(critterInfo.dir);
+                obj?.setPosition(critterInfo.posX, critterInfo.posY);
+                obj?.setDirection(critterInfo.dir);
                 this.selectObject(obj);
             });
         }
@@ -205,9 +207,9 @@ export class World {
 
     createDefaultCritter() {
         let obj = this.objectRenderer.createObject('Female_YellowPants_MetalArmor');
-        obj.setAnimation('HA', 0, () => {
-            obj.setPosition(320, 240);
-            obj.setDirection(0);
+        obj?.setAnimation('HA', 0, () => {
+            obj?.setPosition(320, 240);
+            obj?.setDirection(0);
             this.selectObject(obj);
         });
         this.eventUpdateCritters();

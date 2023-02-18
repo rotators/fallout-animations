@@ -72,6 +72,11 @@ export class GVars {
 
     public static init() {
         this.parseParams();
+        if(this.urlParams.findIndex(x => x.key == 'clear_localstorage') != -1) {
+            let clearKeys = ['obj_x', 'obj_y', 'obj_dir', 'obj_anim', 'obj_critter', 'obj_fps', 'obj_fps_lock', 'test'];
+            clearKeys.map(x => localStorage.removeItem(x));
+        }
+
         GVars.backgroundColor = new GlobalVariable<string>('html_backgroundcolor', 'bg');
         GVars.textColor = new GlobalVariable<string>('html_textcolor', 'tc');
         GVars.posX = new GlobalVariable<number>('obj_x', 'x');

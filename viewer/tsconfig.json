@@ -6,7 +6,7 @@
     "noEmitOnError": true,
     "removeComments": true,
     "sourceMap": false,
-    "target": "es5",
+    "target": "es6",
     "lib": ["dom", "es2015"],
     "module": "es6",
     "moduleResolution": "node",

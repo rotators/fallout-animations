@@ -5,7 +5,7 @@ import { FRMData } from "./resources";
 import { GVars } from "./state";
 
 export class FRMObject {
-    critter: Critter;
+    critter: Critter | null;
 
     isSelected: boolean;
 
@@ -23,10 +23,10 @@ export class FRMObject {
     useNativeFramerate: boolean;
 
     onFramerateChanged: (framerate: number) => void;
-    onDirChanged: (dir: number) => void;
+    onDirChanged: ((dir: number) => void) | null;
     onAnimationCodeChanged: (code: string) => void;
-    onRenderedFrame: (animation: FRMAnimation) => void;
-    onPositionDragged: (x, y) => void;
+    onRenderedFrame: ((animation: FRMAnimation) => void) | null;
+    onPositionDragged: ((x, y) => void) | undefined;
 
     static onFRMLoaded: (id, frmData: FRMData) => void;
     static onFRMPosChanged: (id, x, y) => void;
@@ -54,35 +54,43 @@ export class FRMObject {
 
     registerOnAnimationCodeChanged(func: (code: string) => void) {
         this.onAnimationCodeChanged = func;
-        this.critter.registerOnAnimationCodeChanged(func);
+        this.critter?.registerOnAnimationCodeChanged(func);
     }
 
     registerOnRenderedFrame(onRenderedFrame: (animation: FRMAnimation) => void) {
         this.onRenderedFrame = onRenderedFrame;
-        this.critter.registerOnRenderedFrame(onRenderedFrame);
+        this.critter?.registerOnRenderedFrame(onRenderedFrame);
     }
 
     unregisterAnimationCodeChanged() {
-        this.critter.unregisterOnAnimationCode();
+        this.critter?.unregisterOnAnimationCode();
     }
 
     unregisterOnRenderedFrame() {
         this.onRenderedFrame = null;
-        this.critter.unregisterOnRenderedFrame();
+        this.critter?.unregisterOnRenderedFrame();
     }
 
     enableDragOnCanvas(canvas: HTMLCanvasElement, onPositionDragged?: (x, y) => void) {
         canvas.style.zIndex = '2';
         canvas.style.cursor = 'move';
         this.draggable = new DraggableElement(canvas);
-        this.draggable.onDragStop = (x,y) => onPositionDragged(x, y);
+        if(onPositionDragged != null) {
+            this.draggable.onDragStop = (x,y) => onPositionDragged(x, y);
+        }
     }
 
     onPositionDraggedHandler(dragX: number, dragY: number) {
+        if(this.critter == null) {
+            return;
+        }
+
         let x = dragX + this.critter.currentAnimation.adjustedCenterPoint().x;
         let y = dragY + this.critter.currentAnimation.adjustedCenterPoint().y;
         this.setPosition(x, y);
-        this.onPositionDragged(x, y);
+        if(this.onPositionDragged != null) {
+            this.onPositionDragged(x, y);
+        }
     }
 
     setDraggable(isDraggable: boolean, onPositionDragged?: (x, y) => void) {
@@ -112,36 +120,38 @@ export class FRMObject {
     }
 
     hasAnimationCode(code: string) {
-        return this.critter.animations.findIndex(x => x == code) != -1;
+        return this.critter?.animations.findIndex(x => x == code) != -1;
     }
 
     changeCritter(cr: string) {
-        let last = this.critter.currentCode;
-        this.critter.destroy();
+        let last = this.critter?.currentCode;
+        this.critter?.destroy();
         this.critter = CritterData.getCritterInstance(this, cr);
-        this.critter.setPosition(this.x, this.y);
-        this.critter.registerOnRenderedFrame(this.onRenderedFrame);
-        this.critter.parentObject = this;
+        this.critter?.setPosition(this.x, this.y);
+        this.critter?.registerOnRenderedFrame(this.onRenderedFrame);
+        if(this.critter != null) {
+            this.critter.parentObject = this;
+        }
         if(this.hasAnimationCode(last)) {
             this.setAnimation(last, this.dir);
         } else {
-            this.setAnimation(this.critter.animations[0], this.dir);
+            this.setAnimation(this.critter?.animations[0], this.dir);
         }
         this.setFrameRate(this.frameRate);
-        this.critter.setNativeFPS(this.useNativeFramerate);
+        this.critter?.setNativeFPS(this.useNativeFramerate);
     }
 
     setPosition(x: number, y: number) {
         this.x = x;
         this.y = y;
-        this.critter.setPosition(x, y);
+        this.critter?.setPosition(x, y);
         FRMObject.onFRMPosChanged(this.id, x, y);
     }
 
     setNativeFPS(use: boolean) {
         if(use) {
             this.useNativeFramerate = true;
-            this.critter.setNativeFPS(use);
+            this.critter?.setNativeFPS(use);
         } else {
             this.useNativeFramerate = false;
         }
@@ -149,8 +159,8 @@ export class FRMObject {
 
     setFrameRate(frameRate: number) {
         this.frameRate = frameRate;
-        if(this.critter.currentAnimation != null) {
-            this.critter.currentAnimation.setFrameRate(frameRate);
+        if(this.critter?.currentAnimation != null) {
+            this.critter?.currentAnimation.setFrameRate(frameRate);
         }
         if(this.onFramerateChanged != null) {
             this.onFramerateChanged(frameRate);
@@ -161,7 +171,7 @@ export class FRMObject {
         if (dir > 6 && dir < 0) {
             alert('dir ' + dir + ' is invalid');    
         }
-        this.critter.loadFRM(code, dir, () => {
+        this.critter?.loadFRM(code, dir, () => {
             if(this == null || this.critter == null) {
                 return;
             }
@@ -188,7 +198,10 @@ export class FRMObject {
 
     setDirection(dir: number) {
         this.dir = dir;
-        this.setAnimation(this.critter.currentCode, dir);
+        if(this.critter != null) {
+            this.setAnimation(this.critter?.currentCode, dir);
+        }
+        
         if(this.onDirChanged != null) {
             this.onDirChanged(this.dir);
         }
@@ -222,8 +235,8 @@ export class ObjectRenderer {
         code += 'clearObjects();'
         code += `setEnvironment(${GVars.environment.get('empty')});`;
         for(let obj of this.objects) {
-            code += `createObject(${obj.critter.name}, ${obj.critter.currentCode}, ${obj.x}, ${obj.y}, ${obj.dir}, ${obj.frameRate});`;
-            code += `setAnimationState(${obj.critter.currentAnimation.current}, ${obj.critter.currentAnimation.isRunning ? 1 : 0}, ${obj.critter.cycleDir ? 1 : 0}, ${obj.critter.cycleAnimation ? 1 : 0}, ${obj.critter.useNativeFramerate ? 1 : 0});`;
+            code += `createObject(${obj.critter?.name}, ${obj.critter?.currentCode}, ${obj.x}, ${obj.y}, ${obj.dir}, ${obj.frameRate});`;
+            code += `setAnimationState(${obj.critter?.currentAnimation.current}, ${obj.critter?.currentAnimation.isRunning ? 1 : 0}, ${obj.critter?.cycleDir ? 1 : 0}, ${obj.critter?.cycleAnimation ? 1 : 0}, ${obj.critter?.useNativeFramerate ? 1 : 0});`;
         }
         code += `refreshSelected();`; 
         return code;
@@ -259,8 +272,8 @@ export class ObjectRenderer {
         let dt = t - this.lastTime;
         this.lastTime = Date.now();
         for(let i=0;i<this.objects.length;i++) {
-            if(this.objects[i].critter.currentAnimation != null) {
-                this.objects[i].critter.currentAnimation.animate(dt);
+            if(this.objects[i].critter?.currentAnimation != null) {
+                this.objects[i].critter?.currentAnimation.animate(dt);
             }
         }
 

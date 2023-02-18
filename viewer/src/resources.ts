@@ -67,6 +67,7 @@ export class FRMData {
         if(lower.indexOf('.fr3') != -1) return 3;
         if(lower.indexOf('.fr4') != -1) return 4;
         if(lower.indexOf('.fr5') != -1) return 5;
+        return 0;
     }
 
     loadHeader(stream: StreamReader) {
@@ -150,7 +151,7 @@ class Resources {
 
 export class FRMLoader {
     static Load(filename: string, onLoad: (stream: StreamReader) => void) {
-        let url = Resources.isLocal() ? "http://localhost/frm/?file=" : "anims/";
+        let url = Resources.isLocal() ? "http://localhost:8080/frm/" : "anims/";
         return this.FromURL(url, filename, onLoad)
     }
 

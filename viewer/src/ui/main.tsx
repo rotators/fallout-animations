@@ -457,13 +457,13 @@ export class Main extends React.Component<{}, State> {
                         <tbody>
                             <tr><td><label>Critter:</label></td>
                                 <td>
-                                    <select value={this.state.critter} onChange={e => this.changeCritter(e.target.value) }>
+                                    <select style={{ width: '250px'}} value={this.state.critter} onChange={e => this.changeCritter(e.target.value) }>
                                     {this.critterOptions()}
                                     </select>
                                 </td>
                             </tr>
                             <tr><td><label>Animation:</label></td>
-                                <td><select value={this.state.animation} onChange={e => this.setAnimation(e.target.value)}>{this.critterAnimations()}</select></td>
+                                <td><select style={{ maxWidth: '250px' }} value={this.state.animation} onChange={e => this.setAnimation(e.target.value)}>{this.critterAnimations()}</select></td>
                             </tr>
                             <tr><td><label>Direction:</label></td>
                                 <td>
