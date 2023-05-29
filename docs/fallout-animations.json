@@ -1747,6 +1747,145 @@
             "RO" : "NMBGRYRO.FRM",
             "RP" : "NMBGRYRP.FRM"
          },
+         "Male_BrownPants_CombatArmor" : {
+            "AA" : "HMCMB4AA.FRM",
+            "AB" : "HMCMB4AB.FRM",
+            "AE" : "HMCMB4AE.FRM",
+            "AK" : "HMCMB4AK.FRM",
+            "AL" : "HMCMB4AL.FRM",
+            "AN" : "HMCMB4AN.FRM",
+            "AO" : "HMCMB4AO.FRM",
+            "AP" : "HMCMB4AP.FRM",
+            "AQ" : "HMCMB4AQ.FRM",
+            "AR" : "HMCMB4AR.FRM",
+            "AS" : "HMCMB4AS.FRM",
+            "AT" : "HMCMB4AT.FRM",
+            "BA" : [
+               "HMCMB4BA.FR0",
+               "HMCMB4BA.FR1",
+               "HMCMB4BA.FR2",
+               "HMCMB4BA.FR3",
+               "HMCMB4BA.FR4",
+               "HMCMB4BA.FR5"
+            ],
+            "BB" : [
+               "HMCMB4BB.FR0",
+               "HMCMB4BB.FR1",
+               "HMCMB4BB.FR2",
+               "HMCMB4BB.FR3",
+               "HMCMB4BB.FR4",
+               "HMCMB4BB.FR5"
+            ],
+            "BD" : [
+               "HMCMB4BD.FR0",
+               "HMCMB4BD.FR1",
+               "HMCMB4BD.FR2",
+               "HMCMB4BD.FR3",
+               "HMCMB4BD.FR4",
+               "HMCMB4BD.FR5"
+            ],
+            "BF" : [
+               "HMCMB4BF.FR0",
+               "HMCMB4BF.FR1",
+               "HMCMB4BF.FR2",
+               "HMCMB4BF.FR3",
+               "HMCMB4BF.FR4",
+               "HMCMB4BF.FR5"
+            ],
+            "BG" : [
+               "HMCMB4BG.FR0",
+               "HMCMB4BG.FR1",
+               "HMCMB4BG.FR2",
+               "HMCMB4BG.FR3",
+               "HMCMB4BG.FR4",
+               "HMCMB4BG.FR5"
+            ],
+            "BI" : [
+               "HMCMB4BI.FR0",
+               "HMCMB4BI.FR1",
+               "HMCMB4BI.FR2",
+               "HMCMB4BI.FR3",
+               "HMCMB4BI.FR4",
+               "HMCMB4BI.FR5"
+            ],
+            "BL" : [
+               "HMCMB4BL.FR0",
+               "HMCMB4BL.FR1",
+               "HMCMB4BL.FR2",
+               "HMCMB4BL.FR3",
+               "HMCMB4BL.FR4",
+               "HMCMB4BL.FR5"
+            ],
+            "BM" : [
+               "HMCMB4BM.FR0",
+               "HMCMB4BM.FR1",
+               "HMCMB4BM.FR2",
+               "HMCMB4BM.FR3",
+               "HMCMB4BM.FR4",
+               "HMCMB4BM.FR5"
+            ],
+            "BO" : [
+               "HMCMB4BO.FR0",
+               "HMCMB4BO.FR1",
+               "HMCMB4BO.FR2",
+               "HMCMB4BO.FR3",
+               "HMCMB4BO.FR4",
+               "HMCMB4BO.FR5"
+            ],
+            "BP" : [
+               "HMCMB4BP.FR0",
+               "HMCMB4BP.FR1",
+               "HMCMB4BP.FR2",
+               "HMCMB4BP.FR3",
+               "HMCMB4BP.FR4",
+               "HMCMB4BP.FR5"
+            ],
+            "CH" : "HMCMB4CH.FRM",
+            "CJ" : "HMCMB4CJ.FRM",
+            "GA" : "HMCMB4GA.FRM",
+            "GB" : "HMCMB4GB.FRM",
+            "GC" : "HMCMB4GC.FRM",
+            "GD" : "HMCMB4GD.FRM",
+            "GE" : "HMCMB4GE.FRM",
+            "GF" : "HMCMB4GF.FRM",
+            "GM" : "HMCMB4GM.FRM",
+            "HA" : "HMCMB4HA.FRM",
+            "HB" : "HMCMB4HB.FRM",
+            "HC" : "HMCMB4HC.FRM",
+            "HD" : "HMCMB4HD.FRM",
+            "HE" : "HMCMB4HE.FRM",
+            "HH" : "HMCMB4HH.FRM",
+            "HI" : "HMCMB4HI.FRM",
+            "HJ" : "HMCMB4HJ.FRM",
+            "IA" : "HMCMB4IA.FRM",
+            "IB" : "HMCMB4IB.FRM",
+            "IC" : "HMCMB4IC.FRM",
+            "ID" : "HMCMB4ID.FRM",
+            "IE" : "HMCMB4IE.FRM",
+            "IH" : "HMCMB4IH.FRM",
+            "II" : "HMCMB4II.FRM",
+            "IJ" : "HMCMB4IJ.FRM",
+            "IK" : "HMCMB4IK.FRM",
+            "JA" : "HMCMB4JA.FRM",
+            "JB" : "HMCMB4JB.FRM",
+            "JC" : "HMCMB4JC.FRM",
+            "JD" : "HMCMB4JD.FRM",
+            "JE" : "HMCMB4JE.FRM",
+            "JH" : "HMCMB4JH.FRM",
+            "JI" : "HMCMB4JI.FRM",
+            "JJ" : "HMCMB4JJ.FRM",
+            "JK" : "HMCMB4JK.FRM",
+            "RA" : "HMCMB4RA.FRM",
+            "RB" : "HMCMB4RB.FRM",
+            "RD" : "HMCMB4RD.FRM",
+            "RF" : "HMCMB4RF.FRM",
+            "RG" : "HMCMB4RG.FRM",
+            "RI" : "HMCMB4RI.FRM",
+            "RL" : "HMCMB4RL.FRM",
+            "RM" : "HMCMB4RM.FRM",
+            "RO" : "HMCMB4RO.FRM",
+            "RP" : "HMCMB4RP.FRM"
+         },
          "Male_BrownPants_LeatherArmor" : {
             "AS" : "nmlthrAS.FRM",
             "DA" : "nmlthrDA.FRM",
@@ -18507,6 +18646,986 @@
                "anim-packed" : "NMBGRYRP.png",
                "static" : [
                   "NMBGRYRP.static.png"
+               ]
+            }
+         },
+         "Male_BrownPants_CombatArmor" : {
+            "AA" : {
+               "anim" : [
+                  "HMCMB4AA_0.png",
+                  "HMCMB4AA_1.png",
+                  "HMCMB4AA_2.png",
+                  "HMCMB4AA_3.png",
+                  "HMCMB4AA_4.png",
+                  "HMCMB4AA_5.png"
+               ],
+               "anim-packed" : "HMCMB4AA.png",
+               "static" : [
+                  "HMCMB4AA.static.png"
+               ]
+            },
+            "AB" : {
+               "anim" : [
+                  "HMCMB4AB_0.png",
+                  "HMCMB4AB_1.png",
+                  "HMCMB4AB_2.png",
+                  "HMCMB4AB_3.png",
+                  "HMCMB4AB_4.png",
+                  "HMCMB4AB_5.png"
+               ],
+               "anim-packed" : "HMCMB4AB.png",
+               "static" : [
+                  "HMCMB4AB.static.png"
+               ]
+            },
+            "AE" : {
+               "anim" : [
+                  "HMCMB4AE_0.png",
+                  "HMCMB4AE_1.png",
+                  "HMCMB4AE_2.png",
+                  "HMCMB4AE_3.png",
+                  "HMCMB4AE_4.png",
+                  "HMCMB4AE_5.png"
+               ],
+               "anim-packed" : "HMCMB4AE.png",
+               "static" : [
+                  "HMCMB4AE.static.png"
+               ]
+            },
+            "AK" : {
+               "anim" : [
+                  "HMCMB4AK_0.png",
+                  "HMCMB4AK_1.png",
+                  "HMCMB4AK_2.png",
+                  "HMCMB4AK_3.png",
+                  "HMCMB4AK_4.png",
+                  "HMCMB4AK_5.png"
+               ],
+               "anim-packed" : "HMCMB4AK.png",
+               "static" : [
+                  "HMCMB4AK.static.png"
+               ]
+            },
+            "AL" : {
+               "anim" : [
+                  "HMCMB4AL_0.png",
+                  "HMCMB4AL_1.png",
+                  "HMCMB4AL_2.png",
+                  "HMCMB4AL_3.png",
+                  "HMCMB4AL_4.png",
+                  "HMCMB4AL_5.png"
+               ],
+               "anim-packed" : "HMCMB4AL.png",
+               "static" : [
+                  "HMCMB4AL.static.png"
+               ]
+            },
+            "AN" : {
+               "anim" : [
+                  "HMCMB4AN_0.png",
+                  "HMCMB4AN_1.png",
+                  "HMCMB4AN_2.png",
+                  "HMCMB4AN_3.png",
+                  "HMCMB4AN_4.png",
+                  "HMCMB4AN_5.png"
+               ],
+               "anim-packed" : "HMCMB4AN.png",
+               "static" : [
+                  "HMCMB4AN.static.png"
+               ]
+            },
+            "AO" : {
+               "anim" : [
+                  "HMCMB4AO_0.png",
+                  "HMCMB4AO_1.png",
+                  "HMCMB4AO_2.png",
+                  "HMCMB4AO_3.png",
+                  "HMCMB4AO_4.png",
+                  "HMCMB4AO_5.png"
+               ],
+               "anim-packed" : "HMCMB4AO.png",
+               "static" : [
+                  "HMCMB4AO.static.png"
+               ]
+            },
+            "AP" : {
+               "anim" : [
+                  "HMCMB4AP_0.png",
+                  "HMCMB4AP_1.png",
+                  "HMCMB4AP_2.png",
+                  "HMCMB4AP_3.png",
+                  "HMCMB4AP_4.png",
+                  "HMCMB4AP_5.png"
+               ],
+               "anim-packed" : "HMCMB4AP.png",
+               "static" : [
+                  "HMCMB4AP.static.png"
+               ]
+            },
+            "AQ" : {
+               "anim" : [
+                  "HMCMB4AQ_0.png",
+                  "HMCMB4AQ_1.png",
+                  "HMCMB4AQ_2.png",
+                  "HMCMB4AQ_3.png",
+                  "HMCMB4AQ_4.png",
+                  "HMCMB4AQ_5.png"
+               ],
+               "anim-packed" : "HMCMB4AQ.png",
+               "static" : [
+                  "HMCMB4AQ.static.png"
+               ]
+            },
+            "AR" : {
+               "anim" : [
+                  "HMCMB4AR_0.png",
+                  "HMCMB4AR_1.png",
+                  "HMCMB4AR_2.png",
+                  "HMCMB4AR_3.png",
+                  "HMCMB4AR_4.png",
+                  "HMCMB4AR_5.png"
+               ],
+               "anim-packed" : "HMCMB4AR.png",
+               "static" : [
+                  "HMCMB4AR.static.png"
+               ]
+            },
+            "AS" : {
+               "anim" : [
+                  "HMCMB4AS_0.png",
+                  "HMCMB4AS_1.png",
+                  "HMCMB4AS_2.png",
+                  "HMCMB4AS_3.png",
+                  "HMCMB4AS_4.png",
+                  "HMCMB4AS_5.png"
+               ],
+               "anim-packed" : "HMCMB4AS.png",
+               "static" : [
+                  "HMCMB4AS.static.png"
+               ]
+            },
+            "AT" : {
+               "anim" : [
+                  "HMCMB4AT_0.png",
+                  "HMCMB4AT_1.png",
+                  "HMCMB4AT_2.png",
+                  "HMCMB4AT_3.png",
+                  "HMCMB4AT_4.png",
+                  "HMCMB4AT_5.png"
+               ],
+               "anim-packed" : "HMCMB4AT.png",
+               "static" : [
+                  "HMCMB4AT.static.png"
+               ]
+            },
+            "BA" : {
+               "anim" : [
+                  "HMCMB4BA_0.png",
+                  "HMCMB4BA_1.png",
+                  "HMCMB4BA_2.png",
+                  "HMCMB4BA_3.png",
+                  "HMCMB4BA_4.png",
+                  "HMCMB4BA_5.png"
+               ],
+               "static" : [
+                  "HMCMB4BA_0.static.png",
+                  "HMCMB4BA_1.static.png",
+                  "HMCMB4BA_2.static.png",
+                  "HMCMB4BA_3.static.png",
+                  "HMCMB4BA_4.static.png",
+                  "HMCMB4BA_5.static.png"
+               ]
+            },
+            "BB" : {
+               "anim" : [
+                  "HMCMB4BB_0.png",
+                  "HMCMB4BB_1.png",
+                  "HMCMB4BB_2.png",
+                  "HMCMB4BB_3.png",
+                  "HMCMB4BB_4.png",
+                  "HMCMB4BB_5.png"
+               ],
+               "static" : [
+                  "HMCMB4BB_0.static.png",
+                  "HMCMB4BB_1.static.png",
+                  "HMCMB4BB_2.static.png",
+                  "HMCMB4BB_3.static.png",
+                  "HMCMB4BB_4.static.png",
+                  "HMCMB4BB_5.static.png"
+               ]
+            },
+            "BD" : {
+               "anim" : [
+                  "HMCMB4BD_0.png",
+                  "HMCMB4BD_1.png",
+                  "HMCMB4BD_2.png",
+                  "HMCMB4BD_3.png",
+                  "HMCMB4BD_4.png",
+                  "HMCMB4BD_5.png"
+               ],
+               "static" : [
+                  "HMCMB4BD_0.static.png",
+                  "HMCMB4BD_1.static.png",
+                  "HMCMB4BD_2.static.png",
+                  "HMCMB4BD_3.static.png",
+                  "HMCMB4BD_4.static.png",
+                  "HMCMB4BD_5.static.png"
+               ]
+            },
+            "BF" : {
+               "anim" : [
+                  "HMCMB4BF_0.png",
+                  "HMCMB4BF_1.png",
+                  "HMCMB4BF_2.png",
+                  "HMCMB4BF_3.png",
+                  "HMCMB4BF_4.png",
+                  "HMCMB4BF_5.png"
+               ],
+               "static" : [
+                  "HMCMB4BF_0.static.png",
+                  "HMCMB4BF_1.static.png",
+                  "HMCMB4BF_2.static.png",
+                  "HMCMB4BF_3.static.png",
+                  "HMCMB4BF_4.static.png",
+                  "HMCMB4BF_5.static.png"
+               ]
+            },
+            "BG" : {
+               "anim" : [
+                  "HMCMB4BG_0.png",
+                  "HMCMB4BG_1.png",
+                  "HMCMB4BG_2.png",
+                  "HMCMB4BG_3.png",
+                  "HMCMB4BG_4.png",
+                  "HMCMB4BG_5.png"
+               ],
+               "static" : [
+                  "HMCMB4BG_0.static.png",
+                  "HMCMB4BG_1.static.png",
+                  "HMCMB4BG_2.static.png",
+                  "HMCMB4BG_3.static.png",
+                  "HMCMB4BG_4.static.png",
+                  "HMCMB4BG_5.static.png"
+               ]
+            },
+            "BI" : {
+               "anim" : [
+                  "HMCMB4BI_0.png",
+                  "HMCMB4BI_1.png",
+                  "HMCMB4BI_2.png",
+                  "HMCMB4BI_3.png",
+                  "HMCMB4BI_4.png",
+                  "HMCMB4BI_5.png"
+               ],
+               "static" : [
+                  "HMCMB4BI_0.static.png",
+                  "HMCMB4BI_1.static.png",
+                  "HMCMB4BI_2.static.png",
+                  "HMCMB4BI_3.static.png",
+                  "HMCMB4BI_4.static.png",
+                  "HMCMB4BI_5.static.png"
+               ]
+            },
+            "BL" : {
+               "anim" : [
+                  "HMCMB4BL_0.png",
+                  "HMCMB4BL_1.png",
+                  "HMCMB4BL_2.png",
+                  "HMCMB4BL_3.png",
+                  "HMCMB4BL_4.png",
+                  "HMCMB4BL_5.png"
+               ],
+               "static" : [
+                  "HMCMB4BL_0.static.png",
+                  "HMCMB4BL_1.static.png",
+                  "HMCMB4BL_2.static.png",
+                  "HMCMB4BL_3.static.png",
+                  "HMCMB4BL_4.static.png",
+                  "HMCMB4BL_5.static.png"
+               ]
+            },
+            "BM" : {
+               "anim" : [
+                  "HMCMB4BM_0.png",
+                  "HMCMB4BM_1.png",
+                  "HMCMB4BM_2.png",
+                  "HMCMB4BM_3.png",
+                  "HMCMB4BM_4.png",
+                  "HMCMB4BM_5.png"
+               ],
+               "static" : [
+                  "HMCMB4BM_0.static.png",
+                  "HMCMB4BM_1.static.png",
+                  "HMCMB4BM_2.static.png",
+                  "HMCMB4BM_3.static.png",
+                  "HMCMB4BM_4.static.png",
+                  "HMCMB4BM_5.static.png"
+               ]
+            },
+            "BO" : {
+               "anim" : [
+                  "HMCMB4BO_0.png",
+                  "HMCMB4BO_1.png",
+                  "HMCMB4BO_2.png",
+                  "HMCMB4BO_3.png",
+                  "HMCMB4BO_4.png",
+                  "HMCMB4BO_5.png"
+               ],
+               "static" : [
+                  "HMCMB4BO_0.static.png",
+                  "HMCMB4BO_1.static.png",
+                  "HMCMB4BO_2.static.png",
+                  "HMCMB4BO_3.static.png",
+                  "HMCMB4BO_4.static.png",
+                  "HMCMB4BO_5.static.png"
+               ]
+            },
+            "BP" : {
+               "anim" : [
+                  "HMCMB4BP_0.png",
+                  "HMCMB4BP_1.png",
+                  "HMCMB4BP_2.png",
+                  "HMCMB4BP_3.png",
+                  "HMCMB4BP_4.png",
+                  "HMCMB4BP_5.png"
+               ],
+               "static" : [
+                  "HMCMB4BP_0.static.png",
+                  "HMCMB4BP_1.static.png",
+                  "HMCMB4BP_2.static.png",
+                  "HMCMB4BP_3.static.png",
+                  "HMCMB4BP_4.static.png",
+                  "HMCMB4BP_5.static.png"
+               ]
+            },
+            "CH" : {
+               "anim" : [
+                  "HMCMB4CH_0.png",
+                  "HMCMB4CH_1.png",
+                  "HMCMB4CH_2.png",
+                  "HMCMB4CH_3.png",
+                  "HMCMB4CH_4.png",
+                  "HMCMB4CH_5.png"
+               ],
+               "anim-packed" : "HMCMB4CH.png",
+               "static" : [
+                  "HMCMB4CH.static.png"
+               ]
+            },
+            "CJ" : {
+               "anim" : [
+                  "HMCMB4CJ_0.png",
+                  "HMCMB4CJ_1.png",
+                  "HMCMB4CJ_2.png",
+                  "HMCMB4CJ_3.png",
+                  "HMCMB4CJ_4.png",
+                  "HMCMB4CJ_5.png"
+               ],
+               "anim-packed" : "HMCMB4CJ.png",
+               "static" : [
+                  "HMCMB4CJ.static.png"
+               ]
+            },
+            "GA" : {
+               "anim" : [
+                  "HMCMB4GA_0.png",
+                  "HMCMB4GA_1.png",
+                  "HMCMB4GA_2.png",
+                  "HMCMB4GA_3.png",
+                  "HMCMB4GA_4.png",
+                  "HMCMB4GA_5.png"
+               ],
+               "anim-packed" : "HMCMB4GA.png",
+               "static" : [
+                  "HMCMB4GA.static.png"
+               ]
+            },
+            "GB" : {
+               "anim" : [
+                  "HMCMB4GB_0.png",
+                  "HMCMB4GB_1.png",
+                  "HMCMB4GB_2.png",
+                  "HMCMB4GB_3.png",
+                  "HMCMB4GB_4.png",
+                  "HMCMB4GB_5.png"
+               ],
+               "anim-packed" : "HMCMB4GB.png",
+               "static" : [
+                  "HMCMB4GB.static.png"
+               ]
+            },
+            "GC" : {
+               "anim" : [
+                  "HMCMB4GC_0.png",
+                  "HMCMB4GC_1.png",
+                  "HMCMB4GC_2.png",
+                  "HMCMB4GC_3.png",
+                  "HMCMB4GC_4.png",
+                  "HMCMB4GC_5.png"
+               ],
+               "anim-packed" : "HMCMB4GC.png",
+               "static" : [
+                  "HMCMB4GC.static.png"
+               ]
+            },
+            "GD" : {
+               "anim" : [
+                  "HMCMB4GD_0.png",
+                  "HMCMB4GD_1.png",
+                  "HMCMB4GD_2.png",
+                  "HMCMB4GD_3.png",
+                  "HMCMB4GD_4.png",
+                  "HMCMB4GD_5.png"
+               ],
+               "anim-packed" : "HMCMB4GD.png",
+               "static" : [
+                  "HMCMB4GD.static.png"
+               ]
+            },
+            "GE" : {
+               "anim" : [
+                  "HMCMB4GE_0.png",
+                  "HMCMB4GE_1.png",
+                  "HMCMB4GE_2.png",
+                  "HMCMB4GE_3.png",
+                  "HMCMB4GE_4.png",
+                  "HMCMB4GE_5.png"
+               ],
+               "anim-packed" : "HMCMB4GE.png",
+               "static" : [
+                  "HMCMB4GE.static.png"
+               ]
+            },
+            "GF" : {
+               "anim" : [
+                  "HMCMB4GF_0.png",
+                  "HMCMB4GF_1.png",
+                  "HMCMB4GF_2.png",
+                  "HMCMB4GF_3.png",
+                  "HMCMB4GF_4.png",
+                  "HMCMB4GF_5.png"
+               ],
+               "anim-packed" : "HMCMB4GF.png",
+               "static" : [
+                  "HMCMB4GF.static.png"
+               ]
+            },
+            "GM" : {
+               "anim" : [
+                  "HMCMB4GM_0.png",
+                  "HMCMB4GM_1.png",
+                  "HMCMB4GM_2.png",
+                  "HMCMB4GM_3.png",
+                  "HMCMB4GM_4.png",
+                  "HMCMB4GM_5.png"
+               ],
+               "anim-packed" : "HMCMB4GM.png",
+               "static" : [
+                  "HMCMB4GM.static.png"
+               ]
+            },
+            "HA" : {
+               "anim" : [
+                  "HMCMB4HA_0.png",
+                  "HMCMB4HA_1.png",
+                  "HMCMB4HA_2.png",
+                  "HMCMB4HA_3.png",
+                  "HMCMB4HA_4.png",
+                  "HMCMB4HA_5.png"
+               ],
+               "anim-packed" : "HMCMB4HA.png",
+               "static" : [
+                  "HMCMB4HA.static.png"
+               ]
+            },
+            "HB" : {
+               "anim" : [
+                  "HMCMB4HB_0.png",
+                  "HMCMB4HB_1.png",
+                  "HMCMB4HB_2.png",
+                  "HMCMB4HB_3.png",
+                  "HMCMB4HB_4.png",
+                  "HMCMB4HB_5.png"
+               ],
+               "anim-packed" : "HMCMB4HB.png",
+               "static" : [
+                  "HMCMB4HB.static.png"
+               ]
+            },
+            "HC" : {
+               "anim" : [
+                  "HMCMB4HC_0.png",
+                  "HMCMB4HC_1.png",
+                  "HMCMB4HC_2.png",
+                  "HMCMB4HC_3.png",
+                  "HMCMB4HC_4.png",
+                  "HMCMB4HC_5.png"
+               ],
+               "anim-packed" : "HMCMB4HC.png",
+               "static" : [
+                  "HMCMB4HC.static.png"
+               ]
+            },
+            "HD" : {
+               "anim" : [
+                  "HMCMB4HD_0.png",
+                  "HMCMB4HD_1.png",
+                  "HMCMB4HD_2.png",
+                  "HMCMB4HD_3.png",
+                  "HMCMB4HD_4.png",
+                  "HMCMB4HD_5.png"
+               ],
+               "anim-packed" : "HMCMB4HD.png",
+               "static" : [
+                  "HMCMB4HD.static.png"
+               ]
+            },
+            "HE" : {
+               "anim" : [
+                  "HMCMB4HE_0.png",
+                  "HMCMB4HE_1.png",
+                  "HMCMB4HE_2.png",
+                  "HMCMB4HE_3.png",
+                  "HMCMB4HE_4.png",
+                  "HMCMB4HE_5.png"
+               ],
+               "anim-packed" : "HMCMB4HE.png",
+               "static" : [
+                  "HMCMB4HE.static.png"
+               ]
+            },
+            "HH" : {
+               "anim" : [
+                  "HMCMB4HH_0.png",
+                  "HMCMB4HH_1.png",
+                  "HMCMB4HH_2.png",
+                  "HMCMB4HH_3.png",
+                  "HMCMB4HH_4.png",
+                  "HMCMB4HH_5.png"
+               ],
+               "anim-packed" : "HMCMB4HH.png",
+               "static" : [
+                  "HMCMB4HH.static.png"
+               ]
+            },
+            "HI" : {
+               "anim" : [
+                  "HMCMB4HI_0.png",
+                  "HMCMB4HI_1.png",
+                  "HMCMB4HI_2.png",
+                  "HMCMB4HI_3.png",
+                  "HMCMB4HI_4.png",
+                  "HMCMB4HI_5.png"
+               ],
+               "anim-packed" : "HMCMB4HI.png",
+               "static" : [
+                  "HMCMB4HI.static.png"
+               ]
+            },
+            "HJ" : {
+               "anim" : [
+                  "HMCMB4HJ_0.png",
+                  "HMCMB4HJ_1.png",
+                  "HMCMB4HJ_2.png",
+                  "HMCMB4HJ_3.png",
+                  "HMCMB4HJ_4.png",
+                  "HMCMB4HJ_5.png"
+               ],
+               "anim-packed" : "HMCMB4HJ.png",
+               "static" : [
+                  "HMCMB4HJ.static.png"
+               ]
+            },
+            "IA" : {
+               "anim" : [
+                  "HMCMB4IA_0.png",
+                  "HMCMB4IA_1.png",
+                  "HMCMB4IA_2.png",
+                  "HMCMB4IA_3.png",
+                  "HMCMB4IA_4.png",
+                  "HMCMB4IA_5.png"
+               ],
+               "anim-packed" : "HMCMB4IA.png",
+               "static" : [
+                  "HMCMB4IA.static.png"
+               ]
+            },
+            "IB" : {
+               "anim" : [
+                  "HMCMB4IB_0.png",
+                  "HMCMB4IB_1.png",
+                  "HMCMB4IB_2.png",
+                  "HMCMB4IB_3.png",
+                  "HMCMB4IB_4.png",
+                  "HMCMB4IB_5.png"
+               ],
+               "anim-packed" : "HMCMB4IB.png",
+               "static" : [
+                  "HMCMB4IB.static.png"
+               ]
+            },
+            "IC" : {
+               "anim" : [
+                  "HMCMB4IC_0.png",
+                  "HMCMB4IC_1.png",
+                  "HMCMB4IC_2.png",
+                  "HMCMB4IC_3.png",
+                  "HMCMB4IC_4.png",
+                  "HMCMB4IC_5.png"
+               ],
+               "anim-packed" : "HMCMB4IC.png",
+               "static" : [
+                  "HMCMB4IC.static.png"
+               ]
+            },
+            "ID" : {
+               "anim" : [
+                  "HMCMB4ID_0.png",
+                  "HMCMB4ID_1.png",
+                  "HMCMB4ID_2.png",
+                  "HMCMB4ID_3.png",
+                  "HMCMB4ID_4.png",
+                  "HMCMB4ID_5.png"
+               ],
+               "anim-packed" : "HMCMB4ID.png",
+               "static" : [
+                  "HMCMB4ID.static.png"
+               ]
+            },
+            "IE" : {
+               "anim" : [
+                  "HMCMB4IE_0.png",
+                  "HMCMB4IE_1.png",
+                  "HMCMB4IE_2.png",
+                  "HMCMB4IE_3.png",
+                  "HMCMB4IE_4.png",
+                  "HMCMB4IE_5.png"
+               ],
+               "anim-packed" : "HMCMB4IE.png",
+               "static" : [
+                  "HMCMB4IE.static.png"
+               ]
+            },
+            "IH" : {
+               "anim" : [
+                  "HMCMB4IH_0.png",
+                  "HMCMB4IH_1.png",
+                  "HMCMB4IH_2.png",
+                  "HMCMB4IH_3.png",
+                  "HMCMB4IH_4.png",
+                  "HMCMB4IH_5.png"
+               ],
+               "anim-packed" : "HMCMB4IH.png",
+               "static" : [
+                  "HMCMB4IH.static.png"
+               ]
+            },
+            "II" : {
+               "anim" : [
+                  "HMCMB4II_0.png",
+                  "HMCMB4II_1.png",
+                  "HMCMB4II_2.png",
+                  "HMCMB4II_3.png",
+                  "HMCMB4II_4.png",
+                  "HMCMB4II_5.png"
+               ],
+               "anim-packed" : "HMCMB4II.png",
+               "static" : [
+                  "HMCMB4II.static.png"
+               ]
+            },
+            "IJ" : {
+               "anim" : [
+                  "HMCMB4IJ_0.png",
+                  "HMCMB4IJ_1.png",
+                  "HMCMB4IJ_2.png",
+                  "HMCMB4IJ_3.png",
+                  "HMCMB4IJ_4.png",
+                  "HMCMB4IJ_5.png"
+               ],
+               "anim-packed" : "HMCMB4IJ.png",
+               "static" : [
+                  "HMCMB4IJ.static.png"
+               ]
+            },
+            "IK" : {
+               "anim" : [
+                  "HMCMB4IK_0.png",
+                  "HMCMB4IK_1.png",
+                  "HMCMB4IK_2.png",
+                  "HMCMB4IK_3.png",
+                  "HMCMB4IK_4.png",
+                  "HMCMB4IK_5.png"
+               ],
+               "anim-packed" : "HMCMB4IK.png",
+               "static" : [
+                  "HMCMB4IK.static.png"
+               ]
+            },
+            "JA" : {
+               "anim" : [
+                  "HMCMB4JA_0.png",
+                  "HMCMB4JA_1.png",
+                  "HMCMB4JA_2.png",
+                  "HMCMB4JA_3.png",
+                  "HMCMB4JA_4.png",
+                  "HMCMB4JA_5.png"
+               ],
+               "anim-packed" : "HMCMB4JA.png",
+               "static" : [
+                  "HMCMB4JA.static.png"
+               ]
+            },
+            "JB" : {
+               "anim" : [
+                  "HMCMB4JB_0.png",
+                  "HMCMB4JB_1.png",
+                  "HMCMB4JB_2.png",
+                  "HMCMB4JB_3.png",
+                  "HMCMB4JB_4.png",
+                  "HMCMB4JB_5.png"
+               ],
+               "anim-packed" : "HMCMB4JB.png",
+               "static" : [
+                  "HMCMB4JB.static.png"
+               ]
+            },
+            "JC" : {
+               "anim" : [
+                  "HMCMB4JC_0.png",
+                  "HMCMB4JC_1.png",
+                  "HMCMB4JC_2.png",
+                  "HMCMB4JC_3.png",
+                  "HMCMB4JC_4.png",
+                  "HMCMB4JC_5.png"
+               ],
+               "anim-packed" : "HMCMB4JC.png",
+               "static" : [
+                  "HMCMB4JC.static.png"
+               ]
+            },
+            "JD" : {
+               "anim" : [
+                  "HMCMB4JD_0.png",
+                  "HMCMB4JD_1.png",
+                  "HMCMB4JD_2.png",
+                  "HMCMB4JD_3.png",
+                  "HMCMB4JD_4.png",
+                  "HMCMB4JD_5.png"
+               ],
+               "anim-packed" : "HMCMB4JD.png",
+               "static" : [
+                  "HMCMB4JD.static.png"
+               ]
+            },
+            "JE" : {
+               "anim" : [
+                  "HMCMB4JE_0.png",
+                  "HMCMB4JE_1.png",
+                  "HMCMB4JE_2.png",
+                  "HMCMB4JE_3.png",
+                  "HMCMB4JE_4.png",
+                  "HMCMB4JE_5.png"
+               ],
+               "anim-packed" : "HMCMB4JE.png",
+               "static" : [
+                  "HMCMB4JE.static.png"
+               ]
+            },
+            "JH" : {
+               "anim" : [
+                  "HMCMB4JH_0.png",
+                  "HMCMB4JH_1.png",
+                  "HMCMB4JH_2.png",
+                  "HMCMB4JH_3.png",
+                  "HMCMB4JH_4.png",
+                  "HMCMB4JH_5.png"
+               ],
+               "anim-packed" : "HMCMB4JH.png",
+               "static" : [
+                  "HMCMB4JH.static.png"
+               ]
+            },
+            "JI" : {
+               "anim" : [
+                  "HMCMB4JI_0.png",
+                  "HMCMB4JI_1.png",
+                  "HMCMB4JI_2.png",
+                  "HMCMB4JI_3.png",
+                  "HMCMB4JI_4.png",
+                  "HMCMB4JI_5.png"
+               ],
+               "anim-packed" : "HMCMB4JI.png",
+               "static" : [
+                  "HMCMB4JI.static.png"
+               ]
+            },
+            "JJ" : {
+               "anim" : [
+                  "HMCMB4JJ_0.png",
+                  "HMCMB4JJ_1.png",
+                  "HMCMB4JJ_2.png",
+                  "HMCMB4JJ_3.png",
+                  "HMCMB4JJ_4.png",
+                  "HMCMB4JJ_5.png"
+               ],
+               "anim-packed" : "HMCMB4JJ.png",
+               "static" : [
+                  "HMCMB4JJ.static.png"
+               ]
+            },
+            "JK" : {
+               "anim" : [
+                  "HMCMB4JK_0.png",
+                  "HMCMB4JK_1.png",
+                  "HMCMB4JK_2.png",
+                  "HMCMB4JK_3.png",
+                  "HMCMB4JK_4.png",
+                  "HMCMB4JK_5.png"
+               ],
+               "anim-packed" : "HMCMB4JK.png",
+               "static" : [
+                  "HMCMB4JK.static.png"
+               ]
+            },
+            "RA" : {
+               "anim" : [
+                  "HMCMB4RA_0.png",
+                  "HMCMB4RA_1.png",
+                  "HMCMB4RA_2.png",
+                  "HMCMB4RA_3.png",
+                  "HMCMB4RA_4.png",
+                  "HMCMB4RA_5.png"
+               ],
+               "anim-packed" : "HMCMB4RA.png",
+               "static" : [
+                  "HMCMB4RA.static.png"
+               ]
+            },
+            "RB" : {
+               "anim" : [
+                  "HMCMB4RB_0.png",
+                  "HMCMB4RB_1.png",
+                  "HMCMB4RB_2.png",
+                  "HMCMB4RB_3.png",
+                  "HMCMB4RB_4.png",
+                  "HMCMB4RB_5.png"
+               ],
+               "anim-packed" : "HMCMB4RB.png",
+               "static" : [
+                  "HMCMB4RB.static.png"
+               ]
+            },
+            "RD" : {
+               "anim" : [
+                  "HMCMB4RD_0.png",
+                  "HMCMB4RD_1.png",
+                  "HMCMB4RD_2.png",
+                  "HMCMB4RD_3.png",
+                  "HMCMB4RD_4.png",
+                  "HMCMB4RD_5.png"
+               ],
+               "anim-packed" : "HMCMB4RD.png",
+               "static" : [
+                  "HMCMB4RD.static.png"
+               ]
+            },
+            "RF" : {
+               "anim" : [
+                  "HMCMB4RF_0.png",
+                  "HMCMB4RF_1.png",
+                  "HMCMB4RF_2.png",
+                  "HMCMB4RF_3.png",
+                  "HMCMB4RF_4.png",
+                  "HMCMB4RF_5.png"
+               ],
+               "anim-packed" : "HMCMB4RF.png",
+               "static" : [
+                  "HMCMB4RF.static.png"
+               ]
+            },
+            "RG" : {
+               "anim" : [
+                  "HMCMB4RG_0.png",
+                  "HMCMB4RG_1.png",
+                  "HMCMB4RG_2.png",
+                  "HMCMB4RG_3.png",
+                  "HMCMB4RG_4.png",
+                  "HMCMB4RG_5.png"
+               ],
+               "anim-packed" : "HMCMB4RG.png",
+               "static" : [
+                  "HMCMB4RG.static.png"
+               ]
+            },
+            "RI" : {
+               "anim" : [
+                  "HMCMB4RI_0.png",
+                  "HMCMB4RI_1.png",
+                  "HMCMB4RI_2.png",
+                  "HMCMB4RI_3.png",
+                  "HMCMB4RI_4.png",
+                  "HMCMB4RI_5.png"
+               ],
+               "anim-packed" : "HMCMB4RI.png",
+               "static" : [
+                  "HMCMB4RI.static.png"
+               ]
+            },
+            "RL" : {
+               "anim" : [
+                  "HMCMB4RL_0.png",
+                  "HMCMB4RL_1.png",
+                  "HMCMB4RL_2.png",
+                  "HMCMB4RL_3.png",
+                  "HMCMB4RL_4.png",
+                  "HMCMB4RL_5.png"
+               ],
+               "anim-packed" : "HMCMB4RL.png",
+               "static" : [
+                  "HMCMB4RL.static.png"
+               ]
+            },
+            "RM" : {
+               "anim" : [
+                  "HMCMB4RM_0.png",
+                  "HMCMB4RM_1.png",
+                  "HMCMB4RM_2.png",
+                  "HMCMB4RM_3.png",
+                  "HMCMB4RM_4.png",
+                  "HMCMB4RM_5.png"
+               ],
+               "anim-packed" : "HMCMB4RM.png",
+               "static" : [
+                  "HMCMB4RM.static.png"
+               ]
+            },
+            "RO" : {
+               "anim" : [
+                  "HMCMB4RO_0.png",
+                  "HMCMB4RO_1.png",
+                  "HMCMB4RO_2.png",
+                  "HMCMB4RO_3.png",
+                  "HMCMB4RO_4.png",
+                  "HMCMB4RO_5.png"
+               ],
+               "anim-packed" : "HMCMB4RO.png",
+               "static" : [
+                  "HMCMB4RO.static.png"
+               ]
+            },
+            "RP" : {
+               "anim" : [
+                  "HMCMB4RP_0.png",
+                  "HMCMB4RP_1.png",
+                  "HMCMB4RP_2.png",
+                  "HMCMB4RP_3.png",
+                  "HMCMB4RP_4.png",
+                  "HMCMB4RP_5.png"
+               ],
+               "anim-packed" : "HMCMB4RP.png",
+               "static" : [
+                  "HMCMB4RP.static.png"
                ]
             }
          },
