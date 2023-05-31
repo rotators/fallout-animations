@@ -1842,6 +1842,21 @@
             ],
             "CH" : "HMCMB4CH.FRM",
             "CJ" : "HMCMB4CJ.FRM",
+            "DA" : "HMCMB4DA.FRM",
+            "DB" : "HMCMB4DB.FRM",
+            "DC" : "HMCMB4DC.FRM",
+            "DD" : "HMCMB4DD.FRM",
+            "DE" : "HMCMB4DE.FRM",
+            "DF" : "HMCMB4DF.FRM",
+            "DG" : "HMCMB4DG.FRM",
+            "DM" : "HMCMB4DM.FRM",
+            "EA" : "HMCMB4EA.FRM",
+            "EB" : "HMCMB4EB.FRM",
+            "EC" : "HMCMB4EC.FRM",
+            "ED" : "HMCMB4ED.FRM",
+            "EE" : "HMCMB4EE.FRM",
+            "EF" : "HMCMB4EF.FRM",
+            "EG" : "HMCMB4EG.FRM",
             "GA" : "HMCMB4GA.FRM",
             "GB" : "HMCMB4GB.FRM",
             "GC" : "HMCMB4GC.FRM",
@@ -19024,6 +19039,216 @@
                "anim-packed" : "HMCMB4CJ.png",
                "static" : [
                   "HMCMB4CJ.static.png"
+               ]
+            },
+            "DA" : {
+               "anim" : [
+                  "HMCMB4DA_0.png",
+                  "HMCMB4DA_1.png",
+                  "HMCMB4DA_2.png",
+                  "HMCMB4DA_3.png",
+                  "HMCMB4DA_4.png",
+                  "HMCMB4DA_5.png"
+               ],
+               "anim-packed" : "HMCMB4DA.png",
+               "static" : [
+                  "HMCMB4DA.static.png"
+               ]
+            },
+            "DB" : {
+               "anim" : [
+                  "HMCMB4DB_0.png",
+                  "HMCMB4DB_1.png",
+                  "HMCMB4DB_2.png",
+                  "HMCMB4DB_3.png",
+                  "HMCMB4DB_4.png",
+                  "HMCMB4DB_5.png"
+               ],
+               "anim-packed" : "HMCMB4DB.png",
+               "static" : [
+                  "HMCMB4DB.static.png"
+               ]
+            },
+            "DC" : {
+               "anim" : [
+                  "HMCMB4DC_0.png",
+                  "HMCMB4DC_1.png",
+                  "HMCMB4DC_2.png",
+                  "HMCMB4DC_3.png",
+                  "HMCMB4DC_4.png",
+                  "HMCMB4DC_5.png"
+               ],
+               "anim-packed" : "HMCMB4DC.png",
+               "static" : [
+                  "HMCMB4DC.static.png"
+               ]
+            },
+            "DD" : {
+               "anim" : [
+                  "HMCMB4DD_0.png",
+                  "HMCMB4DD_1.png",
+                  "HMCMB4DD_2.png",
+                  "HMCMB4DD_3.png",
+                  "HMCMB4DD_4.png",
+                  "HMCMB4DD_5.png"
+               ],
+               "anim-packed" : "HMCMB4DD.png",
+               "static" : [
+                  "HMCMB4DD.static.png"
+               ]
+            },
+            "DE" : {
+               "anim" : [
+                  "HMCMB4DE_0.png",
+                  "HMCMB4DE_1.png",
+                  "HMCMB4DE_2.png",
+                  "HMCMB4DE_3.png",
+                  "HMCMB4DE_4.png",
+                  "HMCMB4DE_5.png"
+               ],
+               "anim-packed" : "HMCMB4DE.png",
+               "static" : [
+                  "HMCMB4DE.static.png"
+               ]
+            },
+            "DF" : {
+               "anim" : [
+                  "HMCMB4DF_0.png",
+                  "HMCMB4DF_1.png",
+                  "HMCMB4DF_2.png",
+                  "HMCMB4DF_3.png",
+                  "HMCMB4DF_4.png",
+                  "HMCMB4DF_5.png"
+               ],
+               "anim-packed" : "HMCMB4DF.png",
+               "static" : [
+                  "HMCMB4DF.static.png"
+               ]
+            },
+            "DG" : {
+               "anim" : [
+                  "HMCMB4DG_0.png",
+                  "HMCMB4DG_1.png",
+                  "HMCMB4DG_2.png",
+                  "HMCMB4DG_3.png",
+                  "HMCMB4DG_4.png",
+                  "HMCMB4DG_5.png"
+               ],
+               "anim-packed" : "HMCMB4DG.png",
+               "static" : [
+                  "HMCMB4DG.static.png"
+               ]
+            },
+            "DM" : {
+               "anim" : [
+                  "HMCMB4DM_0.png",
+                  "HMCMB4DM_1.png",
+                  "HMCMB4DM_2.png",
+                  "HMCMB4DM_3.png",
+                  "HMCMB4DM_4.png",
+                  "HMCMB4DM_5.png"
+               ],
+               "anim-packed" : "HMCMB4DM.png",
+               "static" : [
+                  "HMCMB4DM.static.png"
+               ]
+            },
+            "EA" : {
+               "anim" : [
+                  "HMCMB4EA_0.png",
+                  "HMCMB4EA_1.png",
+                  "HMCMB4EA_2.png",
+                  "HMCMB4EA_3.png",
+                  "HMCMB4EA_4.png",
+                  "HMCMB4EA_5.png"
+               ],
+               "anim-packed" : "HMCMB4EA.png",
+               "static" : [
+                  "HMCMB4EA.static.png"
+               ]
+            },
+            "EB" : {
+               "anim" : [
+                  "HMCMB4EB_0.png",
+                  "HMCMB4EB_1.png",
+                  "HMCMB4EB_2.png",
+                  "HMCMB4EB_3.png",
+                  "HMCMB4EB_4.png",
+                  "HMCMB4EB_5.png"
+               ],
+               "anim-packed" : "HMCMB4EB.png",
+               "static" : [
+                  "HMCMB4EB.static.png"
+               ]
+            },
+            "EC" : {
+               "anim" : [
+                  "HMCMB4EC_0.png",
+                  "HMCMB4EC_1.png",
+                  "HMCMB4EC_2.png",
+                  "HMCMB4EC_3.png",
+                  "HMCMB4EC_4.png",
+                  "HMCMB4EC_5.png"
+               ],
+               "anim-packed" : "HMCMB4EC.png",
+               "static" : [
+                  "HMCMB4EC.static.png"
+               ]
+            },
+            "ED" : {
+               "anim" : [
+                  "HMCMB4ED_0.png",
+                  "HMCMB4ED_1.png",
+                  "HMCMB4ED_2.png",
+                  "HMCMB4ED_3.png",
+                  "HMCMB4ED_4.png",
+                  "HMCMB4ED_5.png"
+               ],
+               "anim-packed" : "HMCMB4ED.png",
+               "static" : [
+                  "HMCMB4ED.static.png"
+               ]
+            },
+            "EE" : {
+               "anim" : [
+                  "HMCMB4EE_0.png",
+                  "HMCMB4EE_1.png",
+                  "HMCMB4EE_2.png",
+                  "HMCMB4EE_3.png",
+                  "HMCMB4EE_4.png",
+                  "HMCMB4EE_5.png"
+               ],
+               "anim-packed" : "HMCMB4EE.png",
+               "static" : [
+                  "HMCMB4EE.static.png"
+               ]
+            },
+            "EF" : {
+               "anim" : [
+                  "HMCMB4EF_0.png",
+                  "HMCMB4EF_1.png",
+                  "HMCMB4EF_2.png",
+                  "HMCMB4EF_3.png",
+                  "HMCMB4EF_4.png",
+                  "HMCMB4EF_5.png"
+               ],
+               "anim-packed" : "HMCMB4EF.png",
+               "static" : [
+                  "HMCMB4EF.static.png"
+               ]
+            },
+            "EG" : {
+               "anim" : [
+                  "HMCMB4EG_0.png",
+                  "HMCMB4EG_1.png",
+                  "HMCMB4EG_2.png",
+                  "HMCMB4EG_3.png",
+                  "HMCMB4EG_4.png",
+                  "HMCMB4EG_5.png"
+               ],
+               "anim-packed" : "HMCMB4EG.png",
+               "static" : [
+                  "HMCMB4EG.static.png"
                ]
             },
             "GA" : {
