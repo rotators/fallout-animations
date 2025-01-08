@@ -1747,6 +1747,15 @@
             "RO" : "NMBGRYRO.FRM",
             "RP" : "NMBGRYRP.FRM"
          },
+         "Male_BluePants_LeatherJacket" : {
+            "GA" : "nmmaxxga.FRM",
+            "GB" : "nmmaxxgb.FRM",
+            "GC" : "nmmaxxgc.FRM",
+            "GD" : "nmmaxxgd.FRM",
+            "GE" : "nmmaxxge.FRM",
+            "GF" : "nmmaxxgf.FRM",
+            "GM" : "nmmaxxgm.FRM"
+         },
          "Male_BrownPants_CombatArmor" : {
             "AA" : "HMCMB4AA.FRM",
             "AB" : "HMCMB4AB.FRM",
@@ -18694,6 +18703,106 @@
                "anim-packed" : "NMBGRYRP.png",
                "static" : [
                   "NMBGRYRP.static.png"
+               ]
+            }
+         },
+         "Male_BluePants_LeatherJacket" : {
+            "GA" : {
+               "anim" : [
+                  "NMMAXXGA_0.png",
+                  "NMMAXXGA_1.png",
+                  "NMMAXXGA_2.png",
+                  "NMMAXXGA_3.png",
+                  "NMMAXXGA_4.png",
+                  "NMMAXXGA_5.png"
+               ],
+               "anim-packed" : "NMMAXXGA.png",
+               "static" : [
+                  "NMMAXXGA.static.png"
+               ]
+            },
+            "GB" : {
+               "anim" : [
+                  "NMMAXXGB_0.png",
+                  "NMMAXXGB_1.png",
+                  "NMMAXXGB_2.png",
+                  "NMMAXXGB_3.png",
+                  "NMMAXXGB_4.png",
+                  "NMMAXXGB_5.png"
+               ],
+               "anim-packed" : "NMMAXXGB.png",
+               "static" : [
+                  "NMMAXXGB.static.png"
+               ]
+            },
+            "GC" : {
+               "anim" : [
+                  "NMMAXXGC_0.png",
+                  "NMMAXXGC_1.png",
+                  "NMMAXXGC_2.png",
+                  "NMMAXXGC_3.png",
+                  "NMMAXXGC_4.png",
+                  "NMMAXXGC_5.png"
+               ],
+               "anim-packed" : "NMMAXXGC.png",
+               "static" : [
+                  "NMMAXXGC.static.png"
+               ]
+            },
+            "GD" : {
+               "anim" : [
+                  "NMMAXXGD_0.png",
+                  "NMMAXXGD_1.png",
+                  "NMMAXXGD_2.png",
+                  "NMMAXXGD_3.png",
+                  "NMMAXXGD_4.png",
+                  "NMMAXXGD_5.png"
+               ],
+               "anim-packed" : "NMMAXXGD.png",
+               "static" : [
+                  "NMMAXXGD.static.png"
+               ]
+            },
+            "GE" : {
+               "anim" : [
+                  "NMMAXXGE_0.png",
+                  "NMMAXXGE_1.png",
+                  "NMMAXXGE_2.png",
+                  "NMMAXXGE_3.png",
+                  "NMMAXXGE_4.png",
+                  "NMMAXXGE_5.png"
+               ],
+               "anim-packed" : "NMMAXXGE.png",
+               "static" : [
+                  "NMMAXXGE.static.png"
+               ]
+            },
+            "GF" : {
+               "anim" : [
+                  "NMMAXXGF_0.png",
+                  "NMMAXXGF_1.png",
+                  "NMMAXXGF_2.png",
+                  "NMMAXXGF_3.png",
+                  "NMMAXXGF_4.png",
+                  "NMMAXXGF_5.png"
+               ],
+               "anim-packed" : "NMMAXXGF.png",
+               "static" : [
+                  "NMMAXXGF.static.png"
+               ]
+            },
+            "GM" : {
+               "anim" : [
+                  "NMMAXXGM_0.png",
+                  "NMMAXXGM_1.png",
+                  "NMMAXXGM_2.png",
+                  "NMMAXXGM_3.png",
+                  "NMMAXXGM_4.png",
+                  "NMMAXXGM_5.png"
+               ],
+               "anim-packed" : "NMMAXXGM.png",
+               "static" : [
+                  "NMMAXXGM.static.png"
                ]
             }
          },
